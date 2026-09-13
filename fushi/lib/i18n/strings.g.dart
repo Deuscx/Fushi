@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 81753 (4809 per locale)
 ///
-/// Built on 2026-09-13 at 06:42 UTC
+/// Built on 2026-09-13 at 11:45 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3041,7 +3041,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_ocr_engine_none =>
       'No OCR engine available. Download built-in models or set the mokuro CLI path in settings.';
   String get manga_ocr_engine_paired_host_desc =>
-      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   String get manga_ocr_engine_system => 'Device OCR';
   String get manga_ocr_engine_system_desc =>
       'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
@@ -11679,7 +11679,7 @@ class _StringsAr extends _StringsEn {
       'لا يوجد محرك OCR متاح. حمّل النماذج المدمجة أو عيّن مسار Mokuro CLI في الإعدادات.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'يُسند العمل إلى جهاز مقترن على شبكتك. لا يتم تحميل شيء هنا.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR الجهاز';
   @override
@@ -23121,7 +23121,7 @@ class _StringsDe extends _StringsEn {
       'Keine OCR-Engine verfügbar. Laden Sie die integrierten Modelle herunter oder legen Sie den Mokuro-CLI-Pfad in den Einstellungen fest.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Übergibt die Arbeit an ein gekoppeltes Gerät in Ihrem Netzwerk. Hier wird nichts heruntergeladen.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'Geräte-OCR';
   @override
@@ -34712,7 +34712,7 @@ class _StringsEs extends _StringsEn {
       'No hay motor de OCR disponible. Descargue los modelos integrados o establezca la ruta del CLI de mokuro en los ajustes.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Delega el trabajo a un dispositivo emparejado en su red. Nada se descarga aquí.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR del dispositivo';
   @override
@@ -46344,7 +46344,7 @@ class _StringsFr extends _StringsEn {
       'Aucun moteur OCR disponible. Téléchargez les modèles intégrés ou définissez le chemin CLI mokuro dans les paramètres.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Confie le travail à un appareil apparié sur votre réseau. Rien n\'est téléchargé ici.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR de l\'appareil';
   @override
@@ -57913,7 +57913,7 @@ class _StringsId extends _StringsEn {
       'Tidak ada mesin OCR yang tersedia. Unduh model bawaan atau atur jalur CLI mokuro di pengaturan.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Menyerahkan pekerjaan ke perangkat pasangan di jaringan Anda. Tidak ada yang diunduh di sini.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR perangkat';
   @override
@@ -69407,7 +69407,7 @@ class _StringsIt extends _StringsEn {
       'Nessun motore OCR disponibile. Scarica i modelli integrati o imposta il percorso CLI di mokuro nelle impostazioni.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Affida il lavoro a un dispositivo accoppiato sulla tua rete. Nulla viene scaricato qui.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR del dispositivo';
   @override
@@ -80690,7 +80690,7 @@ class _StringsJa extends _StringsEn {
       'OCRエンジンがありません。内蔵モデルをダウンロードするか、設定でmokuro CLIのパスを指定してください。';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'ネットワーク上のペアリング済みデバイスに処理を委託します。この端末にはダウンロード不要です。';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => '端末の OCR';
   @override
@@ -91620,7 +91620,7 @@ class _StringsKo extends _StringsEn {
       '사용 가능한 OCR 엔진이 없습니다. 내장 모델을 다운로드하거나 설정에서 Mokuro CLI 경로를 지정하세요.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      '네트워크에 페어링된 기기에 작업을 넘깁니다. 이 기기에는 아무것도 다운로드되지 않습니다.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => '기기 OCR';
   @override
@@ -102808,7 +102808,7 @@ class _StringsNl extends _StringsEn {
       'Geen OCR-engine beschikbaar. Download ingebouwde modellen of stel het mokuro CLI-pad in bij instellingen.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Geeft het werk door aan een gekoppeld apparaat op je netwerk. Niets wordt hier gedownload.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR van apparaat';
   @override
@@ -114343,7 +114343,7 @@ class _StringsPtBr extends _StringsEn {
       'Nenhum motor de OCR disponível. Baixe os modelos integrados ou defina o caminho do CLI do mokuro nas configurações.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Passa o trabalho para um dispositivo pareado na sua rede. Nada é baixado aqui.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR do dispositivo';
   @override
@@ -125878,7 +125878,7 @@ class _StringsRu extends _StringsEn {
       'Нет доступного движка OCR. Скачайте встроенные модели или укажите путь к mokuro CLI в настройках.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Передаёт работу сопряжённому устройству в вашей сети. Ничего не загружается на это устройство.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR устройства';
   @override
@@ -137333,7 +137333,7 @@ class _StringsTh extends _StringsEn {
       'ไม่มีเอนจิน OCR ที่พร้อมใช้งาน ดาวน์โหลดโมเดลในตัวหรือตั้งค่าเส้นทาง Mokuro CLI ในการตั้งค่า';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'ส่งงานไปยังอุปกรณ์ที่จับคู่ในเครือข่ายของคุณ ไม่มีการดาวน์โหลดที่นี่';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR ของอุปกรณ์';
   @override
@@ -148735,7 +148735,7 @@ class _StringsTr extends _StringsEn {
       'OCR motoru mevcut değil. Yerleşik modelleri indirin veya ayarlardan mokuro CLI yolunu belirleyin.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'İşi ağınızdaki eşleştirilmiş bir cihaza devreder. Buraya hiçbir şey indirilmez.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'Cihaz OCR\'ı';
   @override
@@ -160182,7 +160182,7 @@ class _StringsVi extends _StringsEn {
       'Không có công cụ OCR. Tải xuống mô hình tích hợp hoặc đặt đường dẫn CLI mokuro trong cài đặt.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Chuyển công việc cho thiết bị ghép đôi trên mạng. Không cần tải xuống gì ở đây.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR của thiết bị';
   @override
@@ -171196,7 +171196,8 @@ class _StringsZhCn extends _StringsEn {
   String get manga_ocr_engine_none =>
       '没有可用的 OCR 引擎。请在设置中下载内置模型或配置 mokuro 命令行路径。';
   @override
-  String get manga_ocr_engine_paired_host_desc => '交给局域网里已配对的设备来跑，本机不下任何模型。';
+  String get manga_ocr_engine_paired_host_desc =>
+      '交给已配对的 Fushi 互联服务端来跑，本机不下任何模型。';
   @override
   String get manga_ocr_engine_system => '设备自带';
   @override
@@ -181708,7 +181709,8 @@ class _StringsZhHk extends _StringsEn {
   String get manga_ocr_engine_none =>
       '沒有可用的 OCR 引擎。請在設定中下載內置模型或配置 mokuro 命令行路徑。';
   @override
-  String get manga_ocr_engine_paired_host_desc => '交給局域網裡已配對的設備來跑，本機不下任何模型。';
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => '裝置內置';
   @override
@@ -192024,7 +192026,7 @@ extension on _StringsEn {
       case 'manga_ocr_engine_none':
         return 'No OCR engine available. Download built-in models or set the mokuro CLI path in settings.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'Device OCR';
       case 'manga_ocr_engine_system_desc':
@@ -201938,7 +201940,7 @@ extension on _StringsAr {
       case 'manga_ocr_engine_none':
         return 'لا يوجد محرك OCR متاح. حمّل النماذج المدمجة أو عيّن مسار Mokuro CLI في الإعدادات.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'يُسند العمل إلى جهاز مقترن على شبكتك. لا يتم تحميل شيء هنا.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR الجهاز';
       case 'manga_ocr_engine_system_desc':
@@ -211874,7 +211876,7 @@ extension on _StringsDe {
       case 'manga_ocr_engine_none':
         return 'Keine OCR-Engine verfügbar. Laden Sie die integrierten Modelle herunter oder legen Sie den Mokuro-CLI-Pfad in den Einstellungen fest.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Übergibt die Arbeit an ein gekoppeltes Gerät in Ihrem Netzwerk. Hier wird nichts heruntergeladen.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'Geräte-OCR';
       case 'manga_ocr_engine_system_desc':
@@ -221824,7 +221826,7 @@ extension on _StringsEs {
       case 'manga_ocr_engine_none':
         return 'No hay motor de OCR disponible. Descargue los modelos integrados o establezca la ruta del CLI de mokuro en los ajustes.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Delega el trabajo a un dispositivo emparejado en su red. Nada se descarga aquí.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR del dispositivo';
       case 'manga_ocr_engine_system_desc':
@@ -231778,7 +231780,7 @@ extension on _StringsFr {
       case 'manga_ocr_engine_none':
         return 'Aucun moteur OCR disponible. Téléchargez les modèles intégrés ou définissez le chemin CLI mokuro dans les paramètres.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Confie le travail à un appareil apparié sur votre réseau. Rien n\'est téléchargé ici.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR de l\'appareil';
       case 'manga_ocr_engine_system_desc':
@@ -241723,7 +241725,7 @@ extension on _StringsId {
       case 'manga_ocr_engine_none':
         return 'Tidak ada mesin OCR yang tersedia. Unduh model bawaan atau atur jalur CLI mokuro di pengaturan.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Menyerahkan pekerjaan ke perangkat pasangan di jaringan Anda. Tidak ada yang diunduh di sini.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR perangkat';
       case 'manga_ocr_engine_system_desc':
@@ -251657,7 +251659,7 @@ extension on _StringsIt {
       case 'manga_ocr_engine_none':
         return 'Nessun motore OCR disponibile. Scarica i modelli integrati o imposta il percorso CLI di mokuro nelle impostazioni.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Affida il lavoro a un dispositivo accoppiato sulla tua rete. Nulla viene scaricato qui.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR del dispositivo';
       case 'manga_ocr_engine_system_desc':
@@ -261576,7 +261578,7 @@ extension on _StringsJa {
       case 'manga_ocr_engine_none':
         return 'OCRエンジンがありません。内蔵モデルをダウンロードするか、設定でmokuro CLIのパスを指定してください。';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'ネットワーク上のペアリング済みデバイスに処理を委託します。この端末にはダウンロード不要です。';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return '端末の OCR';
       case 'manga_ocr_engine_system_desc':
@@ -271454,7 +271456,7 @@ extension on _StringsKo {
       case 'manga_ocr_engine_none':
         return '사용 가능한 OCR 엔진이 없습니다. 내장 모델을 다운로드하거나 설정에서 Mokuro CLI 경로를 지정하세요.';
       case 'manga_ocr_engine_paired_host_desc':
-        return '네트워크에 페어링된 기기에 작업을 넘깁니다. 이 기기에는 아무것도 다운로드되지 않습니다.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return '기기 OCR';
       case 'manga_ocr_engine_system_desc':
@@ -281363,7 +281365,7 @@ extension on _StringsNl {
       case 'manga_ocr_engine_none':
         return 'Geen OCR-engine beschikbaar. Download ingebouwde modellen of stel het mokuro CLI-pad in bij instellingen.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Geeft het werk door aan een gekoppeld apparaat op je netwerk. Niets wordt hier gedownload.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR van apparaat';
       case 'manga_ocr_engine_system_desc':
@@ -291306,7 +291308,7 @@ extension on _StringsPtBr {
       case 'manga_ocr_engine_none':
         return 'Nenhum motor de OCR disponível. Baixe os modelos integrados ou defina o caminho do CLI do mokuro nas configurações.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Passa o trabalho para um dispositivo pareado na sua rede. Nada é baixado aqui.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR do dispositivo';
       case 'manga_ocr_engine_system_desc':
@@ -301251,7 +301253,7 @@ extension on _StringsRu {
       case 'manga_ocr_engine_none':
         return 'Нет доступного движка OCR. Скачайте встроенные модели или укажите путь к mokuro CLI в настройках.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Передаёт работу сопряжённому устройству в вашей сети. Ничего не загружается на это устройство.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR устройства';
       case 'manga_ocr_engine_system_desc':
@@ -311178,7 +311180,7 @@ extension on _StringsTh {
       case 'manga_ocr_engine_none':
         return 'ไม่มีเอนจิน OCR ที่พร้อมใช้งาน ดาวน์โหลดโมเดลในตัวหรือตั้งค่าเส้นทาง Mokuro CLI ในการตั้งค่า';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'ส่งงานไปยังอุปกรณ์ที่จับคู่ในเครือข่ายของคุณ ไม่มีการดาวน์โหลดที่นี่';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR ของอุปกรณ์';
       case 'manga_ocr_engine_system_desc':
@@ -321104,7 +321106,7 @@ extension on _StringsTr {
       case 'manga_ocr_engine_none':
         return 'OCR motoru mevcut değil. Yerleşik modelleri indirin veya ayarlardan mokuro CLI yolunu belirleyin.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'İşi ağınızdaki eşleştirilmiş bir cihaza devreder. Buraya hiçbir şey indirilmez.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'Cihaz OCR\'ı';
       case 'manga_ocr_engine_system_desc':
@@ -331032,7 +331034,7 @@ extension on _StringsVi {
       case 'manga_ocr_engine_none':
         return 'Không có công cụ OCR. Tải xuống mô hình tích hợp hoặc đặt đường dẫn CLI mokuro trong cài đặt.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Chuyển công việc cho thiết bị ghép đôi trên mạng. Không cần tải xuống gì ở đây.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR của thiết bị';
       case 'manga_ocr_engine_system_desc':
@@ -340918,7 +340920,7 @@ extension on _StringsZhCn {
       case 'manga_ocr_engine_none':
         return '没有可用的 OCR 引擎。请在设置中下载内置模型或配置 mokuro 命令行路径。';
       case 'manga_ocr_engine_paired_host_desc':
-        return '交给局域网里已配对的设备来跑，本机不下任何模型。';
+        return '交给已配对的 Fushi 互联服务端来跑，本机不下任何模型。';
       case 'manga_ocr_engine_system':
         return '设备自带';
       case 'manga_ocr_engine_system_desc':
@@ -350761,7 +350763,7 @@ extension on _StringsZhHk {
       case 'manga_ocr_engine_none':
         return '沒有可用的 OCR 引擎。請在設定中下載內置模型或配置 mokuro 命令行路徑。';
       case 'manga_ocr_engine_paired_host_desc':
-        return '交給局域網裡已配對的設備來跑，本機不下任何模型。';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return '裝置內置';
       case 'manga_ocr_engine_system_desc':
