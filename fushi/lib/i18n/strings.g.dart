@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 81821 (4813 per locale)
+/// Strings: 81855 (4815 per locale)
 ///
-/// Built on 2026-09-13 at 13:47 UTC
+/// Built on 2026-09-13 at 14:26 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -470,7 +470,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get anki_error_http =>
       'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
   String get anki_error_paired_device_unreachable =>
-      'Couldn\'t create the card because no paired device could be reached. Make sure Fushi is running on the paired device, or turn off Mine to paired device in Anki settings to create cards locally.';
+      'Couldn\'t create the card because the Fushi Interconnect server could not be reached. Make sure Fushi is running there, or turn off Mine to Fushi Interconnect server in Anki settings to create cards locally.';
   String get anki_error_permission_denied =>
       'AnkiDroid hasn\'t granted card access permission. Approve the system permission dialog that just appeared, then tap the button again to export.';
   String get anki_error_permission_permanently_denied =>
@@ -605,9 +605,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get anki_lapis_visual_target_card_content => 'Card content';
   String get anki_lapis_visual_target_definition => 'Definition';
   String get anki_lapis_visual_target_inside_definition => 'Inside definition';
-  String get anki_mine_to_server => 'Mine to paired device';
+  String get anki_mine_to_server => 'Mine to Fushi Interconnect server';
   String get anki_mine_to_server_hint =>
-      'Send mined cards to the paired host\'s Anki (its decks and settings) instead of this device. Requires an interconnect pairing.';
+      'Send mined cards to the Fushi Interconnect server\'s Anki (its decks and settings) instead of this device. Requires an interconnect pairing.';
   String get anki_mined_action_add_duplicate => 'Add as a new card';
   String get anki_mined_action_overwrite => 'Overwrite this card';
   String get anki_mined_action_view => 'View / open in Anki';
@@ -2764,12 +2764,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get interconnect_backup_backend =>
       'Use interconnect as the backup backend';
   String get interconnect_backup_backend_active =>
-      'Backups already go to the paired device. Pick another backend in Sync & backup to switch away.';
+      'Backups already go to the Fushi Interconnect server. Pick another backend in Sync & backup to switch away.';
   String get interconnect_backup_backend_apply => 'Set as backup backend';
   String interconnect_backup_backend_current({required Object backend}) =>
       'Current backup backend: ${backend}';
   String get interconnect_backup_backend_hint =>
-      'Back up and sync to the paired device instead of a cloud drive. Everything the paired-device upload switches above allow is what gets written there.';
+      'Back up and sync to the Fushi Interconnect server instead of a cloud drive. Everything the upload switches above allow is what gets written there.';
   String get interconnect_backup_backend_needs_pairing =>
       'Connect to a device above first.';
   String get interconnect_devices_hint =>
@@ -2818,7 +2818,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get interconnect_related_entry_hint =>
       'Configured in the Lookup and Sync categories';
   String get interconnect_section_client => 'Connect to other devices';
-  String get interconnect_section_delegate => 'Delegate to the paired device';
+  String get interconnect_section_delegate =>
+      'Delegate to the Fushi Interconnect server';
   String get interconnect_section_related => 'Remote content & lookup';
   String get interconnect_share_favorites => 'Share favorites';
   String get interconnect_share_favorites_hint =>
@@ -3142,15 +3143,16 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_reading_mode_webtoon => 'Webtoon';
   String get manga_remote_ocr_cancelled =>
       'Remote OCR was cancelled on the host.';
-  String get manga_remote_ocr_engine => 'Paired host';
+  String get manga_remote_ocr_engine => 'Fushi Interconnect server';
   String get manga_remote_ocr_failed => 'Remote OCR failed';
   String get manga_remote_ocr_no_host =>
-      'No paired host with manga OCR is reachable.';
+      'No Fushi Interconnect server with manga OCR is reachable.';
   String get manga_remote_ocr_not_ready =>
-      'The paired host\'s OCR models are not downloaded. Download them on the host first.';
-  String get manga_remote_ocr_running => 'Paired host is running OCR…';
+      'The Fushi Interconnect server\'s OCR models are not downloaded. Download them on the server first.';
+  String get manga_remote_ocr_running =>
+      'Fushi Interconnect server is running OCR…';
   String get manga_remote_ocr_unsupported =>
-      'The paired host does not support manga OCR.';
+      'The Fushi Interconnect server does not support manga OCR.';
   String manga_remote_ocr_uploading(
           {required Object done, required Object total}) =>
       'Uploading pages ${done} / ${total}…';
@@ -3998,8 +4000,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get remote_book_info => 'Info';
   String get remote_book_info_has_audiobook => 'Includes audiobook';
   String get remote_book_list_failed =>
-      'Couldn\'t fetch the remote library from the paired device.';
-  String get remote_book_unavailable => 'Paired device unavailable';
+      'Couldn\'t fetch the remote library from the Fushi Interconnect server.';
+  String get remote_book_unavailable => 'Fushi Interconnect server unavailable';
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
   String get remote_delete_failed => 'Could not delete it on the paired device';
@@ -4018,7 +4020,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String remote_video_info_size({required Object size}) => 'Size: ${size}';
   String get remote_video_list_failed =>
       'Couldn\'t load remote videos. Make sure the other device is online and on the same network, then try again.';
-  String get remote_video_unavailable => 'Paired device unavailable';
+  String get remote_video_unavailable =>
+      'Fushi Interconnect server unavailable';
   String get rename_collection => 'Rename collection';
   String get render_restart_required => 'Takes effect after restarting the app';
   String get repeat_cue => 'Repeat sentence';
@@ -4654,7 +4657,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_err_not_configured =>
       'Google sync credentials are not configured in this build.';
   String get sync_err_peer_unreachable =>
-      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      'Can\'t reach the Fushi Interconnect server - it may be offline or not running Fushi.';
   String get sync_err_quota => 'Cloud storage is full (quota reached).';
   String get sync_err_scope_upgrade =>
       'Sync permissions changed — please sign in to Google again to continue syncing.';
@@ -4669,7 +4672,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_interconnect_service_config_toggle =>
       'Sync service configuration from host';
   String get sync_interconnect_service_config_toggle_desc =>
-      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the Fushi Interconnect server over the encrypted Interconnect channel. Requires TLS.';
   String get sync_lan_discovery => 'LAN devices';
   String get sync_lan_no_devices => 'No devices found';
   String get sync_lan_scan_failed =>
@@ -4808,7 +4811,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_server_token => 'Access token';
   String get sync_show_remote_entries => 'Show remote entries';
   String get sync_show_remote_entries_warning =>
-      'Show books and videos that exist on paired devices or the cloud as placeholder cards you can download or stream.';
+      'Show books and videos that exist on the Fushi Interconnect server or the cloud as placeholder cards you can download or stream.';
   String get sync_sign_in => 'Sign in';
   String get sync_sign_out => 'Sign out';
   String get sync_signed_in => 'Signed in';
@@ -6055,7 +6058,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_subtitle_prev_cue_align => 'Align previous line to now';
   String video_subtitle_read_failed({required Object label}) =>
       'Couldn\'t read this subtitle file (damaged or empty): ${label}';
-  String get video_subtitle_remote_host => 'Paired device subtitle';
+  String get video_subtitle_remote_host => 'Fushi Interconnect server subtitle';
   String get video_subtitle_replay => 'Replay this line';
   String get video_subtitle_scope_collection => 'Whole collection';
   String get video_subtitle_scope_episode => 'This episode';
@@ -6144,8 +6147,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String web_video_mine_switch_builtin({required Object count}) =>
       'Switch to built-in mode to create ${count} queued cards';
   String get web_video_no_tracks => 'No subtitles captured yet';
-  String get web_video_platform_unsupported =>
-      'The built-in web player is only available on Windows for now.';
   String get web_video_track_live => 'Live captions (sampled from page)';
   String get web_video_track_menu => 'Subtitle track';
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
@@ -6375,7 +6376,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String audiobook_transcribe_model_custom_added({required Object name}) =>
       'Added ${name}';
   String get manga_source_interconnect_subtitle =>
-      'Browse the manga library on your paired device';
+      'Browse the manga library on the Fushi Interconnect server';
   String get manga_source_interconnect_disabled =>
       'Turn on Fushi Interconnect in settings to use this source';
   String get import_step_importing_book => 'Importing book…';
@@ -6669,7 +6670,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get card_source_review_changes => 'Choose fields to update';
   String get card_source_review_save => 'Save selected changes';
   String get card_source_review_missing =>
-      'The original note could not be found. Sync Anki or connect its paired device.';
+      'The original note could not be found. Sync Anki or connect the Fushi Interconnect server it lives on.';
   String get card_source_review_failed =>
       'Changes were not saved. The note may have changed or the device is unavailable.';
   String get card_source_review_saved => 'Original note updated';
@@ -6711,6 +6712,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  String get reader_volume_open => 'Open this volume';
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -17120,9 +17125,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get web_video_no_tracks => 'لم يتم التقاط أي ترجمة بعد';
   @override
-  String get web_video_platform_unsupported =>
-      'مشغّل الويب المدمج متاح حاليًا على Windows فقط.';
-  @override
   String get web_video_track_live => 'ترجمة مباشرة (مأخوذة من الصفحة)';
   @override
   String get web_video_track_menu => 'مسار الترجمة';
@@ -18063,6 +18065,13 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -28697,9 +28706,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Noch keine Untertitel erfasst';
   @override
-  String get web_video_platform_unsupported =>
-      'Der integrierte Web-Player ist derzeit nur unter Windows verfügbar.';
-  @override
   String get web_video_track_live => 'Live-Untertitel (von der Seite erfasst)';
   @override
   String get web_video_track_menu => 'Untertitelspur';
@@ -29641,6 +29647,13 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -40326,9 +40339,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Aún no se han capturado subtítulos';
   @override
-  String get web_video_platform_unsupported =>
-      'El reproductor web integrado solo está disponible en Windows por ahora.';
-  @override
   String get web_video_track_live =>
       'Subtítulos en vivo (capturados de la página)';
   @override
@@ -41273,6 +41283,13 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -51991,9 +52008,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Aucun sous-titre capturé pour l’instant';
   @override
-  String get web_video_platform_unsupported =>
-      'Le lecteur web intégré n’est disponible que sous Windows pour le moment.';
-  @override
   String get web_video_track_live =>
       'Sous-titres en direct (capturés sur la page)';
   @override
@@ -52938,6 +52952,13 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -63463,9 +63484,6 @@ class _StringsId extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Belum ada subtitel yang ditangkap';
   @override
-  String get web_video_platform_unsupported =>
-      'Pemutar web bawaan saat ini hanya tersedia di Windows.';
-  @override
   String get web_video_track_live => 'Teks langsung (diambil dari halaman)';
   @override
   String get web_video_track_menu => 'Trek subtitel';
@@ -64407,6 +64425,13 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -75019,9 +75044,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Nessun sottotitolo acquisito ancora';
   @override
-  String get web_video_platform_unsupported =>
-      'Il lettore web integrato è disponibile per ora solo su Windows.';
-  @override
   String get web_video_track_live =>
       'Sottotitoli live (campionati dalla pagina)';
   @override
@@ -75967,6 +75989,13 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -85971,9 +86000,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get web_video_no_tracks => '字幕はまだ取得されていません';
   @override
-  String get web_video_platform_unsupported =>
-      '内蔵 Web プレーヤーは現在 Windows でのみ利用できます。';
-  @override
   String get web_video_track_live => 'ライブ字幕（ページから取得）';
   @override
   String get web_video_track_menu => '字幕トラック';
@@ -86910,6 +86936,13 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      '内蔵ウェブページプレーヤーは一時的に無効化されています。このアドレスは今のところアプリ内で再生できません。';
 }
 
 // Path: <root>
@@ -96922,9 +96955,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get web_video_no_tracks => '아직 수집된 자막이 없습니다';
   @override
-  String get web_video_platform_unsupported =>
-      '내장 웹 플레이어는 현재 Windows에서만 사용할 수 있습니다.';
-  @override
   String get web_video_track_live => '실시간 자막(페이지에서 수집)';
   @override
   String get web_video_track_menu => '자막 트랙';
@@ -97863,6 +97893,13 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -108436,9 +108473,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Nog geen ondertitels vastgelegd';
   @override
-  String get web_video_platform_unsupported =>
-      'De ingebouwde webspeler is voorlopig alleen beschikbaar op Windows.';
-  @override
   String get web_video_track_live => 'Live-ondertitels (van de pagina)';
   @override
   String get web_video_track_menu => 'Ondertitelspoor';
@@ -109381,6 +109415,13 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -120005,9 +120046,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Nenhuma legenda capturada ainda';
   @override
-  String get web_video_platform_unsupported =>
-      'O player web integrado só está disponível no Windows por enquanto.';
-  @override
   String get web_video_track_live => 'Legendas ao vivo (capturadas da página)';
   @override
   String get web_video_track_menu => 'Faixa de legendas';
@@ -120952,6 +120990,13 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -131555,9 +131600,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Субтитры пока не получены';
   @override
-  String get web_video_platform_unsupported =>
-      'Встроенный веб-плеер пока доступен только в Windows.';
-  @override
   String get web_video_track_live => 'Живые субтитры (с страницы)';
   @override
   String get web_video_track_menu => 'Дорожка субтитров';
@@ -132500,6 +132542,13 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -142905,9 +142954,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get web_video_no_tracks => 'ยังไม่ได้เก็บคำบรรยาย';
   @override
-  String get web_video_platform_unsupported =>
-      'ตอนนี้เว็บเพลเยอร์ในตัวใช้ได้เฉพาะบน Windows';
-  @override
   String get web_video_track_live => 'คำบรรยายสด (เก็บจากหน้าเว็บ)';
   @override
   String get web_video_track_menu => 'แทร็กคำบรรยาย';
@@ -143850,6 +143896,13 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -154369,9 +154422,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Henüz altyazı yakalanmadı';
   @override
-  String get web_video_platform_unsupported =>
-      'Yerleşik web oynatıcı şimdilik yalnızca Windows’ta kullanılabilir.';
-  @override
   String get web_video_track_live => 'Canlı altyazılar (sayfadan alınan)';
   @override
   String get web_video_track_menu => 'Altyazı parçası';
@@ -155314,6 +155364,13 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -165803,9 +165860,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Chưa bắt được phụ đề nào';
   @override
-  String get web_video_platform_unsupported =>
-      'Trình phát web tích hợp hiện chỉ có trên Windows.';
-  @override
   String get web_video_track_live => 'Phụ đề trực tiếp (lấy từ trang)';
   @override
   String get web_video_track_menu => 'Rãnh phụ đề';
@@ -166748,6 +166802,13 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -167198,7 +167259,7 @@ class _StringsZhCn extends _StringsEn {
   String get anki_error_http => '无法导出到 Anki：连接 AnkiConnect 时发生 HTTP 错误。';
   @override
   String get anki_error_paired_device_unreachable =>
-      '无法制卡：当前没有可连接的已配对设备。请确认配对设备上的 Fushi 正在运行；如果要在本机制卡，请关闭「制卡到已配对设备」。';
+      '无法制卡：当前连不上 Fushi 互联服务端。请确认服务端上的 Fushi 正在运行；如果要在本机制卡，请关闭「制卡到 Fushi 互联服务端」。';
   @override
   String get anki_error_permission_denied =>
       'AnkiDroid 尚未授予卡片访问权限。请在刚弹出的系统授权对话框中允许，然后再次点击按钮制卡。';
@@ -167422,10 +167483,10 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get anki_lapis_visual_target_inside_definition => '释义内部';
   @override
-  String get anki_mine_to_server => '制卡到已配对设备';
+  String get anki_mine_to_server => '制卡到 Fushi 互联服务端';
   @override
   String get anki_mine_to_server_hint =>
-      '把制卡发送到已配对主机的 Anki（用该设备的牌组与设置），而非本机。需先在互联/同步里完成配对。';
+      '把制卡发送到 Fushi 互联服务端的 Anki（用服务端的牌组与设置），而非本机。需先在互联/同步里完成配对。';
   @override
   String get anki_mined_action_add_duplicate => '新增为重复卡';
   @override
@@ -170930,7 +170991,7 @@ class _StringsZhCn extends _StringsEn {
   String get interconnect_backup_backend => '用互联做备份后端';
   @override
   String get interconnect_backup_backend_active =>
-      '备份已写到已配对设备。要换回云盘，去「同步与备份」里改后端。';
+      '备份已写到 Fushi 互联服务端。要换回云盘，去「同步与备份」里改后端。';
   @override
   String get interconnect_backup_backend_apply => '设为备份后端';
   @override
@@ -170938,7 +170999,7 @@ class _StringsZhCn extends _StringsEn {
       '当前备份后端：${backend}';
   @override
   String get interconnect_backup_backend_hint =>
-      '备份与同步写到已配对设备，而不是云盘。写过去的内容由上面「上传到互联对端」的几个开关决定。';
+      '备份与同步写到 Fushi 互联服务端，而不是云盘。写过去的内容由上面「上传到互联对端」的几个开关决定。';
   @override
   String get interconnect_backup_backend_needs_pairing => '请先在上面连接一台设备。';
   @override
@@ -171004,7 +171065,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get interconnect_section_client => '连接到其他设备';
   @override
-  String get interconnect_section_delegate => '交给已配对设备';
+  String get interconnect_section_delegate => '交给 Fushi 互联服务端';
   @override
   String get interconnect_section_related => '远端内容与查词';
   @override
@@ -171520,17 +171581,17 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_remote_ocr_cancelled => '主机侧已取消远程 OCR。';
   @override
-  String get manga_remote_ocr_engine => '已配对主机';
+  String get manga_remote_ocr_engine => 'Fushi 互联服务端';
   @override
   String get manga_remote_ocr_failed => '远程 OCR 失败';
   @override
-  String get manga_remote_ocr_no_host => '没有可用的支持漫画 OCR 的已配对主机。';
+  String get manga_remote_ocr_no_host => '没有可用的支持漫画 OCR 的 Fushi 互联服务端。';
   @override
-  String get manga_remote_ocr_not_ready => '已配对主机的 OCR 模型未下载，请先在主机上下载模型。';
+  String get manga_remote_ocr_not_ready => 'Fushi 互联服务端的 OCR 模型未下载，请先在服务端下载模型。';
   @override
-  String get manga_remote_ocr_running => '已配对主机正在识别…';
+  String get manga_remote_ocr_running => 'Fushi 互联服务端正在识别…';
   @override
-  String get manga_remote_ocr_unsupported => '已配对主机不支持漫画 OCR。';
+  String get manga_remote_ocr_unsupported => 'Fushi 互联服务端不支持漫画 OCR。';
   @override
   String manga_remote_ocr_uploading(
           {required Object done, required Object total}) =>
@@ -172889,9 +172950,9 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get remote_book_info_has_audiobook => '包含有声书';
   @override
-  String get remote_book_list_failed => '无法获取配对设备的远端书库。';
+  String get remote_book_list_failed => '无法获取 Fushi 互联服务端的远端书库。';
   @override
-  String get remote_book_unavailable => '配对设备不可用';
+  String get remote_book_unavailable => 'Fushi 互联服务端不可用';
   @override
   String get remote_delete_audiobook_partial => '书已在对端删除，但它的有声书没能删掉';
   @override
@@ -172921,7 +172982,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get remote_video_list_failed => '无法加载远端视频，请确认对端设备在线并与本机处于同一网络后重试';
   @override
-  String get remote_video_unavailable => '配对设备不可用';
+  String get remote_video_unavailable => 'Fushi 互联服务端不可用';
   @override
   String get rename_collection => '重命名合集';
   @override
@@ -173996,7 +174057,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get sync_err_not_configured => '此构建未配置谷歌同步凭据。';
   @override
-  String get sync_err_peer_unreachable => '无法连接配对设备——对方可能不在线，或对端未运行 Fushi。';
+  String get sync_err_peer_unreachable =>
+      '无法连接 Fushi 互联服务端——对方可能不在线，或未运行 Fushi。';
   @override
   String get sync_err_quota => '云端存储空间已满（配额已用尽）。';
   @override
@@ -174017,7 +174079,7 @@ class _StringsZhCn extends _StringsEn {
   String get sync_interconnect_service_config_toggle => '同步主机服务配置';
   @override
   String get sync_interconnect_service_config_toggle_desc =>
-      '经加密互联通道接收已配对主机的外部服务设定与 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需启用 TLS。';
+      '经加密互联通道接收 Fushi 互联服务端的外部服务设定与 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需启用 TLS。';
   @override
   String get sync_lan_discovery => '局域网设备';
   @override
@@ -174238,7 +174300,7 @@ class _StringsZhCn extends _StringsEn {
   String get sync_show_remote_entries => '显示远端条目';
   @override
   String get sync_show_remote_entries_warning =>
-      '把配对设备或云端有、本机没有的书籍和视频显示为可下载/流播的占位卡。';
+      '把 Fushi 互联服务端或云端有、本机没有的书籍和视频显示为可下载/流播的占位卡。';
   @override
   String get sync_sign_in => '登录';
   @override
@@ -176232,7 +176294,7 @@ class _StringsZhCn extends _StringsEn {
   String video_subtitle_read_failed({required Object label}) =>
       '无法读取该字幕文件（内容损坏或为空）：${label}';
   @override
-  String get video_subtitle_remote_host => '配对设备字幕';
+  String get video_subtitle_remote_host => 'Fushi 互联服务端字幕';
   @override
   String get video_subtitle_replay => '重播本句';
   @override
@@ -176374,8 +176436,6 @@ class _StringsZhCn extends _StringsEn {
       '切到内置模式制作 ${count} 张排队卡片';
   @override
   String get web_video_no_tracks => '尚未采集到字幕';
-  @override
-  String get web_video_platform_unsupported => '内置网页播放器目前仅支持 Windows。';
   @override
   String get web_video_track_live => '实时采集（页面字幕）';
   @override
@@ -176735,7 +176795,7 @@ class _StringsZhCn extends _StringsEn {
   String audiobook_transcribe_model_custom_added({required Object name}) =>
       '已接入 ${name}';
   @override
-  String get manga_source_interconnect_subtitle => '浏览已配对设备上的漫画库';
+  String get manga_source_interconnect_subtitle => '浏览 Fushi 互联服务端上的漫画库';
   @override
   String get manga_source_interconnect_disabled => '在设置里开启 Fushi 互联后即可使用此来源';
   @override
@@ -177179,7 +177239,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get card_source_review_save => '保存选中修改';
   @override
-  String get card_source_review_missing => '找不到原卡，请同步 Anki 或连接原卡所在的配对设备。';
+  String get card_source_review_missing =>
+      '找不到原卡，请同步 Anki 或连接原卡所在的 Fushi 互联服务端。';
   @override
   String get card_source_review_failed => '修改尚未保存，原卡可能已被修改或设备不可达。';
   @override
@@ -177237,6 +177298,12 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       '本章需在源站购买或租借；这类作品暂不支持在应用内登录解锁。';
+  @override
+  String get reader_volume_open => '打开本卷';
+  @override
+  String get reader_volume_peek_failed => '读取本卷失败';
+  @override
+  String get web_video_player_unavailable => '内置网页播放器已暂时停用，此地址暂时无法在应用内播放。';
 }
 
 // Path: <root>
@@ -177692,7 +177759,7 @@ class _StringsZhHk extends _StringsEn {
   String get anki_error_http => '無法匯出到 Anki：連接 AnkiConnect 時發生 HTTP 錯誤。';
   @override
   String get anki_error_paired_device_unreachable =>
-      '無法製卡：目前沒有可連接的已配對設備。請確認配對設備上的 Fushi 正在執行；如要在本機製卡，請在 Anki 設定中關閉「製卡到已配對設備」。';
+      '無法製卡：目前連不上 Fushi 互聯服務端。請確認服務端上的 Fushi 正在執行；如要在本機製卡，請在 Anki 設定中關閉「製卡到 Fushi 互聯服務端」。';
   @override
   String get anki_error_permission_denied =>
       'AnkiDroid 尚未授予卡片訪問權限。請在剛彈出的系統授權對話框中允許，然後再次點擊按鈕製卡。';
@@ -177917,10 +177984,10 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get anki_lapis_visual_target_inside_definition => '釋義內部';
   @override
-  String get anki_mine_to_server => '製卡到已配對設備';
+  String get anki_mine_to_server => '製卡到 Fushi 互聯服務端';
   @override
   String get anki_mine_to_server_hint =>
-      '把製卡發送到已配對主機的 Anki（用該設備的牌組與設定），而非本機。需先在互聯/同步裡完成配對。';
+      '把製卡發送到 Fushi 互聯服務端的 Anki（用服務端的牌組與設定），而非本機。需先在互聯/同步裡完成配對。';
   @override
   String get anki_mined_action_add_duplicate => '新增為重復卡';
   @override
@@ -181445,7 +181512,7 @@ class _StringsZhHk extends _StringsEn {
   String get interconnect_backup_backend => '用互聯做備份後端';
   @override
   String get interconnect_backup_backend_active =>
-      '備份已寫到已配對設備。要換回雲盤，去「同步與備份」裡改後端。';
+      '備份已寫到 Fushi 互聯服務端。要換回雲盤，去「同步與備份」裡改後端。';
   @override
   String get interconnect_backup_backend_apply => '設為備份後端';
   @override
@@ -181453,7 +181520,7 @@ class _StringsZhHk extends _StringsEn {
       '當前備份後端：${backend}';
   @override
   String get interconnect_backup_backend_hint =>
-      '備份與同步寫到已配對設備，而不是雲盤。寫過去的內容由上面「上傳到互聯對端」的幾個開關決定。';
+      '備份與同步寫到 Fushi 互聯服務端，而不是雲盤。寫過去的內容由上面「上傳到互聯對端」的幾個開關決定。';
   @override
   String get interconnect_backup_backend_needs_pairing => '請先在上面連接一台設備。';
   @override
@@ -181528,7 +181595,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get interconnect_section_client => '連接到其他設備';
   @override
-  String get interconnect_section_delegate => '交給已配對設備';
+  String get interconnect_section_delegate => '交給 Fushi 互聯服務端';
   @override
   String get interconnect_section_related => '遠端內容與查詞';
   @override
@@ -182044,17 +182111,17 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_remote_ocr_cancelled => '主機側已取消遠程 OCR。';
   @override
-  String get manga_remote_ocr_engine => '已配對主機';
+  String get manga_remote_ocr_engine => 'Fushi 互聯服務端';
   @override
   String get manga_remote_ocr_failed => '遠程 OCR 失敗';
   @override
-  String get manga_remote_ocr_no_host => '沒有可用的支持漫畫 OCR 的已配對主機。';
+  String get manga_remote_ocr_no_host => '沒有可用的支持漫畫 OCR 的 Fushi 互聯服務端。';
   @override
-  String get manga_remote_ocr_not_ready => '已配對主機的 OCR 模型未下載，請先在主機上下載模型。';
+  String get manga_remote_ocr_not_ready => 'Fushi 互聯服務端的 OCR 模型未下載，請先在服務端下載模型。';
   @override
-  String get manga_remote_ocr_running => '已配對主機正在識別…';
+  String get manga_remote_ocr_running => 'Fushi 互聯服務端正在識別…';
   @override
-  String get manga_remote_ocr_unsupported => '已配對主機不支持漫畫 OCR。';
+  String get manga_remote_ocr_unsupported => 'Fushi 互聯服務端不支持漫畫 OCR。';
   @override
   String manga_remote_ocr_uploading(
           {required Object done, required Object total}) =>
@@ -183424,9 +183491,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get remote_book_info_has_audiobook => '包含有聲書';
   @override
-  String get remote_book_list_failed => '無法獲取配對設備的遠端書庫。';
+  String get remote_book_list_failed => '無法獲取 Fushi 互聯服務端的遠端書庫。';
   @override
-  String get remote_book_unavailable => '配對裝置不可用';
+  String get remote_book_unavailable => 'Fushi 互聯服務端不可用';
   @override
   String get remote_delete_audiobook_partial => '書已在對端刪除，但它的有聲書沒能刪掉';
   @override
@@ -183456,7 +183523,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get remote_video_list_failed => '無法加載遠端影片，請確認對端設備在線並與本機處於同一網路後重試';
   @override
-  String get remote_video_unavailable => '配對裝置不可用';
+  String get remote_video_unavailable => 'Fushi 互聯服務端不可用';
   @override
   String get rename_collection => '重命名合集';
   @override
@@ -184539,7 +184606,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_err_not_configured => '此版本未設定 Google sync 憑證。';
   @override
-  String get sync_err_peer_unreachable => '無法連接配對設備——對方可能不在線，或對端未運行 Fushi。';
+  String get sync_err_peer_unreachable =>
+      '無法連接 Fushi 互聯服務端——對方可能不在線，或未運行 Fushi。';
   @override
   String get sync_err_quota => '雲端儲存空間已滿（已達配額上限）。';
   @override
@@ -184560,7 +184628,7 @@ class _StringsZhHk extends _StringsEn {
   String get sync_interconnect_service_config_toggle => '同步主機服務配置';
   @override
   String get sync_interconnect_service_config_toggle_desc =>
-      '經加密互聯通道接收已配對主機的外部服務設定與 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需啟用 TLS。';
+      '經加密互聯通道接收 Fushi 互聯服務端的外部服務設定與 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需啟用 TLS。';
   @override
   String get sync_lan_discovery => '區域網絡裝置';
   @override
@@ -184782,7 +184850,7 @@ class _StringsZhHk extends _StringsEn {
   String get sync_show_remote_entries => '顯示遠端條目';
   @override
   String get sync_show_remote_entries_warning =>
-      '把配對設備或雲端有、本機沒有的書籍和影片顯示為可下載/流播的佔位卡。';
+      '把 Fushi 互聯服務端或雲端有、本機沒有的書籍和影片顯示為可下載/流播的佔位卡。';
   @override
   String get sync_sign_in => '登入';
   @override
@@ -186789,7 +186857,7 @@ class _StringsZhHk extends _StringsEn {
   String video_subtitle_read_failed({required Object label}) =>
       '無法讀取該字幕檔案（內容損壞或為空）：${label}';
   @override
-  String get video_subtitle_remote_host => '配對裝置字幕';
+  String get video_subtitle_remote_host => 'Fushi 互聯服務端字幕';
   @override
   String get video_subtitle_replay => '重播本句';
   @override
@@ -186931,8 +186999,6 @@ class _StringsZhHk extends _StringsEn {
       '切換到內建模式製作 ${count} 張排隊卡片';
   @override
   String get web_video_no_tracks => '尚未擷取到字幕';
-  @override
-  String get web_video_platform_unsupported => '內建網頁播放器目前僅支援 Windows。';
   @override
   String get web_video_track_live => '即時字幕（從頁面取樣）';
   @override
@@ -187309,8 +187375,7 @@ class _StringsZhHk extends _StringsEn {
   String audiobook_transcribe_model_custom_added({required Object name}) =>
       'Added ${name}';
   @override
-  String get manga_source_interconnect_subtitle =>
-      'Browse the manga library on your paired device';
+  String get manga_source_interconnect_subtitle => '瀏覽 Fushi 互聯服務端上的漫畫庫';
   @override
   String get manga_source_interconnect_disabled =>
       'Turn on Fushi Interconnect in settings to use this source';
@@ -187797,7 +187862,7 @@ class _StringsZhHk extends _StringsEn {
   String get card_source_review_save => 'Save selected changes';
   @override
   String get card_source_review_missing =>
-      'The original note could not be found. Sync Anki or connect its paired device.';
+      '找不到原卡，請同步 Anki 或連接原卡所在的 Fushi 互聯服務端。';
   @override
   String get card_source_review_failed =>
       'Changes were not saved. The note may have changed or the device is unavailable.';
@@ -187865,6 +187930,12 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
+  @override
+  String get web_video_player_unavailable => '內置網頁播放器已暫時停用，此地址暫時無法在應用內播放。';
 }
 
 /// Flat map(s) containing all translations.
@@ -188258,7 +188329,7 @@ extension on _StringsEn {
       case 'anki_error_http':
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_paired_device_unreachable':
-        return 'Couldn\'t create the card because no paired device could be reached. Make sure Fushi is running on the paired device, or turn off Mine to paired device in Anki settings to create cards locally.';
+        return 'Couldn\'t create the card because the Fushi Interconnect server could not be reached. Make sure Fushi is running there, or turn off Mine to Fushi Interconnect server in Anki settings to create cards locally.';
       case 'anki_error_permission_denied':
         return 'AnkiDroid hasn\'t granted card access permission. Approve the system permission dialog that just appeared, then tap the button again to export.';
       case 'anki_error_permission_permanently_denied':
@@ -188467,9 +188538,9 @@ extension on _StringsEn {
       case 'anki_lapis_visual_target_inside_definition':
         return 'Inside definition';
       case 'anki_mine_to_server':
-        return 'Mine to paired device';
+        return 'Mine to Fushi Interconnect server';
       case 'anki_mine_to_server_hint':
-        return 'Send mined cards to the paired host\'s Anki (its decks and settings) instead of this device. Requires an interconnect pairing.';
+        return 'Send mined cards to the Fushi Interconnect server\'s Anki (its decks and settings) instead of this device. Requires an interconnect pairing.';
       case 'anki_mined_action_add_duplicate':
         return 'Add as a new card';
       case 'anki_mined_action_overwrite':
@@ -191811,14 +191882,14 @@ extension on _StringsEn {
       case 'interconnect_backup_backend':
         return 'Use interconnect as the backup backend';
       case 'interconnect_backup_backend_active':
-        return 'Backups already go to the paired device. Pick another backend in Sync & backup to switch away.';
+        return 'Backups already go to the Fushi Interconnect server. Pick another backend in Sync & backup to switch away.';
       case 'interconnect_backup_backend_apply':
         return 'Set as backup backend';
       case 'interconnect_backup_backend_current':
         return ({required Object backend}) =>
             'Current backup backend: ${backend}';
       case 'interconnect_backup_backend_hint':
-        return 'Back up and sync to the paired device instead of a cloud drive. Everything the paired-device upload switches above allow is what gets written there.';
+        return 'Back up and sync to the Fushi Interconnect server instead of a cloud drive. Everything the upload switches above allow is what gets written there.';
       case 'interconnect_backup_backend_needs_pairing':
         return 'Connect to a device above first.';
       case 'interconnect_devices_hint':
@@ -191877,7 +191948,7 @@ extension on _StringsEn {
       case 'interconnect_section_client':
         return 'Connect to other devices';
       case 'interconnect_section_delegate':
-        return 'Delegate to the paired device';
+        return 'Delegate to the Fushi Interconnect server';
       case 'interconnect_section_related':
         return 'Remote content & lookup';
       case 'interconnect_share_favorites':
@@ -192364,17 +192435,17 @@ extension on _StringsEn {
       case 'manga_remote_ocr_cancelled':
         return 'Remote OCR was cancelled on the host.';
       case 'manga_remote_ocr_engine':
-        return 'Paired host';
+        return 'Fushi Interconnect server';
       case 'manga_remote_ocr_failed':
         return 'Remote OCR failed';
       case 'manga_remote_ocr_no_host':
-        return 'No paired host with manga OCR is reachable.';
+        return 'No Fushi Interconnect server with manga OCR is reachable.';
       case 'manga_remote_ocr_not_ready':
-        return 'The paired host\'s OCR models are not downloaded. Download them on the host first.';
+        return 'The Fushi Interconnect server\'s OCR models are not downloaded. Download them on the server first.';
       case 'manga_remote_ocr_running':
-        return 'Paired host is running OCR…';
+        return 'Fushi Interconnect server is running OCR…';
       case 'manga_remote_ocr_unsupported':
-        return 'The paired host does not support manga OCR.';
+        return 'The Fushi Interconnect server does not support manga OCR.';
       case 'manga_remote_ocr_uploading':
         return ({required Object done, required Object total}) =>
             'Uploading pages ${done} / ${total}…';
@@ -193653,9 +193724,9 @@ extension on _StringsEn {
       case 'remote_book_info_has_audiobook':
         return 'Includes audiobook';
       case 'remote_book_list_failed':
-        return 'Couldn\'t fetch the remote library from the paired device.';
+        return 'Couldn\'t fetch the remote library from the Fushi Interconnect server.';
       case 'remote_book_unavailable':
-        return 'Paired device unavailable';
+        return 'Fushi Interconnect server unavailable';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'remote_delete_failed':
@@ -193685,7 +193756,7 @@ extension on _StringsEn {
       case 'remote_video_list_failed':
         return 'Couldn\'t load remote videos. Make sure the other device is online and on the same network, then try again.';
       case 'remote_video_unavailable':
-        return 'Paired device unavailable';
+        return 'Fushi Interconnect server unavailable';
       case 'rename_collection':
         return 'Rename collection';
       case 'render_restart_required':
@@ -194740,7 +194811,7 @@ extension on _StringsEn {
       case 'sync_err_not_configured':
         return 'Google sync credentials are not configured in this build.';
       case 'sync_err_peer_unreachable':
-        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+        return 'Can\'t reach the Fushi Interconnect server - it may be offline or not running Fushi.';
       case 'sync_err_quota':
         return 'Cloud storage is full (quota reached).';
       case 'sync_err_scope_upgrade':
@@ -194760,7 +194831,7 @@ extension on _StringsEn {
       case 'sync_interconnect_service_config_toggle':
         return 'Sync service configuration from host';
       case 'sync_interconnect_service_config_toggle_desc':
-        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the Fushi Interconnect server over the encrypted Interconnect channel. Requires TLS.';
       case 'sync_lan_discovery':
         return 'LAN devices';
       case 'sync_lan_no_devices':
@@ -194977,7 +195048,7 @@ extension on _StringsEn {
       case 'sync_show_remote_entries':
         return 'Show remote entries';
       case 'sync_show_remote_entries_warning':
-        return 'Show books and videos that exist on paired devices or the cloud as placeholder cards you can download or stream.';
+        return 'Show books and videos that exist on the Fushi Interconnect server or the cloud as placeholder cards you can download or stream.';
       case 'sync_sign_in':
         return 'Sign in';
       case 'sync_sign_out':
@@ -196849,7 +196920,7 @@ extension on _StringsEn {
         return ({required Object label}) =>
             'Couldn\'t read this subtitle file (damaged or empty): ${label}';
       case 'video_subtitle_remote_host':
-        return 'Paired device subtitle';
+        return 'Fushi Interconnect server subtitle';
       case 'video_subtitle_replay':
         return 'Replay this line';
       case 'video_subtitle_scope_collection':
@@ -196984,8 +197055,6 @@ extension on _StringsEn {
             'Switch to built-in mode to create ${count} queued cards';
       case 'web_video_no_tracks':
         return 'No subtitles captured yet';
-      case 'web_video_platform_unsupported':
-        return 'The built-in web player is only available on Windows for now.';
       case 'web_video_track_live':
         return 'Live captions (sampled from page)';
       case 'web_video_track_menu':
@@ -197320,7 +197389,7 @@ extension on _StringsEn {
       case 'audiobook_transcribe_model_custom_added':
         return ({required Object name}) => 'Added ${name}';
       case 'manga_source_interconnect_subtitle':
-        return 'Browse the manga library on your paired device';
+        return 'Browse the manga library on the Fushi Interconnect server';
       case 'manga_source_interconnect_disabled':
         return 'Turn on Fushi Interconnect in settings to use this source';
       case 'import_step_importing_book':
@@ -197737,7 +197806,7 @@ extension on _StringsEn {
       case 'card_source_review_save':
         return 'Save selected changes';
       case 'card_source_review_missing':
-        return 'The original note could not be found. Sync Anki or connect its paired device.';
+        return 'The original note could not be found. Sync Anki or connect the Fushi Interconnect server it lives on.';
       case 'card_source_review_failed':
         return 'Changes were not saved. The note may have changed or the device is unavailable.';
       case 'card_source_review_saved':
@@ -197791,6 +197860,12 @@ extension on _StringsEn {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -206905,8 +206980,6 @@ extension on _StringsAr {
             'التبديل إلى الوضع المدمج لإنشاء ${count} بطاقة منتظرة';
       case 'web_video_no_tracks':
         return 'لم يتم التقاط أي ترجمة بعد';
-      case 'web_video_platform_unsupported':
-        return 'مشغّل الويب المدمج متاح حاليًا على Windows فقط.';
       case 'web_video_track_live':
         return 'ترجمة مباشرة (مأخوذة من الصفحة)';
       case 'web_video_track_menu':
@@ -207712,6 +207785,12 @@ extension on _StringsAr {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -216871,8 +216950,6 @@ extension on _StringsDe {
             'In den integrierten Modus wechseln, um ${count} wartende Karten zu erstellen';
       case 'web_video_no_tracks':
         return 'Noch keine Untertitel erfasst';
-      case 'web_video_platform_unsupported':
-        return 'Der integrierte Web-Player ist derzeit nur unter Windows verfügbar.';
       case 'web_video_track_live':
         return 'Live-Untertitel (von der Seite erfasst)';
       case 'web_video_track_menu':
@@ -217678,6 +217755,12 @@ extension on _StringsDe {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -226828,8 +226911,6 @@ extension on _StringsEs {
             'Cambiar al modo integrado para crear ${count} tarjetas en cola';
       case 'web_video_no_tracks':
         return 'Aún no se han capturado subtítulos';
-      case 'web_video_platform_unsupported':
-        return 'El reproductor web integrado solo está disponible en Windows por ahora.';
       case 'web_video_track_live':
         return 'Subtítulos en vivo (capturados de la página)';
       case 'web_video_track_menu':
@@ -227635,6 +227716,12 @@ extension on _StringsEs {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -236794,8 +236881,6 @@ extension on _StringsFr {
             'Passer en mode intégré pour créer ${count} cartes en attente';
       case 'web_video_no_tracks':
         return 'Aucun sous-titre capturé pour l’instant';
-      case 'web_video_platform_unsupported':
-        return 'Le lecteur web intégré n’est disponible que sous Windows pour le moment.';
       case 'web_video_track_live':
         return 'Sous-titres en direct (capturés sur la page)';
       case 'web_video_track_menu':
@@ -237601,6 +237686,12 @@ extension on _StringsFr {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -246731,8 +246822,6 @@ extension on _StringsId {
             'Beralih ke mode bawaan untuk membuat ${count} kartu yang antre';
       case 'web_video_no_tracks':
         return 'Belum ada subtitel yang ditangkap';
-      case 'web_video_platform_unsupported':
-        return 'Pemutar web bawaan saat ini hanya tersedia di Windows.';
       case 'web_video_track_live':
         return 'Teks langsung (diambil dari halaman)';
       case 'web_video_track_menu':
@@ -247538,6 +247627,12 @@ extension on _StringsId {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -256690,8 +256785,6 @@ extension on _StringsIt {
             'Passa alla modalità integrata per creare ${count} carte in coda';
       case 'web_video_no_tracks':
         return 'Nessun sottotitolo acquisito ancora';
-      case 'web_video_platform_unsupported':
-        return 'Il lettore web integrato è disponibile per ora solo su Windows.';
       case 'web_video_track_live':
         return 'Sottotitoli live (campionati dalla pagina)';
       case 'web_video_track_menu':
@@ -257497,6 +257590,12 @@ extension on _StringsIt {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -266577,8 +266676,6 @@ extension on _StringsJa {
         return ({required Object count}) => '内蔵モードに切り替えて ${count} 件のカードを作成';
       case 'web_video_no_tracks':
         return '字幕はまだ取得されていません';
-      case 'web_video_platform_unsupported':
-        return '内蔵 Web プレーヤーは現在 Windows でのみ利用できます。';
       case 'web_video_track_live':
         return 'ライブ字幕（ページから取得）';
       case 'web_video_track_menu':
@@ -267383,6 +267480,12 @@ extension on _StringsJa {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return '内蔵ウェブページプレーヤーは一時的に無効化されています。このアドレスは今のところアプリ内で再生できません。';
       default:
         return null;
     }
@@ -276468,8 +276571,6 @@ extension on _StringsKo {
             '내장 모드로 전환하여 대기 중인 카드 ${count}개 만들기';
       case 'web_video_no_tracks':
         return '아직 수집된 자막이 없습니다';
-      case 'web_video_platform_unsupported':
-        return '내장 웹 플레이어는 현재 Windows에서만 사용할 수 있습니다.';
       case 'web_video_track_live':
         return '실시간 자막(페이지에서 수집)';
       case 'web_video_track_menu':
@@ -277273,6 +277374,12 @@ extension on _StringsKo {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -286418,8 +286525,6 @@ extension on _StringsNl {
             'Schakel naar ingebouwde modus om ${count} wachtende kaarten aan te maken';
       case 'web_video_no_tracks':
         return 'Nog geen ondertitels vastgelegd';
-      case 'web_video_platform_unsupported':
-        return 'De ingebouwde webspeler is voorlopig alleen beschikbaar op Windows.';
       case 'web_video_track_live':
         return 'Live-ondertitels (van de pagina)';
       case 'web_video_track_menu':
@@ -287225,6 +287330,12 @@ extension on _StringsNl {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -296365,8 +296476,6 @@ extension on _StringsPtBr {
             'Mudar para o modo integrado para criar ${count} cartões na fila';
       case 'web_video_no_tracks':
         return 'Nenhuma legenda capturada ainda';
-      case 'web_video_platform_unsupported':
-        return 'O player web integrado só está disponível no Windows por enquanto.';
       case 'web_video_track_live':
         return 'Legendas ao vivo (capturadas da página)';
       case 'web_video_track_menu':
@@ -297172,6 +297281,12 @@ extension on _StringsPtBr {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -306319,8 +306434,6 @@ extension on _StringsRu {
             'Переключиться на встроенный режим и создать карточек из очереди: ${count}';
       case 'web_video_no_tracks':
         return 'Субтитры пока не получены';
-      case 'web_video_platform_unsupported':
-        return 'Встроенный веб-плеер пока доступен только в Windows.';
       case 'web_video_track_live':
         return 'Живые субтитры (с страницы)';
       case 'web_video_track_menu':
@@ -307126,6 +307239,12 @@ extension on _StringsRu {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -316245,8 +316364,6 @@ extension on _StringsTh {
             'สลับไปโหมดในตัวเพื่อสร้างการ์ดในคิว ${count} รายการ';
       case 'web_video_no_tracks':
         return 'ยังไม่ได้เก็บคำบรรยาย';
-      case 'web_video_platform_unsupported':
-        return 'ตอนนี้เว็บเพลเยอร์ในตัวใช้ได้เฉพาะบน Windows';
       case 'web_video_track_live':
         return 'คำบรรยายสด (เก็บจากหน้าเว็บ)';
       case 'web_video_track_menu':
@@ -317052,6 +317169,12 @@ extension on _StringsTh {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -326186,8 +326309,6 @@ extension on _StringsTr {
             '${count} bekleyen kartı oluşturmak için yerleşik moda geç';
       case 'web_video_no_tracks':
         return 'Henüz altyazı yakalanmadı';
-      case 'web_video_platform_unsupported':
-        return 'Yerleşik web oynatıcı şimdilik yalnızca Windows’ta kullanılabilir.';
       case 'web_video_track_live':
         return 'Canlı altyazılar (sayfadan alınan)';
       case 'web_video_track_menu':
@@ -326993,6 +327114,12 @@ extension on _StringsTr {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -336121,8 +336248,6 @@ extension on _StringsVi {
             'Chuyển sang chế độ tích hợp để tạo ${count} thẻ đang chờ';
       case 'web_video_no_tracks':
         return 'Chưa bắt được phụ đề nào';
-      case 'web_video_platform_unsupported':
-        return 'Trình phát web tích hợp hiện chỉ có trên Windows.';
       case 'web_video_track_live':
         return 'Phụ đề trực tiếp (lấy từ trang)';
       case 'web_video_track_menu':
@@ -336928,6 +337053,12 @@ extension on _StringsVi {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -337315,7 +337446,7 @@ extension on _StringsZhCn {
       case 'anki_error_http':
         return '无法导出到 Anki：连接 AnkiConnect 时发生 HTTP 错误。';
       case 'anki_error_paired_device_unreachable':
-        return '无法制卡：当前没有可连接的已配对设备。请确认配对设备上的 Fushi 正在运行；如果要在本机制卡，请关闭「制卡到已配对设备」。';
+        return '无法制卡：当前连不上 Fushi 互联服务端。请确认服务端上的 Fushi 正在运行；如果要在本机制卡，请关闭「制卡到 Fushi 互联服务端」。';
       case 'anki_error_permission_denied':
         return 'AnkiDroid 尚未授予卡片访问权限。请在刚弹出的系统授权对话框中允许，然后再次点击按钮制卡。';
       case 'anki_error_permission_permanently_denied':
@@ -337524,9 +337655,9 @@ extension on _StringsZhCn {
       case 'anki_lapis_visual_target_inside_definition':
         return '释义内部';
       case 'anki_mine_to_server':
-        return '制卡到已配对设备';
+        return '制卡到 Fushi 互联服务端';
       case 'anki_mine_to_server_hint':
-        return '把制卡发送到已配对主机的 Anki（用该设备的牌组与设置），而非本机。需先在互联/同步里完成配对。';
+        return '把制卡发送到 Fushi 互联服务端的 Anki（用服务端的牌组与设置），而非本机。需先在互联/同步里完成配对。';
       case 'anki_mined_action_add_duplicate':
         return '新增为重复卡';
       case 'anki_mined_action_overwrite':
@@ -340844,13 +340975,13 @@ extension on _StringsZhCn {
       case 'interconnect_backup_backend':
         return '用互联做备份后端';
       case 'interconnect_backup_backend_active':
-        return '备份已写到已配对设备。要换回云盘，去「同步与备份」里改后端。';
+        return '备份已写到 Fushi 互联服务端。要换回云盘，去「同步与备份」里改后端。';
       case 'interconnect_backup_backend_apply':
         return '设为备份后端';
       case 'interconnect_backup_backend_current':
         return ({required Object backend}) => '当前备份后端：${backend}';
       case 'interconnect_backup_backend_hint':
-        return '备份与同步写到已配对设备，而不是云盘。写过去的内容由上面「上传到互联对端」的几个开关决定。';
+        return '备份与同步写到 Fushi 互联服务端，而不是云盘。写过去的内容由上面「上传到互联对端」的几个开关决定。';
       case 'interconnect_backup_backend_needs_pairing':
         return '请先在上面连接一台设备。';
       case 'interconnect_devices_hint':
@@ -340908,7 +341039,7 @@ extension on _StringsZhCn {
       case 'interconnect_section_client':
         return '连接到其他设备';
       case 'interconnect_section_delegate':
-        return '交给已配对设备';
+        return '交给 Fushi 互联服务端';
       case 'interconnect_section_related':
         return '远端内容与查词';
       case 'interconnect_share_favorites':
@@ -341393,17 +341524,17 @@ extension on _StringsZhCn {
       case 'manga_remote_ocr_cancelled':
         return '主机侧已取消远程 OCR。';
       case 'manga_remote_ocr_engine':
-        return '已配对主机';
+        return 'Fushi 互联服务端';
       case 'manga_remote_ocr_failed':
         return '远程 OCR 失败';
       case 'manga_remote_ocr_no_host':
-        return '没有可用的支持漫画 OCR 的已配对主机。';
+        return '没有可用的支持漫画 OCR 的 Fushi 互联服务端。';
       case 'manga_remote_ocr_not_ready':
-        return '已配对主机的 OCR 模型未下载，请先在主机上下载模型。';
+        return 'Fushi 互联服务端的 OCR 模型未下载，请先在服务端下载模型。';
       case 'manga_remote_ocr_running':
-        return '已配对主机正在识别…';
+        return 'Fushi 互联服务端正在识别…';
       case 'manga_remote_ocr_unsupported':
-        return '已配对主机不支持漫画 OCR。';
+        return 'Fushi 互联服务端不支持漫画 OCR。';
       case 'manga_remote_ocr_uploading':
         return ({required Object done, required Object total}) =>
             '正在上传页面 ${done} / ${total}…';
@@ -342680,9 +342811,9 @@ extension on _StringsZhCn {
       case 'remote_book_info_has_audiobook':
         return '包含有声书';
       case 'remote_book_list_failed':
-        return '无法获取配对设备的远端书库。';
+        return '无法获取 Fushi 互联服务端的远端书库。';
       case 'remote_book_unavailable':
-        return '配对设备不可用';
+        return 'Fushi 互联服务端不可用';
       case 'remote_delete_audiobook_partial':
         return '书已在对端删除，但它的有声书没能删掉';
       case 'remote_delete_failed':
@@ -342712,7 +342843,7 @@ extension on _StringsZhCn {
       case 'remote_video_list_failed':
         return '无法加载远端视频，请确认对端设备在线并与本机处于同一网络后重试';
       case 'remote_video_unavailable':
-        return '配对设备不可用';
+        return 'Fushi 互联服务端不可用';
       case 'rename_collection':
         return '重命名合集';
       case 'render_restart_required':
@@ -343757,7 +343888,7 @@ extension on _StringsZhCn {
       case 'sync_err_not_configured':
         return '此构建未配置谷歌同步凭据。';
       case 'sync_err_peer_unreachable':
-        return '无法连接配对设备——对方可能不在线，或对端未运行 Fushi。';
+        return '无法连接 Fushi 互联服务端——对方可能不在线，或未运行 Fushi。';
       case 'sync_err_quota':
         return '云端存储空间已满（配额已用尽）。';
       case 'sync_err_scope_upgrade':
@@ -343777,7 +343908,7 @@ extension on _StringsZhCn {
       case 'sync_interconnect_service_config_toggle':
         return '同步主机服务配置';
       case 'sync_interconnect_service_config_toggle_desc':
-        return '经加密互联通道接收已配对主机的外部服务设定与 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需启用 TLS。';
+        return '经加密互联通道接收 Fushi 互联服务端的外部服务设定与 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需启用 TLS。';
       case 'sync_lan_discovery':
         return '局域网设备';
       case 'sync_lan_no_devices':
@@ -343992,7 +344123,7 @@ extension on _StringsZhCn {
       case 'sync_show_remote_entries':
         return '显示远端条目';
       case 'sync_show_remote_entries_warning':
-        return '把配对设备或云端有、本机没有的书籍和视频显示为可下载/流播的占位卡。';
+        return '把 Fushi 互联服务端或云端有、本机没有的书籍和视频显示为可下载/流播的占位卡。';
       case 'sync_sign_in':
         return '登录';
       case 'sync_sign_out':
@@ -345846,7 +345977,7 @@ extension on _StringsZhCn {
       case 'video_subtitle_read_failed':
         return ({required Object label}) => '无法读取该字幕文件（内容损坏或为空）：${label}';
       case 'video_subtitle_remote_host':
-        return '配对设备字幕';
+        return 'Fushi 互联服务端字幕';
       case 'video_subtitle_replay':
         return '重播本句';
       case 'video_subtitle_scope_collection':
@@ -345979,8 +346110,6 @@ extension on _StringsZhCn {
         return ({required Object count}) => '切到内置模式制作 ${count} 张排队卡片';
       case 'web_video_no_tracks':
         return '尚未采集到字幕';
-      case 'web_video_platform_unsupported':
-        return '内置网页播放器目前仅支持 Windows。';
       case 'web_video_track_live':
         return '实时采集（页面字幕）';
       case 'web_video_track_menu':
@@ -346309,7 +346438,7 @@ extension on _StringsZhCn {
       case 'audiobook_transcribe_model_custom_added':
         return ({required Object name}) => '已接入 ${name}';
       case 'manga_source_interconnect_subtitle':
-        return '浏览已配对设备上的漫画库';
+        return '浏览 Fushi 互联服务端上的漫画库';
       case 'manga_source_interconnect_disabled':
         return '在设置里开启 Fushi 互联后即可使用此来源';
       case 'import_step_importing_book':
@@ -346720,7 +346849,7 @@ extension on _StringsZhCn {
       case 'card_source_review_save':
         return '保存选中修改';
       case 'card_source_review_missing':
-        return '找不到原卡，请同步 Anki 或连接原卡所在的配对设备。';
+        return '找不到原卡，请同步 Anki 或连接原卡所在的 Fushi 互联服务端。';
       case 'card_source_review_failed':
         return '修改尚未保存，原卡可能已被修改或设备不可达。';
       case 'card_source_review_saved':
@@ -346773,6 +346902,12 @@ extension on _StringsZhCn {
         return '把这部作品移出书架？已下载的章节和阅读进度会一并删除。';
       case 'manga_chapter_locked_login_unsupported_hint':
         return '本章需在源站购买或租借；这类作品暂不支持在应用内登录解锁。';
+      case 'reader_volume_open':
+        return '打开本卷';
+      case 'reader_volume_peek_failed':
+        return '读取本卷失败';
+      case 'web_video_player_unavailable':
+        return '内置网页播放器已暂时停用，此地址暂时无法在应用内播放。';
       default:
         return null;
     }
@@ -347160,7 +347295,7 @@ extension on _StringsZhHk {
       case 'anki_error_http':
         return '無法匯出到 Anki：連接 AnkiConnect 時發生 HTTP 錯誤。';
       case 'anki_error_paired_device_unreachable':
-        return '無法製卡：目前沒有可連接的已配對設備。請確認配對設備上的 Fushi 正在執行；如要在本機製卡，請在 Anki 設定中關閉「製卡到已配對設備」。';
+        return '無法製卡：目前連不上 Fushi 互聯服務端。請確認服務端上的 Fushi 正在執行；如要在本機製卡，請在 Anki 設定中關閉「製卡到 Fushi 互聯服務端」。';
       case 'anki_error_permission_denied':
         return 'AnkiDroid 尚未授予卡片訪問權限。請在剛彈出的系統授權對話框中允許，然後再次點擊按鈕製卡。';
       case 'anki_error_permission_permanently_denied':
@@ -347369,9 +347504,9 @@ extension on _StringsZhHk {
       case 'anki_lapis_visual_target_inside_definition':
         return '釋義內部';
       case 'anki_mine_to_server':
-        return '製卡到已配對設備';
+        return '製卡到 Fushi 互聯服務端';
       case 'anki_mine_to_server_hint':
-        return '把製卡發送到已配對主機的 Anki（用該設備的牌組與設定），而非本機。需先在互聯/同步裡完成配對。';
+        return '把製卡發送到 Fushi 互聯服務端的 Anki（用服務端的牌組與設定），而非本機。需先在互聯/同步裡完成配對。';
       case 'anki_mined_action_add_duplicate':
         return '新增為重復卡';
       case 'anki_mined_action_overwrite':
@@ -350694,13 +350829,13 @@ extension on _StringsZhHk {
       case 'interconnect_backup_backend':
         return '用互聯做備份後端';
       case 'interconnect_backup_backend_active':
-        return '備份已寫到已配對設備。要換回雲盤，去「同步與備份」裡改後端。';
+        return '備份已寫到 Fushi 互聯服務端。要換回雲盤，去「同步與備份」裡改後端。';
       case 'interconnect_backup_backend_apply':
         return '設為備份後端';
       case 'interconnect_backup_backend_current':
         return ({required Object backend}) => '當前備份後端：${backend}';
       case 'interconnect_backup_backend_hint':
-        return '備份與同步寫到已配對設備，而不是雲盤。寫過去的內容由上面「上傳到互聯對端」的幾個開關決定。';
+        return '備份與同步寫到 Fushi 互聯服務端，而不是雲盤。寫過去的內容由上面「上傳到互聯對端」的幾個開關決定。';
       case 'interconnect_backup_backend_needs_pairing':
         return '請先在上面連接一台設備。';
       case 'interconnect_devices_hint':
@@ -350759,7 +350894,7 @@ extension on _StringsZhHk {
       case 'interconnect_section_client':
         return '連接到其他設備';
       case 'interconnect_section_delegate':
-        return '交給已配對設備';
+        return '交給 Fushi 互聯服務端';
       case 'interconnect_section_related':
         return '遠端內容與查詞';
       case 'interconnect_share_favorites':
@@ -351244,17 +351379,17 @@ extension on _StringsZhHk {
       case 'manga_remote_ocr_cancelled':
         return '主機側已取消遠程 OCR。';
       case 'manga_remote_ocr_engine':
-        return '已配對主機';
+        return 'Fushi 互聯服務端';
       case 'manga_remote_ocr_failed':
         return '遠程 OCR 失敗';
       case 'manga_remote_ocr_no_host':
-        return '沒有可用的支持漫畫 OCR 的已配對主機。';
+        return '沒有可用的支持漫畫 OCR 的 Fushi 互聯服務端。';
       case 'manga_remote_ocr_not_ready':
-        return '已配對主機的 OCR 模型未下載，請先在主機上下載模型。';
+        return 'Fushi 互聯服務端的 OCR 模型未下載，請先在服務端下載模型。';
       case 'manga_remote_ocr_running':
-        return '已配對主機正在識別…';
+        return 'Fushi 互聯服務端正在識別…';
       case 'manga_remote_ocr_unsupported':
-        return '已配對主機不支持漫畫 OCR。';
+        return 'Fushi 互聯服務端不支持漫畫 OCR。';
       case 'manga_remote_ocr_uploading':
         return ({required Object done, required Object total}) =>
             '正在上傳頁面 ${done} / ${total}…';
@@ -352532,9 +352667,9 @@ extension on _StringsZhHk {
       case 'remote_book_info_has_audiobook':
         return '包含有聲書';
       case 'remote_book_list_failed':
-        return '無法獲取配對設備的遠端書庫。';
+        return '無法獲取 Fushi 互聯服務端的遠端書庫。';
       case 'remote_book_unavailable':
-        return '配對裝置不可用';
+        return 'Fushi 互聯服務端不可用';
       case 'remote_delete_audiobook_partial':
         return '書已在對端刪除，但它的有聲書沒能刪掉';
       case 'remote_delete_failed':
@@ -352564,7 +352699,7 @@ extension on _StringsZhHk {
       case 'remote_video_list_failed':
         return '無法加載遠端影片，請確認對端設備在線並與本機處於同一網路後重試';
       case 'remote_video_unavailable':
-        return '配對裝置不可用';
+        return 'Fushi 互聯服務端不可用';
       case 'rename_collection':
         return '重命名合集';
       case 'render_restart_required':
@@ -353610,7 +353745,7 @@ extension on _StringsZhHk {
       case 'sync_err_not_configured':
         return '此版本未設定 Google sync 憑證。';
       case 'sync_err_peer_unreachable':
-        return '無法連接配對設備——對方可能不在線，或對端未運行 Fushi。';
+        return '無法連接 Fushi 互聯服務端——對方可能不在線，或未運行 Fushi。';
       case 'sync_err_quota':
         return '雲端儲存空間已滿（已達配額上限）。';
       case 'sync_err_scope_upgrade':
@@ -353630,7 +353765,7 @@ extension on _StringsZhHk {
       case 'sync_interconnect_service_config_toggle':
         return '同步主機服務配置';
       case 'sync_interconnect_service_config_toggle_desc':
-        return '經加密互聯通道接收已配對主機的外部服務設定與 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需啟用 TLS。';
+        return '經加密互聯通道接收 Fushi 互聯服務端的外部服務設定與 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需啟用 TLS。';
       case 'sync_lan_discovery':
         return '區域網絡裝置';
       case 'sync_lan_no_devices':
@@ -353845,7 +353980,7 @@ extension on _StringsZhHk {
       case 'sync_show_remote_entries':
         return '顯示遠端條目';
       case 'sync_show_remote_entries_warning':
-        return '把配對設備或雲端有、本機沒有的書籍和影片顯示為可下載/流播的佔位卡。';
+        return '把 Fushi 互聯服務端或雲端有、本機沒有的書籍和影片顯示為可下載/流播的佔位卡。';
       case 'sync_sign_in':
         return '登入';
       case 'sync_sign_out':
@@ -355700,7 +355835,7 @@ extension on _StringsZhHk {
       case 'video_subtitle_read_failed':
         return ({required Object label}) => '無法讀取該字幕檔案（內容損壞或為空）：${label}';
       case 'video_subtitle_remote_host':
-        return '配對裝置字幕';
+        return 'Fushi 互聯服務端字幕';
       case 'video_subtitle_replay':
         return '重播本句';
       case 'video_subtitle_scope_collection':
@@ -355833,8 +355968,6 @@ extension on _StringsZhHk {
         return ({required Object count}) => '切換到內建模式製作 ${count} 張排隊卡片';
       case 'web_video_no_tracks':
         return '尚未擷取到字幕';
-      case 'web_video_platform_unsupported':
-        return '內建網頁播放器目前僅支援 Windows。';
       case 'web_video_track_live':
         return '即時字幕（從頁面取樣）';
       case 'web_video_track_menu':
@@ -356166,7 +356299,7 @@ extension on _StringsZhHk {
       case 'audiobook_transcribe_model_custom_added':
         return ({required Object name}) => 'Added ${name}';
       case 'manga_source_interconnect_subtitle':
-        return 'Browse the manga library on your paired device';
+        return '瀏覽 Fushi 互聯服務端上的漫畫庫';
       case 'manga_source_interconnect_disabled':
         return 'Turn on Fushi Interconnect in settings to use this source';
       case 'import_step_importing_book':
@@ -356583,7 +356716,7 @@ extension on _StringsZhHk {
       case 'card_source_review_save':
         return 'Save selected changes';
       case 'card_source_review_missing':
-        return 'The original note could not be found. Sync Anki or connect its paired device.';
+        return '找不到原卡，請同步 Anki 或連接原卡所在的 Fushi 互聯服務端。';
       case 'card_source_review_failed':
         return 'Changes were not saved. The note may have changed or the device is unavailable.';
       case 'card_source_review_saved':
@@ -356637,6 +356770,12 @@ extension on _StringsZhHk {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
+      case 'web_video_player_unavailable':
+        return '內置網頁播放器已暫時停用，此地址暫時無法在應用內播放。';
       default:
         return null;
     }
