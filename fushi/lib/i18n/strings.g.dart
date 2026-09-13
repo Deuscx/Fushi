@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 81821 (4813 per locale)
 ///
-/// Built on 2026-09-13 at 12:16 UTC
+/// Built on 2026-09-13 at 13:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5238,8 +5238,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_download_target_source_hint =>
       'New downloads are organized into this local video source.';
   String get video_download_target_source_none => 'Choose a local video source';
-  String get video_download_target_source_title =>
-      'Default managed video source';
+  String get video_download_target_source_title => 'Default folder';
   String get video_drop_audio_unsupported =>
       'Drop subtitle files onto the current video. Audio files cannot be attached here.';
   String get video_drop_subtitle_only =>
@@ -15557,8 +15556,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_download_target_source_none => 'اختر مصدر فيديو محلي';
   @override
-  String get video_download_target_source_title =>
-      'مصدر الفيديو المُدار الافتراضي';
+  String get video_download_target_source_title => 'المجلد الافتراضي';
   @override
   String get video_drop_audio_unsupported =>
       'أفلت ملفات الترجمة على الفيديو الحالي. لا يمكن إرفاق ملفات الصوت هنا.';
@@ -27092,8 +27090,7 @@ class _StringsDe extends _StringsEn {
   String get video_download_target_source_none =>
       'Lokale Videoquelle auswählen';
   @override
-  String get video_download_target_source_title =>
-      'Standard-Videoquelle für verwaltete Downloads';
+  String get video_download_target_source_title => 'Standardordner';
   @override
   String get video_drop_audio_unsupported =>
       'Untertiteldateien auf das aktuelle Video ziehen. Audiodateien können hier nicht angehängt werden.';
@@ -38714,8 +38711,7 @@ class _StringsEs extends _StringsEn {
   String get video_download_target_source_none =>
       'Elegir una fuente de vídeo local';
   @override
-  String get video_download_target_source_title =>
-      'Fuente de vídeo gestionada predeterminada';
+  String get video_download_target_source_title => 'Carpeta predeterminada';
   @override
   String get video_drop_audio_unsupported =>
       'Suelta archivos de subtítulos sobre el vídeo actual. Aquí no se pueden adjuntar archivos de audio.';
@@ -50365,8 +50361,7 @@ class _StringsFr extends _StringsEn {
   String get video_download_target_source_none =>
       'Choisir une source vidéo locale';
   @override
-  String get video_download_target_source_title =>
-      'Source vidéo gérée par défaut';
+  String get video_download_target_source_title => 'Dossier par défaut';
   @override
   String get video_drop_audio_unsupported =>
       'Déposez les fichiers de sous-titres sur la vidéo en cours. Les fichiers audio ne peuvent pas être joints ici.';
@@ -61881,8 +61876,7 @@ class _StringsId extends _StringsEn {
   @override
   String get video_download_target_source_none => 'Pilih sumber video lokal';
   @override
-  String get video_download_target_source_title =>
-      'Sumber video terkelola default';
+  String get video_download_target_source_title => 'Folder default';
   @override
   String get video_drop_audio_unsupported =>
       'Jatuhkan file subtitle ke video saat ini. File audio tidak bisa dilampirkan di sini.';
@@ -73424,8 +73418,7 @@ class _StringsIt extends _StringsEn {
   String get video_download_target_source_none =>
       'Scegli una fonte video locale';
   @override
-  String get video_download_target_source_title =>
-      'Fonte video gestita predefinita';
+  String get video_download_target_source_title => 'Cartella predefinita';
   @override
   String get video_drop_audio_unsupported =>
       'Trascina i file di sottotitoli sul video corrente. I file audio non possono essere allegati qui.';
@@ -84485,7 +84478,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_download_target_source_none => 'ローカル動画ソースを選択';
   @override
-  String get video_download_target_source_title => 'デフォルトの管理対象動画ソース';
+  String get video_download_target_source_title => 'デフォルトのフォルダー';
   @override
   String get video_drop_audio_unsupported =>
       '字幕ファイルを現在の動画の上にドロップしてください。音声ファイルはここで関連付けできません。';
@@ -95433,7 +95426,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_download_target_source_none => '로컬 동영상 소스 선택';
   @override
-  String get video_download_target_source_title => '기본 관리 동영상 소스';
+  String get video_download_target_source_title => '기본 폴더';
   @override
   String get video_drop_audio_unsupported =>
       '현재 비디오 위에 자막 파일을 놓으세요. 오디오 파일은 여기에 연결할 수 없습니다.';
@@ -106849,8 +106842,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_download_target_source_none => 'Kies een lokale videobron';
   @override
-  String get video_download_target_source_title =>
-      'Standaard beheerde videobron';
+  String get video_download_target_source_title => 'Standaardmap';
   @override
   String get video_drop_audio_unsupported =>
       'Sleep ondertitelbestanden op de huidige video. Audiobestanden kunnen hier niet worden gekoppeld.';
@@ -118405,8 +118397,7 @@ class _StringsPtBr extends _StringsEn {
   String get video_download_target_source_none =>
       'Escolher uma fonte de vídeo local';
   @override
-  String get video_download_target_source_title =>
-      'Fonte de vídeo gerenciada padrão';
+  String get video_download_target_source_title => 'Pasta padrão';
   @override
   String get video_drop_audio_unsupported =>
       'Solte arquivos de legenda sobre o vídeo atual. Arquivos de áudio não podem ser anexados aqui.';
@@ -129950,8 +129941,7 @@ class _StringsRu extends _StringsEn {
   String get video_download_target_source_none =>
       'Выберите локальный источник видео';
   @override
-  String get video_download_target_source_title =>
-      'Источник видео по умолчанию';
+  String get video_download_target_source_title => 'Папка по умолчанию';
   @override
   String get video_drop_audio_unsupported =>
       'Перетащите файлы субтитров на текущее видео. Аудиофайлы здесь подключить нельзя.';
@@ -141354,7 +141344,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_download_target_source_none => 'เลือกแหล่งวิดีโอในเครื่อง';
   @override
-  String get video_download_target_source_title => 'แหล่งวิดีโอจัดการเริ่มต้น';
+  String get video_download_target_source_title => 'โฟลเดอร์เริ่มต้น';
   @override
   String get video_drop_audio_unsupported =>
       'ลากไฟล์คำบรรยายไปวางบนวิดีโอปัจจุบัน ไฟล์เสียงไม่สามารถแนบที่นี่ได้';
@@ -152792,8 +152782,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_download_target_source_none => 'Yerel video kaynağı seçin';
   @override
-  String get video_download_target_source_title =>
-      'Varsayılan yönetilen video kaynağı';
+  String get video_download_target_source_title => 'Varsayılan klasör';
   @override
   String get video_drop_audio_unsupported =>
       'Altyazı dosyalarını geçerli videonun üzerine bırakın. Ses dosyaları buraya eklenemez.';
@@ -164238,8 +164227,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_download_target_source_none => 'Chọn nguồn video cục bộ';
   @override
-  String get video_download_target_source_title =>
-      'Nguồn video được quản lý mặc định';
+  String get video_download_target_source_title => 'Thư mục mặc định';
   @override
   String get video_drop_audio_unsupported =>
       'Hãy thả tệp phụ đề lên video hiện tại. Tệp âm thanh không thể gắn ở đây.';
@@ -174941,7 +174929,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_download_target_source_none => '选择本地视频来源';
   @override
-  String get video_download_target_source_title => '默认受管视频来源';
+  String get video_download_target_source_title => '默认文件夹';
   @override
   String get video_drop_audio_unsupported => '请把字幕文件拖到当前视频上。音频文件不能在这里关联。';
   @override
@@ -185497,7 +185485,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_download_target_source_none => '選擇本地影片來源';
   @override
-  String get video_download_target_source_title => '預設受管影片來源';
+  String get video_download_target_source_title => '預設資料夾';
   @override
   String get video_drop_audio_unsupported => '請把字幕檔案拖到目前的影片上。音訊檔案不能在此關聯。';
   @override
@@ -195646,7 +195634,7 @@ extension on _StringsEn {
       case 'video_download_target_source_none':
         return 'Choose a local video source';
       case 'video_download_target_source_title':
-        return 'Default managed video source';
+        return 'Default folder';
       case 'video_drop_audio_unsupported':
         return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
       case 'video_drop_subtitle_only':
@@ -205566,7 +205554,7 @@ extension on _StringsAr {
       case 'video_download_target_source_none':
         return 'اختر مصدر فيديو محلي';
       case 'video_download_target_source_title':
-        return 'مصدر الفيديو المُدار الافتراضي';
+        return 'المجلد الافتراضي';
       case 'video_drop_audio_unsupported':
         return 'أفلت ملفات الترجمة على الفيديو الحالي. لا يمكن إرفاق ملفات الصوت هنا.';
       case 'video_drop_subtitle_only':
@@ -215529,7 +215517,7 @@ extension on _StringsDe {
       case 'video_download_target_source_none':
         return 'Lokale Videoquelle auswählen';
       case 'video_download_target_source_title':
-        return 'Standard-Videoquelle für verwaltete Downloads';
+        return 'Standardordner';
       case 'video_drop_audio_unsupported':
         return 'Untertiteldateien auf das aktuelle Video ziehen. Audiodateien können hier nicht angehängt werden.';
       case 'video_drop_subtitle_only':
@@ -225487,7 +225475,7 @@ extension on _StringsEs {
       case 'video_download_target_source_none':
         return 'Elegir una fuente de vídeo local';
       case 'video_download_target_source_title':
-        return 'Fuente de vídeo gestionada predeterminada';
+        return 'Carpeta predeterminada';
       case 'video_drop_audio_unsupported':
         return 'Suelta archivos de subtítulos sobre el vídeo actual. Aquí no se pueden adjuntar archivos de audio.';
       case 'video_drop_subtitle_only':
@@ -235452,7 +235440,7 @@ extension on _StringsFr {
       case 'video_download_target_source_none':
         return 'Choisir une source vidéo locale';
       case 'video_download_target_source_title':
-        return 'Source vidéo gérée par défaut';
+        return 'Dossier par défaut';
       case 'video_drop_audio_unsupported':
         return 'Déposez les fichiers de sous-titres sur la vidéo en cours. Les fichiers audio ne peuvent pas être joints ici.';
       case 'video_drop_subtitle_only':
@@ -245391,7 +245379,7 @@ extension on _StringsId {
       case 'video_download_target_source_none':
         return 'Pilih sumber video lokal';
       case 'video_download_target_source_title':
-        return 'Sumber video terkelola default';
+        return 'Folder default';
       case 'video_drop_audio_unsupported':
         return 'Jatuhkan file subtitle ke video saat ini. File audio tidak bisa dilampirkan di sini.';
       case 'video_drop_subtitle_only':
@@ -255348,7 +255336,7 @@ extension on _StringsIt {
       case 'video_download_target_source_none':
         return 'Scegli una fonte video locale';
       case 'video_download_target_source_title':
-        return 'Fonte video gestita predefinita';
+        return 'Cartella predefinita';
       case 'video_drop_audio_unsupported':
         return 'Trascina i file di sottotitoli sul video corrente. I file audio non possono essere allegati qui.';
       case 'video_drop_subtitle_only':
@@ -265244,7 +265232,7 @@ extension on _StringsJa {
       case 'video_download_target_source_none':
         return 'ローカル動画ソースを選択';
       case 'video_download_target_source_title':
-        return 'デフォルトの管理対象動画ソース';
+        return 'デフォルトのフォルダー';
       case 'video_drop_audio_unsupported':
         return '字幕ファイルを現在の動画の上にドロップしてください。音声ファイルはここで関連付けできません。';
       case 'video_drop_subtitle_only':
@@ -275133,7 +275121,7 @@ extension on _StringsKo {
       case 'video_download_target_source_none':
         return '로컬 동영상 소스 선택';
       case 'video_download_target_source_title':
-        return '기본 관리 동영상 소스';
+        return '기본 폴더';
       case 'video_drop_audio_unsupported':
         return '현재 비디오 위에 자막 파일을 놓으세요. 오디오 파일은 여기에 연결할 수 없습니다.';
       case 'video_drop_subtitle_only':
@@ -285075,7 +285063,7 @@ extension on _StringsNl {
       case 'video_download_target_source_none':
         return 'Kies een lokale videobron';
       case 'video_download_target_source_title':
-        return 'Standaard beheerde videobron';
+        return 'Standaardmap';
       case 'video_drop_audio_unsupported':
         return 'Sleep ondertitelbestanden op de huidige video. Audiobestanden kunnen hier niet worden gekoppeld.';
       case 'video_drop_subtitle_only':
@@ -295023,7 +295011,7 @@ extension on _StringsPtBr {
       case 'video_download_target_source_none':
         return 'Escolher uma fonte de vídeo local';
       case 'video_download_target_source_title':
-        return 'Fonte de vídeo gerenciada padrão';
+        return 'Pasta padrão';
       case 'video_drop_audio_unsupported':
         return 'Solte arquivos de legenda sobre o vídeo atual. Arquivos de áudio não podem ser anexados aqui.';
       case 'video_drop_subtitle_only':
@@ -304979,7 +304967,7 @@ extension on _StringsRu {
       case 'video_download_target_source_none':
         return 'Выберите локальный источник видео';
       case 'video_download_target_source_title':
-        return 'Источник видео по умолчанию';
+        return 'Папка по умолчанию';
       case 'video_drop_audio_unsupported':
         return 'Перетащите файлы субтитров на текущее видео. Аудиофайлы здесь подключить нельзя.';
       case 'video_drop_subtitle_only':
@@ -314907,7 +314895,7 @@ extension on _StringsTh {
       case 'video_download_target_source_none':
         return 'เลือกแหล่งวิดีโอในเครื่อง';
       case 'video_download_target_source_title':
-        return 'แหล่งวิดีโอจัดการเริ่มต้น';
+        return 'โฟลเดอร์เริ่มต้น';
       case 'video_drop_audio_unsupported':
         return 'ลากไฟล์คำบรรยายไปวางบนวิดีโอปัจจุบัน ไฟล์เสียงไม่สามารถแนบที่นี่ได้';
       case 'video_drop_subtitle_only':
@@ -324845,7 +324833,7 @@ extension on _StringsTr {
       case 'video_download_target_source_none':
         return 'Yerel video kaynağı seçin';
       case 'video_download_target_source_title':
-        return 'Varsayılan yönetilen video kaynağı';
+        return 'Varsayılan klasör';
       case 'video_drop_audio_unsupported':
         return 'Altyazı dosyalarını geçerli videonun üzerine bırakın. Ses dosyaları buraya eklenemez.';
       case 'video_drop_subtitle_only':
@@ -334783,7 +334771,7 @@ extension on _StringsVi {
       case 'video_download_target_source_none':
         return 'Chọn nguồn video cục bộ';
       case 'video_download_target_source_title':
-        return 'Nguồn video được quản lý mặc định';
+        return 'Thư mục mặc định';
       case 'video_drop_audio_unsupported':
         return 'Hãy thả tệp phụ đề lên video hiện tại. Tệp âm thanh không thể gắn ở đây.';
       case 'video_drop_subtitle_only':
@@ -344651,7 +344639,7 @@ extension on _StringsZhCn {
       case 'video_download_target_source_none':
         return '选择本地视频来源';
       case 'video_download_target_source_title':
-        return '默认受管视频来源';
+        return '默认文件夹';
       case 'video_drop_audio_unsupported':
         return '请把字幕文件拖到当前视频上。音频文件不能在这里关联。';
       case 'video_drop_subtitle_only':
@@ -354504,7 +354492,7 @@ extension on _StringsZhHk {
       case 'video_download_target_source_none':
         return '選擇本地影片來源';
       case 'video_download_target_source_title':
-        return '預設受管影片來源';
+        return '預設資料夾';
       case 'video_drop_audio_unsupported':
         return '請把字幕檔案拖到目前的影片上。音訊檔案不能在此關聯。';
       case 'video_drop_subtitle_only':
