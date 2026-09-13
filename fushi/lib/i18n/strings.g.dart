@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 81804 (4812 per locale)
+/// Strings: 81821 (4813 per locale)
 ///
-/// Built on 2026-09-13 at 11:28 UTC
+/// Built on 2026-09-13 at 12:10 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6710,6 +6710,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -18060,6 +18062,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -29636,6 +29641,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -41266,6 +41274,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -52929,6 +52940,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -64396,6 +64410,9 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -75954,6 +75971,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -86894,6 +86914,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -97844,6 +97867,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -109360,6 +109386,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -120929,6 +120958,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -132475,6 +132507,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -143822,6 +143857,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -155284,6 +155322,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -166716,6 +166757,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -177201,6 +177245,9 @@ class _StringsZhCn extends _StringsEn {
   String get manga_series_remove_from_bookshelf => '移出漫画书架';
   @override
   String get manga_series_remove_confirm => '把这部作品移出书架？已下载的章节和阅读进度会一并删除。';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      '本章需在源站购买或租借；这类作品暂不支持在应用内登录解锁。';
 }
 
 // Path: <root>
@@ -187825,6 +187872,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_series_remove_confirm =>
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 /// Flat map(s) containing all translations.
@@ -197749,6 +197799,8 @@ extension on _StringsEn {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -207668,6 +207720,8 @@ extension on _StringsAr {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -217632,6 +217686,8 @@ extension on _StringsDe {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -227587,6 +227643,8 @@ extension on _StringsEs {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -237551,6 +237609,8 @@ extension on _StringsFr {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -247486,6 +247546,8 @@ extension on _StringsId {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -257443,6 +257505,8 @@ extension on _StringsIt {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -267327,6 +267391,8 @@ extension on _StringsJa {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -277215,6 +277281,8 @@ extension on _StringsKo {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -287165,6 +287233,8 @@ extension on _StringsNl {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -297110,6 +297180,8 @@ extension on _StringsPtBr {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -307062,6 +307134,8 @@ extension on _StringsRu {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -316986,6 +317060,8 @@ extension on _StringsTh {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -326925,6 +327001,8 @@ extension on _StringsTr {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -336858,6 +336936,8 @@ extension on _StringsVi {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -346701,6 +346781,8 @@ extension on _StringsZhCn {
         return '移出漫画书架';
       case 'manga_series_remove_confirm':
         return '把这部作品移出书架？已下载的章节和阅读进度会一并删除。';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return '本章需在源站购买或租借；这类作品暂不支持在应用内登录解锁。';
       default:
         return null;
     }
@@ -356563,6 +356645,8 @@ extension on _StringsZhHk {
         return 'Remove from manga shelf';
       case 'manga_series_remove_confirm':
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
