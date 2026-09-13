@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 81855 (4815 per locale)
+/// Strings: 81889 (4817 per locale)
 ///
-/// Built on 2026-09-13 at 14:26 UTC
+/// Built on 2026-09-13 at 14:44 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6716,6 +6716,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get reader_volume_peek_failed => 'Could not read this volume';
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -18072,6 +18075,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -29654,6 +29662,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -41290,6 +41303,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -52959,6 +52977,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -64432,6 +64455,11 @@ class _StringsId extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -75996,6 +76024,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -86943,6 +86976,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       '内蔵ウェブページプレーヤーは一時的に無効化されています。このアドレスは今のところアプリ内で再生できません。';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -97900,6 +97938,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -109422,6 +109465,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -120997,6 +121045,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -132549,6 +132602,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -143903,6 +143961,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -155371,6 +155434,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -166809,6 +166877,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get web_video_player_unavailable =>
       'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 // Path: <root>
@@ -177304,6 +177377,11 @@ class _StringsZhCn extends _StringsEn {
   String get reader_volume_peek_failed => '读取本卷失败';
   @override
   String get web_video_player_unavailable => '内置网页播放器已暂时停用，此地址暂时无法在应用内播放。';
+  @override
+  String get video_mining_image_mode_video_clip => '带声音的视频片段';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      '将画面与例句声音导出为同一个 MP4，由 Anki 媒体播放器同步播放；自动播放遵循卡片设置。不同客户端可能在独立播放器中打开。';
 }
 
 // Path: <root>
@@ -187936,6 +188014,11 @@ class _StringsZhHk extends _StringsEn {
   String get reader_volume_peek_failed => 'Could not read this volume';
   @override
   String get web_video_player_unavailable => '內置網頁播放器已暫時停用，此地址暫時無法在應用內播放。';
+  @override
+  String get video_mining_image_mode_video_clip => 'Video clip with sound';
+  @override
+  String get video_mining_image_mode_video_clip_hint =>
+      'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
 }
 
 /// Flat map(s) containing all translations.
@@ -197866,6 +197949,10 @@ extension on _StringsEn {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -207791,6 +207878,10 @@ extension on _StringsAr {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -217761,6 +217852,10 @@ extension on _StringsDe {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -227722,6 +227817,10 @@ extension on _StringsEs {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -237692,6 +237791,10 @@ extension on _StringsFr {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -247633,6 +247736,10 @@ extension on _StringsId {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -257596,6 +257703,10 @@ extension on _StringsIt {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -267486,6 +267597,10 @@ extension on _StringsJa {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return '内蔵ウェブページプレーヤーは一時的に無効化されています。このアドレスは今のところアプリ内で再生できません。';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -277380,6 +277495,10 @@ extension on _StringsKo {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -287336,6 +287455,10 @@ extension on _StringsNl {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -297287,6 +297410,10 @@ extension on _StringsPtBr {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -307245,6 +307372,10 @@ extension on _StringsRu {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -317175,6 +317306,10 @@ extension on _StringsTh {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -327120,6 +327255,10 @@ extension on _StringsTr {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -337059,6 +337198,10 @@ extension on _StringsVi {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
@@ -346908,6 +347051,10 @@ extension on _StringsZhCn {
         return '读取本卷失败';
       case 'web_video_player_unavailable':
         return '内置网页播放器已暂时停用，此地址暂时无法在应用内播放。';
+      case 'video_mining_image_mode_video_clip':
+        return '带声音的视频片段';
+      case 'video_mining_image_mode_video_clip_hint':
+        return '将画面与例句声音导出为同一个 MP4，由 Anki 媒体播放器同步播放；自动播放遵循卡片设置。不同客户端可能在独立播放器中打开。';
       default:
         return null;
     }
@@ -356776,6 +356923,10 @@ extension on _StringsZhHk {
         return 'Could not read this volume';
       case 'web_video_player_unavailable':
         return '內置網頁播放器已暫時停用，此地址暫時無法在應用內播放。';
+      case 'video_mining_image_mode_video_clip':
+        return 'Video clip with sound';
+      case 'video_mining_image_mode_video_clip_hint':
+        return 'Export picture and sentence sound together in one MP4. Anki plays it through its media player; autoplay follows the card settings. Playback may open in a separate player depending on the client.';
       default:
         return null;
     }
