@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 81821 (4813 per locale)
 ///
-/// Built on 2026-09-13 at 12:16 UTC
+/// Built on 2026-09-13 at 13:41 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6145,8 +6145,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String web_video_mine_switch_builtin({required Object count}) =>
       'Switch to built-in mode to create ${count} queued cards';
   String get web_video_no_tracks => 'No subtitles captured yet';
-  String get web_video_platform_unsupported =>
-      'The built-in web player is only available on Windows for now.';
   String get web_video_track_live => 'Live captions (sampled from page)';
   String get web_video_track_menu => 'Subtitle track';
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
@@ -6712,6 +6710,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -17122,9 +17122,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get web_video_no_tracks => 'لم يتم التقاط أي ترجمة بعد';
   @override
-  String get web_video_platform_unsupported =>
-      'مشغّل الويب المدمج متاح حاليًا على Windows فقط.';
-  @override
   String get web_video_track_live => 'ترجمة مباشرة (مأخوذة من الصفحة)';
   @override
   String get web_video_track_menu => 'مسار الترجمة';
@@ -18065,6 +18062,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -28700,9 +28700,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Noch keine Untertitel erfasst';
   @override
-  String get web_video_platform_unsupported =>
-      'Der integrierte Web-Player ist derzeit nur unter Windows verfügbar.';
-  @override
   String get web_video_track_live => 'Live-Untertitel (von der Seite erfasst)';
   @override
   String get web_video_track_menu => 'Untertitelspur';
@@ -29644,6 +29641,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -40330,9 +40330,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Aún no se han capturado subtítulos';
   @override
-  String get web_video_platform_unsupported =>
-      'El reproductor web integrado solo está disponible en Windows por ahora.';
-  @override
   String get web_video_track_live =>
       'Subtítulos en vivo (capturados de la página)';
   @override
@@ -41277,6 +41274,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -51996,9 +51996,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Aucun sous-titre capturé pour l’instant';
   @override
-  String get web_video_platform_unsupported =>
-      'Le lecteur web intégré n’est disponible que sous Windows pour le moment.';
-  @override
   String get web_video_track_live =>
       'Sous-titres en direct (capturés sur la page)';
   @override
@@ -52943,6 +52940,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -63469,9 +63469,6 @@ class _StringsId extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Belum ada subtitel yang ditangkap';
   @override
-  String get web_video_platform_unsupported =>
-      'Pemutar web bawaan saat ini hanya tersedia di Windows.';
-  @override
   String get web_video_track_live => 'Teks langsung (diambil dari halaman)';
   @override
   String get web_video_track_menu => 'Trek subtitel';
@@ -64413,6 +64410,9 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -75026,9 +75026,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Nessun sottotitolo acquisito ancora';
   @override
-  String get web_video_platform_unsupported =>
-      'Il lettore web integrato è disponibile per ora solo su Windows.';
-  @override
   String get web_video_track_live =>
       'Sottotitoli live (campionati dalla pagina)';
   @override
@@ -75974,6 +75971,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -85978,9 +85978,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get web_video_no_tracks => '字幕はまだ取得されていません';
   @override
-  String get web_video_platform_unsupported =>
-      '内蔵 Web プレーヤーは現在 Windows でのみ利用できます。';
-  @override
   String get web_video_track_live => 'ライブ字幕（ページから取得）';
   @override
   String get web_video_track_menu => '字幕トラック';
@@ -86917,6 +86914,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -96929,9 +96929,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get web_video_no_tracks => '아직 수집된 자막이 없습니다';
   @override
-  String get web_video_platform_unsupported =>
-      '내장 웹 플레이어는 현재 Windows에서만 사용할 수 있습니다.';
-  @override
   String get web_video_track_live => '실시간 자막(페이지에서 수집)';
   @override
   String get web_video_track_menu => '자막 트랙';
@@ -97870,6 +97867,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -108444,9 +108444,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Nog geen ondertitels vastgelegd';
   @override
-  String get web_video_platform_unsupported =>
-      'De ingebouwde webspeler is voorlopig alleen beschikbaar op Windows.';
-  @override
   String get web_video_track_live => 'Live-ondertitels (van de pagina)';
   @override
   String get web_video_track_menu => 'Ondertitelspoor';
@@ -109389,6 +109386,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -120014,9 +120014,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Nenhuma legenda capturada ainda';
   @override
-  String get web_video_platform_unsupported =>
-      'O player web integrado só está disponível no Windows por enquanto.';
-  @override
   String get web_video_track_live => 'Legendas ao vivo (capturadas da página)';
   @override
   String get web_video_track_menu => 'Faixa de legendas';
@@ -120961,6 +120958,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -131565,9 +131565,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Субтитры пока не получены';
   @override
-  String get web_video_platform_unsupported =>
-      'Встроенный веб-плеер пока доступен только в Windows.';
-  @override
   String get web_video_track_live => 'Живые субтитры (с страницы)';
   @override
   String get web_video_track_menu => 'Дорожка субтитров';
@@ -132510,6 +132507,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -142915,9 +142915,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get web_video_no_tracks => 'ยังไม่ได้เก็บคำบรรยาย';
   @override
-  String get web_video_platform_unsupported =>
-      'ตอนนี้เว็บเพลเยอร์ในตัวใช้ได้เฉพาะบน Windows';
-  @override
   String get web_video_track_live => 'คำบรรยายสด (เก็บจากหน้าเว็บ)';
   @override
   String get web_video_track_menu => 'แทร็กคำบรรยาย';
@@ -143860,6 +143857,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -154380,9 +154380,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Henüz altyazı yakalanmadı';
   @override
-  String get web_video_platform_unsupported =>
-      'Yerleşik web oynatıcı şimdilik yalnızca Windows’ta kullanılabilir.';
-  @override
   String get web_video_track_live => 'Canlı altyazılar (sayfadan alınan)';
   @override
   String get web_video_track_menu => 'Altyazı parçası';
@@ -155325,6 +155322,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -165815,9 +165815,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get web_video_no_tracks => 'Chưa bắt được phụ đề nào';
   @override
-  String get web_video_platform_unsupported =>
-      'Trình phát web tích hợp hiện chỉ có trên Windows.';
-  @override
   String get web_video_track_live => 'Phụ đề trực tiếp (lấy từ trang)';
   @override
   String get web_video_track_menu => 'Rãnh phụ đề';
@@ -166760,6 +166757,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 // Path: <root>
@@ -176387,8 +176387,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get web_video_no_tracks => '尚未采集到字幕';
   @override
-  String get web_video_platform_unsupported => '内置网页播放器目前仅支持 Windows。';
-  @override
   String get web_video_track_live => '实时采集（页面字幕）';
   @override
   String get web_video_track_menu => '字幕轨';
@@ -177249,6 +177247,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       '本章需在源站购买或租借；这类作品暂不支持在应用内登录解锁。';
+  @override
+  String get web_video_player_unavailable => '内置网页播放器已暂时停用，此地址暂时无法在应用内播放。';
 }
 
 // Path: <root>
@@ -186944,8 +186944,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get web_video_no_tracks => '尚未擷取到字幕';
   @override
-  String get web_video_platform_unsupported => '內建網頁播放器目前僅支援 Windows。';
-  @override
   String get web_video_track_live => '即時字幕（從頁面取樣）';
   @override
   String get web_video_track_menu => '字幕軌';
@@ -187877,6 +187875,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_chapter_locked_login_unsupported_hint =>
       'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
+  String get web_video_player_unavailable =>
+      'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
 }
 
 /// Flat map(s) containing all translations.
@@ -196996,8 +196997,6 @@ extension on _StringsEn {
             'Switch to built-in mode to create ${count} queued cards';
       case 'web_video_no_tracks':
         return 'No subtitles captured yet';
-      case 'web_video_platform_unsupported':
-        return 'The built-in web player is only available on Windows for now.';
       case 'web_video_track_live':
         return 'Live captions (sampled from page)';
       case 'web_video_track_menu':
@@ -197803,6 +197802,8 @@ extension on _StringsEn {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -206917,8 +206918,6 @@ extension on _StringsAr {
             'التبديل إلى الوضع المدمج لإنشاء ${count} بطاقة منتظرة';
       case 'web_video_no_tracks':
         return 'لم يتم التقاط أي ترجمة بعد';
-      case 'web_video_platform_unsupported':
-        return 'مشغّل الويب المدمج متاح حاليًا على Windows فقط.';
       case 'web_video_track_live':
         return 'ترجمة مباشرة (مأخوذة من الصفحة)';
       case 'web_video_track_menu':
@@ -207724,6 +207723,8 @@ extension on _StringsAr {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -216883,8 +216884,6 @@ extension on _StringsDe {
             'In den integrierten Modus wechseln, um ${count} wartende Karten zu erstellen';
       case 'web_video_no_tracks':
         return 'Noch keine Untertitel erfasst';
-      case 'web_video_platform_unsupported':
-        return 'Der integrierte Web-Player ist derzeit nur unter Windows verfügbar.';
       case 'web_video_track_live':
         return 'Live-Untertitel (von der Seite erfasst)';
       case 'web_video_track_menu':
@@ -217690,6 +217689,8 @@ extension on _StringsDe {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -226840,8 +226841,6 @@ extension on _StringsEs {
             'Cambiar al modo integrado para crear ${count} tarjetas en cola';
       case 'web_video_no_tracks':
         return 'Aún no se han capturado subtítulos';
-      case 'web_video_platform_unsupported':
-        return 'El reproductor web integrado solo está disponible en Windows por ahora.';
       case 'web_video_track_live':
         return 'Subtítulos en vivo (capturados de la página)';
       case 'web_video_track_menu':
@@ -227647,6 +227646,8 @@ extension on _StringsEs {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -236806,8 +236807,6 @@ extension on _StringsFr {
             'Passer en mode intégré pour créer ${count} cartes en attente';
       case 'web_video_no_tracks':
         return 'Aucun sous-titre capturé pour l’instant';
-      case 'web_video_platform_unsupported':
-        return 'Le lecteur web intégré n’est disponible que sous Windows pour le moment.';
       case 'web_video_track_live':
         return 'Sous-titres en direct (capturés sur la page)';
       case 'web_video_track_menu':
@@ -237613,6 +237612,8 @@ extension on _StringsFr {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -246743,8 +246744,6 @@ extension on _StringsId {
             'Beralih ke mode bawaan untuk membuat ${count} kartu yang antre';
       case 'web_video_no_tracks':
         return 'Belum ada subtitel yang ditangkap';
-      case 'web_video_platform_unsupported':
-        return 'Pemutar web bawaan saat ini hanya tersedia di Windows.';
       case 'web_video_track_live':
         return 'Teks langsung (diambil dari halaman)';
       case 'web_video_track_menu':
@@ -247550,6 +247549,8 @@ extension on _StringsId {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -256702,8 +256703,6 @@ extension on _StringsIt {
             'Passa alla modalità integrata per creare ${count} carte in coda';
       case 'web_video_no_tracks':
         return 'Nessun sottotitolo acquisito ancora';
-      case 'web_video_platform_unsupported':
-        return 'Il lettore web integrato è disponibile per ora solo su Windows.';
       case 'web_video_track_live':
         return 'Sottotitoli live (campionati dalla pagina)';
       case 'web_video_track_menu':
@@ -257509,6 +257508,8 @@ extension on _StringsIt {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -266589,8 +266590,6 @@ extension on _StringsJa {
         return ({required Object count}) => '内蔵モードに切り替えて ${count} 件のカードを作成';
       case 'web_video_no_tracks':
         return '字幕はまだ取得されていません';
-      case 'web_video_platform_unsupported':
-        return '内蔵 Web プレーヤーは現在 Windows でのみ利用できます。';
       case 'web_video_track_live':
         return 'ライブ字幕（ページから取得）';
       case 'web_video_track_menu':
@@ -267395,6 +267394,8 @@ extension on _StringsJa {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -276480,8 +276481,6 @@ extension on _StringsKo {
             '내장 모드로 전환하여 대기 중인 카드 ${count}개 만들기';
       case 'web_video_no_tracks':
         return '아직 수집된 자막이 없습니다';
-      case 'web_video_platform_unsupported':
-        return '내장 웹 플레이어는 현재 Windows에서만 사용할 수 있습니다.';
       case 'web_video_track_live':
         return '실시간 자막(페이지에서 수집)';
       case 'web_video_track_menu':
@@ -277285,6 +277284,8 @@ extension on _StringsKo {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -286430,8 +286431,6 @@ extension on _StringsNl {
             'Schakel naar ingebouwde modus om ${count} wachtende kaarten aan te maken';
       case 'web_video_no_tracks':
         return 'Nog geen ondertitels vastgelegd';
-      case 'web_video_platform_unsupported':
-        return 'De ingebouwde webspeler is voorlopig alleen beschikbaar op Windows.';
       case 'web_video_track_live':
         return 'Live-ondertitels (van de pagina)';
       case 'web_video_track_menu':
@@ -287237,6 +287236,8 @@ extension on _StringsNl {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -296377,8 +296378,6 @@ extension on _StringsPtBr {
             'Mudar para o modo integrado para criar ${count} cartões na fila';
       case 'web_video_no_tracks':
         return 'Nenhuma legenda capturada ainda';
-      case 'web_video_platform_unsupported':
-        return 'O player web integrado só está disponível no Windows por enquanto.';
       case 'web_video_track_live':
         return 'Legendas ao vivo (capturadas da página)';
       case 'web_video_track_menu':
@@ -297184,6 +297183,8 @@ extension on _StringsPtBr {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -306331,8 +306332,6 @@ extension on _StringsRu {
             'Переключиться на встроенный режим и создать карточек из очереди: ${count}';
       case 'web_video_no_tracks':
         return 'Субтитры пока не получены';
-      case 'web_video_platform_unsupported':
-        return 'Встроенный веб-плеер пока доступен только в Windows.';
       case 'web_video_track_live':
         return 'Живые субтитры (с страницы)';
       case 'web_video_track_menu':
@@ -307138,6 +307137,8 @@ extension on _StringsRu {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -316257,8 +316258,6 @@ extension on _StringsTh {
             'สลับไปโหมดในตัวเพื่อสร้างการ์ดในคิว ${count} รายการ';
       case 'web_video_no_tracks':
         return 'ยังไม่ได้เก็บคำบรรยาย';
-      case 'web_video_platform_unsupported':
-        return 'ตอนนี้เว็บเพลเยอร์ในตัวใช้ได้เฉพาะบน Windows';
       case 'web_video_track_live':
         return 'คำบรรยายสด (เก็บจากหน้าเว็บ)';
       case 'web_video_track_menu':
@@ -317064,6 +317063,8 @@ extension on _StringsTh {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -326198,8 +326199,6 @@ extension on _StringsTr {
             '${count} bekleyen kartı oluşturmak için yerleşik moda geç';
       case 'web_video_no_tracks':
         return 'Henüz altyazı yakalanmadı';
-      case 'web_video_platform_unsupported':
-        return 'Yerleşik web oynatıcı şimdilik yalnızca Windows’ta kullanılabilir.';
       case 'web_video_track_live':
         return 'Canlı altyazılar (sayfadan alınan)';
       case 'web_video_track_menu':
@@ -327005,6 +327004,8 @@ extension on _StringsTr {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -336133,8 +336134,6 @@ extension on _StringsVi {
             'Chuyển sang chế độ tích hợp để tạo ${count} thẻ đang chờ';
       case 'web_video_no_tracks':
         return 'Chưa bắt được phụ đề nào';
-      case 'web_video_platform_unsupported':
-        return 'Trình phát web tích hợp hiện chỉ có trên Windows.';
       case 'web_video_track_live':
         return 'Phụ đề trực tiếp (lấy từ trang)';
       case 'web_video_track_menu':
@@ -336940,6 +336939,8 @@ extension on _StringsVi {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
@@ -345991,8 +345992,6 @@ extension on _StringsZhCn {
         return ({required Object count}) => '切到内置模式制作 ${count} 张排队卡片';
       case 'web_video_no_tracks':
         return '尚未采集到字幕';
-      case 'web_video_platform_unsupported':
-        return '内置网页播放器目前仅支持 Windows。';
       case 'web_video_track_live':
         return '实时采集（页面字幕）';
       case 'web_video_track_menu':
@@ -346785,6 +346784,8 @@ extension on _StringsZhCn {
         return '把这部作品移出书架？已下载的章节和阅读进度会一并删除。';
       case 'manga_chapter_locked_login_unsupported_hint':
         return '本章需在源站购买或租借；这类作品暂不支持在应用内登录解锁。';
+      case 'web_video_player_unavailable':
+        return '内置网页播放器已暂时停用，此地址暂时无法在应用内播放。';
       default:
         return null;
     }
@@ -355845,8 +355846,6 @@ extension on _StringsZhHk {
         return ({required Object count}) => '切換到內建模式製作 ${count} 張排隊卡片';
       case 'web_video_no_tracks':
         return '尚未擷取到字幕';
-      case 'web_video_platform_unsupported':
-        return '內建網頁播放器目前僅支援 Windows。';
       case 'web_video_track_live':
         return '即時字幕（從頁面取樣）';
       case 'web_video_track_menu':
@@ -356649,6 +356648,8 @@ extension on _StringsZhHk {
         return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
       case 'manga_chapter_locked_login_unsupported_hint':
         return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+      case 'web_video_player_unavailable':
+        return 'The built-in web page player is temporarily disabled; this address cannot be played inside the app for now.';
       default:
         return null;
     }
