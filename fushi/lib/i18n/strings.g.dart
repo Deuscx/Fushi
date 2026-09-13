@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 81753 (4809 per locale)
+/// Strings: 81787 (4811 per locale)
 ///
-/// Built on 2026-09-13 at 06:42 UTC
+/// Built on 2026-09-13 at 13:24 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6704,6 +6704,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get card_source_review_video_continue => 'Continue watching here';
   String get handlebar_source_link => 'Source link';
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  String get reader_volume_open => 'Open this volume';
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -18045,6 +18047,10 @@ class _StringsAr extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -29612,6 +29618,10 @@ class _StringsDe extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -41233,6 +41243,10 @@ class _StringsEs extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -52887,6 +52901,10 @@ class _StringsFr extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -64345,6 +64363,10 @@ class _StringsId extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -75894,6 +75916,10 @@ class _StringsIt extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -86825,6 +86851,10 @@ class _StringsJa extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -97766,6 +97796,10 @@ class _StringsKo extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -109273,6 +109307,10 @@ class _StringsNl extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -120833,6 +120871,10 @@ class _StringsPtBr extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -132370,6 +132412,10 @@ class _StringsRu extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -143708,6 +143754,10 @@ class _StringsTh extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -155161,6 +155211,10 @@ class _StringsTr extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -166584,6 +166638,10 @@ class _StringsVi extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 // Path: <root>
@@ -177061,6 +177119,10 @@ class _StringsZhCn extends _StringsEn {
   String get handlebar_source_link => '来源链接';
   @override
   String get remote_book_audiobook_download => '从互联对端下载有声书';
+  @override
+  String get reader_volume_open => '打开本卷';
+  @override
+  String get reader_volume_peek_failed => '读取本卷失败';
 }
 
 // Path: <root>
@@ -187676,6 +187738,10 @@ class _StringsZhHk extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String get reader_volume_open => 'Open this volume';
+  @override
+  String get reader_volume_peek_failed => 'Could not read this volume';
 }
 
 /// Flat map(s) containing all translations.
@@ -197593,6 +197659,10 @@ extension on _StringsEn {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -207505,6 +207575,10 @@ extension on _StringsAr {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -217462,6 +217536,10 @@ extension on _StringsDe {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -227410,6 +227488,10 @@ extension on _StringsEs {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -237367,6 +237449,10 @@ extension on _StringsFr {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -247295,6 +247381,10 @@ extension on _StringsId {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -257245,6 +257335,10 @@ extension on _StringsIt {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -267122,6 +267216,10 @@ extension on _StringsJa {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -277003,6 +277101,10 @@ extension on _StringsKo {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -286946,6 +287048,10 @@ extension on _StringsNl {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -296884,6 +296990,10 @@ extension on _StringsPtBr {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -306829,6 +306939,10 @@ extension on _StringsRu {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -316746,6 +316860,10 @@ extension on _StringsTh {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -326678,6 +326796,10 @@ extension on _StringsTr {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -336604,6 +336726,10 @@ extension on _StringsVi {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
@@ -346441,6 +346567,10 @@ extension on _StringsZhCn {
         return '来源链接';
       case 'remote_book_audiobook_download':
         return '从互联对端下载有声书';
+      case 'reader_volume_open':
+        return '打开本卷';
+      case 'reader_volume_peek_failed':
+        return '读取本卷失败';
       default:
         return null;
     }
@@ -356296,6 +356426,10 @@ extension on _StringsZhHk {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'reader_volume_open':
+        return 'Open this volume';
+      case 'reader_volume_peek_failed':
+        return 'Could not read this volume';
       default:
         return null;
     }
