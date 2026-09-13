@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 81753 (4809 per locale)
+/// Strings: 81821 (4813 per locale)
 ///
-/// Built on 2026-09-13 at 13:10 UTC
+/// Built on 2026-09-13 at 13:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3395,7 +3395,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get mihon_filter_exclude => 'Exclude';
   String get mihon_filter_ignore => 'Ignore';
   String get mihon_filter_include => 'Include';
-  String get mihon_in_bookshelf => 'In manga shelf';
   String get mihon_runtime_unavailable =>
       'Mihon extensions are unavailable on this platform.';
   String get mihon_signer_fingerprint => 'Signer SHA-256';
@@ -6707,6 +6706,15 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get card_source_review_video_continue => 'Continue watching here';
   String get handlebar_source_link => 'Source link';
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -12286,8 +12294,6 @@ class _StringsAr extends _StringsEn {
   String get mihon_filter_ignore => 'تجاهل';
   @override
   String get mihon_filter_include => 'تضمين';
-  @override
-  String get mihon_in_bookshelf => 'في رف المانغا';
   @override
   String get mihon_runtime_unavailable =>
       'إضافات Mihon غير متوفرة على هذه المنصة.';
@@ -18048,6 +18054,20 @@ class _StringsAr extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -23746,8 +23766,6 @@ class _StringsDe extends _StringsEn {
   String get mihon_filter_ignore => 'Ignorieren';
   @override
   String get mihon_filter_include => 'Einschließen';
-  @override
-  String get mihon_in_bookshelf => 'Im Manga-Regal';
   @override
   String get mihon_runtime_unavailable =>
       'Mihon-Erweiterungen sind auf dieser Plattform nicht verfügbar.';
@@ -29615,6 +29633,20 @@ class _StringsDe extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -35335,8 +35367,6 @@ class _StringsEs extends _StringsEn {
   String get mihon_filter_ignore => 'Ignorar';
   @override
   String get mihon_filter_include => 'Incluir';
-  @override
-  String get mihon_in_bookshelf => 'En el estante de manga';
   @override
   String get mihon_runtime_unavailable =>
       'Las extensiones de Mihon no están disponibles en esta plataforma.';
@@ -41236,6 +41266,20 @@ class _StringsEs extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -46969,8 +47013,6 @@ class _StringsFr extends _StringsEn {
   String get mihon_filter_ignore => 'Ignorer';
   @override
   String get mihon_filter_include => 'Inclure';
-  @override
-  String get mihon_in_bookshelf => 'Dans la mangathèque';
   @override
   String get mihon_runtime_unavailable =>
       'Les extensions Mihon ne sont pas disponibles sur cette plateforme.';
@@ -52890,6 +52932,20 @@ class _StringsFr extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -58530,8 +58586,6 @@ class _StringsId extends _StringsEn {
   String get mihon_filter_ignore => 'Abaikan';
   @override
   String get mihon_filter_include => 'Sertakan';
-  @override
-  String get mihon_in_bookshelf => 'Di rak manga';
   @override
   String get mihon_runtime_unavailable =>
       'Ekstensi Mihon tidak tersedia di platform ini.';
@@ -64348,6 +64402,20 @@ class _StringsId extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -70030,8 +70098,6 @@ class _StringsIt extends _StringsEn {
   String get mihon_filter_ignore => 'Ignora';
   @override
   String get mihon_filter_include => 'Includi';
-  @override
-  String get mihon_in_bookshelf => 'Nello scaffale manga';
   @override
   String get mihon_runtime_unavailable =>
       'Le estensioni Mihon non sono disponibili su questa piattaforma.';
@@ -75897,6 +75963,20 @@ class _StringsIt extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -81270,8 +81350,6 @@ class _StringsJa extends _StringsEn {
   String get mihon_filter_ignore => '無視';
   @override
   String get mihon_filter_include => '含める';
-  @override
-  String get mihon_in_bookshelf => 'マンガ本棚に追加済み';
   @override
   String get mihon_runtime_unavailable => 'このプラットフォームではMihon拡張機能は利用できません。';
   @override
@@ -86828,6 +86906,20 @@ class _StringsJa extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -92205,8 +92297,6 @@ class _StringsKo extends _StringsEn {
   String get mihon_filter_ignore => '무시';
   @override
   String get mihon_filter_include => '포함';
-  @override
-  String get mihon_in_bookshelf => '만화 서재에 있음';
   @override
   String get mihon_runtime_unavailable => '이 플랫폼에서는 Mihon 확장 프로그램을 사용할 수 없습니다.';
   @override
@@ -97769,6 +97859,20 @@ class _StringsKo extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -103428,8 +103532,6 @@ class _StringsNl extends _StringsEn {
   String get mihon_filter_ignore => 'Negeren';
   @override
   String get mihon_filter_include => 'Opnemen';
-  @override
-  String get mihon_in_bookshelf => 'Op mangaplank';
   @override
   String get mihon_runtime_unavailable =>
       'Mihon-extensies zijn niet beschikbaar op dit platform.';
@@ -109276,6 +109378,20 @@ class _StringsNl extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -114966,8 +115082,6 @@ class _StringsPtBr extends _StringsEn {
   String get mihon_filter_ignore => 'Ignorar';
   @override
   String get mihon_filter_include => 'Incluir';
-  @override
-  String get mihon_in_bookshelf => 'Na estante de mangá';
   @override
   String get mihon_runtime_unavailable =>
       'Extensões Mihon não estão disponíveis nesta plataforma.';
@@ -120836,6 +120950,20 @@ class _StringsPtBr extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -126499,8 +126627,6 @@ class _StringsRu extends _StringsEn {
   String get mihon_filter_ignore => 'Игнорировать';
   @override
   String get mihon_filter_include => 'Включить';
-  @override
-  String get mihon_in_bookshelf => 'На полке манги';
   @override
   String get mihon_runtime_unavailable =>
       'Расширения Mihon недоступны на этой платформе.';
@@ -132373,6 +132499,20 @@ class _StringsRu extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -137944,8 +138084,6 @@ class _StringsTh extends _StringsEn {
   String get mihon_filter_ignore => 'ไม่สนใจ';
   @override
   String get mihon_filter_include => 'รวม';
-  @override
-  String get mihon_in_bookshelf => 'อยู่ในชั้นมังงะ';
   @override
   String get mihon_runtime_unavailable =>
       'ส่วนขยาย Mihon ไม่พร้อมใช้งานบนแพลตฟอร์มนี้';
@@ -143711,6 +143849,20 @@ class _StringsTh extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -149350,8 +149502,6 @@ class _StringsTr extends _StringsEn {
   String get mihon_filter_ignore => 'Yoksay';
   @override
   String get mihon_filter_include => 'Dahil et';
-  @override
-  String get mihon_in_bookshelf => 'Manga rafında';
   @override
   String get mihon_runtime_unavailable =>
       'Mihon eklentileri bu platformda kullanılamaz.';
@@ -155164,6 +155314,20 @@ class _StringsTr extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -160794,8 +160958,6 @@ class _StringsVi extends _StringsEn {
   String get mihon_filter_ignore => 'Bỏ qua';
   @override
   String get mihon_filter_include => 'Bao gồm';
-  @override
-  String get mihon_in_bookshelf => 'Trong kệ truyện tranh';
   @override
   String get mihon_runtime_unavailable =>
       'Tiện ích Mihon không khả dụng trên nền tảng này.';
@@ -166587,6 +166749,20 @@ class _StringsVi extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 // Path: <root>
@@ -171754,8 +171930,6 @@ class _StringsZhCn extends _StringsEn {
   String get mihon_filter_ignore => '忽略';
   @override
   String get mihon_filter_include => '包含';
-  @override
-  String get mihon_in_bookshelf => '已加入漫画书架';
   @override
   String get mihon_runtime_unavailable => '此平台暂不支持 Mihon 扩展。';
   @override
@@ -177067,6 +177241,19 @@ class _StringsZhCn extends _StringsEn {
   String get handlebar_source_link => '来源链接';
   @override
   String get remote_book_audiobook_download => '从互联对端下载有声书';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      '该源只收录 ${language} 语言的章节';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      '试试 ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => '移出漫画书架';
+  @override
+  String get manga_series_remove_confirm => '把这部作品移出书架？已下载的章节和阅读进度会一并删除。';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      '本章需在源站购买或租借；这类作品暂不支持在应用内登录解锁。';
 }
 
 // Path: <root>
@@ -182270,8 +182457,6 @@ class _StringsZhHk extends _StringsEn {
   String get mihon_filter_ignore => '忽略';
   @override
   String get mihon_filter_include => '包含';
-  @override
-  String get mihon_in_bookshelf => '已加入漫畫書架';
   @override
   String get mihon_runtime_unavailable => '此平台暫不支持 Mihon 擴展。';
   @override
@@ -187683,6 +187868,20 @@ class _StringsZhHk extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
 }
 
 /// Flat map(s) containing all translations.
@@ -192562,8 +192761,6 @@ extension on _StringsEn {
         return 'Ignore';
       case 'mihon_filter_include':
         return 'Include';
-      case 'mihon_in_bookshelf':
-        return 'In manga shelf';
       case 'mihon_runtime_unavailable':
         return 'Mihon extensions are unavailable on this platform.';
       case 'mihon_signer_fingerprint':
@@ -197600,6 +197797,17 @@ extension on _StringsEn {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -202476,8 +202684,6 @@ extension on _StringsAr {
         return 'تجاهل';
       case 'mihon_filter_include':
         return 'تضمين';
-      case 'mihon_in_bookshelf':
-        return 'في رف المانغا';
       case 'mihon_runtime_unavailable':
         return 'إضافات Mihon غير متوفرة على هذه المنصة.';
       case 'mihon_signer_fingerprint':
@@ -207512,6 +207718,17 @@ extension on _StringsAr {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -212415,8 +212632,6 @@ extension on _StringsDe {
         return 'Ignorieren';
       case 'mihon_filter_include':
         return 'Einschließen';
-      case 'mihon_in_bookshelf':
-        return 'Im Manga-Regal';
       case 'mihon_runtime_unavailable':
         return 'Mihon-Erweiterungen sind auf dieser Plattform nicht verfügbar.';
       case 'mihon_signer_fingerprint':
@@ -217469,6 +217684,17 @@ extension on _StringsDe {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -222365,8 +222591,6 @@ extension on _StringsEs {
         return 'Ignorar';
       case 'mihon_filter_include':
         return 'Incluir';
-      case 'mihon_in_bookshelf':
-        return 'En el estante de manga';
       case 'mihon_runtime_unavailable':
         return 'Las extensiones de Mihon no están disponibles en esta plataforma.';
       case 'mihon_signer_fingerprint':
@@ -227417,6 +227641,17 @@ extension on _StringsEs {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -232319,8 +232554,6 @@ extension on _StringsFr {
         return 'Ignorer';
       case 'mihon_filter_include':
         return 'Inclure';
-      case 'mihon_in_bookshelf':
-        return 'Dans la mangathèque';
       case 'mihon_runtime_unavailable':
         return 'Les extensions Mihon ne sont pas disponibles sur cette plateforme.';
       case 'mihon_signer_fingerprint':
@@ -237374,6 +237607,17 @@ extension on _StringsFr {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -242261,8 +242505,6 @@ extension on _StringsId {
         return 'Abaikan';
       case 'mihon_filter_include':
         return 'Sertakan';
-      case 'mihon_in_bookshelf':
-        return 'Di rak manga';
       case 'mihon_runtime_unavailable':
         return 'Ekstensi Mihon tidak tersedia di platform ini.';
       case 'mihon_signer_fingerprint':
@@ -247302,6 +247544,17 @@ extension on _StringsId {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -252197,8 +252450,6 @@ extension on _StringsIt {
         return 'Ignora';
       case 'mihon_filter_include':
         return 'Includi';
-      case 'mihon_in_bookshelf':
-        return 'Nello scaffale manga';
       case 'mihon_runtime_unavailable':
         return 'Le estensioni Mihon non sono disponibili su questa piattaforma.';
       case 'mihon_signer_fingerprint':
@@ -257252,6 +257503,17 @@ extension on _StringsIt {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -262113,8 +262375,6 @@ extension on _StringsJa {
         return '無視';
       case 'mihon_filter_include':
         return '含める';
-      case 'mihon_in_bookshelf':
-        return 'マンガ本棚に追加済み';
       case 'mihon_runtime_unavailable':
         return 'このプラットフォームではMihon拡張機能は利用できません。';
       case 'mihon_signer_fingerprint':
@@ -267129,6 +267389,17 @@ extension on _StringsJa {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -271991,8 +272262,6 @@ extension on _StringsKo {
         return '무시';
       case 'mihon_filter_include':
         return '포함';
-      case 'mihon_in_bookshelf':
-        return '만화 서재에 있음';
       case 'mihon_runtime_unavailable':
         return '이 플랫폼에서는 Mihon 확장 프로그램을 사용할 수 없습니다.';
       case 'mihon_signer_fingerprint':
@@ -277010,6 +277279,17 @@ extension on _StringsKo {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -281904,8 +282184,6 @@ extension on _StringsNl {
         return 'Negeren';
       case 'mihon_filter_include':
         return 'Opnemen';
-      case 'mihon_in_bookshelf':
-        return 'Op mangaplank';
       case 'mihon_runtime_unavailable':
         return 'Mihon-extensies zijn niet beschikbaar op dit platform.';
       case 'mihon_signer_fingerprint':
@@ -286953,6 +287231,17 @@ extension on _StringsNl {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -291846,8 +292135,6 @@ extension on _StringsPtBr {
         return 'Ignorar';
       case 'mihon_filter_include':
         return 'Incluir';
-      case 'mihon_in_bookshelf':
-        return 'Na estante de mangá';
       case 'mihon_runtime_unavailable':
         return 'Extensões Mihon não estão disponíveis nesta plataforma.';
       case 'mihon_signer_fingerprint':
@@ -296891,6 +297178,17 @@ extension on _StringsPtBr {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -301791,8 +302089,6 @@ extension on _StringsRu {
         return 'Игнорировать';
       case 'mihon_filter_include':
         return 'Включить';
-      case 'mihon_in_bookshelf':
-        return 'На полке манги';
       case 'mihon_runtime_unavailable':
         return 'Расширения Mihon недоступны на этой платформе.';
       case 'mihon_signer_fingerprint':
@@ -306836,6 +307132,17 @@ extension on _StringsRu {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -311716,8 +312023,6 @@ extension on _StringsTh {
         return 'ไม่สนใจ';
       case 'mihon_filter_include':
         return 'รวม';
-      case 'mihon_in_bookshelf':
-        return 'อยู่ในชั้นมังงะ';
       case 'mihon_runtime_unavailable':
         return 'ส่วนขยาย Mihon ไม่พร้อมใช้งานบนแพลตฟอร์มนี้';
       case 'mihon_signer_fingerprint':
@@ -316753,6 +317058,17 @@ extension on _StringsTh {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -321643,8 +321959,6 @@ extension on _StringsTr {
         return 'Yoksay';
       case 'mihon_filter_include':
         return 'Dahil et';
-      case 'mihon_in_bookshelf':
-        return 'Manga rafında';
       case 'mihon_runtime_unavailable':
         return 'Mihon eklentileri bu platformda kullanılamaz.';
       case 'mihon_signer_fingerprint':
@@ -326685,6 +326999,17 @@ extension on _StringsTr {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -331570,8 +331895,6 @@ extension on _StringsVi {
         return 'Bỏ qua';
       case 'mihon_filter_include':
         return 'Bao gồm';
-      case 'mihon_in_bookshelf':
-        return 'Trong kệ truyện tranh';
       case 'mihon_runtime_unavailable':
         return 'Tiện ích Mihon không khả dụng trên nền tảng này.';
       case 'mihon_signer_fingerprint':
@@ -336611,6 +336934,17 @@ extension on _StringsVi {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
@@ -341455,8 +341789,6 @@ extension on _StringsZhCn {
         return '忽略';
       case 'mihon_filter_include':
         return '包含';
-      case 'mihon_in_bookshelf':
-        return '已加入漫画书架';
       case 'mihon_runtime_unavailable':
         return '此平台暂不支持 Mihon 扩展。';
       case 'mihon_signer_fingerprint':
@@ -346448,6 +346780,16 @@ extension on _StringsZhCn {
         return '来源链接';
       case 'remote_book_audiobook_download':
         return '从互联对端下载有声书';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) => '该源只收录 ${language} 语言的章节';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => '试试 ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return '移出漫画书架';
+      case 'manga_series_remove_confirm':
+        return '把这部作品移出书架？已下载的章节和阅读进度会一并删除。';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return '本章需在源站购买或租借；这类作品暂不支持在应用内登录解锁。';
       default:
         return null;
     }
@@ -351298,8 +351640,6 @@ extension on _StringsZhHk {
         return '忽略';
       case 'mihon_filter_include':
         return '包含';
-      case 'mihon_in_bookshelf':
-        return '已加入漫畫書架';
       case 'mihon_runtime_unavailable':
         return '此平台暫不支持 Mihon 擴展。';
       case 'mihon_signer_fingerprint':
@@ -356303,6 +356643,17 @@ extension on _StringsZhHk {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       default:
         return null;
     }
