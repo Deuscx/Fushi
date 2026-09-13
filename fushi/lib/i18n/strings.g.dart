@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 81787 (4811 per locale)
+/// Strings: 81855 (4815 per locale)
 ///
-/// Built on 2026-09-13 at 13:24 UTC
+/// Built on 2026-09-13 at 13:28 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -470,7 +470,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get anki_error_http =>
       'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
   String get anki_error_paired_device_unreachable =>
-      'Couldn\'t create the card because no paired device could be reached. Make sure Fushi is running on the paired device, or turn off Mine to paired device in Anki settings to create cards locally.';
+      'Couldn\'t create the card because the Fushi Interconnect server could not be reached. Make sure Fushi is running there, or turn off Mine to Fushi Interconnect server in Anki settings to create cards locally.';
   String get anki_error_permission_denied =>
       'AnkiDroid hasn\'t granted card access permission. Approve the system permission dialog that just appeared, then tap the button again to export.';
   String get anki_error_permission_permanently_denied =>
@@ -605,9 +605,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get anki_lapis_visual_target_card_content => 'Card content';
   String get anki_lapis_visual_target_definition => 'Definition';
   String get anki_lapis_visual_target_inside_definition => 'Inside definition';
-  String get anki_mine_to_server => 'Mine to paired device';
+  String get anki_mine_to_server => 'Mine to Fushi Interconnect server';
   String get anki_mine_to_server_hint =>
-      'Send mined cards to the paired host\'s Anki (its decks and settings) instead of this device. Requires an interconnect pairing.';
+      'Send mined cards to the Fushi Interconnect server\'s Anki (its decks and settings) instead of this device. Requires an interconnect pairing.';
   String get anki_mined_action_add_duplicate => 'Add as a new card';
   String get anki_mined_action_overwrite => 'Overwrite this card';
   String get anki_mined_action_view => 'View / open in Anki';
@@ -2764,12 +2764,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get interconnect_backup_backend =>
       'Use interconnect as the backup backend';
   String get interconnect_backup_backend_active =>
-      'Backups already go to the paired device. Pick another backend in Sync & backup to switch away.';
+      'Backups already go to the Fushi Interconnect server. Pick another backend in Sync & backup to switch away.';
   String get interconnect_backup_backend_apply => 'Set as backup backend';
   String interconnect_backup_backend_current({required Object backend}) =>
       'Current backup backend: ${backend}';
   String get interconnect_backup_backend_hint =>
-      'Back up and sync to the paired device instead of a cloud drive. Everything the paired-device upload switches above allow is what gets written there.';
+      'Back up and sync to the Fushi Interconnect server instead of a cloud drive. Everything the upload switches above allow is what gets written there.';
   String get interconnect_backup_backend_needs_pairing =>
       'Connect to a device above first.';
   String get interconnect_devices_hint =>
@@ -2818,7 +2818,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get interconnect_related_entry_hint =>
       'Configured in the Lookup and Sync categories';
   String get interconnect_section_client => 'Connect to other devices';
-  String get interconnect_section_delegate => 'Delegate to the paired device';
+  String get interconnect_section_delegate =>
+      'Delegate to the Fushi Interconnect server';
   String get interconnect_section_related => 'Remote content & lookup';
   String get interconnect_share_favorites => 'Share favorites';
   String get interconnect_share_favorites_hint =>
@@ -3041,7 +3042,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_ocr_engine_none =>
       'No OCR engine available. Download built-in models or set the mokuro CLI path in settings.';
   String get manga_ocr_engine_paired_host_desc =>
-      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   String get manga_ocr_engine_system => 'Device OCR';
   String get manga_ocr_engine_system_desc =>
       'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
@@ -3142,15 +3143,16 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_reading_mode_webtoon => 'Webtoon';
   String get manga_remote_ocr_cancelled =>
       'Remote OCR was cancelled on the host.';
-  String get manga_remote_ocr_engine => 'Paired host';
+  String get manga_remote_ocr_engine => 'Fushi Interconnect server';
   String get manga_remote_ocr_failed => 'Remote OCR failed';
   String get manga_remote_ocr_no_host =>
-      'No paired host with manga OCR is reachable.';
+      'No Fushi Interconnect server with manga OCR is reachable.';
   String get manga_remote_ocr_not_ready =>
-      'The paired host\'s OCR models are not downloaded. Download them on the host first.';
-  String get manga_remote_ocr_running => 'Paired host is running OCR…';
+      'The Fushi Interconnect server\'s OCR models are not downloaded. Download them on the server first.';
+  String get manga_remote_ocr_running =>
+      'Fushi Interconnect server is running OCR…';
   String get manga_remote_ocr_unsupported =>
-      'The paired host does not support manga OCR.';
+      'The Fushi Interconnect server does not support manga OCR.';
   String manga_remote_ocr_uploading(
           {required Object done, required Object total}) =>
       'Uploading pages ${done} / ${total}…';
@@ -3393,7 +3395,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get mihon_filter_exclude => 'Exclude';
   String get mihon_filter_ignore => 'Ignore';
   String get mihon_filter_include => 'Include';
-  String get mihon_in_bookshelf => 'In manga shelf';
   String get mihon_runtime_unavailable =>
       'Mihon extensions are unavailable on this platform.';
   String get mihon_signer_fingerprint => 'Signer SHA-256';
@@ -3999,8 +4000,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get remote_book_info => 'Info';
   String get remote_book_info_has_audiobook => 'Includes audiobook';
   String get remote_book_list_failed =>
-      'Couldn\'t fetch the remote library from the paired device.';
-  String get remote_book_unavailable => 'Paired device unavailable';
+      'Couldn\'t fetch the remote library from the Fushi Interconnect server.';
+  String get remote_book_unavailable => 'Fushi Interconnect server unavailable';
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
   String get remote_delete_failed => 'Could not delete it on the paired device';
@@ -4019,7 +4020,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String remote_video_info_size({required Object size}) => 'Size: ${size}';
   String get remote_video_list_failed =>
       'Couldn\'t load remote videos. Make sure the other device is online and on the same network, then try again.';
-  String get remote_video_unavailable => 'Paired device unavailable';
+  String get remote_video_unavailable =>
+      'Fushi Interconnect server unavailable';
   String get rename_collection => 'Rename collection';
   String get render_restart_required => 'Takes effect after restarting the app';
   String get repeat_cue => 'Repeat sentence';
@@ -4655,7 +4657,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_err_not_configured =>
       'Google sync credentials are not configured in this build.';
   String get sync_err_peer_unreachable =>
-      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      'Can\'t reach the Fushi Interconnect server - it may be offline or not running Fushi.';
   String get sync_err_quota => 'Cloud storage is full (quota reached).';
   String get sync_err_scope_upgrade =>
       'Sync permissions changed — please sign in to Google again to continue syncing.';
@@ -4670,7 +4672,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_interconnect_service_config_toggle =>
       'Sync service configuration from host';
   String get sync_interconnect_service_config_toggle_desc =>
-      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the Fushi Interconnect server over the encrypted Interconnect channel. Requires TLS.';
   String get sync_lan_discovery => 'LAN devices';
   String get sync_lan_no_devices => 'No devices found';
   String get sync_lan_scan_failed =>
@@ -4809,7 +4811,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_server_token => 'Access token';
   String get sync_show_remote_entries => 'Show remote entries';
   String get sync_show_remote_entries_warning =>
-      'Show books and videos that exist on paired devices or the cloud as placeholder cards you can download or stream.';
+      'Show books and videos that exist on the Fushi Interconnect server or the cloud as placeholder cards you can download or stream.';
   String get sync_sign_in => 'Sign in';
   String get sync_sign_out => 'Sign out';
   String get sync_signed_in => 'Signed in';
@@ -6057,7 +6059,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_subtitle_prev_cue_align => 'Align previous line to now';
   String video_subtitle_read_failed({required Object label}) =>
       'Couldn\'t read this subtitle file (damaged or empty): ${label}';
-  String get video_subtitle_remote_host => 'Paired device subtitle';
+  String get video_subtitle_remote_host => 'Fushi Interconnect server subtitle';
   String get video_subtitle_replay => 'Replay this line';
   String get video_subtitle_scope_collection => 'Whole collection';
   String get video_subtitle_scope_episode => 'This episode';
@@ -6377,7 +6379,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String audiobook_transcribe_model_custom_added({required Object name}) =>
       'Added ${name}';
   String get manga_source_interconnect_subtitle =>
-      'Browse the manga library on your paired device';
+      'Browse the manga library on the Fushi Interconnect server';
   String get manga_source_interconnect_disabled =>
       'Turn on Fushi Interconnect in settings to use this source';
   String get import_step_importing_book => 'Importing book…';
@@ -6671,7 +6673,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get card_source_review_changes => 'Choose fields to update';
   String get card_source_review_save => 'Save selected changes';
   String get card_source_review_missing =>
-      'The original note could not be found. Sync Anki or connect its paired device.';
+      'The original note could not be found. Sync Anki or connect the Fushi Interconnect server it lives on.';
   String get card_source_review_failed =>
       'Changes were not saved. The note may have changed or the device is unavailable.';
   String get card_source_review_saved => 'Original note updated';
@@ -6704,6 +6706,15 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get card_source_review_video_continue => 'Continue watching here';
   String get handlebar_source_link => 'Source link';
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
   String get reader_volume_open => 'Open this volume';
   String get reader_volume_peek_failed => 'Could not read this volume';
 }
@@ -11681,7 +11692,7 @@ class _StringsAr extends _StringsEn {
       'لا يوجد محرك OCR متاح. حمّل النماذج المدمجة أو عيّن مسار Mokuro CLI في الإعدادات.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'يُسند العمل إلى جهاز مقترن على شبكتك. لا يتم تحميل شيء هنا.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR الجهاز';
   @override
@@ -12285,8 +12296,6 @@ class _StringsAr extends _StringsEn {
   String get mihon_filter_ignore => 'تجاهل';
   @override
   String get mihon_filter_include => 'تضمين';
-  @override
-  String get mihon_in_bookshelf => 'في رف المانغا';
   @override
   String get mihon_runtime_unavailable =>
       'إضافات Mihon غير متوفرة على هذه المنصة.';
@@ -18048,6 +18057,20 @@ class _StringsAr extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -23127,7 +23150,7 @@ class _StringsDe extends _StringsEn {
       'Keine OCR-Engine verfügbar. Laden Sie die integrierten Modelle herunter oder legen Sie den Mokuro-CLI-Pfad in den Einstellungen fest.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Übergibt die Arbeit an ein gekoppeltes Gerät in Ihrem Netzwerk. Hier wird nichts heruntergeladen.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'Geräte-OCR';
   @override
@@ -23749,8 +23772,6 @@ class _StringsDe extends _StringsEn {
   String get mihon_filter_ignore => 'Ignorieren';
   @override
   String get mihon_filter_include => 'Einschließen';
-  @override
-  String get mihon_in_bookshelf => 'Im Manga-Regal';
   @override
   String get mihon_runtime_unavailable =>
       'Mihon-Erweiterungen sind auf dieser Plattform nicht verfügbar.';
@@ -29619,6 +29640,20 @@ class _StringsDe extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -34722,7 +34757,7 @@ class _StringsEs extends _StringsEn {
       'No hay motor de OCR disponible. Descargue los modelos integrados o establezca la ruta del CLI de mokuro en los ajustes.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Delega el trabajo a un dispositivo emparejado en su red. Nada se descarga aquí.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR del dispositivo';
   @override
@@ -35342,8 +35377,6 @@ class _StringsEs extends _StringsEn {
   String get mihon_filter_ignore => 'Ignorar';
   @override
   String get mihon_filter_include => 'Incluir';
-  @override
-  String get mihon_in_bookshelf => 'En el estante de manga';
   @override
   String get mihon_runtime_unavailable =>
       'Las extensiones de Mihon no están disponibles en esta plataforma.';
@@ -41244,6 +41277,20 @@ class _StringsEs extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -46358,7 +46405,7 @@ class _StringsFr extends _StringsEn {
       'Aucun moteur OCR disponible. Téléchargez les modèles intégrés ou définissez le chemin CLI mokuro dans les paramètres.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Confie le travail à un appareil apparié sur votre réseau. Rien n\'est téléchargé ici.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR de l\'appareil';
   @override
@@ -46980,8 +47027,6 @@ class _StringsFr extends _StringsEn {
   String get mihon_filter_ignore => 'Ignorer';
   @override
   String get mihon_filter_include => 'Inclure';
-  @override
-  String get mihon_in_bookshelf => 'Dans la mangathèque';
   @override
   String get mihon_runtime_unavailable =>
       'Les extensions Mihon ne sont pas disponibles sur cette plateforme.';
@@ -52902,6 +52947,20 @@ class _StringsFr extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -57931,7 +57990,7 @@ class _StringsId extends _StringsEn {
       'Tidak ada mesin OCR yang tersedia. Unduh model bawaan atau atur jalur CLI mokuro di pengaturan.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Menyerahkan pekerjaan ke perangkat pasangan di jaringan Anda. Tidak ada yang diunduh di sini.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR perangkat';
   @override
@@ -58545,8 +58604,6 @@ class _StringsId extends _StringsEn {
   String get mihon_filter_ignore => 'Abaikan';
   @override
   String get mihon_filter_include => 'Sertakan';
-  @override
-  String get mihon_in_bookshelf => 'Di rak manga';
   @override
   String get mihon_runtime_unavailable =>
       'Ekstensi Mihon tidak tersedia di platform ini.';
@@ -64364,6 +64421,20 @@ class _StringsId extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -69429,7 +69500,7 @@ class _StringsIt extends _StringsEn {
       'Nessun motore OCR disponibile. Scarica i modelli integrati o imposta il percorso CLI di mokuro nelle impostazioni.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Affida il lavoro a un dispositivo accoppiato sulla tua rete. Nulla viene scaricato qui.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR del dispositivo';
   @override
@@ -70049,8 +70120,6 @@ class _StringsIt extends _StringsEn {
   String get mihon_filter_ignore => 'Ignora';
   @override
   String get mihon_filter_include => 'Includi';
-  @override
-  String get mihon_in_bookshelf => 'Nello scaffale manga';
   @override
   String get mihon_runtime_unavailable =>
       'Le estensioni Mihon non sono disponibili su questa piattaforma.';
@@ -75917,6 +75986,20 @@ class _StringsIt extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -80716,7 +80799,7 @@ class _StringsJa extends _StringsEn {
       'OCRエンジンがありません。内蔵モデルをダウンロードするか、設定でmokuro CLIのパスを指定してください。';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'ネットワーク上のペアリング済みデバイスに処理を委託します。この端末にはダウンロード不要です。';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => '端末の OCR';
   @override
@@ -81293,8 +81376,6 @@ class _StringsJa extends _StringsEn {
   String get mihon_filter_ignore => '無視';
   @override
   String get mihon_filter_include => '含める';
-  @override
-  String get mihon_in_bookshelf => 'マンガ本棚に追加済み';
   @override
   String get mihon_runtime_unavailable => 'このプラットフォームではMihon拡張機能は利用できません。';
   @override
@@ -86852,6 +86933,20 @@ class _StringsJa extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -91650,7 +91745,7 @@ class _StringsKo extends _StringsEn {
       '사용 가능한 OCR 엔진이 없습니다. 내장 모델을 다운로드하거나 설정에서 Mokuro CLI 경로를 지정하세요.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      '네트워크에 페어링된 기기에 작업을 넘깁니다. 이 기기에는 아무것도 다운로드되지 않습니다.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => '기기 OCR';
   @override
@@ -92232,8 +92327,6 @@ class _StringsKo extends _StringsEn {
   String get mihon_filter_ignore => '무시';
   @override
   String get mihon_filter_include => '포함';
-  @override
-  String get mihon_in_bookshelf => '만화 서재에 있음';
   @override
   String get mihon_runtime_unavailable => '이 플랫폼에서는 Mihon 확장 프로그램을 사용할 수 없습니다.';
   @override
@@ -97797,6 +97890,20 @@ class _StringsKo extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -102842,7 +102949,7 @@ class _StringsNl extends _StringsEn {
       'Geen OCR-engine beschikbaar. Download ingebouwde modellen of stel het mokuro CLI-pad in bij instellingen.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Geeft het werk door aan een gekoppeld apparaat op je netwerk. Niets wordt hier gedownload.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR van apparaat';
   @override
@@ -103459,8 +103566,6 @@ class _StringsNl extends _StringsEn {
   String get mihon_filter_ignore => 'Negeren';
   @override
   String get mihon_filter_include => 'Opnemen';
-  @override
-  String get mihon_in_bookshelf => 'Op mangaplank';
   @override
   String get mihon_runtime_unavailable =>
       'Mihon-extensies zijn niet beschikbaar op dit platform.';
@@ -109308,6 +109413,20 @@ class _StringsNl extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -114381,7 +114500,7 @@ class _StringsPtBr extends _StringsEn {
       'Nenhum motor de OCR disponível. Baixe os modelos integrados ou defina o caminho do CLI do mokuro nas configurações.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Passa o trabalho para um dispositivo pareado na sua rede. Nada é baixado aqui.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR do dispositivo';
   @override
@@ -115001,8 +115120,6 @@ class _StringsPtBr extends _StringsEn {
   String get mihon_filter_ignore => 'Ignorar';
   @override
   String get mihon_filter_include => 'Incluir';
-  @override
-  String get mihon_in_bookshelf => 'Na estante de mangá';
   @override
   String get mihon_runtime_unavailable =>
       'Extensões Mihon não estão disponíveis nesta plataforma.';
@@ -120872,6 +120989,20 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -125920,7 +126051,7 @@ class _StringsRu extends _StringsEn {
       'Нет доступного движка OCR. Скачайте встроенные модели или укажите путь к mokuro CLI в настройках.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Передаёт работу сопряжённому устройству в вашей сети. Ничего не загружается на это устройство.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR устройства';
   @override
@@ -126538,8 +126669,6 @@ class _StringsRu extends _StringsEn {
   String get mihon_filter_ignore => 'Игнорировать';
   @override
   String get mihon_filter_include => 'Включить';
-  @override
-  String get mihon_in_bookshelf => 'На полке манги';
   @override
   String get mihon_runtime_unavailable =>
       'Расширения Mihon недоступны на этой платформе.';
@@ -132413,6 +132542,20 @@ class _StringsRu extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -137379,7 +137522,7 @@ class _StringsTh extends _StringsEn {
       'ไม่มีเอนจิน OCR ที่พร้อมใช้งาน ดาวน์โหลดโมเดลในตัวหรือตั้งค่าเส้นทาง Mokuro CLI ในการตั้งค่า';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'ส่งงานไปยังอุปกรณ์ที่จับคู่ในเครือข่ายของคุณ ไม่มีการดาวน์โหลดที่นี่';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR ของอุปกรณ์';
   @override
@@ -137987,8 +138130,6 @@ class _StringsTh extends _StringsEn {
   String get mihon_filter_ignore => 'ไม่สนใจ';
   @override
   String get mihon_filter_include => 'รวม';
-  @override
-  String get mihon_in_bookshelf => 'อยู่ในชั้นมังงะ';
   @override
   String get mihon_runtime_unavailable =>
       'ส่วนขยาย Mihon ไม่พร้อมใช้งานบนแพลตฟอร์มนี้';
@@ -143755,6 +143896,20 @@ class _StringsTh extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -148785,7 +148940,7 @@ class _StringsTr extends _StringsEn {
       'OCR motoru mevcut değil. Yerleşik modelleri indirin veya ayarlardan mokuro CLI yolunu belirleyin.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'İşi ağınızdaki eşleştirilmiş bir cihaza devreder. Buraya hiçbir şey indirilmez.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'Cihaz OCR\'ı';
   @override
@@ -149397,8 +149552,6 @@ class _StringsTr extends _StringsEn {
   String get mihon_filter_ignore => 'Yoksay';
   @override
   String get mihon_filter_include => 'Dahil et';
-  @override
-  String get mihon_in_bookshelf => 'Manga rafında';
   @override
   String get mihon_runtime_unavailable =>
       'Mihon eklentileri bu platformda kullanılamaz.';
@@ -155212,6 +155365,20 @@ class _StringsTr extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -160236,7 +160403,7 @@ class _StringsVi extends _StringsEn {
       'Không có công cụ OCR. Tải xuống mô hình tích hợp hoặc đặt đường dẫn CLI mokuro trong cài đặt.';
   @override
   String get manga_ocr_engine_paired_host_desc =>
-      'Chuyển công việc cho thiết bị ghép đôi trên mạng. Không cần tải xuống gì ở đây.';
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => 'OCR của thiết bị';
   @override
@@ -160845,8 +161012,6 @@ class _StringsVi extends _StringsEn {
   String get mihon_filter_ignore => 'Bỏ qua';
   @override
   String get mihon_filter_include => 'Bao gồm';
-  @override
-  String get mihon_in_bookshelf => 'Trong kệ truyện tranh';
   @override
   String get mihon_runtime_unavailable =>
       'Tiện ích Mihon không khả dụng trên nền tảng này.';
@@ -166639,6 +166804,20 @@ class _StringsVi extends _StringsEn {
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
   @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
+  @override
   String get reader_volume_open => 'Open this volume';
   @override
   String get reader_volume_peek_failed => 'Could not read this volume';
@@ -167092,7 +167271,7 @@ class _StringsZhCn extends _StringsEn {
   String get anki_error_http => '无法导出到 Anki：连接 AnkiConnect 时发生 HTTP 错误。';
   @override
   String get anki_error_paired_device_unreachable =>
-      '无法制卡：当前没有可连接的已配对设备。请确认配对设备上的 Fushi 正在运行；如果要在本机制卡，请关闭「制卡到已配对设备」。';
+      '无法制卡：当前连不上 Fushi 互联服务端。请确认服务端上的 Fushi 正在运行；如果要在本机制卡，请关闭「制卡到 Fushi 互联服务端」。';
   @override
   String get anki_error_permission_denied =>
       'AnkiDroid 尚未授予卡片访问权限。请在刚弹出的系统授权对话框中允许，然后再次点击按钮制卡。';
@@ -167316,10 +167495,10 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get anki_lapis_visual_target_inside_definition => '释义内部';
   @override
-  String get anki_mine_to_server => '制卡到已配对设备';
+  String get anki_mine_to_server => '制卡到 Fushi 互联服务端';
   @override
   String get anki_mine_to_server_hint =>
-      '把制卡发送到已配对主机的 Anki（用该设备的牌组与设置），而非本机。需先在互联/同步里完成配对。';
+      '把制卡发送到 Fushi 互联服务端的 Anki（用服务端的牌组与设置），而非本机。需先在互联/同步里完成配对。';
   @override
   String get anki_mined_action_add_duplicate => '新增为重复卡';
   @override
@@ -170824,7 +171003,7 @@ class _StringsZhCn extends _StringsEn {
   String get interconnect_backup_backend => '用互联做备份后端';
   @override
   String get interconnect_backup_backend_active =>
-      '备份已写到已配对设备。要换回云盘，去「同步与备份」里改后端。';
+      '备份已写到 Fushi 互联服务端。要换回云盘，去「同步与备份」里改后端。';
   @override
   String get interconnect_backup_backend_apply => '设为备份后端';
   @override
@@ -170832,7 +171011,7 @@ class _StringsZhCn extends _StringsEn {
       '当前备份后端：${backend}';
   @override
   String get interconnect_backup_backend_hint =>
-      '备份与同步写到已配对设备，而不是云盘。写过去的内容由上面「上传到互联对端」的几个开关决定。';
+      '备份与同步写到 Fushi 互联服务端，而不是云盘。写过去的内容由上面「上传到互联对端」的几个开关决定。';
   @override
   String get interconnect_backup_backend_needs_pairing => '请先在上面连接一台设备。';
   @override
@@ -170898,7 +171077,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get interconnect_section_client => '连接到其他设备';
   @override
-  String get interconnect_section_delegate => '交给已配对设备';
+  String get interconnect_section_delegate => '交给 Fushi 互联服务端';
   @override
   String get interconnect_section_related => '远端内容与查词';
   @override
@@ -171254,7 +171433,8 @@ class _StringsZhCn extends _StringsEn {
   String get manga_ocr_engine_none =>
       '没有可用的 OCR 引擎。请在设置中下载内置模型或配置 mokuro 命令行路径。';
   @override
-  String get manga_ocr_engine_paired_host_desc => '交给局域网里已配对的设备来跑，本机不下任何模型。';
+  String get manga_ocr_engine_paired_host_desc =>
+      '交给已配对的 Fushi 互联服务端来跑，本机不下任何模型。';
   @override
   String get manga_ocr_engine_system => '设备自带';
   @override
@@ -171413,17 +171593,17 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_remote_ocr_cancelled => '主机侧已取消远程 OCR。';
   @override
-  String get manga_remote_ocr_engine => '已配对主机';
+  String get manga_remote_ocr_engine => 'Fushi 互联服务端';
   @override
   String get manga_remote_ocr_failed => '远程 OCR 失败';
   @override
-  String get manga_remote_ocr_no_host => '没有可用的支持漫画 OCR 的已配对主机。';
+  String get manga_remote_ocr_no_host => '没有可用的支持漫画 OCR 的 Fushi 互联服务端。';
   @override
-  String get manga_remote_ocr_not_ready => '已配对主机的 OCR 模型未下载，请先在主机上下载模型。';
+  String get manga_remote_ocr_not_ready => 'Fushi 互联服务端的 OCR 模型未下载，请先在服务端下载模型。';
   @override
-  String get manga_remote_ocr_running => '已配对主机正在识别…';
+  String get manga_remote_ocr_running => 'Fushi 互联服务端正在识别…';
   @override
-  String get manga_remote_ocr_unsupported => '已配对主机不支持漫画 OCR。';
+  String get manga_remote_ocr_unsupported => 'Fushi 互联服务端不支持漫画 OCR。';
   @override
   String manga_remote_ocr_uploading(
           {required Object done, required Object total}) =>
@@ -171808,8 +171988,6 @@ class _StringsZhCn extends _StringsEn {
   String get mihon_filter_ignore => '忽略';
   @override
   String get mihon_filter_include => '包含';
-  @override
-  String get mihon_in_bookshelf => '已加入漫画书架';
   @override
   String get mihon_runtime_unavailable => '此平台暂不支持 Mihon 扩展。';
   @override
@@ -172784,9 +172962,9 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get remote_book_info_has_audiobook => '包含有声书';
   @override
-  String get remote_book_list_failed => '无法获取配对设备的远端书库。';
+  String get remote_book_list_failed => '无法获取 Fushi 互联服务端的远端书库。';
   @override
-  String get remote_book_unavailable => '配对设备不可用';
+  String get remote_book_unavailable => 'Fushi 互联服务端不可用';
   @override
   String get remote_delete_audiobook_partial => '书已在对端删除，但它的有声书没能删掉';
   @override
@@ -172816,7 +172994,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get remote_video_list_failed => '无法加载远端视频，请确认对端设备在线并与本机处于同一网络后重试';
   @override
-  String get remote_video_unavailable => '配对设备不可用';
+  String get remote_video_unavailable => 'Fushi 互联服务端不可用';
   @override
   String get rename_collection => '重命名合集';
   @override
@@ -173891,7 +174069,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get sync_err_not_configured => '此构建未配置谷歌同步凭据。';
   @override
-  String get sync_err_peer_unreachable => '无法连接配对设备——对方可能不在线，或对端未运行 Fushi。';
+  String get sync_err_peer_unreachable =>
+      '无法连接 Fushi 互联服务端——对方可能不在线，或未运行 Fushi。';
   @override
   String get sync_err_quota => '云端存储空间已满（配额已用尽）。';
   @override
@@ -173912,7 +174091,7 @@ class _StringsZhCn extends _StringsEn {
   String get sync_interconnect_service_config_toggle => '同步主机服务配置';
   @override
   String get sync_interconnect_service_config_toggle_desc =>
-      '经加密互联通道接收已配对主机的外部服务设定与 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需启用 TLS。';
+      '经加密互联通道接收 Fushi 互联服务端的外部服务设定与 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需启用 TLS。';
   @override
   String get sync_lan_discovery => '局域网设备';
   @override
@@ -174133,7 +174312,7 @@ class _StringsZhCn extends _StringsEn {
   String get sync_show_remote_entries => '显示远端条目';
   @override
   String get sync_show_remote_entries_warning =>
-      '把配对设备或云端有、本机没有的书籍和视频显示为可下载/流播的占位卡。';
+      '把 Fushi 互联服务端或云端有、本机没有的书籍和视频显示为可下载/流播的占位卡。';
   @override
   String get sync_sign_in => '登录';
   @override
@@ -176127,7 +176306,7 @@ class _StringsZhCn extends _StringsEn {
   String video_subtitle_read_failed({required Object label}) =>
       '无法读取该字幕文件（内容损坏或为空）：${label}';
   @override
-  String get video_subtitle_remote_host => '配对设备字幕';
+  String get video_subtitle_remote_host => 'Fushi 互联服务端字幕';
   @override
   String get video_subtitle_replay => '重播本句';
   @override
@@ -176630,7 +176809,7 @@ class _StringsZhCn extends _StringsEn {
   String audiobook_transcribe_model_custom_added({required Object name}) =>
       '已接入 ${name}';
   @override
-  String get manga_source_interconnect_subtitle => '浏览已配对设备上的漫画库';
+  String get manga_source_interconnect_subtitle => '浏览 Fushi 互联服务端上的漫画库';
   @override
   String get manga_source_interconnect_disabled => '在设置里开启 Fushi 互联后即可使用此来源';
   @override
@@ -177074,7 +177253,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get card_source_review_save => '保存选中修改';
   @override
-  String get card_source_review_missing => '找不到原卡，请同步 Anki 或连接原卡所在的配对设备。';
+  String get card_source_review_missing =>
+      '找不到原卡，请同步 Anki 或连接原卡所在的 Fushi 互联服务端。';
   @override
   String get card_source_review_failed => '修改尚未保存，原卡可能已被修改或设备不可达。';
   @override
@@ -177119,6 +177299,19 @@ class _StringsZhCn extends _StringsEn {
   String get handlebar_source_link => '来源链接';
   @override
   String get remote_book_audiobook_download => '从互联对端下载有声书';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      '该源只收录 ${language} 语言的章节';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      '试试 ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => '移出漫画书架';
+  @override
+  String get manga_series_remove_confirm => '把这部作品移出书架？已下载的章节和阅读进度会一并删除。';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      '本章需在源站购买或租借；这类作品暂不支持在应用内登录解锁。';
   @override
   String get reader_volume_open => '打开本卷';
   @override
@@ -177578,7 +177771,7 @@ class _StringsZhHk extends _StringsEn {
   String get anki_error_http => '無法匯出到 Anki：連接 AnkiConnect 時發生 HTTP 錯誤。';
   @override
   String get anki_error_paired_device_unreachable =>
-      '無法製卡：目前沒有可連接的已配對設備。請確認配對設備上的 Fushi 正在執行；如要在本機製卡，請在 Anki 設定中關閉「製卡到已配對設備」。';
+      '無法製卡：目前連不上 Fushi 互聯服務端。請確認服務端上的 Fushi 正在執行；如要在本機製卡，請在 Anki 設定中關閉「製卡到 Fushi 互聯服務端」。';
   @override
   String get anki_error_permission_denied =>
       'AnkiDroid 尚未授予卡片訪問權限。請在剛彈出的系統授權對話框中允許，然後再次點擊按鈕製卡。';
@@ -177803,10 +177996,10 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get anki_lapis_visual_target_inside_definition => '釋義內部';
   @override
-  String get anki_mine_to_server => '製卡到已配對設備';
+  String get anki_mine_to_server => '製卡到 Fushi 互聯服務端';
   @override
   String get anki_mine_to_server_hint =>
-      '把製卡發送到已配對主機的 Anki（用該設備的牌組與設定），而非本機。需先在互聯/同步裡完成配對。';
+      '把製卡發送到 Fushi 互聯服務端的 Anki（用服務端的牌組與設定），而非本機。需先在互聯/同步裡完成配對。';
   @override
   String get anki_mined_action_add_duplicate => '新增為重復卡';
   @override
@@ -181331,7 +181524,7 @@ class _StringsZhHk extends _StringsEn {
   String get interconnect_backup_backend => '用互聯做備份後端';
   @override
   String get interconnect_backup_backend_active =>
-      '備份已寫到已配對設備。要換回雲盤，去「同步與備份」裡改後端。';
+      '備份已寫到 Fushi 互聯服務端。要換回雲盤，去「同步與備份」裡改後端。';
   @override
   String get interconnect_backup_backend_apply => '設為備份後端';
   @override
@@ -181339,7 +181532,7 @@ class _StringsZhHk extends _StringsEn {
       '當前備份後端：${backend}';
   @override
   String get interconnect_backup_backend_hint =>
-      '備份與同步寫到已配對設備，而不是雲盤。寫過去的內容由上面「上傳到互聯對端」的幾個開關決定。';
+      '備份與同步寫到 Fushi 互聯服務端，而不是雲盤。寫過去的內容由上面「上傳到互聯對端」的幾個開關決定。';
   @override
   String get interconnect_backup_backend_needs_pairing => '請先在上面連接一台設備。';
   @override
@@ -181414,7 +181607,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get interconnect_section_client => '連接到其他設備';
   @override
-  String get interconnect_section_delegate => '交給已配對設備';
+  String get interconnect_section_delegate => '交給 Fushi 互聯服務端';
   @override
   String get interconnect_section_related => '遠端內容與查詞';
   @override
@@ -181770,7 +181963,8 @@ class _StringsZhHk extends _StringsEn {
   String get manga_ocr_engine_none =>
       '沒有可用的 OCR 引擎。請在設定中下載內置模型或配置 mokuro 命令行路徑。';
   @override
-  String get manga_ocr_engine_paired_host_desc => '交給局域網裡已配對的設備來跑，本機不下任何模型。';
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
   @override
   String get manga_ocr_engine_system => '裝置內置';
   @override
@@ -181929,17 +182123,17 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_remote_ocr_cancelled => '主機側已取消遠程 OCR。';
   @override
-  String get manga_remote_ocr_engine => '已配對主機';
+  String get manga_remote_ocr_engine => 'Fushi 互聯服務端';
   @override
   String get manga_remote_ocr_failed => '遠程 OCR 失敗';
   @override
-  String get manga_remote_ocr_no_host => '沒有可用的支持漫畫 OCR 的已配對主機。';
+  String get manga_remote_ocr_no_host => '沒有可用的支持漫畫 OCR 的 Fushi 互聯服務端。';
   @override
-  String get manga_remote_ocr_not_ready => '已配對主機的 OCR 模型未下載，請先在主機上下載模型。';
+  String get manga_remote_ocr_not_ready => 'Fushi 互聯服務端的 OCR 模型未下載，請先在服務端下載模型。';
   @override
-  String get manga_remote_ocr_running => '已配對主機正在識別…';
+  String get manga_remote_ocr_running => 'Fushi 互聯服務端正在識別…';
   @override
-  String get manga_remote_ocr_unsupported => '已配對主機不支持漫畫 OCR。';
+  String get manga_remote_ocr_unsupported => 'Fushi 互聯服務端不支持漫畫 OCR。';
   @override
   String manga_remote_ocr_uploading(
           {required Object done, required Object total}) =>
@@ -182325,8 +182519,6 @@ class _StringsZhHk extends _StringsEn {
   String get mihon_filter_ignore => '忽略';
   @override
   String get mihon_filter_include => '包含';
-  @override
-  String get mihon_in_bookshelf => '已加入漫畫書架';
   @override
   String get mihon_runtime_unavailable => '此平台暫不支持 Mihon 擴展。';
   @override
@@ -183311,9 +183503,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get remote_book_info_has_audiobook => '包含有聲書';
   @override
-  String get remote_book_list_failed => '無法獲取配對設備的遠端書庫。';
+  String get remote_book_list_failed => '無法獲取 Fushi 互聯服務端的遠端書庫。';
   @override
-  String get remote_book_unavailable => '配對裝置不可用';
+  String get remote_book_unavailable => 'Fushi 互聯服務端不可用';
   @override
   String get remote_delete_audiobook_partial => '書已在對端刪除，但它的有聲書沒能刪掉';
   @override
@@ -183343,7 +183535,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get remote_video_list_failed => '無法加載遠端影片，請確認對端設備在線並與本機處於同一網路後重試';
   @override
-  String get remote_video_unavailable => '配對裝置不可用';
+  String get remote_video_unavailable => 'Fushi 互聯服務端不可用';
   @override
   String get rename_collection => '重命名合集';
   @override
@@ -184426,7 +184618,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_err_not_configured => '此版本未設定 Google sync 憑證。';
   @override
-  String get sync_err_peer_unreachable => '無法連接配對設備——對方可能不在線，或對端未運行 Fushi。';
+  String get sync_err_peer_unreachable =>
+      '無法連接 Fushi 互聯服務端——對方可能不在線，或未運行 Fushi。';
   @override
   String get sync_err_quota => '雲端儲存空間已滿（已達配額上限）。';
   @override
@@ -184447,7 +184640,7 @@ class _StringsZhHk extends _StringsEn {
   String get sync_interconnect_service_config_toggle => '同步主機服務配置';
   @override
   String get sync_interconnect_service_config_toggle_desc =>
-      '經加密互聯通道接收已配對主機的外部服務設定與 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需啟用 TLS。';
+      '經加密互聯通道接收 Fushi 互聯服務端的外部服務設定與 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需啟用 TLS。';
   @override
   String get sync_lan_discovery => '區域網絡裝置';
   @override
@@ -184669,7 +184862,7 @@ class _StringsZhHk extends _StringsEn {
   String get sync_show_remote_entries => '顯示遠端條目';
   @override
   String get sync_show_remote_entries_warning =>
-      '把配對設備或雲端有、本機沒有的書籍和影片顯示為可下載/流播的佔位卡。';
+      '把 Fushi 互聯服務端或雲端有、本機沒有的書籍和影片顯示為可下載/流播的佔位卡。';
   @override
   String get sync_sign_in => '登入';
   @override
@@ -186676,7 +186869,7 @@ class _StringsZhHk extends _StringsEn {
   String video_subtitle_read_failed({required Object label}) =>
       '無法讀取該字幕檔案（內容損壞或為空）：${label}';
   @override
-  String get video_subtitle_remote_host => '配對裝置字幕';
+  String get video_subtitle_remote_host => 'Fushi 互聯服務端字幕';
   @override
   String get video_subtitle_replay => '重播本句';
   @override
@@ -187196,8 +187389,7 @@ class _StringsZhHk extends _StringsEn {
   String audiobook_transcribe_model_custom_added({required Object name}) =>
       'Added ${name}';
   @override
-  String get manga_source_interconnect_subtitle =>
-      'Browse the manga library on your paired device';
+  String get manga_source_interconnect_subtitle => '瀏覽 Fushi 互聯服務端上的漫畫庫';
   @override
   String get manga_source_interconnect_disabled =>
       'Turn on Fushi Interconnect in settings to use this source';
@@ -187684,7 +187876,7 @@ class _StringsZhHk extends _StringsEn {
   String get card_source_review_save => 'Save selected changes';
   @override
   String get card_source_review_missing =>
-      'The original note could not be found. Sync Anki or connect its paired device.';
+      '找不到原卡，請同步 Anki 或連接原卡所在的 Fushi 互聯服務端。';
   @override
   String get card_source_review_failed =>
       'Changes were not saved. The note may have changed or the device is unavailable.';
@@ -187738,6 +187930,20 @@ class _StringsZhHk extends _StringsEn {
   String get handlebar_source_link => 'Source link';
   @override
   String get remote_book_audiobook_download => 'Download audiobook from peer';
+  @override
+  String manga_series_no_chapters_in_language({required Object language}) =>
+      'This source only lists ${language} chapters';
+  @override
+  String manga_series_try_sibling_language({required Object language}) =>
+      'Try ${language}';
+  @override
+  String get manga_series_remove_from_bookshelf => 'Remove from manga shelf';
+  @override
+  String get manga_series_remove_confirm =>
+      'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+  @override
+  String get manga_chapter_locked_login_unsupported_hint =>
+      'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
   @override
   String get reader_volume_open => 'Open this volume';
   @override
@@ -188135,7 +188341,7 @@ extension on _StringsEn {
       case 'anki_error_http':
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_paired_device_unreachable':
-        return 'Couldn\'t create the card because no paired device could be reached. Make sure Fushi is running on the paired device, or turn off Mine to paired device in Anki settings to create cards locally.';
+        return 'Couldn\'t create the card because the Fushi Interconnect server could not be reached. Make sure Fushi is running there, or turn off Mine to Fushi Interconnect server in Anki settings to create cards locally.';
       case 'anki_error_permission_denied':
         return 'AnkiDroid hasn\'t granted card access permission. Approve the system permission dialog that just appeared, then tap the button again to export.';
       case 'anki_error_permission_permanently_denied':
@@ -188344,9 +188550,9 @@ extension on _StringsEn {
       case 'anki_lapis_visual_target_inside_definition':
         return 'Inside definition';
       case 'anki_mine_to_server':
-        return 'Mine to paired device';
+        return 'Mine to Fushi Interconnect server';
       case 'anki_mine_to_server_hint':
-        return 'Send mined cards to the paired host\'s Anki (its decks and settings) instead of this device. Requires an interconnect pairing.';
+        return 'Send mined cards to the Fushi Interconnect server\'s Anki (its decks and settings) instead of this device. Requires an interconnect pairing.';
       case 'anki_mined_action_add_duplicate':
         return 'Add as a new card';
       case 'anki_mined_action_overwrite':
@@ -191688,14 +191894,14 @@ extension on _StringsEn {
       case 'interconnect_backup_backend':
         return 'Use interconnect as the backup backend';
       case 'interconnect_backup_backend_active':
-        return 'Backups already go to the paired device. Pick another backend in Sync & backup to switch away.';
+        return 'Backups already go to the Fushi Interconnect server. Pick another backend in Sync & backup to switch away.';
       case 'interconnect_backup_backend_apply':
         return 'Set as backup backend';
       case 'interconnect_backup_backend_current':
         return ({required Object backend}) =>
             'Current backup backend: ${backend}';
       case 'interconnect_backup_backend_hint':
-        return 'Back up and sync to the paired device instead of a cloud drive. Everything the paired-device upload switches above allow is what gets written there.';
+        return 'Back up and sync to the Fushi Interconnect server instead of a cloud drive. Everything the upload switches above allow is what gets written there.';
       case 'interconnect_backup_backend_needs_pairing':
         return 'Connect to a device above first.';
       case 'interconnect_devices_hint':
@@ -191754,7 +191960,7 @@ extension on _StringsEn {
       case 'interconnect_section_client':
         return 'Connect to other devices';
       case 'interconnect_section_delegate':
-        return 'Delegate to the paired device';
+        return 'Delegate to the Fushi Interconnect server';
       case 'interconnect_section_related':
         return 'Remote content & lookup';
       case 'interconnect_share_favorites':
@@ -192090,7 +192296,7 @@ extension on _StringsEn {
       case 'manga_ocr_engine_none':
         return 'No OCR engine available. Download built-in models or set the mokuro CLI path in settings.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'Device OCR';
       case 'manga_ocr_engine_system_desc':
@@ -192241,17 +192447,17 @@ extension on _StringsEn {
       case 'manga_remote_ocr_cancelled':
         return 'Remote OCR was cancelled on the host.';
       case 'manga_remote_ocr_engine':
-        return 'Paired host';
+        return 'Fushi Interconnect server';
       case 'manga_remote_ocr_failed':
         return 'Remote OCR failed';
       case 'manga_remote_ocr_no_host':
-        return 'No paired host with manga OCR is reachable.';
+        return 'No Fushi Interconnect server with manga OCR is reachable.';
       case 'manga_remote_ocr_not_ready':
-        return 'The paired host\'s OCR models are not downloaded. Download them on the host first.';
+        return 'The Fushi Interconnect server\'s OCR models are not downloaded. Download them on the server first.';
       case 'manga_remote_ocr_running':
-        return 'Paired host is running OCR…';
+        return 'Fushi Interconnect server is running OCR…';
       case 'manga_remote_ocr_unsupported':
-        return 'The paired host does not support manga OCR.';
+        return 'The Fushi Interconnect server does not support manga OCR.';
       case 'manga_remote_ocr_uploading':
         return ({required Object done, required Object total}) =>
             'Uploading pages ${done} / ${total}…';
@@ -192621,8 +192827,6 @@ extension on _StringsEn {
         return 'Ignore';
       case 'mihon_filter_include':
         return 'Include';
-      case 'mihon_in_bookshelf':
-        return 'In manga shelf';
       case 'mihon_runtime_unavailable':
         return 'Mihon extensions are unavailable on this platform.';
       case 'mihon_signer_fingerprint':
@@ -193532,9 +193736,9 @@ extension on _StringsEn {
       case 'remote_book_info_has_audiobook':
         return 'Includes audiobook';
       case 'remote_book_list_failed':
-        return 'Couldn\'t fetch the remote library from the paired device.';
+        return 'Couldn\'t fetch the remote library from the Fushi Interconnect server.';
       case 'remote_book_unavailable':
-        return 'Paired device unavailable';
+        return 'Fushi Interconnect server unavailable';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'remote_delete_failed':
@@ -193564,7 +193768,7 @@ extension on _StringsEn {
       case 'remote_video_list_failed':
         return 'Couldn\'t load remote videos. Make sure the other device is online and on the same network, then try again.';
       case 'remote_video_unavailable':
-        return 'Paired device unavailable';
+        return 'Fushi Interconnect server unavailable';
       case 'rename_collection':
         return 'Rename collection';
       case 'render_restart_required':
@@ -194619,7 +194823,7 @@ extension on _StringsEn {
       case 'sync_err_not_configured':
         return 'Google sync credentials are not configured in this build.';
       case 'sync_err_peer_unreachable':
-        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+        return 'Can\'t reach the Fushi Interconnect server - it may be offline or not running Fushi.';
       case 'sync_err_quota':
         return 'Cloud storage is full (quota reached).';
       case 'sync_err_scope_upgrade':
@@ -194639,7 +194843,7 @@ extension on _StringsEn {
       case 'sync_interconnect_service_config_toggle':
         return 'Sync service configuration from host';
       case 'sync_interconnect_service_config_toggle_desc':
-        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the Fushi Interconnect server over the encrypted Interconnect channel. Requires TLS.';
       case 'sync_lan_discovery':
         return 'LAN devices';
       case 'sync_lan_no_devices':
@@ -194856,7 +195060,7 @@ extension on _StringsEn {
       case 'sync_show_remote_entries':
         return 'Show remote entries';
       case 'sync_show_remote_entries_warning':
-        return 'Show books and videos that exist on paired devices or the cloud as placeholder cards you can download or stream.';
+        return 'Show books and videos that exist on the Fushi Interconnect server or the cloud as placeholder cards you can download or stream.';
       case 'sync_sign_in':
         return 'Sign in';
       case 'sync_sign_out':
@@ -196728,7 +196932,7 @@ extension on _StringsEn {
         return ({required Object label}) =>
             'Couldn\'t read this subtitle file (damaged or empty): ${label}';
       case 'video_subtitle_remote_host':
-        return 'Paired device subtitle';
+        return 'Fushi Interconnect server subtitle';
       case 'video_subtitle_replay':
         return 'Replay this line';
       case 'video_subtitle_scope_collection':
@@ -197199,7 +197403,7 @@ extension on _StringsEn {
       case 'audiobook_transcribe_model_custom_added':
         return ({required Object name}) => 'Added ${name}';
       case 'manga_source_interconnect_subtitle':
-        return 'Browse the manga library on your paired device';
+        return 'Browse the manga library on the Fushi Interconnect server';
       case 'manga_source_interconnect_disabled':
         return 'Turn on Fushi Interconnect in settings to use this source';
       case 'import_step_importing_book':
@@ -197616,7 +197820,7 @@ extension on _StringsEn {
       case 'card_source_review_save':
         return 'Save selected changes';
       case 'card_source_review_missing':
-        return 'The original note could not be found. Sync Anki or connect its paired device.';
+        return 'The original note could not be found. Sync Anki or connect the Fushi Interconnect server it lives on.';
       case 'card_source_review_failed':
         return 'Changes were not saved. The note may have changed or the device is unavailable.';
       case 'card_source_review_saved':
@@ -197659,6 +197863,17 @@ extension on _StringsEn {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -202008,7 +202223,7 @@ extension on _StringsAr {
       case 'manga_ocr_engine_none':
         return 'لا يوجد محرك OCR متاح. حمّل النماذج المدمجة أو عيّن مسار Mokuro CLI في الإعدادات.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'يُسند العمل إلى جهاز مقترن على شبكتك. لا يتم تحميل شيء هنا.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR الجهاز';
       case 'manga_ocr_engine_system_desc':
@@ -202539,8 +202754,6 @@ extension on _StringsAr {
         return 'تجاهل';
       case 'mihon_filter_include':
         return 'تضمين';
-      case 'mihon_in_bookshelf':
-        return 'في رف المانغا';
       case 'mihon_runtime_unavailable':
         return 'إضافات Mihon غير متوفرة على هذه المنصة.';
       case 'mihon_signer_fingerprint':
@@ -207575,6 +207788,17 @@ extension on _StringsAr {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -211948,7 +212172,7 @@ extension on _StringsDe {
       case 'manga_ocr_engine_none':
         return 'Keine OCR-Engine verfügbar. Laden Sie die integrierten Modelle herunter oder legen Sie den Mokuro-CLI-Pfad in den Einstellungen fest.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Übergibt die Arbeit an ein gekoppeltes Gerät in Ihrem Netzwerk. Hier wird nichts heruntergeladen.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'Geräte-OCR';
       case 'manga_ocr_engine_system_desc':
@@ -212482,8 +212706,6 @@ extension on _StringsDe {
         return 'Ignorieren';
       case 'mihon_filter_include':
         return 'Einschließen';
-      case 'mihon_in_bookshelf':
-        return 'Im Manga-Regal';
       case 'mihon_runtime_unavailable':
         return 'Mihon-Erweiterungen sind auf dieser Plattform nicht verfügbar.';
       case 'mihon_signer_fingerprint':
@@ -217536,6 +217758,17 @@ extension on _StringsDe {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -221902,7 +222135,7 @@ extension on _StringsEs {
       case 'manga_ocr_engine_none':
         return 'No hay motor de OCR disponible. Descargue los modelos integrados o establezca la ruta del CLI de mokuro en los ajustes.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Delega el trabajo a un dispositivo emparejado en su red. Nada se descarga aquí.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR del dispositivo';
       case 'manga_ocr_engine_system_desc':
@@ -222436,8 +222669,6 @@ extension on _StringsEs {
         return 'Ignorar';
       case 'mihon_filter_include':
         return 'Incluir';
-      case 'mihon_in_bookshelf':
-        return 'En el estante de manga';
       case 'mihon_runtime_unavailable':
         return 'Las extensiones de Mihon no están disponibles en esta plataforma.';
       case 'mihon_signer_fingerprint':
@@ -227488,6 +227719,17 @@ extension on _StringsEs {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -231860,7 +232102,7 @@ extension on _StringsFr {
       case 'manga_ocr_engine_none':
         return 'Aucun moteur OCR disponible. Téléchargez les modèles intégrés ou définissez le chemin CLI mokuro dans les paramètres.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Confie le travail à un appareil apparié sur votre réseau. Rien n\'est téléchargé ici.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR de l\'appareil';
       case 'manga_ocr_engine_system_desc':
@@ -232394,8 +232636,6 @@ extension on _StringsFr {
         return 'Ignorer';
       case 'mihon_filter_include':
         return 'Inclure';
-      case 'mihon_in_bookshelf':
-        return 'Dans la mangathèque';
       case 'mihon_runtime_unavailable':
         return 'Les extensions Mihon ne sont pas disponibles sur cette plateforme.';
       case 'mihon_signer_fingerprint':
@@ -237449,6 +237689,17 @@ extension on _StringsFr {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -241809,7 +242060,7 @@ extension on _StringsId {
       case 'manga_ocr_engine_none':
         return 'Tidak ada mesin OCR yang tersedia. Unduh model bawaan atau atur jalur CLI mokuro di pengaturan.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Menyerahkan pekerjaan ke perangkat pasangan di jaringan Anda. Tidak ada yang diunduh di sini.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR perangkat';
       case 'manga_ocr_engine_system_desc':
@@ -242340,8 +242591,6 @@ extension on _StringsId {
         return 'Abaikan';
       case 'mihon_filter_include':
         return 'Sertakan';
-      case 'mihon_in_bookshelf':
-        return 'Di rak manga';
       case 'mihon_runtime_unavailable':
         return 'Ekstensi Mihon tidak tersedia di platform ini.';
       case 'mihon_signer_fingerprint':
@@ -247381,6 +247630,17 @@ extension on _StringsId {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -251747,7 +252007,7 @@ extension on _StringsIt {
       case 'manga_ocr_engine_none':
         return 'Nessun motore OCR disponibile. Scarica i modelli integrati o imposta il percorso CLI di mokuro nelle impostazioni.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Affida il lavoro a un dispositivo accoppiato sulla tua rete. Nulla viene scaricato qui.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR del dispositivo';
       case 'manga_ocr_engine_system_desc':
@@ -252280,8 +252540,6 @@ extension on _StringsIt {
         return 'Ignora';
       case 'mihon_filter_include':
         return 'Includi';
-      case 'mihon_in_bookshelf':
-        return 'Nello scaffale manga';
       case 'mihon_runtime_unavailable':
         return 'Le estensioni Mihon non sono disponibili su questa piattaforma.';
       case 'mihon_signer_fingerprint':
@@ -257335,6 +257593,17 @@ extension on _StringsIt {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -261670,7 +261939,7 @@ extension on _StringsJa {
       case 'manga_ocr_engine_none':
         return 'OCRエンジンがありません。内蔵モデルをダウンロードするか、設定でmokuro CLIのパスを指定してください。';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'ネットワーク上のペアリング済みデバイスに処理を委託します。この端末にはダウンロード不要です。';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return '端末の OCR';
       case 'manga_ocr_engine_system_desc':
@@ -262200,8 +262469,6 @@ extension on _StringsJa {
         return '無視';
       case 'mihon_filter_include':
         return '含める';
-      case 'mihon_in_bookshelf':
-        return 'マンガ本棚に追加済み';
       case 'mihon_runtime_unavailable':
         return 'このプラットフォームではMihon拡張機能は利用できません。';
       case 'mihon_signer_fingerprint':
@@ -267216,6 +267483,17 @@ extension on _StringsJa {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -271552,7 +271830,7 @@ extension on _StringsKo {
       case 'manga_ocr_engine_none':
         return '사용 가능한 OCR 엔진이 없습니다. 내장 모델을 다운로드하거나 설정에서 Mokuro CLI 경로를 지정하세요.';
       case 'manga_ocr_engine_paired_host_desc':
-        return '네트워크에 페어링된 기기에 작업을 넘깁니다. 이 기기에는 아무것도 다운로드되지 않습니다.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return '기기 OCR';
       case 'manga_ocr_engine_system_desc':
@@ -272082,8 +272360,6 @@ extension on _StringsKo {
         return '무시';
       case 'mihon_filter_include':
         return '포함';
-      case 'mihon_in_bookshelf':
-        return '만화 서재에 있음';
       case 'mihon_runtime_unavailable':
         return '이 플랫폼에서는 Mihon 확장 프로그램을 사용할 수 없습니다.';
       case 'mihon_signer_fingerprint':
@@ -277101,6 +277377,17 @@ extension on _StringsKo {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -281465,7 +281752,7 @@ extension on _StringsNl {
       case 'manga_ocr_engine_none':
         return 'Geen OCR-engine beschikbaar. Download ingebouwde modellen of stel het mokuro CLI-pad in bij instellingen.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Geeft het werk door aan een gekoppeld apparaat op je netwerk. Niets wordt hier gedownload.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR van apparaat';
       case 'manga_ocr_engine_system_desc':
@@ -281999,8 +282286,6 @@ extension on _StringsNl {
         return 'Negeren';
       case 'mihon_filter_include':
         return 'Opnemen';
-      case 'mihon_in_bookshelf':
-        return 'Op mangaplank';
       case 'mihon_runtime_unavailable':
         return 'Mihon-extensies zijn niet beschikbaar op dit platform.';
       case 'mihon_signer_fingerprint':
@@ -287048,6 +287333,17 @@ extension on _StringsNl {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -291412,7 +291708,7 @@ extension on _StringsPtBr {
       case 'manga_ocr_engine_none':
         return 'Nenhum motor de OCR disponível. Baixe os modelos integrados ou defina o caminho do CLI do mokuro nas configurações.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Passa o trabalho para um dispositivo pareado na sua rede. Nada é baixado aqui.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR do dispositivo';
       case 'manga_ocr_engine_system_desc':
@@ -291945,8 +292241,6 @@ extension on _StringsPtBr {
         return 'Ignorar';
       case 'mihon_filter_include':
         return 'Incluir';
-      case 'mihon_in_bookshelf':
-        return 'Na estante de mangá';
       case 'mihon_runtime_unavailable':
         return 'Extensões Mihon não estão disponíveis nesta plataforma.';
       case 'mihon_signer_fingerprint':
@@ -296990,6 +297284,17 @@ extension on _StringsPtBr {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -301361,7 +301666,7 @@ extension on _StringsRu {
       case 'manga_ocr_engine_none':
         return 'Нет доступного движка OCR. Скачайте встроенные модели или укажите путь к mokuro CLI в настройках.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Передаёт работу сопряжённому устройству в вашей сети. Ничего не загружается на это устройство.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR устройства';
       case 'manga_ocr_engine_system_desc':
@@ -301894,8 +302199,6 @@ extension on _StringsRu {
         return 'Игнорировать';
       case 'mihon_filter_include':
         return 'Включить';
-      case 'mihon_in_bookshelf':
-        return 'На полке манги';
       case 'mihon_runtime_unavailable':
         return 'Расширения Mihon недоступны на этой платформе.';
       case 'mihon_signer_fingerprint':
@@ -306939,6 +307242,17 @@ extension on _StringsRu {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -311292,7 +311606,7 @@ extension on _StringsTh {
       case 'manga_ocr_engine_none':
         return 'ไม่มีเอนจิน OCR ที่พร้อมใช้งาน ดาวน์โหลดโมเดลในตัวหรือตั้งค่าเส้นทาง Mokuro CLI ในการตั้งค่า';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'ส่งงานไปยังอุปกรณ์ที่จับคู่ในเครือข่ายของคุณ ไม่มีการดาวน์โหลดที่นี่';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR ของอุปกรณ์';
       case 'manga_ocr_engine_system_desc':
@@ -311823,8 +312137,6 @@ extension on _StringsTh {
         return 'ไม่สนใจ';
       case 'mihon_filter_include':
         return 'รวม';
-      case 'mihon_in_bookshelf':
-        return 'อยู่ในชั้นมังงะ';
       case 'mihon_runtime_unavailable':
         return 'ส่วนขยาย Mihon ไม่พร้อมใช้งานบนแพลตฟอร์มนี้';
       case 'mihon_signer_fingerprint':
@@ -316860,6 +317172,17 @@ extension on _StringsTh {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -321222,7 +321545,7 @@ extension on _StringsTr {
       case 'manga_ocr_engine_none':
         return 'OCR motoru mevcut değil. Yerleşik modelleri indirin veya ayarlardan mokuro CLI yolunu belirleyin.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'İşi ağınızdaki eşleştirilmiş bir cihaza devreder. Buraya hiçbir şey indirilmez.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'Cihaz OCR\'ı';
       case 'manga_ocr_engine_system_desc':
@@ -321754,8 +322077,6 @@ extension on _StringsTr {
         return 'Yoksay';
       case 'mihon_filter_include':
         return 'Dahil et';
-      case 'mihon_in_bookshelf':
-        return 'Manga rafında';
       case 'mihon_runtime_unavailable':
         return 'Mihon eklentileri bu platformda kullanılamaz.';
       case 'mihon_signer_fingerprint':
@@ -326796,6 +327117,17 @@ extension on _StringsTr {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -331154,7 +331486,7 @@ extension on _StringsVi {
       case 'manga_ocr_engine_none':
         return 'Không có công cụ OCR. Tải xuống mô hình tích hợp hoặc đặt đường dẫn CLI mokuro trong cài đặt.';
       case 'manga_ocr_engine_paired_host_desc':
-        return 'Chuyển công việc cho thiết bị ghép đôi trên mạng. Không cần tải xuống gì ở đây.';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return 'OCR của thiết bị';
       case 'manga_ocr_engine_system_desc':
@@ -331685,8 +332017,6 @@ extension on _StringsVi {
         return 'Bỏ qua';
       case 'mihon_filter_include':
         return 'Bao gồm';
-      case 'mihon_in_bookshelf':
-        return 'Trong kệ truyện tranh';
       case 'mihon_runtime_unavailable':
         return 'Tiện ích Mihon không khả dụng trên nền tảng này.';
       case 'mihon_signer_fingerprint':
@@ -336726,6 +337056,17 @@ extension on _StringsVi {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
@@ -337117,7 +337458,7 @@ extension on _StringsZhCn {
       case 'anki_error_http':
         return '无法导出到 Anki：连接 AnkiConnect 时发生 HTTP 错误。';
       case 'anki_error_paired_device_unreachable':
-        return '无法制卡：当前没有可连接的已配对设备。请确认配对设备上的 Fushi 正在运行；如果要在本机制卡，请关闭「制卡到已配对设备」。';
+        return '无法制卡：当前连不上 Fushi 互联服务端。请确认服务端上的 Fushi 正在运行；如果要在本机制卡，请关闭「制卡到 Fushi 互联服务端」。';
       case 'anki_error_permission_denied':
         return 'AnkiDroid 尚未授予卡片访问权限。请在刚弹出的系统授权对话框中允许，然后再次点击按钮制卡。';
       case 'anki_error_permission_permanently_denied':
@@ -337326,9 +337667,9 @@ extension on _StringsZhCn {
       case 'anki_lapis_visual_target_inside_definition':
         return '释义内部';
       case 'anki_mine_to_server':
-        return '制卡到已配对设备';
+        return '制卡到 Fushi 互联服务端';
       case 'anki_mine_to_server_hint':
-        return '把制卡发送到已配对主机的 Anki（用该设备的牌组与设置），而非本机。需先在互联/同步里完成配对。';
+        return '把制卡发送到 Fushi 互联服务端的 Anki（用服务端的牌组与设置），而非本机。需先在互联/同步里完成配对。';
       case 'anki_mined_action_add_duplicate':
         return '新增为重复卡';
       case 'anki_mined_action_overwrite':
@@ -340646,13 +340987,13 @@ extension on _StringsZhCn {
       case 'interconnect_backup_backend':
         return '用互联做备份后端';
       case 'interconnect_backup_backend_active':
-        return '备份已写到已配对设备。要换回云盘，去「同步与备份」里改后端。';
+        return '备份已写到 Fushi 互联服务端。要换回云盘，去「同步与备份」里改后端。';
       case 'interconnect_backup_backend_apply':
         return '设为备份后端';
       case 'interconnect_backup_backend_current':
         return ({required Object backend}) => '当前备份后端：${backend}';
       case 'interconnect_backup_backend_hint':
-        return '备份与同步写到已配对设备，而不是云盘。写过去的内容由上面「上传到互联对端」的几个开关决定。';
+        return '备份与同步写到 Fushi 互联服务端，而不是云盘。写过去的内容由上面「上传到互联对端」的几个开关决定。';
       case 'interconnect_backup_backend_needs_pairing':
         return '请先在上面连接一台设备。';
       case 'interconnect_devices_hint':
@@ -340710,7 +341051,7 @@ extension on _StringsZhCn {
       case 'interconnect_section_client':
         return '连接到其他设备';
       case 'interconnect_section_delegate':
-        return '交给已配对设备';
+        return '交给 Fushi 互联服务端';
       case 'interconnect_section_related':
         return '远端内容与查词';
       case 'interconnect_share_favorites':
@@ -341044,7 +341385,7 @@ extension on _StringsZhCn {
       case 'manga_ocr_engine_none':
         return '没有可用的 OCR 引擎。请在设置中下载内置模型或配置 mokuro 命令行路径。';
       case 'manga_ocr_engine_paired_host_desc':
-        return '交给局域网里已配对的设备来跑，本机不下任何模型。';
+        return '交给已配对的 Fushi 互联服务端来跑，本机不下任何模型。';
       case 'manga_ocr_engine_system':
         return '设备自带';
       case 'manga_ocr_engine_system_desc':
@@ -341195,17 +341536,17 @@ extension on _StringsZhCn {
       case 'manga_remote_ocr_cancelled':
         return '主机侧已取消远程 OCR。';
       case 'manga_remote_ocr_engine':
-        return '已配对主机';
+        return 'Fushi 互联服务端';
       case 'manga_remote_ocr_failed':
         return '远程 OCR 失败';
       case 'manga_remote_ocr_no_host':
-        return '没有可用的支持漫画 OCR 的已配对主机。';
+        return '没有可用的支持漫画 OCR 的 Fushi 互联服务端。';
       case 'manga_remote_ocr_not_ready':
-        return '已配对主机的 OCR 模型未下载，请先在主机上下载模型。';
+        return 'Fushi 互联服务端的 OCR 模型未下载，请先在服务端下载模型。';
       case 'manga_remote_ocr_running':
-        return '已配对主机正在识别…';
+        return 'Fushi 互联服务端正在识别…';
       case 'manga_remote_ocr_unsupported':
-        return '已配对主机不支持漫画 OCR。';
+        return 'Fushi 互联服务端不支持漫画 OCR。';
       case 'manga_remote_ocr_uploading':
         return ({required Object done, required Object total}) =>
             '正在上传页面 ${done} / ${total}…';
@@ -341574,8 +341915,6 @@ extension on _StringsZhCn {
         return '忽略';
       case 'mihon_filter_include':
         return '包含';
-      case 'mihon_in_bookshelf':
-        return '已加入漫画书架';
       case 'mihon_runtime_unavailable':
         return '此平台暂不支持 Mihon 扩展。';
       case 'mihon_signer_fingerprint':
@@ -342484,9 +342823,9 @@ extension on _StringsZhCn {
       case 'remote_book_info_has_audiobook':
         return '包含有声书';
       case 'remote_book_list_failed':
-        return '无法获取配对设备的远端书库。';
+        return '无法获取 Fushi 互联服务端的远端书库。';
       case 'remote_book_unavailable':
-        return '配对设备不可用';
+        return 'Fushi 互联服务端不可用';
       case 'remote_delete_audiobook_partial':
         return '书已在对端删除，但它的有声书没能删掉';
       case 'remote_delete_failed':
@@ -342516,7 +342855,7 @@ extension on _StringsZhCn {
       case 'remote_video_list_failed':
         return '无法加载远端视频，请确认对端设备在线并与本机处于同一网络后重试';
       case 'remote_video_unavailable':
-        return '配对设备不可用';
+        return 'Fushi 互联服务端不可用';
       case 'rename_collection':
         return '重命名合集';
       case 'render_restart_required':
@@ -343561,7 +343900,7 @@ extension on _StringsZhCn {
       case 'sync_err_not_configured':
         return '此构建未配置谷歌同步凭据。';
       case 'sync_err_peer_unreachable':
-        return '无法连接配对设备——对方可能不在线，或对端未运行 Fushi。';
+        return '无法连接 Fushi 互联服务端——对方可能不在线，或未运行 Fushi。';
       case 'sync_err_quota':
         return '云端存储空间已满（配额已用尽）。';
       case 'sync_err_scope_upgrade':
@@ -343581,7 +343920,7 @@ extension on _StringsZhCn {
       case 'sync_interconnect_service_config_toggle':
         return '同步主机服务配置';
       case 'sync_interconnect_service_config_toggle_desc':
-        return '经加密互联通道接收已配对主机的外部服务设定与 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需启用 TLS。';
+        return '经加密互联通道接收 Fushi 互联服务端的外部服务设定与 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需启用 TLS。';
       case 'sync_lan_discovery':
         return '局域网设备';
       case 'sync_lan_no_devices':
@@ -343796,7 +344135,7 @@ extension on _StringsZhCn {
       case 'sync_show_remote_entries':
         return '显示远端条目';
       case 'sync_show_remote_entries_warning':
-        return '把配对设备或云端有、本机没有的书籍和视频显示为可下载/流播的占位卡。';
+        return '把 Fushi 互联服务端或云端有、本机没有的书籍和视频显示为可下载/流播的占位卡。';
       case 'sync_sign_in':
         return '登录';
       case 'sync_sign_out':
@@ -345650,7 +345989,7 @@ extension on _StringsZhCn {
       case 'video_subtitle_read_failed':
         return ({required Object label}) => '无法读取该字幕文件（内容损坏或为空）：${label}';
       case 'video_subtitle_remote_host':
-        return '配对设备字幕';
+        return 'Fushi 互联服务端字幕';
       case 'video_subtitle_replay':
         return '重播本句';
       case 'video_subtitle_scope_collection':
@@ -346113,7 +346452,7 @@ extension on _StringsZhCn {
       case 'audiobook_transcribe_model_custom_added':
         return ({required Object name}) => '已接入 ${name}';
       case 'manga_source_interconnect_subtitle':
-        return '浏览已配对设备上的漫画库';
+        return '浏览 Fushi 互联服务端上的漫画库';
       case 'manga_source_interconnect_disabled':
         return '在设置里开启 Fushi 互联后即可使用此来源';
       case 'import_step_importing_book':
@@ -346524,7 +346863,7 @@ extension on _StringsZhCn {
       case 'card_source_review_save':
         return '保存选中修改';
       case 'card_source_review_missing':
-        return '找不到原卡，请同步 Anki 或连接原卡所在的配对设备。';
+        return '找不到原卡，请同步 Anki 或连接原卡所在的 Fushi 互联服务端。';
       case 'card_source_review_failed':
         return '修改尚未保存，原卡可能已被修改或设备不可达。';
       case 'card_source_review_saved':
@@ -346567,6 +346906,16 @@ extension on _StringsZhCn {
         return '来源链接';
       case 'remote_book_audiobook_download':
         return '从互联对端下载有声书';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) => '该源只收录 ${language} 语言的章节';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => '试试 ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return '移出漫画书架';
+      case 'manga_series_remove_confirm':
+        return '把这部作品移出书架？已下载的章节和阅读进度会一并删除。';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return '本章需在源站购买或租借；这类作品暂不支持在应用内登录解锁。';
       case 'reader_volume_open':
         return '打开本卷';
       case 'reader_volume_peek_failed':
@@ -346958,7 +347307,7 @@ extension on _StringsZhHk {
       case 'anki_error_http':
         return '無法匯出到 Anki：連接 AnkiConnect 時發生 HTTP 錯誤。';
       case 'anki_error_paired_device_unreachable':
-        return '無法製卡：目前沒有可連接的已配對設備。請確認配對設備上的 Fushi 正在執行；如要在本機製卡，請在 Anki 設定中關閉「製卡到已配對設備」。';
+        return '無法製卡：目前連不上 Fushi 互聯服務端。請確認服務端上的 Fushi 正在執行；如要在本機製卡，請在 Anki 設定中關閉「製卡到 Fushi 互聯服務端」。';
       case 'anki_error_permission_denied':
         return 'AnkiDroid 尚未授予卡片訪問權限。請在剛彈出的系統授權對話框中允許，然後再次點擊按鈕製卡。';
       case 'anki_error_permission_permanently_denied':
@@ -347167,9 +347516,9 @@ extension on _StringsZhHk {
       case 'anki_lapis_visual_target_inside_definition':
         return '釋義內部';
       case 'anki_mine_to_server':
-        return '製卡到已配對設備';
+        return '製卡到 Fushi 互聯服務端';
       case 'anki_mine_to_server_hint':
-        return '把製卡發送到已配對主機的 Anki（用該設備的牌組與設定），而非本機。需先在互聯/同步裡完成配對。';
+        return '把製卡發送到 Fushi 互聯服務端的 Anki（用服務端的牌組與設定），而非本機。需先在互聯/同步裡完成配對。';
       case 'anki_mined_action_add_duplicate':
         return '新增為重復卡';
       case 'anki_mined_action_overwrite':
@@ -350492,13 +350841,13 @@ extension on _StringsZhHk {
       case 'interconnect_backup_backend':
         return '用互聯做備份後端';
       case 'interconnect_backup_backend_active':
-        return '備份已寫到已配對設備。要換回雲盤，去「同步與備份」裡改後端。';
+        return '備份已寫到 Fushi 互聯服務端。要換回雲盤，去「同步與備份」裡改後端。';
       case 'interconnect_backup_backend_apply':
         return '設為備份後端';
       case 'interconnect_backup_backend_current':
         return ({required Object backend}) => '當前備份後端：${backend}';
       case 'interconnect_backup_backend_hint':
-        return '備份與同步寫到已配對設備，而不是雲盤。寫過去的內容由上面「上傳到互聯對端」的幾個開關決定。';
+        return '備份與同步寫到 Fushi 互聯服務端，而不是雲盤。寫過去的內容由上面「上傳到互聯對端」的幾個開關決定。';
       case 'interconnect_backup_backend_needs_pairing':
         return '請先在上面連接一台設備。';
       case 'interconnect_devices_hint':
@@ -350557,7 +350906,7 @@ extension on _StringsZhHk {
       case 'interconnect_section_client':
         return '連接到其他設備';
       case 'interconnect_section_delegate':
-        return '交給已配對設備';
+        return '交給 Fushi 互聯服務端';
       case 'interconnect_section_related':
         return '遠端內容與查詞';
       case 'interconnect_share_favorites':
@@ -350891,7 +351240,7 @@ extension on _StringsZhHk {
       case 'manga_ocr_engine_none':
         return '沒有可用的 OCR 引擎。請在設定中下載內置模型或配置 mokuro 命令行路徑。';
       case 'manga_ocr_engine_paired_host_desc':
-        return '交給局域網裡已配對的設備來跑，本機不下任何模型。';
+        return 'Hands the work to the paired Fushi interconnect server. Nothing is downloaded here.';
       case 'manga_ocr_engine_system':
         return '裝置內置';
       case 'manga_ocr_engine_system_desc':
@@ -351042,17 +351391,17 @@ extension on _StringsZhHk {
       case 'manga_remote_ocr_cancelled':
         return '主機側已取消遠程 OCR。';
       case 'manga_remote_ocr_engine':
-        return '已配對主機';
+        return 'Fushi 互聯服務端';
       case 'manga_remote_ocr_failed':
         return '遠程 OCR 失敗';
       case 'manga_remote_ocr_no_host':
-        return '沒有可用的支持漫畫 OCR 的已配對主機。';
+        return '沒有可用的支持漫畫 OCR 的 Fushi 互聯服務端。';
       case 'manga_remote_ocr_not_ready':
-        return '已配對主機的 OCR 模型未下載，請先在主機上下載模型。';
+        return 'Fushi 互聯服務端的 OCR 模型未下載，請先在服務端下載模型。';
       case 'manga_remote_ocr_running':
-        return '已配對主機正在識別…';
+        return 'Fushi 互聯服務端正在識別…';
       case 'manga_remote_ocr_unsupported':
-        return '已配對主機不支持漫畫 OCR。';
+        return 'Fushi 互聯服務端不支持漫畫 OCR。';
       case 'manga_remote_ocr_uploading':
         return ({required Object done, required Object total}) =>
             '正在上傳頁面 ${done} / ${total}…';
@@ -351421,8 +351770,6 @@ extension on _StringsZhHk {
         return '忽略';
       case 'mihon_filter_include':
         return '包含';
-      case 'mihon_in_bookshelf':
-        return '已加入漫畫書架';
       case 'mihon_runtime_unavailable':
         return '此平台暫不支持 Mihon 擴展。';
       case 'mihon_signer_fingerprint':
@@ -352332,9 +352679,9 @@ extension on _StringsZhHk {
       case 'remote_book_info_has_audiobook':
         return '包含有聲書';
       case 'remote_book_list_failed':
-        return '無法獲取配對設備的遠端書庫。';
+        return '無法獲取 Fushi 互聯服務端的遠端書庫。';
       case 'remote_book_unavailable':
-        return '配對裝置不可用';
+        return 'Fushi 互聯服務端不可用';
       case 'remote_delete_audiobook_partial':
         return '書已在對端刪除，但它的有聲書沒能刪掉';
       case 'remote_delete_failed':
@@ -352364,7 +352711,7 @@ extension on _StringsZhHk {
       case 'remote_video_list_failed':
         return '無法加載遠端影片，請確認對端設備在線並與本機處於同一網路後重試';
       case 'remote_video_unavailable':
-        return '配對裝置不可用';
+        return 'Fushi 互聯服務端不可用';
       case 'rename_collection':
         return '重命名合集';
       case 'render_restart_required':
@@ -353410,7 +353757,7 @@ extension on _StringsZhHk {
       case 'sync_err_not_configured':
         return '此版本未設定 Google sync 憑證。';
       case 'sync_err_peer_unreachable':
-        return '無法連接配對設備——對方可能不在線，或對端未運行 Fushi。';
+        return '無法連接 Fushi 互聯服務端——對方可能不在線，或未運行 Fushi。';
       case 'sync_err_quota':
         return '雲端儲存空間已滿（已達配額上限）。';
       case 'sync_err_scope_upgrade':
@@ -353430,7 +353777,7 @@ extension on _StringsZhHk {
       case 'sync_interconnect_service_config_toggle':
         return '同步主機服務配置';
       case 'sync_interconnect_service_config_toggle_desc':
-        return '經加密互聯通道接收已配對主機的外部服務設定與 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需啟用 TLS。';
+        return '經加密互聯通道接收 Fushi 互聯服務端的外部服務設定與 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需啟用 TLS。';
       case 'sync_lan_discovery':
         return '區域網絡裝置';
       case 'sync_lan_no_devices':
@@ -353645,7 +353992,7 @@ extension on _StringsZhHk {
       case 'sync_show_remote_entries':
         return '顯示遠端條目';
       case 'sync_show_remote_entries_warning':
-        return '把配對設備或雲端有、本機沒有的書籍和影片顯示為可下載/流播的佔位卡。';
+        return '把 Fushi 互聯服務端或雲端有、本機沒有的書籍和影片顯示為可下載/流播的佔位卡。';
       case 'sync_sign_in':
         return '登入';
       case 'sync_sign_out':
@@ -355500,7 +355847,7 @@ extension on _StringsZhHk {
       case 'video_subtitle_read_failed':
         return ({required Object label}) => '無法讀取該字幕檔案（內容損壞或為空）：${label}';
       case 'video_subtitle_remote_host':
-        return '配對裝置字幕';
+        return 'Fushi 互聯服務端字幕';
       case 'video_subtitle_replay':
         return '重播本句';
       case 'video_subtitle_scope_collection':
@@ -355966,7 +356313,7 @@ extension on _StringsZhHk {
       case 'audiobook_transcribe_model_custom_added':
         return ({required Object name}) => 'Added ${name}';
       case 'manga_source_interconnect_subtitle':
-        return 'Browse the manga library on your paired device';
+        return '瀏覽 Fushi 互聯服務端上的漫畫庫';
       case 'manga_source_interconnect_disabled':
         return 'Turn on Fushi Interconnect in settings to use this source';
       case 'import_step_importing_book':
@@ -356383,7 +356730,7 @@ extension on _StringsZhHk {
       case 'card_source_review_save':
         return 'Save selected changes';
       case 'card_source_review_missing':
-        return 'The original note could not be found. Sync Anki or connect its paired device.';
+        return '找不到原卡，請同步 Anki 或連接原卡所在的 Fushi 互聯服務端。';
       case 'card_source_review_failed':
         return 'Changes were not saved. The note may have changed or the device is unavailable.';
       case 'card_source_review_saved':
@@ -356426,6 +356773,17 @@ extension on _StringsZhHk {
         return 'Source link';
       case 'remote_book_audiobook_download':
         return 'Download audiobook from peer';
+      case 'manga_series_no_chapters_in_language':
+        return ({required Object language}) =>
+            'This source only lists ${language} chapters';
+      case 'manga_series_try_sibling_language':
+        return ({required Object language}) => 'Try ${language}';
+      case 'manga_series_remove_from_bookshelf':
+        return 'Remove from manga shelf';
+      case 'manga_series_remove_confirm':
+        return 'Remove this series from the shelf? Downloaded chapters and reading progress will be deleted.';
+      case 'manga_chapter_locked_login_unsupported_hint':
+        return 'This chapter must be purchased or rented on the site; signing in inside the app cannot unlock this kind of series yet.';
       case 'reader_volume_open':
         return 'Open this volume';
       case 'reader_volume_peek_failed':
