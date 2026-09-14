@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 82450 (4850 per locale)
+/// Strings: 82467 (4851 per locale)
 ///
-/// Built on 2026-09-13 at 14:51 UTC
+/// Built on 2026-09-14 at 12:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6762,6 +6762,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Drag buttons between the top and bottom bars, or remove them.';
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -18199,6 +18200,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -29862,6 +29865,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -41579,6 +41584,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -53329,6 +53336,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -64883,6 +64892,8 @@ class _StringsId extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -76528,6 +76539,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -87556,6 +87569,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -98594,6 +98609,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -110197,6 +110214,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -121853,6 +121872,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -133486,6 +133507,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -144921,6 +144944,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -156470,6 +156495,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -167989,6 +168016,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -178560,6 +178589,8 @@ class _StringsZhCn extends _StringsEn {
   String get reader_control_editor_hint => '把按钮拖到顶栏或底栏的任意位置，或移出。';
   @override
   String get reader_control_reset_layout => '恢复默认阅读器按钮布局';
+  @override
+  String get reader_gallery_relock => '恢复遮罩';
 }
 
 // Path: <root>
@@ -189273,6 +189304,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 /// Flat map(s) containing all translations.
@@ -199276,6 +199309,8 @@ extension on _StringsEn {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -209274,6 +209309,8 @@ extension on _StringsAr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -219317,6 +219354,8 @@ extension on _StringsDe {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -229351,6 +229390,8 @@ extension on _StringsEs {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -239394,6 +239435,8 @@ extension on _StringsFr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -249408,6 +249451,8 @@ extension on _StringsId {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -259444,6 +259489,8 @@ extension on _StringsIt {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -269407,6 +269454,8 @@ extension on _StringsJa {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -279374,6 +279423,8 @@ extension on _StringsKo {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -289403,6 +289454,8 @@ extension on _StringsNl {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -299427,6 +299480,8 @@ extension on _StringsPtBr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -309458,6 +309513,8 @@ extension on _StringsRu {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -319461,6 +319518,8 @@ extension on _StringsTh {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -329479,6 +329538,8 @@ extension on _StringsTr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -339491,6 +339552,8 @@ extension on _StringsVi {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -349412,6 +349475,8 @@ extension on _StringsZhCn {
         return '把按钮拖到顶栏或底栏的任意位置，或移出。';
       case 'reader_control_reset_layout':
         return '恢复默认阅读器按钮布局';
+      case 'reader_gallery_relock':
+        return '恢复遮罩';
       default:
         return null;
     }
@@ -359353,6 +359418,8 @@ extension on _StringsZhHk {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
