@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 82484 (4852 per locale)
+/// Strings: 82501 (4853 per locale)
 ///
-/// Built on 2026-09-14 at 15:01 UTC
+/// Built on 2026-09-15 at 13:24 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6766,6 +6766,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Clip saved, but the share sheet didn\'t open: ${path}';
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -18209,6 +18210,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -29878,6 +29881,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -41601,6 +41606,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -53357,6 +53364,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -64917,6 +64926,8 @@ class _StringsId extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -76568,6 +76579,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -87602,6 +87615,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -98646,6 +98661,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -110255,6 +110272,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -121917,6 +121936,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -133556,6 +133577,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -144997,6 +145020,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -156552,6 +156577,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -168077,6 +168104,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 // Path: <root>
@@ -178653,6 +178682,8 @@ class _StringsZhCn extends _StringsEn {
       '片段已保存，但系统分享面板没有打开：${path}';
   @override
   String get audiobook_export_clip_share_unavailable => '片段已保存，但系统分享面板没有打开';
+  @override
+  String get reader_gallery_relock => '恢复遮罩';
 }
 
 // Path: <root>
@@ -189372,6 +189403,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
+  @override
+  String get reader_gallery_relock => 'Re-hide this illustration';
 }
 
 /// Flat map(s) containing all translations.
@@ -199380,6 +199413,8 @@ extension on _StringsEn {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -209383,6 +209418,8 @@ extension on _StringsAr {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -219431,6 +219468,8 @@ extension on _StringsDe {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -229470,6 +229509,8 @@ extension on _StringsEs {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -239518,6 +239559,8 @@ extension on _StringsFr {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -249537,6 +249580,8 @@ extension on _StringsId {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -259578,6 +259623,8 @@ extension on _StringsIt {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -269546,6 +269593,8 @@ extension on _StringsJa {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -279518,6 +279567,8 @@ extension on _StringsKo {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -289552,6 +289603,8 @@ extension on _StringsNl {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -299581,6 +299634,8 @@ extension on _StringsPtBr {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -309617,6 +309672,8 @@ extension on _StringsRu {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -319625,6 +319682,8 @@ extension on _StringsTh {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -329648,6 +329707,8 @@ extension on _StringsTr {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -339665,6 +339726,8 @@ extension on _StringsVi {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
@@ -349590,6 +349653,8 @@ extension on _StringsZhCn {
         return ({required Object path}) => '片段已保存，但系统分享面板没有打开：${path}';
       case 'audiobook_export_clip_share_unavailable':
         return '片段已保存，但系统分享面板没有打开';
+      case 'reader_gallery_relock':
+        return '恢复遮罩';
       default:
         return null;
     }
@@ -359536,6 +359601,8 @@ extension on _StringsZhHk {
             'Clip saved, but the share sheet didn\'t open: ${path}';
       case 'audiobook_export_clip_share_unavailable':
         return 'Clip saved, but the share sheet didn\'t open';
+      case 'reader_gallery_relock':
+        return 'Re-hide this illustration';
       default:
         return null;
     }
