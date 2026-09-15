@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 82518 (4854 per locale)
 ///
-/// Built on 2026-09-14 at 17:57 UTC
+/// Built on 2026-09-15 at 13:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -18203,10 +18203,10 @@ class _StringsAr extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      'قراءة النص المحيط من التطبيق الأمامي لعرض الجملة الحالية (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      'يستثني نوافذ البحث والحافظة المنبثقة من لقطات الشاشة وتسجيل الشاشة والبث المباشر (Windows / macOS). أوقف هذا للسماح بالتقاط النافذة المنبثقة.';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -29878,10 +29878,10 @@ class _StringsDe extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      'Umgebenden Text der Vordergrund-App lesen, um den aktuellen Satz anzuzeigen (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      'Schließt die Nachschlage- und Zwischenablage-Popupfenster von Screenshots, Bildschirmaufnahmen und Livestreaming aus (Windows / macOS). Deaktiviere dies, um Screenshots, Aufnahmen und Streaming das Erfassen des Nachschlage-Popups zu ermöglichen.';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -41607,10 +41607,10 @@ class _StringsEs extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      'Lee texto circundante de la app en primer plano para mostrar la oración actual (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      'Excluye las ventanas emergentes de búsqueda y portapapeles de capturas de pantalla, grabación de pantalla y transmisión en vivo (Windows / macOS). Desactive esto para permitir que las capturas, grabación y transmisión capturen la ventana emergente de búsqueda.';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -53369,10 +53369,10 @@ class _StringsFr extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      'Lire le texte environnant depuis l\'application au premier plan pour afficher la phrase actuelle (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      'Exclut les fenêtres de recherche et de presse-papiers des captures d\'écran, enregistrements et diffusions en direct (Windows / macOS). Désactivez pour permettre la capture de la fenêtre de recherche.';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -64935,10 +64935,10 @@ class _StringsId extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      'Baca teks sekitar dari aplikasi yang aktif untuk menampilkan kalimat saat ini (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      'Kecualikan jendela popup pencarian dan clipboard dari tangkapan layar, perekaman layar, dan streaming langsung (Windows / macOS). Nonaktifkan ini agar tangkapan layar, perekaman, dan streaming bisa menangkap popup pencarian.';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -76592,10 +76592,10 @@ class _StringsIt extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      'Leggi il testo circostante dall\'app in primo piano per mostrare la frase corrente (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      'Esclude le finestre di ricerca e appunti popup da screenshot, registrazione schermo e streaming live (Windows / macOS). Disattiva per permettere a screenshot, registrazione e streaming di catturare il popup di ricerca.';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -87632,10 +87632,10 @@ class _StringsJa extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      '前面アプリから周辺テキストを読み取り、現在の文を表示します（Windows / macOS）';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      '検索ポップアップとクリップボードポップアップウィンドウをスクリーンショット、画面録画、ライブ配信から除外します（Windows / macOS）。オフにすると、スクリーンショットや録画・配信でポップアップがキャプチャされるようになります。';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -98682,10 +98682,10 @@ class _StringsKo extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      '포그라운드 앱에서 주변 텍스트를 읽어 현재 문장을 표시합니다 (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      '검색 및 클립보드 팝업 창을 스크린샷, 화면 녹화, 라이브 스트리밍에서 제외합니다 (Windows / macOS). 스크린샷, 녹화, 스트리밍에서 검색 팝업을 캡처하려면 이 옵션을 끄세요.';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -110297,10 +110297,10 @@ class _StringsNl extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      'Lees omringende tekst uit de voorgrondapp om de huidige zin te tonen (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      'Sluit het opzoek- en klembordpopupvenster uit van schermafbeeldingen, schermopnames en livestreaming (Windows / macOS). Schakel dit uit om schermafbeeldingen, opnames en streaming het opzoekpopup te laten vastleggen.';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -121965,10 +121965,10 @@ class _StringsPtBr extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      'Lê o texto ao redor do app em primeiro plano para mostrar a frase atual (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      'Exclui as janelas de consulta e área de transferência de capturas de tela, gravações e transmissões ao vivo (Windows / macOS). Desative para permitir que capturas e gravações capturem o popup de consulta.';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -133610,10 +133610,10 @@ class _StringsRu extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      'Считывает окружающий текст из активного приложения для отображения текущего предложения (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      'Исключает всплывающие окна поиска и буфера обмена из скриншотов, записи экрана и трансляций (Windows / macOS). Отключите, чтобы разрешить захват всплывающего окна поиска.';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -145057,10 +145057,10 @@ class _StringsTh extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      'อ่านข้อความรอบๆ จากแอปที่อยู่เบื้องหน้าเพื่อแสดงประโยคปัจจุบัน (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      'ไม่รวมหน้าต่างค้นหาและป๊อปอัปคลิปบอร์ดจากการจับภาพหน้าจอ การบันทึกหน้าจอ และการสตรีมสด (Windows / macOS) ปิดเพื่อให้การจับภาพหน้าจอ การบันทึก และการสตรีมจับป๊อปอัปค้นหาได้';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -156618,10 +156618,10 @@ class _StringsTr extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      'Geçerli cümleyi göstermek için ön plandaki uygulamadan çevreleyen metni oku (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      'Arama ve pano açılır pencerelerini ekran görüntüsü, ekran kaydı ve canlı yayından hariç tutar (Windows / macOS). Arama açılır penceresinin ekran görüntüsü, kayıt ve yayın tarafından yakalanmasına izin vermek için bunu kapatın.';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -168149,10 +168149,10 @@ class _StringsVi extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      'Đọc văn bản xung quanh từ ứng dụng tiền cảnh để hiển thị câu hiện tại (Windows / macOS)';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      'Loại trừ cửa sổ tra cứu và bộ nhớ tạm khỏi chụp màn hình, quay màn hình và phát trực tiếp (Windows / macOS). Tắt để cho phép chụp, quay và phát trực tiếp ghi lại cửa sổ tra cứu.';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -189455,10 +189455,10 @@ class _StringsZhHk extends _StringsEn {
       'Restore default reader button layout';
   @override
   String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      '從前台應用讀取選區周圍文本，在查詞彈窗顯示當前句（Windows / macOS）';
   @override
   String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      '把查詞懸浮窗從截圖、錄屏、直播串流中排除（Windows / macOS）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
   @override
   String get lookup_accessibility_permission_request =>
       'Grant Accessibility permission for app-external lookup';
@@ -209477,9 +209477,9 @@ extension on _StringsAr {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return 'قراءة النص المحيط من التطبيق الأمامي لعرض الجملة الحالية (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return 'يستثني نوافذ البحث والحافظة المنبثقة من لقطات الشاشة وتسجيل الشاشة والبث المباشر (Windows / macOS). أوقف هذا للسماح بالتقاط النافذة المنبثقة.';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -219528,9 +219528,9 @@ extension on _StringsDe {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return 'Umgebenden Text der Vordergrund-App lesen, um den aktuellen Satz anzuzeigen (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return 'Schließt die Nachschlage- und Zwischenablage-Popupfenster von Screenshots, Bildschirmaufnahmen und Livestreaming aus (Windows / macOS). Deaktiviere dies, um Screenshots, Aufnahmen und Streaming das Erfassen des Nachschlage-Popups zu ermöglichen.';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -229570,9 +229570,9 @@ extension on _StringsEs {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return 'Lee texto circundante de la app en primer plano para mostrar la oración actual (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return 'Excluye las ventanas emergentes de búsqueda y portapapeles de capturas de pantalla, grabación de pantalla y transmisión en vivo (Windows / macOS). Desactive esto para permitir que las capturas, grabación y transmisión capturen la ventana emergente de búsqueda.';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -239621,9 +239621,9 @@ extension on _StringsFr {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return 'Lire le texte environnant depuis l\'application au premier plan pour afficher la phrase actuelle (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return 'Exclut les fenêtres de recherche et de presse-papiers des captures d\'écran, enregistrements et diffusions en direct (Windows / macOS). Désactivez pour permettre la capture de la fenêtre de recherche.';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -249643,9 +249643,9 @@ extension on _StringsId {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return 'Baca teks sekitar dari aplikasi yang aktif untuk menampilkan kalimat saat ini (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return 'Kecualikan jendela popup pencarian dan clipboard dari tangkapan layar, perekaman layar, dan streaming langsung (Windows / macOS). Nonaktifkan ini agar tangkapan layar, perekaman, dan streaming bisa menangkap popup pencarian.';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -259687,9 +259687,9 @@ extension on _StringsIt {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return 'Leggi il testo circostante dall\'app in primo piano per mostrare la frase corrente (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return 'Esclude le finestre di ricerca e appunti popup da screenshot, registrazione schermo e streaming live (Windows / macOS). Disattiva per permettere a screenshot, registrazione e streaming di catturare il popup di ricerca.';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -269658,9 +269658,9 @@ extension on _StringsJa {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return '前面アプリから周辺テキストを読み取り、現在の文を表示します（Windows / macOS）';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return '検索ポップアップとクリップボードポップアップウィンドウをスクリーンショット、画面録画、ライブ配信から除外します（Windows / macOS）。オフにすると、スクリーンショットや録画・配信でポップアップがキャプチャされるようになります。';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -279633,9 +279633,9 @@ extension on _StringsKo {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return '포그라운드 앱에서 주변 텍스트를 읽어 현재 문장을 표시합니다 (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return '검색 및 클립보드 팝업 창을 스크린샷, 화면 녹화, 라이브 스트리밍에서 제외합니다 (Windows / macOS). 스크린샷, 녹화, 스트리밍에서 검색 팝업을 캡처하려면 이 옵션을 끄세요.';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -289670,9 +289670,9 @@ extension on _StringsNl {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return 'Lees omringende tekst uit de voorgrondapp om de huidige zin te tonen (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return 'Sluit het opzoek- en klembordpopupvenster uit van schermafbeeldingen, schermopnames en livestreaming (Windows / macOS). Schakel dit uit om schermafbeeldingen, opnames en streaming het opzoekpopup te laten vastleggen.';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -299702,9 +299702,9 @@ extension on _StringsPtBr {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return 'Lê o texto ao redor do app em primeiro plano para mostrar a frase atual (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return 'Exclui as janelas de consulta e área de transferência de capturas de tela, gravações e transmissões ao vivo (Windows / macOS). Desative para permitir que capturas e gravações capturem o popup de consulta.';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -309741,9 +309741,9 @@ extension on _StringsRu {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return 'Считывает окружающий текст из активного приложения для отображения текущего предложения (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return 'Исключает всплывающие окна поиска и буфера обмена из скриншотов, записи экрана и трансляций (Windows / macOS). Отключите, чтобы разрешить захват всплывающего окна поиска.';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -319752,9 +319752,9 @@ extension on _StringsTh {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return 'อ่านข้อความรอบๆ จากแอปที่อยู่เบื้องหน้าเพื่อแสดงประโยคปัจจุบัน (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return 'ไม่รวมหน้าต่างค้นหาและป๊อปอัปคลิปบอร์ดจากการจับภาพหน้าจอ การบันทึกหน้าจอ และการสตรีมสด (Windows / macOS) ปิดเพื่อให้การจับภาพหน้าจอ การบันทึก และการสตรีมจับป๊อปอัปค้นหาได้';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -329778,9 +329778,9 @@ extension on _StringsTr {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return 'Geçerli cümleyi göstermek için ön plandaki uygulamadan çevreleyen metni oku (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return 'Arama ve pano açılır pencerelerini ekran görüntüsü, ekran kaydı ve canlı yayından hariç tutar (Windows / macOS). Arama açılır penceresinin ekran görüntüsü, kayıt ve yayın tarafından yakalanmasına izin vermek için bunu kapatın.';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -339798,9 +339798,9 @@ extension on _StringsVi {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return 'Đọc văn bản xung quanh từ ứng dụng tiền cảnh để hiển thị câu hiện tại (Windows / macOS)';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return 'Loại trừ cửa sổ tra cứu và bộ nhớ tạm khỏi chụp màn hình, quay màn hình và phát trực tiếp (Windows / macOS). Tắt để cho phép chụp, quay và phát trực tiếp ghi lại cửa sổ tra cứu.';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
@@ -359676,9 +359676,9 @@ extension on _StringsZhHk {
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
       case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+        return '從前台應用讀取選區周圍文本，在查詞彈窗顯示當前句（Windows / macOS）';
       case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+        return '把查詞懸浮窗從截圖、錄屏、直播串流中排除（Windows / macOS）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
       case 'lookup_accessibility_permission_request':
         return 'Grant Accessibility permission for app-external lookup';
       case 'lookup_accessibility_permission_hint':
