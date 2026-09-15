@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 82501 (4853 per locale)
+/// Strings: 82603 (4859 per locale)
 ///
-/// Built on 2026-09-15 at 13:24 UTC
+/// Built on 2026-09-15 at 13:25 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6767,6 +6767,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get audiobook_export_clip_share_unavailable =>
       'Clip saved, but the share sheet didn\'t open';
   String get reader_gallery_relock => 'Re-hide this illustration';
+  String get audiobook_follow_audio => 'Follow audio';
+  String get reader_floating_ball => 'Floating ball';
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  String get reader_control_item_play_pause => 'Play / Pause';
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -18212,6 +18219,19 @@ class _StringsAr extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -29883,6 +29903,19 @@ class _StringsDe extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -41608,6 +41641,19 @@ class _StringsEs extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -53366,6 +53412,19 @@ class _StringsFr extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -64928,6 +64987,19 @@ class _StringsId extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -76581,6 +76653,19 @@ class _StringsIt extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -87617,6 +87702,19 @@ class _StringsJa extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -98663,6 +98761,19 @@ class _StringsKo extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -110274,6 +110385,19 @@ class _StringsNl extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -121938,6 +122062,19 @@ class _StringsPtBr extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -133579,6 +133716,19 @@ class _StringsRu extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -145022,6 +145172,19 @@ class _StringsTh extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -156579,6 +156742,19 @@ class _StringsTr extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -168106,6 +168282,19 @@ class _StringsVi extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -178684,6 +178873,19 @@ class _StringsZhCn extends _StringsEn {
   String get audiobook_export_clip_share_unavailable => '片段已保存，但系统分享面板没有打开';
   @override
   String get reader_gallery_relock => '恢复遮罩';
+  @override
+  String get audiobook_follow_audio => '跟随音频';
+  @override
+  String get reader_floating_ball => '悬浮球';
+  @override
+  String get reader_floating_ball_hint =>
+      '半透明小球停靠在页面边缘。点击后按钮环绕小球展开，再点收起；可拖动上下移动或换边。放哪些按钮在上方的按钮布局编辑器里拖选。';
+  @override
+  String get reader_control_item_play_pause => '播放 / 暂停';
+  @override
+  String get reader_control_item_seek_back => '快退 10 秒';
+  @override
+  String get reader_control_item_seek_forward => '快进 10 秒';
 }
 
 // Path: <root>
@@ -189405,6 +189607,19 @@ class _StringsZhHk extends _StringsEn {
       'Clip saved, but the share sheet didn\'t open';
   @override
   String get reader_gallery_relock => 'Re-hide this illustration';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 /// Flat map(s) containing all translations.
@@ -199415,6 +199630,18 @@ extension on _StringsEn {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -209420,6 +209647,18 @@ extension on _StringsAr {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -219470,6 +219709,18 @@ extension on _StringsDe {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -229511,6 +229762,18 @@ extension on _StringsEs {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -239561,6 +239824,18 @@ extension on _StringsFr {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -249582,6 +249857,18 @@ extension on _StringsId {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -259625,6 +259912,18 @@ extension on _StringsIt {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -269595,6 +269894,18 @@ extension on _StringsJa {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -279569,6 +279880,18 @@ extension on _StringsKo {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -289605,6 +289928,18 @@ extension on _StringsNl {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -299636,6 +299971,18 @@ extension on _StringsPtBr {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -309674,6 +310021,18 @@ extension on _StringsRu {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -319684,6 +320043,18 @@ extension on _StringsTh {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -329709,6 +330080,18 @@ extension on _StringsTr {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -339728,6 +340111,18 @@ extension on _StringsVi {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -349655,6 +350050,18 @@ extension on _StringsZhCn {
         return '片段已保存，但系统分享面板没有打开';
       case 'reader_gallery_relock':
         return '恢复遮罩';
+      case 'audiobook_follow_audio':
+        return '跟随音频';
+      case 'reader_floating_ball':
+        return '悬浮球';
+      case 'reader_floating_ball_hint':
+        return '半透明小球停靠在页面边缘。点击后按钮环绕小球展开，再点收起；可拖动上下移动或换边。放哪些按钮在上方的按钮布局编辑器里拖选。';
+      case 'reader_control_item_play_pause':
+        return '播放 / 暂停';
+      case 'reader_control_item_seek_back':
+        return '快退 10 秒';
+      case 'reader_control_item_seek_forward':
+        return '快进 10 秒';
       default:
         return null;
     }
@@ -359603,6 +360010,18 @@ extension on _StringsZhHk {
         return 'Clip saved, but the share sheet didn\'t open';
       case 'reader_gallery_relock':
         return 'Re-hide this illustration';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
