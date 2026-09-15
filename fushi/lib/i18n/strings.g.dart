@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 82450 (4850 per locale)
+/// Strings: 82552 (4856 per locale)
 ///
-/// Built on 2026-09-13 at 14:51 UTC
+/// Built on 2026-09-15 at 10:15 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6762,6 +6762,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Drag buttons between the top and bottom bars, or remove them.';
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  String get audiobook_follow_audio => 'Follow audio';
+  String get reader_floating_ball => 'Floating ball';
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  String get reader_control_item_play_pause => 'Play / Pause';
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -18199,6 +18206,19 @@ class _StringsAr extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -29862,6 +29882,19 @@ class _StringsDe extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -41579,6 +41612,19 @@ class _StringsEs extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -53329,6 +53375,19 @@ class _StringsFr extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -64883,6 +64942,19 @@ class _StringsId extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -76528,6 +76600,19 @@ class _StringsIt extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -87556,6 +87641,19 @@ class _StringsJa extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -98594,6 +98692,19 @@ class _StringsKo extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -110197,6 +110308,19 @@ class _StringsNl extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -121853,6 +121977,19 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -133486,6 +133623,19 @@ class _StringsRu extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -144921,6 +145071,19 @@ class _StringsTh extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -156470,6 +156633,19 @@ class _StringsTr extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -167989,6 +168165,19 @@ class _StringsVi extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 // Path: <root>
@@ -178560,6 +178749,19 @@ class _StringsZhCn extends _StringsEn {
   String get reader_control_editor_hint => '把按钮拖到顶栏或底栏的任意位置，或移出。';
   @override
   String get reader_control_reset_layout => '恢复默认阅读器按钮布局';
+  @override
+  String get audiobook_follow_audio => '跟随音频';
+  @override
+  String get reader_floating_ball => '悬浮球';
+  @override
+  String get reader_floating_ball_hint =>
+      '半透明小球停靠在页面边缘。点击后按钮环绕小球展开，再点收起；可拖动上下移动或换边。放哪些按钮在上方的按钮布局编辑器里拖选。';
+  @override
+  String get reader_control_item_play_pause => '播放 / 暂停';
+  @override
+  String get reader_control_item_seek_back => '快退 10 秒';
+  @override
+  String get reader_control_item_seek_forward => '快进 10 秒';
 }
 
 // Path: <root>
@@ -189273,6 +189475,19 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String get audiobook_follow_audio => 'Follow audio';
+  @override
+  String get reader_floating_ball => 'Floating ball';
+  @override
+  String get reader_floating_ball_hint =>
+      'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+  @override
+  String get reader_control_item_play_pause => 'Play / Pause';
+  @override
+  String get reader_control_item_seek_back => 'Rewind 10 seconds';
+  @override
+  String get reader_control_item_seek_forward => 'Forward 10 seconds';
 }
 
 /// Flat map(s) containing all translations.
@@ -199276,6 +199491,18 @@ extension on _StringsEn {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -209274,6 +209501,18 @@ extension on _StringsAr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -219317,6 +219556,18 @@ extension on _StringsDe {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -229351,6 +229602,18 @@ extension on _StringsEs {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -239394,6 +239657,18 @@ extension on _StringsFr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -249408,6 +249683,18 @@ extension on _StringsId {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -259444,6 +259731,18 @@ extension on _StringsIt {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -269407,6 +269706,18 @@ extension on _StringsJa {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -279374,6 +279685,18 @@ extension on _StringsKo {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -289403,6 +289726,18 @@ extension on _StringsNl {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -299427,6 +299762,18 @@ extension on _StringsPtBr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -309458,6 +309805,18 @@ extension on _StringsRu {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -319461,6 +319820,18 @@ extension on _StringsTh {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -329479,6 +329850,18 @@ extension on _StringsTr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -339491,6 +339874,18 @@ extension on _StringsVi {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
@@ -349412,6 +349807,18 @@ extension on _StringsZhCn {
         return '把按钮拖到顶栏或底栏的任意位置，或移出。';
       case 'reader_control_reset_layout':
         return '恢复默认阅读器按钮布局';
+      case 'audiobook_follow_audio':
+        return '跟随音频';
+      case 'reader_floating_ball':
+        return '悬浮球';
+      case 'reader_floating_ball_hint':
+        return '半透明小球停靠在页面边缘。点击后按钮环绕小球展开，再点收起；可拖动上下移动或换边。放哪些按钮在上方的按钮布局编辑器里拖选。';
+      case 'reader_control_item_play_pause':
+        return '播放 / 暂停';
+      case 'reader_control_item_seek_back':
+        return '快退 10 秒';
+      case 'reader_control_item_seek_forward':
+        return '快进 10 秒';
       default:
         return null;
     }
@@ -359353,6 +359760,18 @@ extension on _StringsZhHk {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'audiobook_follow_audio':
+        return 'Follow audio';
+      case 'reader_floating_ball':
+        return 'Floating ball';
+      case 'reader_floating_ball_hint':
+        return 'A translucent ball docked at the edge of the page. Tap it to fan its buttons out around it, tap again to collapse; drag to move it or switch sides. Choose its buttons in the button layout editor above.';
+      case 'reader_control_item_play_pause':
+        return 'Play / Pause';
+      case 'reader_control_item_seek_back':
+        return 'Rewind 10 seconds';
+      case 'reader_control_item_seek_forward':
+        return 'Forward 10 seconds';
       default:
         return null;
     }
