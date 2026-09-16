@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 85238 (5014 per locale)
+/// Strings: 85272 (5016 per locale)
 ///
-/// Built on 2026-09-16 at 09:57 UTC
+/// Built on 2026-09-16 at 10:20 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1415,7 +1415,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String delete_local_files_failed({required Object n}) =>
       'Could not delete ${n} local file(s); they may still be in use';
   String get delete_local_files_video_desc =>
-      'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+      'The video, its sidecar subtitles and its download task are removed from this device. This cannot be undone.';
   String get delete_prompt_delete_selected => 'Delete selected';
   String get delete_prompt_message =>
       'These items were deleted on another device. Delete them here too?';
@@ -6937,6 +6937,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get ai_provider_base_url_invalid =>
       'Enter a valid HTTP or HTTPS endpoint';
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  String get delete_statistics => 'Also delete statistics';
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
   String get ai_feature_dict_style => 'Dictionary popup style';
   String get ai_feature_dict_style_summary =>
       'Let AI generate popup style rules and CSS from a description';
@@ -9126,7 +9129,7 @@ class _StringsAr extends _StringsEn {
       'تعذّر حذف ${n} من الملفات المحلية؛ قد تكون قيد الاستخدام';
   @override
   String get delete_local_files_video_desc =>
-      'سيُحذف ملف الفيديو من هذا الجهاز، وستُزال مهمة التنزيل المقابلة أيضًا. لا يمكن التراجع عن ذلك.';
+      'يُحذف ملف الفيديو وملفات الترجمة المجاورة له ومهمة التنزيل من هذا الجهاز. لا يمكن التراجع عن ذلك.';
   @override
   String get delete_prompt_delete_selected => 'حذف المحدد';
   @override
@@ -18734,6 +18737,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -21008,7 +21016,7 @@ class _StringsDe extends _StringsEn {
       '${n} lokale Datei(en) konnten nicht gelöscht werden; sie sind möglicherweise noch in Benutzung';
   @override
   String get delete_local_files_video_desc =>
-      'Die Videodatei wird von diesem Gerät entfernt und der zugehörige Download-Auftrag ebenfalls gelöscht. Das lässt sich nicht rückgängig machen.';
+      'Die Videodatei, die daneben liegenden Untertitel und der Download-Auftrag werden von diesem Gerät entfernt. Das lässt sich nicht rückgängig machen.';
   @override
   String get delete_prompt_delete_selected => 'Ausgewählte löschen';
   @override
@@ -30804,6 +30812,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -33086,7 +33099,7 @@ class _StringsEs extends _StringsEn {
       'No se pudieron eliminar ${n} archivo(s) local(es); puede que sigan en uso';
   @override
   String get delete_local_files_video_desc =>
-      'El archivo de vídeo se elimina de este dispositivo y su tarea de descarga también. Esto no se puede deshacer.';
+      'El vídeo, los subtítulos que están junto a él y su tarea de descarga se eliminan de este dispositivo. Esto no se puede deshacer.';
   @override
   String get delete_prompt_delete_selected => 'Eliminar seleccionados';
   @override
@@ -42930,6 +42943,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -45222,7 +45240,7 @@ class _StringsFr extends _StringsEn {
       'Impossible de supprimer ${n} fichier(s) local(aux) ; ils sont peut-être encore utilisés';
   @override
   String get delete_local_files_video_desc =>
-      'Le fichier vidéo est supprimé de cet appareil, ainsi que sa tâche de téléchargement. Cette action est irréversible.';
+      'La vidéo, les sous-titres situés à côté et la tâche de téléchargement sont supprimés de cet appareil. Cette action est irréversible.';
   @override
   String get delete_prompt_delete_selected => 'Supprimer la sélection';
   @override
@@ -55088,6 +55106,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -57348,7 +57371,7 @@ class _StringsId extends _StringsEn {
       'Gagal menghapus ${n} berkas lokal; mungkin masih digunakan';
   @override
   String get delete_local_files_video_desc =>
-      'Berkas video dihapus dari perangkat ini beserta tugas unduhannya. Tindakan ini tidak dapat dibatalkan.';
+      'Berkas video, berkas subtitle di sebelahnya, dan tugas unduhannya dihapus dari perangkat ini. Tindakan ini tidak dapat dibatalkan.';
   @override
   String get delete_prompt_delete_selected => 'Hapus yang dipilih';
   @override
@@ -67054,6 +67077,11 @@ class _StringsId extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -69322,7 +69350,7 @@ class _StringsIt extends _StringsEn {
       'Impossibile eliminare ${n} file locali; potrebbero essere ancora in uso';
   @override
   String get delete_local_files_video_desc =>
-      'Il file video viene rimosso da questo dispositivo, insieme al relativo processo di download. L\'operazione non è reversibile.';
+      'Il video, i sottotitoli che si trovano accanto e il processo di download vengono rimossi da questo dispositivo. L\'operazione non è reversibile.';
   @override
   String get delete_prompt_delete_selected => 'Elimina selezionati';
   @override
@@ -79106,6 +79134,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -81267,7 +81300,7 @@ class _StringsJa extends _StringsEn {
       '${n} 件のローカルファイルを削除できませんでした。使用中の可能性があります';
   @override
   String get delete_local_files_video_desc =>
-      '動画ファイルをこの端末から削除し、対応するダウンロードタスクも消去します。元に戻せません。';
+      '動画ファイルと隣の外部字幕をこの端末から削除し、ダウンロードタスクも消去します。元に戻せません。';
   @override
   String get delete_prompt_delete_selected => '選択した項目を削除';
   @override
@@ -90542,6 +90575,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -92701,7 +92739,7 @@ class _StringsKo extends _StringsEn {
       '로컬 파일 ${n} 개를 삭제하지 못했습니다. 아직 사용 중일 수 있습니다';
   @override
   String get delete_local_files_video_desc =>
-      '이 기기에서 동영상 파일을 삭제하고 해당 다운로드 작업도 함께 지웁니다. 되돌릴 수 없습니다.';
+      '이 기기에서 동영상 파일과 옆의 자막 파일을 삭제하고 다운로드 작업도 지웁니다. 되돌릴 수 없습니다.';
   @override
   String get delete_prompt_delete_selected => '선택 항목 삭제';
   @override
@@ -101985,6 +102023,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -104244,7 +104287,7 @@ class _StringsNl extends _StringsEn {
       '${n} lokale bestand(en) konden niet worden verwijderd; ze zijn mogelijk nog in gebruik';
   @override
   String get delete_local_files_video_desc =>
-      'Het videobestand wordt van dit apparaat verwijderd en de bijbehorende downloadtaak ook. Dit kan niet ongedaan worden gemaakt.';
+      'Het videobestand, de ondertitels ernaast en de downloadtaak worden van dit apparaat verwijderd. Dit kan niet ongedaan worden gemaakt.';
   @override
   String get delete_prompt_delete_selected => 'Geselecteerde verwijderen';
   @override
@@ -113993,6 +114036,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -116270,7 +116318,7 @@ class _StringsPtBr extends _StringsEn {
       'Não foi possível excluir ${n} arquivo(s) local(is); eles podem estar em uso';
   @override
   String get delete_local_files_video_desc =>
-      'O arquivo de vídeo é removido deste dispositivo e a tarefa de download correspondente também. Isso não pode ser desfeito.';
+      'O vídeo, as legendas ao lado dele e a tarefa de download são removidos deste dispositivo. Isso não pode ser desfeito.';
   @override
   String get delete_prompt_delete_selected => 'Excluir selecionados';
   @override
@@ -126059,6 +126107,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -128323,7 +128376,7 @@ class _StringsRu extends _StringsEn {
       'Не удалось удалить локальные файлы (${n}); возможно, они ещё используются';
   @override
   String get delete_local_files_video_desc =>
-      'Видеофайл будет удалён с этого устройства, а связанная задача загрузки — очищена. Отменить это нельзя.';
+      'Видеофайл, лежащие рядом субтитры и задача загрузки будут удалены с этого устройства. Отменить это нельзя.';
   @override
   String get delete_prompt_delete_selected => 'Удалить выбранные';
   @override
@@ -138102,6 +138155,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -140331,7 +140389,7 @@ class _StringsTh extends _StringsEn {
       'ลบไฟล์ในเครื่องไม่สำเร็จ ${n} ไฟล์ อาจกำลังถูกใช้งานอยู่';
   @override
   String get delete_local_files_video_desc =>
-      'ไฟล์วิดีโอจะถูกลบออกจากอุปกรณ์นี้ พร้อมกับงานดาวน์โหลดที่เกี่ยวข้อง และไม่สามารถกู้คืนได้';
+      'ไฟล์วิดีโอ ไฟล์คำบรรยายที่อยู่ข้าง ๆ และงานดาวน์โหลดจะถูกลบออกจากอุปกรณ์นี้ และไม่สามารถกู้คืนได้';
   @override
   String get delete_prompt_delete_selected => 'ลบรายการที่เลือก';
   @override
@@ -149945,6 +150003,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -152201,7 +152264,7 @@ class _StringsTr extends _StringsEn {
       '${n} yerel dosya silinemedi; hâlâ kullanımda olabilir';
   @override
   String get delete_local_files_video_desc =>
-      'Video dosyası bu cihazdan silinir ve ilgili indirme görevi de temizlenir. Bu geri alınamaz.';
+      'Video dosyası, yanındaki altyazı dosyaları ve indirme görevi bu cihazdan silinir. Bu geri alınamaz.';
   @override
   String get delete_prompt_delete_selected => 'Seçilenleri sil';
   @override
@@ -161901,6 +161964,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -164155,7 +164223,7 @@ class _StringsVi extends _StringsEn {
       'Không thể xoá ${n} tệp trên máy; có thể chúng vẫn đang được sử dụng';
   @override
   String get delete_local_files_video_desc =>
-      'Tệp video sẽ bị xoá khỏi thiết bị này, đồng thời xoá cả tác vụ tải xuống tương ứng. Không thể hoàn tác.';
+      'Tệp video, các tệp phụ đề nằm cạnh nó và tác vụ tải xuống sẽ bị xoá khỏi thiết bị này. Không thể hoàn tác.';
   @override
   String get delete_prompt_delete_selected => 'Xóa mục đã chọn';
   @override
@@ -173827,6 +173895,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -175910,7 +175983,8 @@ class _StringsZhCn extends _StringsEn {
   String delete_local_files_failed({required Object n}) =>
       '有 ${n} 个本地文件删除失败，可能正在被使用';
   @override
-  String get delete_local_files_video_desc => '视频文件将从本设备删除，对应的下载任务一并清除，无法恢复';
+  String get delete_local_files_video_desc =>
+      '视频文件与紧邻的外挂字幕将从本设备删除，下载任务一并清除，无法恢复';
   @override
   String get delete_prompt_delete_selected => '删除选中';
   @override
@@ -184770,6 +184844,11 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => '由内置预设固定，不可更改';
   @override
+  String get delete_statistics => '同时删除统计数据';
+  @override
+  String get delete_statistics_video_desc =>
+      '该视频的观看时长、字幕字数与查词/制卡计数将从统计中移除，并同步到其他设备';
+  @override
   String get ai_feature_dict_style => '词典弹窗样式';
   @override
   String get ai_feature_dict_style_summary => '让 AI 按描述生成弹窗样式规则与 CSS';
@@ -186856,7 +186935,8 @@ class _StringsZhHk extends _StringsEn {
   String delete_local_files_failed({required Object n}) =>
       '有 ${n} 個本機檔案刪除失敗，可能正在被使用';
   @override
-  String get delete_local_files_video_desc => '影片檔案將從本機刪除，對應的下載工作一併清除，無法復原';
+  String get delete_local_files_video_desc =>
+      '影片檔案與緊鄰的外掛字幕將從本機刪除，下載工作一併清除，無法復原';
   @override
   String get delete_prompt_delete_selected => '刪除選中';
   @override
@@ -195874,6 +195954,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
   @override
+  String get delete_statistics => '同時刪除統計數據';
+  @override
+  String get delete_statistics_video_desc =>
+      '該影片的觀看時長、字幕字數與查詞/製卡計數將從統計中移除，並同步到其他裝置';
+  @override
   String get ai_feature_dict_style => 'Dictionary popup style';
   @override
   String get ai_feature_dict_style_summary =>
@@ -197821,7 +197906,7 @@ extension on _StringsEn {
         return ({required Object n}) =>
             'Could not delete ${n} local file(s); they may still be in use';
       case 'delete_local_files_video_desc':
-        return 'The video file is removed from this device and its download task is cleared too. This cannot be undone.';
+        return 'The video, its sidecar subtitles and its download task are removed from this device. This cannot be undone.';
       case 'delete_prompt_delete_selected':
         return 'Delete selected';
       case 'delete_prompt_message':
@@ -206223,6 +206308,10 @@ extension on _StringsEn {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -208155,7 +208244,7 @@ extension on _StringsAr {
         return ({required Object n}) =>
             'تعذّر حذف ${n} من الملفات المحلية؛ قد تكون قيد الاستخدام';
       case 'delete_local_files_video_desc':
-        return 'سيُحذف ملف الفيديو من هذا الجهاز، وستُزال مهمة التنزيل المقابلة أيضًا. لا يمكن التراجع عن ذلك.';
+        return 'يُحذف ملف الفيديو وملفات الترجمة المجاورة له ومهمة التنزيل من هذا الجهاز. لا يمكن التراجع عن ذلك.';
       case 'delete_prompt_delete_selected':
         return 'حذف المحدد';
       case 'delete_prompt_message':
@@ -216552,6 +216641,10 @@ extension on _StringsAr {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -218496,7 +218589,7 @@ extension on _StringsDe {
         return ({required Object n}) =>
             '${n} lokale Datei(en) konnten nicht gelöscht werden; sie sind möglicherweise noch in Benutzung';
       case 'delete_local_files_video_desc':
-        return 'Die Videodatei wird von diesem Gerät entfernt und der zugehörige Download-Auftrag ebenfalls gelöscht. Das lässt sich nicht rückgängig machen.';
+        return 'Die Videodatei, die daneben liegenden Untertitel und der Download-Auftrag werden von diesem Gerät entfernt. Das lässt sich nicht rückgängig machen.';
       case 'delete_prompt_delete_selected':
         return 'Ausgewählte löschen';
       case 'delete_prompt_message':
@@ -226926,6 +227019,10 @@ extension on _StringsDe {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -228866,7 +228963,7 @@ extension on _StringsEs {
         return ({required Object n}) =>
             'No se pudieron eliminar ${n} archivo(s) local(es); puede que sigan en uso';
       case 'delete_local_files_video_desc':
-        return 'El archivo de vídeo se elimina de este dispositivo y su tarea de descarga también. Esto no se puede deshacer.';
+        return 'El vídeo, los subtítulos que están junto a él y su tarea de descarga se eliminan de este dispositivo. Esto no se puede deshacer.';
       case 'delete_prompt_delete_selected':
         return 'Eliminar seleccionados';
       case 'delete_prompt_message':
@@ -237291,6 +237388,10 @@ extension on _StringsEs {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -239233,7 +239334,7 @@ extension on _StringsFr {
         return ({required Object n}) =>
             'Impossible de supprimer ${n} fichier(s) local(aux) ; ils sont peut-être encore utilisés';
       case 'delete_local_files_video_desc':
-        return 'Le fichier vidéo est supprimé de cet appareil, ainsi que sa tâche de téléchargement. Cette action est irréversible.';
+        return 'La vidéo, les sous-titres situés à côté et la tâche de téléchargement sont supprimés de cet appareil. Cette action est irréversible.';
       case 'delete_prompt_delete_selected':
         return 'Supprimer la sélection';
       case 'delete_prompt_message':
@@ -247665,6 +247766,10 @@ extension on _StringsFr {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -249603,7 +249708,7 @@ extension on _StringsId {
         return ({required Object n}) =>
             'Gagal menghapus ${n} berkas lokal; mungkin masih digunakan';
       case 'delete_local_files_video_desc':
-        return 'Berkas video dihapus dari perangkat ini beserta tugas unduhannya. Tindakan ini tidak dapat dibatalkan.';
+        return 'Berkas video, berkas subtitle di sebelahnya, dan tugas unduhannya dihapus dari perangkat ini. Tindakan ini tidak dapat dibatalkan.';
       case 'delete_prompt_delete_selected':
         return 'Hapus yang dipilih';
       case 'delete_prompt_message':
@@ -258010,6 +258115,10 @@ extension on _StringsId {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -259949,7 +260058,7 @@ extension on _StringsIt {
         return ({required Object n}) =>
             'Impossibile eliminare ${n} file locali; potrebbero essere ancora in uso';
       case 'delete_local_files_video_desc':
-        return 'Il file video viene rimosso da questo dispositivo, insieme al relativo processo di download. L\'operazione non è reversibile.';
+        return 'Il video, i sottotitoli che si trovano accanto e il processo di download vengono rimossi da questo dispositivo. L\'operazione non è reversibile.';
       case 'delete_prompt_delete_selected':
         return 'Elimina selezionati';
       case 'delete_prompt_message':
@@ -268377,6 +268486,10 @@ extension on _StringsIt {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -270300,7 +270413,7 @@ extension on _StringsJa {
         return ({required Object n}) =>
             '${n} 件のローカルファイルを削除できませんでした。使用中の可能性があります';
       case 'delete_local_files_video_desc':
-        return '動画ファイルをこの端末から削除し、対応するダウンロードタスクも消去します。元に戻せません。';
+        return '動画ファイルと隣の外部字幕をこの端末から削除し、ダウンロードタスクも消去します。元に戻せません。';
       case 'delete_prompt_delete_selected':
         return '選択した項目を削除';
       case 'delete_prompt_message':
@@ -278671,6 +278784,10 @@ extension on _StringsJa {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -280594,7 +280711,7 @@ extension on _StringsKo {
         return ({required Object n}) =>
             '로컬 파일 ${n} 개를 삭제하지 못했습니다. 아직 사용 중일 수 있습니다';
       case 'delete_local_files_video_desc':
-        return '이 기기에서 동영상 파일을 삭제하고 해당 다운로드 작업도 함께 지웁니다. 되돌릴 수 없습니다.';
+        return '이 기기에서 동영상 파일과 옆의 자막 파일을 삭제하고 다운로드 작업도 지웁니다. 되돌릴 수 없습니다.';
       case 'delete_prompt_delete_selected':
         return '선택 항목 삭제';
       case 'delete_prompt_message':
@@ -288969,6 +289086,10 @@ extension on _StringsKo {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -290908,7 +291029,7 @@ extension on _StringsNl {
         return ({required Object n}) =>
             '${n} lokale bestand(en) konden niet worden verwijderd; ze zijn mogelijk nog in gebruik';
       case 'delete_local_files_video_desc':
-        return 'Het videobestand wordt van dit apparaat verwijderd en de bijbehorende downloadtaak ook. Dit kan niet ongedaan worden gemaakt.';
+        return 'Het videobestand, de ondertitels ernaast en de downloadtaak worden van dit apparaat verwijderd. Dit kan niet ongedaan worden gemaakt.';
       case 'delete_prompt_delete_selected':
         return 'Geselecteerde verwijderen';
       case 'delete_prompt_message':
@@ -299329,6 +299450,10 @@ extension on _StringsNl {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -301269,7 +301394,7 @@ extension on _StringsPtBr {
         return ({required Object n}) =>
             'Não foi possível excluir ${n} arquivo(s) local(is); eles podem estar em uso';
       case 'delete_local_files_video_desc':
-        return 'O arquivo de vídeo é removido deste dispositivo e a tarefa de download correspondente também. Isso não pode ser desfeito.';
+        return 'O vídeo, as legendas ao lado dele e a tarefa de download são removidos deste dispositivo. Isso não pode ser desfeito.';
       case 'delete_prompt_delete_selected':
         return 'Excluir selecionados';
       case 'delete_prompt_message':
@@ -309684,6 +309809,10 @@ extension on _StringsPtBr {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -311628,7 +311757,7 @@ extension on _StringsRu {
         return ({required Object n}) =>
             'Не удалось удалить локальные файлы (${n}); возможно, они ещё используются';
       case 'delete_local_files_video_desc':
-        return 'Видеофайл будет удалён с этого устройства, а связанная задача загрузки — очищена. Отменить это нельзя.';
+        return 'Видеофайл, лежащие рядом субтитры и задача загрузки будут удалены с этого устройства. Отменить это нельзя.';
       case 'delete_prompt_delete_selected':
         return 'Удалить выбранные';
       case 'delete_prompt_message':
@@ -320046,6 +320175,10 @@ extension on _StringsRu {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -321978,7 +322111,7 @@ extension on _StringsTh {
         return ({required Object n}) =>
             'ลบไฟล์ในเครื่องไม่สำเร็จ ${n} ไฟล์ อาจกำลังถูกใช้งานอยู่';
       case 'delete_local_files_video_desc':
-        return 'ไฟล์วิดีโอจะถูกลบออกจากอุปกรณ์นี้ พร้อมกับงานดาวน์โหลดที่เกี่ยวข้อง และไม่สามารถกู้คืนได้';
+        return 'ไฟล์วิดีโอ ไฟล์คำบรรยายที่อยู่ข้าง ๆ และงานดาวน์โหลดจะถูกลบออกจากอุปกรณ์นี้ และไม่สามารถกู้คืนได้';
       case 'delete_prompt_delete_selected':
         return 'ลบรายการที่เลือก';
       case 'delete_prompt_message':
@@ -330380,6 +330513,10 @@ extension on _StringsTh {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -332321,7 +332458,7 @@ extension on _StringsTr {
         return ({required Object n}) =>
             '${n} yerel dosya silinemedi; hâlâ kullanımda olabilir';
       case 'delete_local_files_video_desc':
-        return 'Video dosyası bu cihazdan silinir ve ilgili indirme görevi de temizlenir. Bu geri alınamaz.';
+        return 'Video dosyası, yanındaki altyazı dosyaları ve indirme görevi bu cihazdan silinir. Bu geri alınamaz.';
       case 'delete_prompt_delete_selected':
         return 'Seçilenleri sil';
       case 'delete_prompt_message':
@@ -340729,6 +340866,10 @@ extension on _StringsTr {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -342664,7 +342805,7 @@ extension on _StringsVi {
         return ({required Object n}) =>
             'Không thể xoá ${n} tệp trên máy; có thể chúng vẫn đang được sử dụng';
       case 'delete_local_files_video_desc':
-        return 'Tệp video sẽ bị xoá khỏi thiết bị này, đồng thời xoá cả tác vụ tải xuống tương ứng. Không thể hoàn tác.';
+        return 'Tệp video, các tệp phụ đề nằm cạnh nó và tác vụ tải xuống sẽ bị xoá khỏi thiết bị này. Không thể hoàn tác.';
       case 'delete_prompt_delete_selected':
         return 'Xóa mục đã chọn';
       case 'delete_prompt_message':
@@ -351072,6 +351213,10 @@ extension on _StringsVi {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
@@ -352983,7 +353128,7 @@ extension on _StringsZhCn {
       case 'delete_local_files_failed':
         return ({required Object n}) => '有 ${n} 个本地文件删除失败，可能正在被使用';
       case 'delete_local_files_video_desc':
-        return '视频文件将从本设备删除，对应的下载任务一并清除，无法恢复';
+        return '视频文件与紧邻的外挂字幕将从本设备删除，下载任务一并清除，无法恢复';
       case 'delete_prompt_delete_selected':
         return '删除选中';
       case 'delete_prompt_message':
@@ -361322,6 +361467,10 @@ extension on _StringsZhCn {
         return '请填写有效的 HTTP 或 HTTPS 接口地址';
       case 'ai_provider_protocol_locked':
         return '由内置预设固定，不可更改';
+      case 'delete_statistics':
+        return '同时删除统计数据';
+      case 'delete_statistics_video_desc':
+        return '该视频的观看时长、字幕字数与查词/制卡计数将从统计中移除，并同步到其他设备';
       case 'ai_feature_dict_style':
         return '词典弹窗样式';
       case 'ai_feature_dict_style_summary':
@@ -363236,7 +363385,7 @@ extension on _StringsZhHk {
       case 'delete_local_files_failed':
         return ({required Object n}) => '有 ${n} 個本機檔案刪除失敗，可能正在被使用';
       case 'delete_local_files_video_desc':
-        return '影片檔案將從本機刪除，對應的下載工作一併清除，無法復原';
+        return '影片檔案與緊鄰的外掛字幕將從本機刪除，下載工作一併清除，無法復原';
       case 'delete_prompt_delete_selected':
         return '刪除選中';
       case 'delete_prompt_message':
@@ -371593,6 +371742,10 @@ extension on _StringsZhHk {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return '同時刪除統計數據';
+      case 'delete_statistics_video_desc':
+        return '該影片的觀看時長、字幕字數與查詞/製卡計數將從統計中移除，並同步到其他裝置';
       case 'ai_feature_dict_style':
         return 'Dictionary popup style';
       case 'ai_feature_dict_style_summary':
