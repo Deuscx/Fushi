@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 84592 (4976 per locale)
+/// Strings: 84745 (4985 per locale)
 ///
-/// Built on 2026-09-15 at 15:54 UTC
+/// Built on 2026-09-16 at 09:25 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6946,6 +6946,18 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_setting_screenshot_directory_hint =>
       'Where screenshots land when the destination is Save to folder';
   String get video_screenshot_directory_not_set => 'Not set';
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  String get settings_lookup_ime_language_unset => 'Not set';
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  String get anki_mined_forget_done => 'Mining record cleared';
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -18694,6 +18706,27 @@ class _StringsAr extends _StringsEn {
       'أين تُحفظ لقطات الشاشة عندما تكون الوجهة هي الحفظ في مجلد';
   @override
   String get video_screenshot_directory_not_set => 'غير مُعيّن';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -30670,6 +30703,27 @@ class _StringsDe extends _StringsEn {
       'Wohin Screenshots gespeichert werden, wenn als Ziel „In Ordner speichern“ gewählt ist';
   @override
   String get video_screenshot_directory_not_set => 'Nicht festgelegt';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -42699,6 +42753,27 @@ class _StringsEs extends _StringsEn {
       'Dónde se guardan las capturas cuando el destino es «Guardar en una carpeta»';
   @override
   String get video_screenshot_directory_not_set => 'No establecido';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -54765,6 +54840,27 @@ class _StringsFr extends _StringsEn {
       'Où sont enregistrées les captures d\'écran quand la destination est « Enregistrer dans un dossier »';
   @override
   String get video_screenshot_directory_not_set => 'Non défini';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -66630,6 +66726,27 @@ class _StringsId extends _StringsEn {
       'Tempat tangkapan layar disimpan saat tujuannya Simpan ke folder';
   @override
   String get video_screenshot_directory_not_set => 'Belum diatur';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -78587,6 +78704,27 @@ class _StringsIt extends _StringsEn {
       'Dove finiscono gli screenshot quando la destinazione è «Salva in una cartella»';
   @override
   String get video_screenshot_directory_not_set => 'Non impostata';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -89924,6 +90062,27 @@ class _StringsJa extends _StringsEn {
       '保存先が「フォルダに保存」のときにスクリーンショットが置かれる場所';
   @override
   String get video_screenshot_directory_not_set => '未設定';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -101271,6 +101430,27 @@ class _StringsKo extends _StringsEn {
       '저장 위치가 ‘폴더에 저장’일 때 스크린샷이 저장되는 곳';
   @override
   String get video_screenshot_directory_not_set => '설정 안 됨';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -113188,6 +113368,27 @@ class _StringsNl extends _StringsEn {
       'Waar schermafbeeldingen terechtkomen wanneer de bestemming Opslaan in map is';
   @override
   String get video_screenshot_directory_not_set => 'Niet ingesteld';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -125158,6 +125359,27 @@ class _StringsPtBr extends _StringsEn {
       'Onde as capturas de tela são salvas quando o destino é Salvar em uma pasta';
   @override
   String get video_screenshot_directory_not_set => 'Não definida';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -137103,6 +137325,27 @@ class _StringsRu extends _StringsEn {
       'Куда попадают скриншоты, когда выбрано «Сохранять в папку»';
   @override
   String get video_screenshot_directory_not_set => 'Не задана';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -148849,6 +149092,27 @@ class _StringsTh extends _StringsEn {
       'ที่เก็บภาพหน้าจอเมื่อปลายทางคือบันทึกลงโฟลเดอร์';
   @override
   String get video_screenshot_directory_not_set => 'ยังไม่ได้ตั้ง';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -160709,6 +160973,27 @@ class _StringsTr extends _StringsEn {
       'Hedef Klasöre kaydet olduğunda ekran görüntülerinin kaydedileceği yer';
   @override
   String get video_screenshot_directory_not_set => 'Ayarlanmadı';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -172542,6 +172827,27 @@ class _StringsVi extends _StringsEn {
       'Nơi ảnh chụp màn hình được lưu khi nơi lưu là Lưu vào thư mục';
   @override
   String get video_screenshot_directory_not_set => 'Chưa đặt';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -183384,6 +183690,26 @@ class _StringsZhCn extends _StringsEn {
   String get video_setting_screenshot_directory_hint => '选择「保存到目录」时截图落在这里';
   @override
   String get video_screenshot_directory_not_set => '未设置';
+  @override
+  String get settings_lookup_ime_language_title => '查词输入法语言';
+  @override
+  String get settings_lookup_ime_language_description =>
+      '在查词输入框打字时键盘切到哪种语言。需要系统已安装对应输入法。不影响查词结果。';
+  @override
+  String get settings_lookup_ime_language_unset => '未设置';
+  @override
+  String get settings_lookup_ime_language_unavailable => '系统里还没有安装这个输入法。';
+  @override
+  String get anki_mined_unverified_title => '已标记为已制卡';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi 无法回读 AnkiMobile 的卡片库，已制卡标记来自本机记录，无法判断卡片是否还在 Anki 里。';
+  @override
+  String get anki_mined_action_forget => '我已在 Anki 里删了这张卡';
+  @override
+  String get anki_mined_forget_done => '已清除制卡记录';
+  @override
+  String get reader_gallery_cover => '封面';
 }
 
 // Path: <root>
@@ -194404,6 +194730,27 @@ class _StringsZhHk extends _StringsEn {
   String get video_setting_screenshot_directory_hint => '選擇「儲存到資料夾」時截圖會存在這裡';
   @override
   String get video_screenshot_directory_not_set => '未設定';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 /// Flat map(s) containing all translations.
@@ -204661,6 +205008,24 @@ extension on _StringsEn {
         return 'Where screenshots land when the destination is Save to folder';
       case 'video_screenshot_directory_not_set':
         return 'Not set';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -214913,6 +215278,24 @@ extension on _StringsAr {
         return 'أين تُحفظ لقطات الشاشة عندما تكون الوجهة هي الحفظ في مجلد';
       case 'video_screenshot_directory_not_set':
         return 'غير مُعيّن';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -225210,6 +225593,24 @@ extension on _StringsDe {
         return 'Wohin Screenshots gespeichert werden, wenn als Ziel „In Ordner speichern“ gewählt ist';
       case 'video_screenshot_directory_not_set':
         return 'Nicht festgelegt';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -235498,6 +235899,24 @@ extension on _StringsEs {
         return 'Dónde se guardan las capturas cuando el destino es «Guardar en una carpeta»';
       case 'video_screenshot_directory_not_set':
         return 'No establecido';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -245795,6 +246214,24 @@ extension on _StringsFr {
         return 'Où sont enregistrées les captures d\'écran quand la destination est « Enregistrer dans un dossier »';
       case 'video_screenshot_directory_not_set':
         return 'Non défini';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -256063,6 +256500,24 @@ extension on _StringsId {
         return 'Tempat tangkapan layar disimpan saat tujuannya Simpan ke folder';
       case 'video_screenshot_directory_not_set':
         return 'Belum diatur';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -266353,6 +266808,24 @@ extension on _StringsIt {
         return 'Dove finiscono gli screenshot quando la destinazione è «Salva in una cartella»';
       case 'video_screenshot_directory_not_set':
         return 'Non impostata';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -276570,6 +277043,24 @@ extension on _StringsJa {
         return '保存先が「フォルダに保存」のときにスクリーンショットが置かれる場所';
       case 'video_screenshot_directory_not_set':
         return '未設定';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -286791,6 +287282,24 @@ extension on _StringsKo {
         return '저장 위치가 ‘폴더에 저장’일 때 스크린샷이 저장되는 곳';
       case 'video_screenshot_directory_not_set':
         return '설정 안 됨';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -297074,6 +297583,24 @@ extension on _StringsNl {
         return 'Waar schermafbeeldingen terechtkomen wanneer de bestemming Opslaan in map is';
       case 'video_screenshot_directory_not_set':
         return 'Niet ingesteld';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -307352,6 +307879,24 @@ extension on _StringsPtBr {
         return 'Onde as capturas de tela são salvas quando o destino é Salvar em uma pasta';
       case 'video_screenshot_directory_not_set':
         return 'Não definida';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -317637,6 +318182,24 @@ extension on _StringsRu {
         return 'Куда попадают скриншоты, когда выбрано «Сохранять в папку»';
       case 'video_screenshot_directory_not_set':
         return 'Не задана';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -327894,6 +328457,24 @@ extension on _StringsTh {
         return 'ที่เก็บภาพหน้าจอเมื่อปลายทางคือบันทึกลงโฟลเดอร์';
       case 'video_screenshot_directory_not_set':
         return 'ยังไม่ได้ตั้ง';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -338166,6 +338747,24 @@ extension on _StringsTr {
         return 'Hedef Klasöre kaydet olduğunda ekran görüntülerinin kaydedileceği yer';
       case 'video_screenshot_directory_not_set':
         return 'Ayarlanmadı';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -348432,6 +349031,24 @@ extension on _StringsVi {
         return 'Nơi ảnh chụp màn hình được lưu khi nơi lưu là Lưu vào thư mục';
       case 'video_screenshot_directory_not_set':
         return 'Chưa đặt';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -358605,6 +359222,24 @@ extension on _StringsZhCn {
         return '选择「保存到目录」时截图落在这里';
       case 'video_screenshot_directory_not_set':
         return '未设置';
+      case 'settings_lookup_ime_language_title':
+        return '查词输入法语言';
+      case 'settings_lookup_ime_language_description':
+        return '在查词输入框打字时键盘切到哪种语言。需要系统已安装对应输入法。不影响查词结果。';
+      case 'settings_lookup_ime_language_unset':
+        return '未设置';
+      case 'settings_lookup_ime_language_unavailable':
+        return '系统里还没有安装这个输入法。';
+      case 'anki_mined_unverified_title':
+        return '已标记为已制卡';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi 无法回读 AnkiMobile 的卡片库，已制卡标记来自本机记录，无法判断卡片是否还在 Anki 里。';
+      case 'anki_mined_action_forget':
+        return '我已在 Anki 里删了这张卡';
+      case 'anki_mined_forget_done':
+        return '已清除制卡记录';
+      case 'reader_gallery_cover':
+        return '封面';
       default:
         return null;
     }
@@ -368800,6 +369435,24 @@ extension on _StringsZhHk {
         return '選擇「儲存到資料夾」時截圖會存在這裡';
       case 'video_screenshot_directory_not_set':
         return '未設定';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
