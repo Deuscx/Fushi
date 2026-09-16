@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 84371 (4963 per locale)
+/// Strings: 84405 (4965 per locale)
 ///
-/// Built on 2026-09-15 at 13:27 UTC
+/// Built on 2026-09-16 at 07:46 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6929,6 +6929,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get ai_provider_base_url_invalid =>
       'Enter a valid HTTP or HTTPS endpoint';
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  String get delete_statistics => 'Also delete statistics';
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -18646,6 +18649,11 @@ class _StringsAr extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -30589,6 +30597,11 @@ class _StringsDe extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -42586,6 +42599,11 @@ class _StringsEs extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -54616,6 +54634,11 @@ class _StringsFr extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -66450,6 +66473,11 @@ class _StringsId extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -78375,6 +78403,11 @@ class _StringsIt extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -89683,6 +89716,11 @@ class _StringsJa extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -101001,6 +101039,11 @@ class _StringsKo extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -112884,6 +112927,11 @@ class _StringsNl extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -124820,6 +124868,11 @@ class _StringsPtBr extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -136733,6 +136786,11 @@ class _StringsRu extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -148448,6 +148506,11 @@ class _StringsTh extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -160277,6 +160340,11 @@ class _StringsTr extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -172076,6 +172144,11 @@ class _StringsVi extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => 'Also delete statistics';
+  @override
+  String get delete_statistics_video_desc =>
+      'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
 }
 
 // Path: <root>
@@ -182891,6 +182964,11 @@ class _StringsZhCn extends _StringsEn {
   String get ai_provider_base_url_invalid => '请填写有效的 HTTP 或 HTTPS 接口地址';
   @override
   String get ai_provider_protocol_locked => '由内置预设固定，不可更改';
+  @override
+  String get delete_statistics => '同时删除统计数据';
+  @override
+  String get delete_statistics_video_desc =>
+      '该视频的观看时长、字幕字数与查词/制卡计数将从统计中移除，并同步到其他设备';
 }
 
 // Path: <root>
@@ -193884,6 +193962,11 @@ class _StringsZhHk extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get delete_statistics => '同時刪除統計數據';
+  @override
+  String get delete_statistics_video_desc =>
+      '該影片的觀看時長、字幕字數與查詞/製卡計數將從統計中移除，並同步到其他裝置';
 }
 
 /// Flat map(s) containing all translations.
@@ -204115,6 +204198,10 @@ extension on _StringsEn {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -214341,6 +214428,10 @@ extension on _StringsAr {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -224612,6 +224703,10 @@ extension on _StringsDe {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -234874,6 +234969,10 @@ extension on _StringsEs {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -245145,6 +245244,10 @@ extension on _StringsFr {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -255387,6 +255490,10 @@ extension on _StringsId {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -265651,6 +265758,10 @@ extension on _StringsIt {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -275842,6 +275953,10 @@ extension on _StringsJa {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -286037,6 +286152,10 @@ extension on _StringsKo {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -296294,6 +296413,10 @@ extension on _StringsNl {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -306546,6 +306669,10 @@ extension on _StringsPtBr {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -316805,6 +316932,10 @@ extension on _StringsRu {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -327036,6 +327167,10 @@ extension on _StringsTh {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -337282,6 +337417,10 @@ extension on _StringsTr {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -347522,6 +347661,10 @@ extension on _StringsVi {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return 'Also delete statistics';
+      case 'delete_statistics_video_desc':
+        return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
       default:
         return null;
     }
@@ -357669,6 +357812,10 @@ extension on _StringsZhCn {
         return '请填写有效的 HTTP 或 HTTPS 接口地址';
       case 'ai_provider_protocol_locked':
         return '由内置预设固定，不可更改';
+      case 'delete_statistics':
+        return '同时删除统计数据';
+      case 'delete_statistics_video_desc':
+        return '该视频的观看时长、字幕字数与查词/制卡计数将从统计中移除，并同步到其他设备';
       default:
         return null;
     }
@@ -367838,6 +367985,10 @@ extension on _StringsZhHk {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'delete_statistics':
+        return '同時刪除統計數據';
+      case 'delete_statistics_video_desc':
+        return '該影片的觀看時長、字幕字數與查詞/製卡計數將從統計中移除，並同步到其他裝置';
       default:
         return null;
     }
