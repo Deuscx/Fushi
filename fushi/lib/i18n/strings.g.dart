@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 84439 (4967 per locale)
+/// Strings: 84524 (4972 per locale)
 ///
-/// Built on 2026-09-15 at 14:14 UTC
+/// Built on 2026-09-16 at 09:17 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6935,6 +6935,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get settings_lookup_ime_language_unset => 'Not set';
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  String get anki_mined_forget_done => 'Mining record cleared';
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -18662,6 +18668,17 @@ class _StringsAr extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -30615,6 +30632,17 @@ class _StringsDe extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -42622,6 +42650,17 @@ class _StringsEs extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -54662,6 +54701,17 @@ class _StringsFr extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -66506,6 +66556,17 @@ class _StringsId extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -78441,6 +78502,17 @@ class _StringsIt extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -89759,6 +89831,17 @@ class _StringsJa extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -101087,6 +101170,17 @@ class _StringsKo extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -112980,6 +113074,17 @@ class _StringsNl extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -124926,6 +125031,17 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -136849,6 +136965,17 @@ class _StringsRu extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -148574,6 +148701,17 @@ class _StringsTh extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -160413,6 +160551,17 @@ class _StringsTr extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -172222,6 +172371,17 @@ class _StringsVi extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -183046,6 +183206,17 @@ class _StringsZhCn extends _StringsEn {
   String get settings_lookup_ime_language_unset => '未设置';
   @override
   String get settings_lookup_ime_language_unavailable => '系统里还没有安装这个输入法。';
+  @override
+  String get anki_mined_unverified_title => '已标记为已制卡';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi 无法回读 AnkiMobile 的卡片库，已制卡标记来自本机记录，无法判断卡片是否还在 Anki 里。';
+  @override
+  String get anki_mined_action_forget => '我已在 Anki 里删了这张卡';
+  @override
+  String get anki_mined_forget_done => '已清除制卡记录';
+  @override
+  String get reader_gallery_cover => '封面';
 }
 
 // Path: <root>
@@ -194049,6 +194220,17 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get settings_lookup_ime_language_unavailable =>
       'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 /// Flat map(s) containing all translations.
@@ -204288,6 +204470,16 @@ extension on _StringsEn {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -214522,6 +214714,16 @@ extension on _StringsAr {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -224801,6 +225003,16 @@ extension on _StringsDe {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -235071,6 +235283,16 @@ extension on _StringsEs {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -245350,6 +245572,16 @@ extension on _StringsFr {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -255600,6 +255832,16 @@ extension on _StringsId {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -265872,6 +266114,16 @@ extension on _StringsIt {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -276071,6 +276323,16 @@ extension on _StringsJa {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -286274,6 +286536,16 @@ extension on _StringsKo {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -296539,6 +296811,16 @@ extension on _StringsNl {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -306799,6 +307081,16 @@ extension on _StringsPtBr {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -317066,6 +317358,16 @@ extension on _StringsRu {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -327305,6 +327607,16 @@ extension on _StringsTh {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -337559,6 +337871,16 @@ extension on _StringsTr {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -347807,6 +348129,16 @@ extension on _StringsVi {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -357962,6 +358294,16 @@ extension on _StringsZhCn {
         return '未设置';
       case 'settings_lookup_ime_language_unavailable':
         return '系统里还没有安装这个输入法。';
+      case 'anki_mined_unverified_title':
+        return '已标记为已制卡';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi 无法回读 AnkiMobile 的卡片库，已制卡标记来自本机记录，无法判断卡片是否还在 Anki 里。';
+      case 'anki_mined_action_forget':
+        return '我已在 Anki 里删了这张卡';
+      case 'anki_mined_forget_done':
+        return '已清除制卡记录';
+      case 'reader_gallery_cover':
+        return '封面';
       default:
         return null;
     }
@@ -368139,6 +368481,16 @@ extension on _StringsZhHk {
         return 'Not set';
       case 'settings_lookup_ime_language_unavailable':
         return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
