@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "2.7.0-debug.14892",
-  "tag": "v2.7.0-debug.14892+97e07cd",
+  "version": "2.7.0-debug.15033",
+  "tag": "v2.7.0-debug.15033+ebe171d",
   "channel": "debug",
   "prerelease": true,
-  "releaseSequence": 14892,
-  "notes": "Automated desktop debug-channel build from main @ 97e07cd. Push releases are always prerelease and never Latest.",
+  "releaseSequence": 15033,
+  "notes": "Automated desktop debug-channel build from main @ ebe171d. Push releases are always prerelease and never Latest.",
   "assets": [
     {
       "name": "fushi-2.7.0-debug.14892-ios.ipa",
@@ -26,13 +26,13 @@
       "sha256": "33b775c073cad2aa8e4cc56b78f635e30ef7bc9a74052d7381a8ea42ac5dcf0e"
     },
     {
-      "name": "fushi-2.7.0-debug.14892-windows-setup.exe",
-      "browser_download_url": "https://github.com/Deuscx/Fushi/releases/download/fushi-debug-rolling/fushi-2.7.0-debug.14892-windows-setup.exe",
-      "releaseSequence": 14892,
-      "tag": "v2.7.0-debug.14892+97e07cd",
-      "version": "2.7.0-debug.14892",
-      "size": 265459839,
-      "sha256": "c3b637916b852652f475384e331d5dff6964794ad2ad7658e674acf595197ea8"
+      "name": "fushi-2.7.0-debug.15033-windows-setup.exe",
+      "browser_download_url": "https://github.com/Deuscx/Fushi/releases/download/fushi-debug-rolling/fushi-2.7.0-debug.15033-windows-setup.exe",
+      "releaseSequence": 15033,
+      "tag": "v2.7.0-debug.15033+ebe171d",
+      "version": "2.7.0-debug.15033",
+      "size": 265609757,
+      "sha256": "b2c154e746030a391ff434da8de1103f64da3f1dd0b92daef4af4ceb900eb4db"
     }
   ]
 }
