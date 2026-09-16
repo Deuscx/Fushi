@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 84439 (4967 per locale)
+/// Strings: 84456 (4968 per locale)
 ///
-/// Built on 2026-09-15 at 19:12 UTC
+/// Built on 2026-09-16 at 09:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6934,6 +6934,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
   String get anki_mined_action_forget => 'I deleted it in Anki';
   String get anki_mined_forget_done => 'Mining record cleared';
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -18660,6 +18661,8 @@ class _StringsAr extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -30612,6 +30615,8 @@ class _StringsDe extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -42618,6 +42623,8 @@ class _StringsEs extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -54657,6 +54664,8 @@ class _StringsFr extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -66500,6 +66509,8 @@ class _StringsId extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -78434,6 +78445,8 @@ class _StringsIt extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -89751,6 +89764,8 @@ class _StringsJa extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -101078,6 +101093,8 @@ class _StringsKo extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -112970,6 +112987,8 @@ class _StringsNl extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -124915,6 +124934,8 @@ class _StringsPtBr extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -136837,6 +136858,8 @@ class _StringsRu extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -148561,6 +148584,8 @@ class _StringsTh extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -160399,6 +160424,8 @@ class _StringsTr extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -172207,6 +172234,8 @@ class _StringsVi extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -183031,6 +183060,8 @@ class _StringsZhCn extends _StringsEn {
   String get anki_mined_action_forget => '我已在 Anki 里删了这张卡';
   @override
   String get anki_mined_forget_done => '已清除制卡记录';
+  @override
+  String get reader_gallery_cover => '封面';
 }
 
 // Path: <root>
@@ -194033,6 +194064,8 @@ class _StringsZhHk extends _StringsEn {
   String get anki_mined_action_forget => 'I deleted it in Anki';
   @override
   String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 /// Flat map(s) containing all translations.
@@ -204272,6 +204305,8 @@ extension on _StringsEn {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -214506,6 +214541,8 @@ extension on _StringsAr {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -224785,6 +224822,8 @@ extension on _StringsDe {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -235055,6 +235094,8 @@ extension on _StringsEs {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -245334,6 +245375,8 @@ extension on _StringsFr {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -255584,6 +255627,8 @@ extension on _StringsId {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -265856,6 +265901,8 @@ extension on _StringsIt {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -276055,6 +276102,8 @@ extension on _StringsJa {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -286258,6 +286307,8 @@ extension on _StringsKo {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -296523,6 +296574,8 @@ extension on _StringsNl {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -306783,6 +306836,8 @@ extension on _StringsPtBr {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -317050,6 +317105,8 @@ extension on _StringsRu {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -327289,6 +327346,8 @@ extension on _StringsTh {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -337543,6 +337602,8 @@ extension on _StringsTr {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -347791,6 +347852,8 @@ extension on _StringsVi {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -357946,6 +358009,8 @@ extension on _StringsZhCn {
         return '我已在 Anki 里删了这张卡';
       case 'anki_mined_forget_done':
         return '已清除制卡记录';
+      case 'reader_gallery_cover':
+        return '封面';
       default:
         return null;
     }
@@ -368123,6 +368188,8 @@ extension on _StringsZhHk {
         return 'I deleted it in Anki';
       case 'anki_mined_forget_done':
         return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
