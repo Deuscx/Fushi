@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 84371 (4963 per locale)
+/// Strings: 84456 (4968 per locale)
 ///
-/// Built on 2026-09-15 at 13:27 UTC
+/// Built on 2026-09-16 at 09:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6929,6 +6929,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get ai_provider_base_url_invalid =>
       'Enter a valid HTTP or HTTPS endpoint';
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  String get anki_mined_forget_done => 'Mining record cleared';
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -18647,6 +18652,16 @@ class _StringsAr extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -30591,6 +30606,16 @@ class _StringsDe extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -42589,6 +42614,16 @@ class _StringsEs extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -54620,6 +54655,16 @@ class _StringsFr extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -66455,6 +66500,16 @@ class _StringsId extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -78381,6 +78436,16 @@ class _StringsIt extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -89690,6 +89755,16 @@ class _StringsJa extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -101009,6 +101084,16 @@ class _StringsKo extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -112893,6 +112978,16 @@ class _StringsNl extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -124830,6 +124925,16 @@ class _StringsPtBr extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -136744,6 +136849,16 @@ class _StringsRu extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -148460,6 +148575,16 @@ class _StringsTh extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -160290,6 +160415,16 @@ class _StringsTr extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -172090,6 +172225,16 @@ class _StringsVi extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -182906,6 +183051,16 @@ class _StringsZhCn extends _StringsEn {
   String get ai_provider_base_url_invalid => '请填写有效的 HTTP 或 HTTPS 接口地址';
   @override
   String get ai_provider_protocol_locked => '由内置预设固定，不可更改';
+  @override
+  String get anki_mined_unverified_title => '已标记为已制卡';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi 无法回读 AnkiMobile 的卡片库，已制卡标记来自本机记录，无法判断卡片是否还在 Anki 里。';
+  @override
+  String get anki_mined_action_forget => '我已在 Anki 里删了这张卡';
+  @override
+  String get anki_mined_forget_done => '已清除制卡记录';
+  @override
   String get reader_gallery_cover => '封面';
 }
 
@@ -193900,6 +194055,16 @@ class _StringsZhHk extends _StringsEn {
       'Enter a valid HTTP or HTTPS endpoint';
   @override
   String get ai_provider_protocol_locked => 'Fixed by the built-in preset';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
   String get reader_gallery_cover => 'Cover';
 }
 
@@ -204132,6 +204297,14 @@ extension on _StringsEn {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -214360,6 +214533,14 @@ extension on _StringsAr {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -224633,6 +224814,14 @@ extension on _StringsDe {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -234897,6 +235086,14 @@ extension on _StringsEs {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -245170,6 +245367,14 @@ extension on _StringsFr {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -255414,6 +255619,14 @@ extension on _StringsId {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -265680,6 +265893,14 @@ extension on _StringsIt {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -275873,6 +276094,14 @@ extension on _StringsJa {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -286070,6 +286299,14 @@ extension on _StringsKo {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -296329,6 +296566,14 @@ extension on _StringsNl {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -306583,6 +306828,14 @@ extension on _StringsPtBr {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -316844,6 +317097,14 @@ extension on _StringsRu {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -327077,6 +327338,14 @@ extension on _StringsTh {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -337325,6 +337594,14 @@ extension on _StringsTr {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -347567,6 +347844,14 @@ extension on _StringsVi {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
@@ -357716,6 +358001,14 @@ extension on _StringsZhCn {
         return '请填写有效的 HTTP 或 HTTPS 接口地址';
       case 'ai_provider_protocol_locked':
         return '由内置预设固定，不可更改';
+      case 'anki_mined_unverified_title':
+        return '已标记为已制卡';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi 无法回读 AnkiMobile 的卡片库，已制卡标记来自本机记录，无法判断卡片是否还在 Anki 里。';
+      case 'anki_mined_action_forget':
+        return '我已在 Anki 里删了这张卡';
+      case 'anki_mined_forget_done':
+        return '已清除制卡记录';
       case 'reader_gallery_cover':
         return '封面';
       default:
@@ -367887,6 +368180,14 @@ extension on _StringsZhHk {
         return 'Enter a valid HTTP or HTTPS endpoint';
       case 'ai_provider_protocol_locked':
         return 'Fixed by the built-in preset';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
       case 'reader_gallery_cover':
         return 'Cover';
       default:
