@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 84745 (4985 per locale)
+/// Strings: 84813 (4989 per locale)
 ///
-/// Built on 2026-09-16 at 09:25 UTC
+/// Built on 2026-09-16 at 09:39 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2660,8 +2660,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get game_window_missing => 'Not bound';
   String get games => 'Games';
   String get global_context_capture => 'Capture selection context';
-  String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows only)';
   String go_to_chapter({required Object n}) => 'Chapter ${n}';
   String get handlebar_audio => 'Audio';
   String get handlebar_book_cover => 'Book cover';
@@ -2918,8 +2916,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get login => 'Login';
   String get lookup_audio_volume => 'Lookup audio volume';
   String get lookup_block_capture => 'Block screen capture';
-  String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
   String get low_memory_mode => 'Low memory mode';
   String get low_memory_mode_hint =>
       'Reduce cache and memory usage for low-end devices. Some changes take effect after restart.';
@@ -6762,6 +6758,18 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Drag buttons between the top and bottom bars, or remove them.';
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  String get global_context_capture_hint =>
+      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+  String get lookup_block_capture_hint =>
+      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   String get audiobook_export_clip_share_unavailable =>
@@ -11265,9 +11273,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get global_context_capture => 'التقاط سياق التحديد';
   @override
-  String get global_context_capture_hint =>
-      'قراءة النص المحيط من التطبيق الأمامي لعرض الجملة الحالية (Windows فقط)';
-  @override
   String go_to_chapter({required Object n}) => 'الفصل ${n}';
   @override
   String get handlebar_audio => 'صوت';
@@ -11719,9 +11724,6 @@ class _StringsAr extends _StringsEn {
   String get lookup_audio_volume => 'مستوى صوت البحث';
   @override
   String get lookup_block_capture => 'حظر التقاط الشاشة';
-  @override
-  String get lookup_block_capture_hint =>
-      'يستثني نوافذ البحث والحافظة المنبثقة من لقطات الشاشة وتسجيل الشاشة والبث المباشر (Windows). أوقف هذا للسماح بالتقاط النافذة المنبثقة.';
   @override
   String get low_memory_mode => 'وضع الذاكرة المنخفضة';
   @override
@@ -18396,6 +18398,24 @@ class _StringsAr extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'قراءة النص المحيط من التطبيق الأمامي لعرض الجملة الحالية (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'يستثني نوافذ البحث والحافظة المنبثقة من لقطات الشاشة وتسجيل الشاشة والبث المباشر (Windows / macOS). أوقف هذا للسماح بالتقاط النافذة المنبثقة.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -23128,9 +23148,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get global_context_capture => 'Auswahlkontext erfassen';
   @override
-  String get global_context_capture_hint =>
-      'Umgebenden Text der Vordergrund-App lesen, um den aktuellen Satz anzuzeigen (nur Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Kapitel ${n}';
   @override
   String get handlebar_audio => 'Audio';
@@ -23586,9 +23603,6 @@ class _StringsDe extends _StringsEn {
   String get lookup_audio_volume => 'Nachschlage-Audiolautstärke';
   @override
   String get lookup_block_capture => 'Bildschirmaufnahme blockieren';
-  @override
-  String get lookup_block_capture_hint =>
-      'Schließt die Nachschlage- und Zwischenablage-Popupfenster von Screenshots, Bildschirmaufnahmen und Livestreaming aus (Windows). Deaktiviere dies, um Screenshots, Aufnahmen und Streaming das Erfassen des Nachschlage-Popups zu ermöglichen.';
   @override
   String get low_memory_mode => 'Speichersparmodus';
   @override
@@ -30391,6 +30405,24 @@ class _StringsDe extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Umgebenden Text der Vordergrund-App lesen, um den aktuellen Satz anzuzeigen (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Schließt die Nachschlage- und Zwischenablage-Popupfenster von Screenshots, Bildschirmaufnahmen und Livestreaming aus (Windows / macOS). Deaktiviere dies, um Screenshots, Aufnahmen und Streaming das Erfassen des Nachschlage-Popups zu ermöglichen.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -35146,9 +35178,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get global_context_capture => 'Capturar contexto de selección';
   @override
-  String get global_context_capture_hint =>
-      'Lee texto circundante de la app en primer plano para mostrar la oración actual (solo Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Capítulo ${n}';
   @override
   String get handlebar_audio => 'Audio';
@@ -35607,9 +35636,6 @@ class _StringsEs extends _StringsEn {
   String get lookup_audio_volume => 'Volumen del audio de consulta';
   @override
   String get lookup_block_capture => 'Bloquear captura de pantalla';
-  @override
-  String get lookup_block_capture_hint =>
-      'Excluye las ventanas emergentes de búsqueda y portapapeles de capturas de pantalla, grabación de pantalla y transmisión en vivo (Windows). Desactive esto para permitir que las capturas, grabación y transmisión capturen la ventana emergente de búsqueda.';
   @override
   String get low_memory_mode => 'Modo de poca memoria';
   @override
@@ -42442,6 +42468,24 @@ class _StringsEs extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Lee texto circundante de la app en primer plano para mostrar la oración actual (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Excluye las ventanas emergentes de búsqueda y portapapeles de capturas de pantalla, grabación de pantalla y transmisión en vivo (Windows / macOS). Desactive esto para permitir que las capturas, grabación y transmisión capturen la ventana emergente de búsqueda.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -47204,9 +47248,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get global_context_capture => 'Capturer le contexte de sélection';
   @override
-  String get global_context_capture_hint =>
-      'Lire le texte environnant depuis l\'application au premier plan pour afficher la phrase actuelle (Windows uniquement)';
-  @override
   String go_to_chapter({required Object n}) => 'Chapitre ${n}';
   @override
   String get handlebar_audio => 'Audio';
@@ -47668,9 +47709,6 @@ class _StringsFr extends _StringsEn {
   String get lookup_audio_volume => 'Volume audio de la recherche';
   @override
   String get lookup_block_capture => 'Bloquer la capture d\'écran';
-  @override
-  String get lookup_block_capture_hint =>
-      'Exclut les fenêtres de recherche et de presse-papiers des captures d\'écran, enregistrements et diffusions en direct (Windows). Désactivez pour permettre la capture de la fenêtre de recherche.';
   @override
   String get low_memory_mode => 'Mode mémoire réduite';
   @override
@@ -54525,6 +54563,24 @@ class _StringsFr extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Lire le texte environnant depuis l\'application au premier plan pour afficher la phrase actuelle (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Exclut les fenêtres de recherche et de presse-papiers des captures d\'écran, enregistrements et diffusions en direct (Windows / macOS). Désactivez pour permettre la capture de la fenêtre de recherche.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -59213,9 +59269,6 @@ class _StringsId extends _StringsEn {
   @override
   String get global_context_capture => 'Tangkap konteks seleksi';
   @override
-  String get global_context_capture_hint =>
-      'Baca teks sekitar dari aplikasi yang aktif untuk menampilkan kalimat saat ini (khusus Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Bab ${n}';
   @override
   String get handlebar_audio => 'Audio';
@@ -59671,9 +59724,6 @@ class _StringsId extends _StringsEn {
   String get lookup_audio_volume => 'Volume audio pencarian kata';
   @override
   String get lookup_block_capture => 'Blokir tangkapan layar';
-  @override
-  String get lookup_block_capture_hint =>
-      'Kecualikan jendela popup pencarian dan clipboard dari tangkapan layar, perekaman layar, dan streaming langsung (Windows). Nonaktifkan ini agar tangkapan layar, perekaman, dan streaming bisa menangkap popup pencarian.';
   @override
   String get low_memory_mode => 'Mode Memori Rendah';
   @override
@@ -66416,6 +66466,24 @@ class _StringsId extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Baca teks sekitar dari aplikasi yang aktif untuk menampilkan kalimat saat ini (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Kecualikan jendela popup pencarian dan clipboard dari tangkapan layar, perekaman layar, dan streaming langsung (Windows / macOS). Nonaktifkan ini agar tangkapan layar, perekaman, dan streaming bisa menangkap popup pencarian.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -71132,9 +71200,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get global_context_capture => 'Cattura contesto selezione';
   @override
-  String get global_context_capture_hint =>
-      'Leggi il testo circostante dall\'app in primo piano per mostrare la frase corrente (solo Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Capitolo ${n}';
   @override
   String get handlebar_audio => 'Audio';
@@ -71593,9 +71658,6 @@ class _StringsIt extends _StringsEn {
   String get lookup_audio_volume => 'Volume audio della ricerca';
   @override
   String get lookup_block_capture => 'Blocca cattura schermo';
-  @override
-  String get lookup_block_capture_hint =>
-      'Esclude le finestre di ricerca e appunti popup da screenshot, registrazione schermo e streaming live (Windows). Disattiva per permettere a screenshot, registrazione e streaming di catturare il popup di ricerca.';
   @override
   String get low_memory_mode => 'Modalità memoria ridotta';
   @override
@@ -78393,6 +78455,24 @@ class _StringsIt extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Leggi il testo circostante dall\'app in primo piano per mostrare la frase corrente (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Esclude le finestre di ricerca e appunti popup da screenshot, registrazione schermo e streaming live (Windows / macOS). Disattiva per permettere a screenshot, registrazione e streaming di catturare il popup di ricerca.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -82883,9 +82963,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get global_context_capture => '選択コンテキストをキャプチャ';
   @override
-  String get global_context_capture_hint =>
-      '前面アプリから周辺テキストを読み取り、現在の文を表示します（Windows のみ）';
-  @override
   String go_to_chapter({required Object n}) => '第 ${n} 章';
   @override
   String get handlebar_audio => '音声';
@@ -83319,9 +83396,6 @@ class _StringsJa extends _StringsEn {
   String get lookup_audio_volume => '辞書音声の音量';
   @override
   String get lookup_block_capture => '画面キャプチャをブロック';
-  @override
-  String get lookup_block_capture_hint =>
-      '検索ポップアップとクリップボードポップアップウィンドウをスクリーンショット、画面録画、ライブ配信から除外します（Windows）。オフにすると、スクリーンショットや録画・配信でポップアップがキャプチャされるようになります。';
   @override
   String get low_memory_mode => '省メモリモード';
   @override
@@ -89754,6 +89828,24 @@ class _StringsJa extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      '前面アプリから周辺テキストを読み取り、現在の文を表示します（Windows / macOS）';
+  @override
+  String get lookup_block_capture_hint =>
+      '検索ポップアップとクリップボードポップアップウィンドウをスクリーンショット、画面録画、ライブ配信から除外します（Windows / macOS）。オフにすると、スクリーンショットや録画・配信でポップアップがキャプチャされるようになります。';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -94233,9 +94325,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get global_context_capture => '선택 컨텍스트 캡처';
   @override
-  String get global_context_capture_hint =>
-      '포그라운드 앱에서 주변 텍스트를 읽어 현재 문장을 표시합니다 (Windows 전용)';
-  @override
   String go_to_chapter({required Object n}) => '챕터 ${n}';
   @override
   String get handlebar_audio => '오디오';
@@ -94671,9 +94760,6 @@ class _StringsKo extends _StringsEn {
   String get lookup_audio_volume => '단어 찾기 음량';
   @override
   String get lookup_block_capture => '화면 캡처 차단';
-  @override
-  String get lookup_block_capture_hint =>
-      '검색 및 클립보드 팝업 창을 스크린샷, 화면 녹화, 라이브 스트리밍에서 제외합니다 (Windows). 스크린샷, 녹화, 스트리밍에서 검색 팝업을 캡처하려면 이 옵션을 끄세요.';
   @override
   String get low_memory_mode => '저메모리 모드';
   @override
@@ -101122,6 +101208,24 @@ class _StringsKo extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      '포그라운드 앱에서 주변 텍스트를 읽어 현재 문장을 표시합니다 (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      '검색 및 클립보드 팝업 창을 스크린샷, 화면 녹화, 라이브 스트리밍에서 제외합니다 (Windows / macOS). 스크린샷, 녹화, 스트리밍에서 검색 팝업을 캡처하려면 이 옵션을 끄세요.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -105819,9 +105923,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get global_context_capture => 'Selectiecontext vastleggen';
   @override
-  String get global_context_capture_hint =>
-      'Lees omringende tekst uit de voorgrondapp om de huidige zin te tonen (alleen Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Hoofdstuk ${n}';
   @override
   String get handlebar_audio => 'Audio';
@@ -106277,9 +106378,6 @@ class _StringsNl extends _StringsEn {
   String get lookup_audio_volume => 'Volume opzoekaudio';
   @override
   String get lookup_block_capture => 'Schermopname blokkeren';
-  @override
-  String get lookup_block_capture_hint =>
-      'Sluit het opzoek- en klembordpopupvenster uit van schermafbeeldingen, schermopnames en livestreaming (Windows). Schakel dit uit om schermafbeeldingen, opnames en streaming het opzoekpopup te laten vastleggen.';
   @override
   String get low_memory_mode => 'Geheugenspaarmodus';
   @override
@@ -113055,6 +113153,24 @@ class _StringsNl extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Lees omringende tekst uit de voorgrondapp om de huidige zin te tonen (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Sluit het opzoek- en klembordpopupvenster uit van schermafbeeldingen, schermopnames en livestreaming (Windows / macOS). Schakel dit uit om schermafbeeldingen, opnames en streaming het opzoekpopup te laten vastleggen.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -117783,9 +117899,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get global_context_capture => 'Capturar contexto da seleção';
   @override
-  String get global_context_capture_hint =>
-      'Lê o texto ao redor do app em primeiro plano para mostrar a frase atual (apenas Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Capítulo ${n}';
   @override
   String get handlebar_audio => 'Áudio';
@@ -118242,9 +118355,6 @@ class _StringsPtBr extends _StringsEn {
   String get lookup_audio_volume => 'Volume do áudio de consulta';
   @override
   String get lookup_block_capture => 'Bloquear captura de tela';
-  @override
-  String get lookup_block_capture_hint =>
-      'Exclui as janelas de consulta e área de transferência de capturas de tela, gravações e transmissões ao vivo (Windows). Desative para permitir que capturas e gravações capturem o popup de consulta.';
   @override
   String get low_memory_mode => 'Modo de pouca memória';
   @override
@@ -125046,6 +125156,24 @@ class _StringsPtBr extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Lê o texto ao redor do app em primeiro plano para mostrar a frase atual (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Exclui as janelas de consulta e área de transferência de capturas de tela, gravações e transmissões ao vivo (Windows / macOS). Desative para permitir que capturas e gravações capturem o popup de consulta.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -129750,9 +129878,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get global_context_capture => 'Захват контекста выделения';
   @override
-  String get global_context_capture_hint =>
-      'Считывает окружающий текст из активного приложения для отображения текущего предложения (только Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Глава ${n}';
   @override
   String get handlebar_audio => 'Аудио';
@@ -130209,9 +130334,6 @@ class _StringsRu extends _StringsEn {
   String get lookup_audio_volume => 'Громкость произношения';
   @override
   String get lookup_block_capture => 'Блокировать захват экрана';
-  @override
-  String get lookup_block_capture_hint =>
-      'Исключает всплывающие окна поиска и буфера обмена из скриншотов, записи экрана и трансляций (Windows). Отключите, чтобы разрешить захват всплывающего окна поиска.';
   @override
   String get low_memory_mode => 'Режим экономии памяти';
   @override
@@ -137014,6 +137136,24 @@ class _StringsRu extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Считывает окружающий текст из активного приложения для отображения текущего предложения (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Исключает всплывающие окна поиска и буфера обмена из скриншотов, записи экрана и трансляций (Windows / macOS). Отключите, чтобы разрешить захват всплывающего окна поиска.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -141644,9 +141784,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get global_context_capture => 'จับบริบทการเลือก';
   @override
-  String get global_context_capture_hint =>
-      'อ่านข้อความรอบๆ จากแอปที่อยู่เบื้องหน้าเพื่อแสดงประโยคปัจจุบัน (Windows เท่านั้น)';
-  @override
   String go_to_chapter({required Object n}) => 'บทที่ ${n}';
   @override
   String get handlebar_audio => 'เสียง';
@@ -142096,9 +142233,6 @@ class _StringsTh extends _StringsEn {
   String get lookup_audio_volume => 'ระดับเสียงค้นคำ';
   @override
   String get lookup_block_capture => 'บล็อกการจับภาพหน้าจอ';
-  @override
-  String get lookup_block_capture_hint =>
-      'ไม่รวมหน้าต่างค้นหาและป๊อปอัปคลิปบอร์ดจากการจับภาพหน้าจอ การบันทึกหน้าจอ และการสตรีมสด (Windows) ปิดเพื่อให้การจับภาพหน้าจอ การบันทึก และการสตรีมจับป๊อปอัปค้นหาได้';
   @override
   String get low_memory_mode => 'โหมดประหยัดหน่วยความจำ';
   @override
@@ -148782,6 +148916,24 @@ class _StringsTh extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'อ่านข้อความรอบๆ จากแอปที่อยู่เบื้องหน้าเพื่อแสดงประโยคปัจจุบัน (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'ไม่รวมหน้าต่างค้นหาและป๊อปอัปคลิปบอร์ดจากการจับภาพหน้าจอ การบันทึกหน้าจอ และการสตรีมสด (Windows / macOS) ปิดเพื่อให้การจับภาพหน้าจอ การบันทึก และการสตรีมจับป๊อปอัปค้นหาได้';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -153469,9 +153621,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get global_context_capture => 'Seçim bağlamını yakala';
   @override
-  String get global_context_capture_hint =>
-      'Geçerli cümleyi göstermek için ön plandaki uygulamadan çevreleyen metni oku (yalnızca Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Bölüm ${n}';
   @override
   String get handlebar_audio => 'Ses';
@@ -153924,9 +154073,6 @@ class _StringsTr extends _StringsEn {
   String get lookup_audio_volume => 'Arama ses düzeyi';
   @override
   String get lookup_block_capture => 'Ekran yakalamayı engelle';
-  @override
-  String get lookup_block_capture_hint =>
-      'Arama ve pano açılır pencerelerini ekran görüntüsü, ekran kaydı ve canlı yayından hariç tutar (Windows). Arama açılır penceresinin ekran görüntüsü, kayıt ve yayın tarafından yakalanmasına izin vermek için bunu kapatın.';
   @override
   String get low_memory_mode => 'Düşük Bellek Modu';
   @override
@@ -160663,6 +160809,24 @@ class _StringsTr extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Geçerli cümleyi göstermek için ön plandaki uygulamadan çevreleyen metni oku (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Arama ve pano açılır pencerelerini ekran görüntüsü, ekran kaydı ve canlı yayından hariç tutar (Windows / macOS). Arama açılır penceresinin ekran görüntüsü, kayıt ve yayın tarafından yakalanmasına izin vermek için bunu kapatın.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -165345,9 +165509,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get global_context_capture => 'Thu thập ngữ cảnh lựa chọn';
   @override
-  String get global_context_capture_hint =>
-      'Đọc văn bản xung quanh từ ứng dụng tiền cảnh để hiển thị câu hiện tại (chỉ Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Chương ${n}';
   @override
   String get handlebar_audio => 'Âm thanh';
@@ -165800,9 +165961,6 @@ class _StringsVi extends _StringsEn {
   String get lookup_audio_volume => 'Âm lượng tra từ';
   @override
   String get lookup_block_capture => 'Chặn chụp màn hình';
-  @override
-  String get lookup_block_capture_hint =>
-      'Loại trừ cửa sổ tra cứu và bộ nhớ tạm khỏi chụp màn hình, quay màn hình và phát trực tiếp (Windows). Tắt để cho phép chụp, quay và phát trực tiếp ghi lại cửa sổ tra cứu.';
   @override
   String get low_memory_mode => 'Chế độ tiết kiệm bộ nhớ';
   @override
@@ -172514,6 +172672,24 @@ class _StringsVi extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Đọc văn bản xung quanh từ ứng dụng tiền cảnh để hiển thị câu hiện tại (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Loại trừ cửa sổ tra cứu và bộ nhớ tạm khỏi chụp màn hình, quay màn hình và phát trực tiếp (Windows / macOS). Tắt để cho phép chụp, quay và phát trực tiếp ghi lại cửa sổ tra cứu.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -176847,9 +177023,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get global_context_capture => '抓取选中文本上下文';
   @override
-  String get global_context_capture_hint =>
-      '从前台应用读取选区周围文本，在查词弹窗显示当前句（仅 Windows）';
-  @override
   String go_to_chapter({required Object n}) => '第 ${n} 章';
   @override
   String get handlebar_audio => '音频';
@@ -177266,9 +177439,6 @@ class _StringsZhCn extends _StringsEn {
   String get lookup_audio_volume => '查词音量';
   @override
   String get lookup_block_capture => '防截屏 / 防录屏';
-  @override
-  String get lookup_block_capture_hint =>
-      '把查词悬浮窗从截图、录屏、直播串流中排除（Windows）。关闭后，截图、录屏和串流即可拍到查词悬浮窗。';
   @override
   String get low_memory_mode => '小内存模式';
   @override
@@ -183420,6 +183590,22 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get reader_control_reset_layout => '恢复默认阅读器按钮布局';
   @override
+  String get global_context_capture_hint =>
+      '从前台应用读取选区周围文本，在查词弹窗显示当前句（Windows / macOS）';
+  @override
+  String get lookup_block_capture_hint =>
+      '把查词悬浮窗从截图、录屏、直播串流中排除（Windows / macOS）。关闭后，截图、录屏和串流即可拍到查词悬浮窗。';
+  @override
+  String get lookup_accessibility_permission_request => '为应用外查词授权辅助功能';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS 需要辅助功能权限才能读取其他应用中选中的文字；未授权时快捷键只查当前剪贴板文本。';
+  @override
+  String get lookup_accessibility_permission_granted => '已授权辅助功能';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      '尚未授权辅助功能。请在「隐私与安全性 > 辅助功能」中启用 Fushi 后重试。';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       '片段已保存，但系统分享面板没有打开：${path}';
   @override
@@ -187734,9 +187920,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get global_context_capture => '抓取選中文本上下文';
   @override
-  String get global_context_capture_hint =>
-      '從前台應用讀取選區周圍文本，在查詞彈窗顯示當前句（僅 Windows）';
-  @override
   String go_to_chapter({required Object n}) => '第 ${n} 章';
   @override
   String get handlebar_audio => '音訊';
@@ -188163,9 +188346,6 @@ class _StringsZhHk extends _StringsEn {
   String get lookup_audio_volume => '查詞音量';
   @override
   String get lookup_block_capture => '防截屏 / 防錄屏';
-  @override
-  String get lookup_block_capture_hint =>
-      '把查詞懸浮窗從截圖、錄屏、直播串流中排除（Windows）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
   @override
   String get low_memory_mode => '低記憶體模式';
   @override
@@ -194424,6 +194604,24 @@ class _StringsZhHk extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      '從前台應用讀取選區周圍文本，在查詞彈窗顯示當前句（Windows / macOS）';
+  @override
+  String get lookup_block_capture_hint =>
+      '把查詞懸浮窗從截圖、錄屏、直播串流中排除（Windows / macOS）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -198515,8 +198713,6 @@ extension on _StringsEn {
         return 'Games';
       case 'global_context_capture':
         return 'Capture selection context';
-      case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows only)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Chapter ${n}';
       case 'handlebar_audio':
@@ -198914,8 +199110,6 @@ extension on _StringsEn {
         return 'Lookup audio volume';
       case 'lookup_block_capture':
         return 'Block screen capture';
-      case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
       case 'low_memory_mode':
         return 'Low memory mode';
       case 'low_memory_mode_hint':
@@ -204754,6 +204948,18 @@ extension on _StringsEn {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -208788,8 +208994,6 @@ extension on _StringsAr {
         return 'ألعاب';
       case 'global_context_capture':
         return 'التقاط سياق التحديد';
-      case 'global_context_capture_hint':
-        return 'قراءة النص المحيط من التطبيق الأمامي لعرض الجملة الحالية (Windows فقط)';
       case 'go_to_chapter':
         return ({required Object n}) => 'الفصل ${n}';
       case 'handlebar_audio':
@@ -209186,8 +209390,6 @@ extension on _StringsAr {
         return 'مستوى صوت البحث';
       case 'lookup_block_capture':
         return 'حظر التقاط الشاشة';
-      case 'lookup_block_capture_hint':
-        return 'يستثني نوافذ البحث والحافظة المنبثقة من لقطات الشاشة وتسجيل الشاشة والبث المباشر (Windows). أوقف هذا للسماح بالتقاط النافذة المنبثقة.';
       case 'low_memory_mode':
         return 'وضع الذاكرة المنخفضة';
       case 'low_memory_mode_hint':
@@ -215024,6 +215226,18 @@ extension on _StringsAr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'قراءة النص المحيط من التطبيق الأمامي لعرض الجملة الحالية (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'يستثني نوافذ البحث والحافظة المنبثقة من لقطات الشاشة وتسجيل الشاشة والبث المباشر (Windows / macOS). أوقف هذا للسماح بالتقاط النافذة المنبثقة.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -219077,8 +219291,6 @@ extension on _StringsDe {
         return 'Spiele';
       case 'global_context_capture':
         return 'Auswahlkontext erfassen';
-      case 'global_context_capture_hint':
-        return 'Umgebenden Text der Vordergrund-App lesen, um den aktuellen Satz anzuzeigen (nur Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Kapitel ${n}';
       case 'handlebar_audio':
@@ -219479,8 +219691,6 @@ extension on _StringsDe {
         return 'Nachschlage-Audiolautstärke';
       case 'lookup_block_capture':
         return 'Bildschirmaufnahme blockieren';
-      case 'lookup_block_capture_hint':
-        return 'Schließt die Nachschlage- und Zwischenablage-Popupfenster von Screenshots, Bildschirmaufnahmen und Livestreaming aus (Windows). Deaktiviere dies, um Screenshots, Aufnahmen und Streaming das Erfassen des Nachschlage-Popups zu ermöglichen.';
       case 'low_memory_mode':
         return 'Speichersparmodus';
       case 'low_memory_mode_hint':
@@ -225339,6 +225549,18 @@ extension on _StringsDe {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Umgebenden Text der Vordergrund-App lesen, um den aktuellen Satz anzuzeigen (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Schließt die Nachschlage- und Zwischenablage-Popupfenster von Screenshots, Bildschirmaufnahmen und Livestreaming aus (Windows / macOS). Deaktiviere dies, um Screenshots, Aufnahmen und Streaming das Erfassen des Nachschlage-Popups zu ermöglichen.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -229386,8 +229608,6 @@ extension on _StringsEs {
         return 'Juegos';
       case 'global_context_capture':
         return 'Capturar contexto de selección';
-      case 'global_context_capture_hint':
-        return 'Lee texto circundante de la app en primer plano para mostrar la oración actual (solo Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Capítulo ${n}';
       case 'handlebar_audio':
@@ -229787,8 +230007,6 @@ extension on _StringsEs {
         return 'Volumen del audio de consulta';
       case 'lookup_block_capture':
         return 'Bloquear captura de pantalla';
-      case 'lookup_block_capture_hint':
-        return 'Excluye las ventanas emergentes de búsqueda y portapapeles de capturas de pantalla, grabación de pantalla y transmisión en vivo (Windows). Desactive esto para permitir que las capturas, grabación y transmisión capturen la ventana emergente de búsqueda.';
       case 'low_memory_mode':
         return 'Modo de poca memoria';
       case 'low_memory_mode_hint':
@@ -235645,6 +235863,18 @@ extension on _StringsEs {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Lee texto circundante de la app en primer plano para mostrar la oración actual (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Excluye las ventanas emergentes de búsqueda y portapapeles de capturas de pantalla, grabación de pantalla y transmisión en vivo (Windows / macOS). Desactive esto para permitir que las capturas, grabación y transmisión capturen la ventana emergente de búsqueda.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -239698,8 +239928,6 @@ extension on _StringsFr {
         return 'Jeux';
       case 'global_context_capture':
         return 'Capturer le contexte de sélection';
-      case 'global_context_capture_hint':
-        return 'Lire le texte environnant depuis l\'application au premier plan pour afficher la phrase actuelle (Windows uniquement)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Chapitre ${n}';
       case 'handlebar_audio':
@@ -240100,8 +240328,6 @@ extension on _StringsFr {
         return 'Volume audio de la recherche';
       case 'lookup_block_capture':
         return 'Bloquer la capture d\'écran';
-      case 'lookup_block_capture_hint':
-        return 'Exclut les fenêtres de recherche et de presse-papiers des captures d\'écran, enregistrements et diffusions en direct (Windows). Désactivez pour permettre la capture de la fenêtre de recherche.';
       case 'low_memory_mode':
         return 'Mode mémoire réduite';
       case 'low_memory_mode_hint':
@@ -245960,6 +246186,18 @@ extension on _StringsFr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Lire le texte environnant depuis l\'application au premier plan pour afficher la phrase actuelle (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Exclut les fenêtres de recherche et de presse-papiers des captures d\'écran, enregistrements et diffusions en direct (Windows / macOS). Désactivez pour permettre la capture de la fenêtre de recherche.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -250003,8 +250241,6 @@ extension on _StringsId {
         return 'Game';
       case 'global_context_capture':
         return 'Tangkap konteks seleksi';
-      case 'global_context_capture_hint':
-        return 'Baca teks sekitar dari aplikasi yang aktif untuk menampilkan kalimat saat ini (khusus Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Bab ${n}';
       case 'handlebar_audio':
@@ -250403,8 +250639,6 @@ extension on _StringsId {
         return 'Volume audio pencarian kata';
       case 'lookup_block_capture':
         return 'Blokir tangkapan layar';
-      case 'lookup_block_capture_hint':
-        return 'Kecualikan jendela popup pencarian dan clipboard dari tangkapan layar, perekaman layar, dan streaming langsung (Windows). Nonaktifkan ini agar tangkapan layar, perekaman, dan streaming bisa menangkap popup pencarian.';
       case 'low_memory_mode':
         return 'Mode Memori Rendah';
       case 'low_memory_mode_hint':
@@ -256246,6 +256480,18 @@ extension on _StringsId {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Baca teks sekitar dari aplikasi yang aktif untuk menampilkan kalimat saat ini (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Kecualikan jendela popup pencarian dan clipboard dari tangkapan layar, perekaman layar, dan streaming langsung (Windows / macOS). Nonaktifkan ini agar tangkapan layar, perekaman, dan streaming bisa menangkap popup pencarian.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -260293,8 +260539,6 @@ extension on _StringsIt {
         return 'Giochi';
       case 'global_context_capture':
         return 'Cattura contesto selezione';
-      case 'global_context_capture_hint':
-        return 'Leggi il testo circostante dall\'app in primo piano per mostrare la frase corrente (solo Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Capitolo ${n}';
       case 'handlebar_audio':
@@ -260694,8 +260938,6 @@ extension on _StringsIt {
         return 'Volume audio della ricerca';
       case 'lookup_block_capture':
         return 'Blocca cattura schermo';
-      case 'lookup_block_capture_hint':
-        return 'Esclude le finestre di ricerca e appunti popup da screenshot, registrazione schermo e streaming live (Windows). Disattiva per permettere a screenshot, registrazione e streaming di catturare il popup di ricerca.';
       case 'low_memory_mode':
         return 'Modalità memoria ridotta';
       case 'low_memory_mode_hint':
@@ -266554,6 +266796,18 @@ extension on _StringsIt {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Leggi il testo circostante dall\'app in primo piano per mostrare la frase corrente (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Esclude le finestre di ricerca e appunti popup da screenshot, registrazione schermo e streaming live (Windows / macOS). Disattiva per permettere a screenshot, registrazione e streaming di catturare il popup di ricerca.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -270577,8 +270831,6 @@ extension on _StringsJa {
         return 'ゲーム';
       case 'global_context_capture':
         return '選択コンテキストをキャプチャ';
-      case 'global_context_capture_hint':
-        return '前面アプリから周辺テキストを読み取り、現在の文を表示します（Windows のみ）';
       case 'go_to_chapter':
         return ({required Object n}) => '第 ${n} 章';
       case 'handlebar_audio':
@@ -270972,8 +271224,6 @@ extension on _StringsJa {
         return '辞書音声の音量';
       case 'lookup_block_capture':
         return '画面キャプチャをブロック';
-      case 'lookup_block_capture_hint':
-        return '検索ポップアップとクリップボードポップアップウィンドウをスクリーンショット、画面録画、ライブ配信から除外します（Windows）。オフにすると、スクリーンショットや録画・配信でポップアップがキャプチャされるようになります。';
       case 'low_memory_mode':
         return '省メモリモード';
       case 'low_memory_mode_hint':
@@ -276789,6 +277039,18 @@ extension on _StringsJa {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return '前面アプリから周辺テキストを読み取り、現在の文を表示します（Windows / macOS）';
+      case 'lookup_block_capture_hint':
+        return '検索ポップアップとクリップボードポップアップウィンドウをスクリーンショット、画面録画、ライブ配信から除外します（Windows / macOS）。オフにすると、スクリーンショットや録画・配信でポップアップがキャプチャされるようになります。';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -280812,8 +281074,6 @@ extension on _StringsKo {
         return '게임';
       case 'global_context_capture':
         return '선택 컨텍스트 캡처';
-      case 'global_context_capture_hint':
-        return '포그라운드 앱에서 주변 텍스트를 읽어 현재 문장을 표시합니다 (Windows 전용)';
       case 'go_to_chapter':
         return ({required Object n}) => '챕터 ${n}';
       case 'handlebar_audio':
@@ -281208,8 +281468,6 @@ extension on _StringsKo {
         return '단어 찾기 음량';
       case 'lookup_block_capture':
         return '화면 캡처 차단';
-      case 'lookup_block_capture_hint':
-        return '검색 및 클립보드 팝업 창을 스크린샷, 화면 녹화, 라이브 스트리밍에서 제외합니다 (Windows). 스크린샷, 녹화, 스트리밍에서 검색 팝업을 캡처하려면 이 옵션을 끄세요.';
       case 'low_memory_mode':
         return '저메모리 모드';
       case 'low_memory_mode_hint':
@@ -287028,6 +287286,18 @@ extension on _StringsKo {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return '포그라운드 앱에서 주변 텍스트를 읽어 현재 문장을 표시합니다 (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return '검색 및 클립보드 팝업 창을 스크린샷, 화면 녹화, 라이브 스트리밍에서 제외합니다 (Windows / macOS). 스크린샷, 녹화, 스트리밍에서 검색 팝업을 캡처하려면 이 옵션을 끄세요.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -291073,8 +291343,6 @@ extension on _StringsNl {
         return 'Spellen';
       case 'global_context_capture':
         return 'Selectiecontext vastleggen';
-      case 'global_context_capture_hint':
-        return 'Lees omringende tekst uit de voorgrondapp om de huidige zin te tonen (alleen Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Hoofdstuk ${n}';
       case 'handlebar_audio':
@@ -291474,8 +291742,6 @@ extension on _StringsNl {
         return 'Volume opzoekaudio';
       case 'lookup_block_capture':
         return 'Schermopname blokkeren';
-      case 'lookup_block_capture_hint':
-        return 'Sluit het opzoek- en klembordpopupvenster uit van schermafbeeldingen, schermopnames en livestreaming (Windows). Schakel dit uit om schermafbeeldingen, opnames en streaming het opzoekpopup te laten vastleggen.';
       case 'low_memory_mode':
         return 'Geheugenspaarmodus';
       case 'low_memory_mode_hint':
@@ -297329,6 +297595,18 @@ extension on _StringsNl {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Lees omringende tekst uit de voorgrondapp om de huidige zin te tonen (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Sluit het opzoek- en klembordpopupvenster uit van schermafbeeldingen, schermopnames en livestreaming (Windows / macOS). Schakel dit uit om schermafbeeldingen, opnames en streaming het opzoekpopup te laten vastleggen.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -301374,8 +301652,6 @@ extension on _StringsPtBr {
         return 'Jogos';
       case 'global_context_capture':
         return 'Capturar contexto da seleção';
-      case 'global_context_capture_hint':
-        return 'Lê o texto ao redor do app em primeiro plano para mostrar a frase atual (apenas Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Capítulo ${n}';
       case 'handlebar_audio':
@@ -301775,8 +302051,6 @@ extension on _StringsPtBr {
         return 'Volume do áudio de consulta';
       case 'lookup_block_capture':
         return 'Bloquear captura de tela';
-      case 'lookup_block_capture_hint':
-        return 'Exclui as janelas de consulta e área de transferência de capturas de tela, gravações e transmissões ao vivo (Windows). Desative para permitir que capturas e gravações capturem o popup de consulta.';
       case 'low_memory_mode':
         return 'Modo de pouca memória';
       case 'low_memory_mode_hint':
@@ -307625,6 +307899,18 @@ extension on _StringsPtBr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Lê o texto ao redor do app em primeiro plano para mostrar a frase atual (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Exclui as janelas de consulta e área de transferência de capturas de tela, gravações e transmissões ao vivo (Windows / macOS). Desative para permitir que capturas e gravações capturem o popup de consulta.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -311677,8 +311963,6 @@ extension on _StringsRu {
         return 'Игры';
       case 'global_context_capture':
         return 'Захват контекста выделения';
-      case 'global_context_capture_hint':
-        return 'Считывает окружающий текст из активного приложения для отображения текущего предложения (только Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Глава ${n}';
       case 'handlebar_audio':
@@ -312078,8 +312362,6 @@ extension on _StringsRu {
         return 'Громкость произношения';
       case 'lookup_block_capture':
         return 'Блокировать захват экрана';
-      case 'lookup_block_capture_hint':
-        return 'Исключает всплывающие окна поиска и буфера обмена из скриншотов, записи экрана и трансляций (Windows). Отключите, чтобы разрешить захват всплывающего окна поиска.';
       case 'low_memory_mode':
         return 'Режим экономии памяти';
       case 'low_memory_mode_hint':
@@ -317928,6 +318210,18 @@ extension on _StringsRu {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Считывает окружающий текст из активного приложения для отображения текущего предложения (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Исключает всплывающие окна поиска и буфера обмена из скриншотов, записи экрана и трансляций (Windows / macOS). Отключите, чтобы разрешить захват всплывающего окна поиска.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -321965,8 +322259,6 @@ extension on _StringsTh {
         return 'เกม';
       case 'global_context_capture':
         return 'จับบริบทการเลือก';
-      case 'global_context_capture_hint':
-        return 'อ่านข้อความรอบๆ จากแอปที่อยู่เบื้องหน้าเพื่อแสดงประโยคปัจจุบัน (Windows เท่านั้น)';
       case 'go_to_chapter':
         return ({required Object n}) => 'บทที่ ${n}';
       case 'handlebar_audio':
@@ -322364,8 +322656,6 @@ extension on _StringsTh {
         return 'ระดับเสียงค้นคำ';
       case 'lookup_block_capture':
         return 'บล็อกการจับภาพหน้าจอ';
-      case 'lookup_block_capture_hint':
-        return 'ไม่รวมหน้าต่างค้นหาและป๊อปอัปคลิปบอร์ดจากการจับภาพหน้าจอ การบันทึกหน้าจอ และการสตรีมสด (Windows) ปิดเพื่อให้การจับภาพหน้าจอ การบันทึก และการสตรีมจับป๊อปอัปค้นหาได้';
       case 'low_memory_mode':
         return 'โหมดประหยัดหน่วยความจำ';
       case 'low_memory_mode_hint':
@@ -328203,6 +328493,18 @@ extension on _StringsTh {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'อ่านข้อความรอบๆ จากแอปที่อยู่เบื้องหน้าเพื่อแสดงประโยคปัจจุบัน (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'ไม่รวมหน้าต่างค้นหาและป๊อปอัปคลิปบอร์ดจากการจับภาพหน้าจอ การบันทึกหน้าจอ และการสตรีมสด (Windows / macOS) ปิดเพื่อให้การจับภาพหน้าจอ การบันทึก และการสตรีมจับป๊อปอัปค้นหาได้';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -332248,8 +332550,6 @@ extension on _StringsTr {
         return 'Oyunlar';
       case 'global_context_capture':
         return 'Seçim bağlamını yakala';
-      case 'global_context_capture_hint':
-        return 'Geçerli cümleyi göstermek için ön plandaki uygulamadan çevreleyen metni oku (yalnızca Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Bölüm ${n}';
       case 'handlebar_audio':
@@ -332647,8 +332947,6 @@ extension on _StringsTr {
         return 'Arama ses düzeyi';
       case 'lookup_block_capture':
         return 'Ekran yakalamayı engelle';
-      case 'lookup_block_capture_hint':
-        return 'Arama ve pano açılır pencerelerini ekran görüntüsü, ekran kaydı ve canlı yayından hariç tutar (Windows). Arama açılır penceresinin ekran görüntüsü, kayıt ve yayın tarafından yakalanmasına izin vermek için bunu kapatın.';
       case 'low_memory_mode':
         return 'Düşük Bellek Modu';
       case 'low_memory_mode_hint':
@@ -338493,6 +338791,18 @@ extension on _StringsTr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Geçerli cümleyi göstermek için ön plandaki uygulamadan çevreleyen metni oku (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Arama ve pano açılır pencerelerini ekran görüntüsü, ekran kaydı ve canlı yayından hariç tutar (Windows / macOS). Arama açılır penceresinin ekran görüntüsü, kayıt ve yayın tarafından yakalanmasına izin vermek için bunu kapatın.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -342535,8 +342845,6 @@ extension on _StringsVi {
         return 'Trò chơi';
       case 'global_context_capture':
         return 'Thu thập ngữ cảnh lựa chọn';
-      case 'global_context_capture_hint':
-        return 'Đọc văn bản xung quanh từ ứng dụng tiền cảnh để hiển thị câu hiện tại (chỉ Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Chương ${n}';
       case 'handlebar_audio':
@@ -342934,8 +343242,6 @@ extension on _StringsVi {
         return 'Âm lượng tra từ';
       case 'lookup_block_capture':
         return 'Chặn chụp màn hình';
-      case 'lookup_block_capture_hint':
-        return 'Loại trừ cửa sổ tra cứu và bộ nhớ tạm khỏi chụp màn hình, quay màn hình và phát trực tiếp (Windows). Tắt để cho phép chụp, quay và phát trực tiếp ghi lại cửa sổ tra cứu.';
       case 'low_memory_mode':
         return 'Chế độ tiết kiệm bộ nhớ';
       case 'low_memory_mode_hint':
@@ -348777,6 +349083,18 @@ extension on _StringsVi {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Đọc văn bản xung quanh từ ứng dụng tiền cảnh để hiển thị câu hiện tại (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Loại trừ cửa sổ tra cứu và bộ nhớ tạm khỏi chụp màn hình, quay màn hình và phát trực tiếp (Windows / macOS). Tắt để cho phép chụp, quay và phát trực tiếp ghi lại cửa sổ tra cứu.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -352785,8 +353103,6 @@ extension on _StringsZhCn {
         return '游戏';
       case 'global_context_capture':
         return '抓取选中文本上下文';
-      case 'global_context_capture_hint':
-        return '从前台应用读取选区周围文本，在查词弹窗显示当前句（仅 Windows）';
       case 'go_to_chapter':
         return ({required Object n}) => '第 ${n} 章';
       case 'handlebar_audio':
@@ -353179,8 +353495,6 @@ extension on _StringsZhCn {
         return '查词音量';
       case 'lookup_block_capture':
         return '防截屏 / 防录屏';
-      case 'lookup_block_capture_hint':
-        return '把查词悬浮窗从截图、录屏、直播串流中排除（Windows）。关闭后，截图、录屏和串流即可拍到查词悬浮窗。';
       case 'low_memory_mode':
         return '小内存模式';
       case 'low_memory_mode_hint':
@@ -358970,6 +359284,18 @@ extension on _StringsZhCn {
         return '把按钮拖到顶栏或底栏的任意位置，或移出。';
       case 'reader_control_reset_layout':
         return '恢复默认阅读器按钮布局';
+      case 'global_context_capture_hint':
+        return '从前台应用读取选区周围文本，在查词弹窗显示当前句（Windows / macOS）';
+      case 'lookup_block_capture_hint':
+        return '把查词悬浮窗从截图、录屏、直播串流中排除（Windows / macOS）。关闭后，截图、录屏和串流即可拍到查词悬浮窗。';
+      case 'lookup_accessibility_permission_request':
+        return '为应用外查词授权辅助功能';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS 需要辅助功能权限才能读取其他应用中选中的文字；未授权时快捷键只查当前剪贴板文本。';
+      case 'lookup_accessibility_permission_granted':
+        return '已授权辅助功能';
+      case 'lookup_accessibility_permission_missing':
+        return '尚未授权辅助功能。请在「隐私与安全性 > 辅助功能」中启用 Fushi 后重试。';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) => '片段已保存，但系统分享面板没有打开：${path}';
       case 'audiobook_export_clip_share_unavailable':
@@ -362981,8 +363307,6 @@ extension on _StringsZhHk {
         return '遊戲';
       case 'global_context_capture':
         return '抓取選中文本上下文';
-      case 'global_context_capture_hint':
-        return '從前台應用讀取選區周圍文本，在查詞彈窗顯示當前句（僅 Windows）';
       case 'go_to_chapter':
         return ({required Object n}) => '第 ${n} 章';
       case 'handlebar_audio':
@@ -363376,8 +363700,6 @@ extension on _StringsZhHk {
         return '查詞音量';
       case 'lookup_block_capture':
         return '防截屏 / 防錄屏';
-      case 'lookup_block_capture_hint':
-        return '把查詞懸浮窗從截圖、錄屏、直播串流中排除（Windows）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
       case 'low_memory_mode':
         return '低記憶體模式';
       case 'low_memory_mode_hint':
@@ -369181,6 +369503,18 @@ extension on _StringsZhHk {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return '從前台應用讀取選區周圍文本，在查詞彈窗顯示當前句（Windows / macOS）';
+      case 'lookup_block_capture_hint':
+        return '把查詞懸浮窗從截圖、錄屏、直播串流中排除（Windows / macOS）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
