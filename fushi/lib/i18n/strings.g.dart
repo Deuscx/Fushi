@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 85289 (5017 per locale)
+/// Strings: 85306 (5018 per locale)
 ///
-/// Built on 2026-09-16 at 10:40 UTC
+/// Built on 2026-09-16 at 10:57 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6758,6 +6758,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Drag buttons between the top and bottom bars, or remove them.';
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
   String get global_context_capture_hint =>
       'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
   String get lookup_block_capture_hint =>
@@ -18440,6 +18442,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
   @override
   String get global_context_capture_hint =>
       'قراءة النص المحيط من التطبيق الأمامي لعرض الجملة الحالية (Windows / macOS)';
@@ -30518,6 +30523,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
   @override
   String get global_context_capture_hint =>
       'Umgebenden Text der Vordergrund-App lesen, um den aktuellen Satz anzuzeigen (Windows / macOS)';
@@ -42652,6 +42660,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
   @override
   String get global_context_capture_hint =>
       'Lee texto circundante de la app en primer plano para mostrar la oración actual (Windows / macOS)';
@@ -54819,6 +54830,9 @@ class _StringsFr extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
+  @override
   String get global_context_capture_hint =>
       'Lire le texte environnant depuis l\'application au premier plan pour afficher la phrase actuelle (Windows / macOS)';
   @override
@@ -66792,6 +66806,9 @@ class _StringsId extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
   @override
   String get global_context_capture_hint =>
       'Baca teks sekitar dari aplikasi yang aktif untuk menampilkan kalimat saat ini (Windows / macOS)';
@@ -78853,6 +78870,9 @@ class _StringsIt extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
+  @override
   String get global_context_capture_hint =>
       'Leggi il testo circostante dall\'app in primo piano per mostrare la frase corrente (Windows / macOS)';
   @override
@@ -90296,6 +90316,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
   @override
   String get global_context_capture_hint =>
       '前面アプリから周辺テキストを読み取り、現在の文を表示します（Windows / macOS）';
@@ -101747,6 +101770,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
   @override
   String get global_context_capture_hint =>
       '포그라운드 앱에서 주변 텍스트를 읽어 현재 문장을 표시합니다 (Windows / macOS)';
@@ -113763,6 +113789,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
   @override
   String get global_context_capture_hint =>
       'Lees omringende tekst uit de voorgrondapp om de huidige zin te tonen (Windows / macOS)';
@@ -125838,6 +125867,9 @@ class _StringsPtBr extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
+  @override
   String get global_context_capture_hint =>
       'Lê o texto ao redor do app em primeiro plano para mostrar a frase atual (Windows / macOS)';
   @override
@@ -137889,6 +137921,9 @@ class _StringsRu extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
+  @override
   String get global_context_capture_hint =>
       'Считывает окружающий текст из активного приложения для отображения текущего предложения (Windows / macOS)';
   @override
@@ -149739,6 +149774,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
   @override
   String get global_context_capture_hint =>
       'อ่านข้อความรอบๆ จากแอปที่อยู่เบื้องหน้าเพื่อแสดงประโยคปัจจุบัน (Windows / macOS)';
@@ -161704,6 +161742,9 @@ class _StringsTr extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
+  @override
   String get global_context_capture_hint =>
       'Geçerli cümleyi göstermek için ön plandaki uygulamadan çevreleyen metni oku (Windows / macOS)';
   @override
@@ -173638,6 +173679,9 @@ class _StringsVi extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
+  @override
   String get global_context_capture_hint =>
       'Đọc văn bản xung quanh từ ứng dụng tiền cảnh để hiển thị câu hiện tại (Windows / macOS)';
   @override
@@ -184627,6 +184671,9 @@ class _StringsZhCn extends _StringsEn {
   String get reader_control_editor_hint => '把按钮拖到顶栏或底栏的任意位置，或移出。';
   @override
   String get reader_control_reset_layout => '恢复默认阅读器按钮布局';
+  @override
+  String stat_center_profile_scope({required Object name}) =>
+      '仅显示配置「${name}」的统计';
   @override
   String get global_context_capture_hint =>
       '从前台应用读取选区周围文本，在查词弹窗显示当前句（Windows / macOS）';
@@ -195702,6 +195749,9 @@ class _StringsZhHk extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String stat_center_profile_scope({required Object name}) =>
+      'Showing statistics for profile "${name}" only';
+  @override
   String get global_context_capture_hint =>
       '從前台應用讀取選區周圍文本，在查詞彈窗顯示當前句（Windows / macOS）';
   @override
@@ -206117,6 +206167,9 @@ extension on _StringsEn {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -216452,6 +216505,9 @@ extension on _StringsAr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'قراءة النص المحيط من التطبيق الأمامي لعرض الجملة الحالية (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -226832,6 +226888,9 @@ extension on _StringsDe {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'Umgebenden Text der Vordergrund-App lesen, um den aktuellen Satz anzuzeigen (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -237203,6 +237262,9 @@ extension on _StringsEs {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'Lee texto circundante de la app en primer plano para mostrar la oración actual (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -247583,6 +247645,9 @@ extension on _StringsFr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'Lire le texte environnant depuis l\'application au premier plan pour afficher la phrase actuelle (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -257934,6 +257999,9 @@ extension on _StringsId {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'Baca teks sekitar dari aplikasi yang aktif untuk menampilkan kalimat saat ini (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -268307,6 +268375,9 @@ extension on _StringsIt {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'Leggi il testo circostante dall\'app in primo piano per mostrare la frase corrente (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -278607,6 +278678,9 @@ extension on _StringsJa {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return '前面アプリから周辺テキストを読み取り、現在の文を表示します（Windows / macOS）';
       case 'lookup_block_capture_hint':
@@ -288911,6 +288985,9 @@ extension on _StringsKo {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return '포그라운드 앱에서 주변 텍스트를 읽어 현재 문장을 표시합니다 (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -299277,6 +299354,9 @@ extension on _StringsNl {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'Lees omringende tekst uit de voorgrondapp om de huidige zin te tonen (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -309638,6 +309718,9 @@ extension on _StringsPtBr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'Lê o texto ao redor do app em primeiro plano para mostrar a frase atual (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -320006,6 +320089,9 @@ extension on _StringsRu {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'Считывает окружающий текст из активного приложения для отображения текущего предложения (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -330346,6 +330432,9 @@ extension on _StringsTh {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'อ่านข้อความรอบๆ จากแอปที่อยู่เบื้องหน้าเพื่อแสดงประโยคปัจจุบัน (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -340701,6 +340790,9 @@ extension on _StringsTr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'Geçerli cümleyi göstermek için ön plandaki uygulamadan çevreleyen metni oku (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -351050,6 +351142,9 @@ extension on _StringsVi {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return 'Đọc văn bản xung quanh từ ứng dụng tiền cảnh để hiển thị câu hiện tại (Windows / macOS)';
       case 'lookup_block_capture_hint':
@@ -361308,6 +361403,8 @@ extension on _StringsZhCn {
         return '把按钮拖到顶栏或底栏的任意位置，或移出。';
       case 'reader_control_reset_layout':
         return '恢复默认阅读器按钮布局';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) => '仅显示配置「${name}」的统计';
       case 'global_context_capture_hint':
         return '从前台应用读取选区周围文本，在查词弹窗显示当前句（Windows / macOS）';
       case 'lookup_block_capture_hint':
@@ -371583,6 +371680,9 @@ extension on _StringsZhHk {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'stat_center_profile_scope':
+        return ({required Object name}) =>
+            'Showing statistics for profile "${name}" only';
       case 'global_context_capture_hint':
         return '從前台應用讀取選區周圍文本，在查詞彈窗顯示當前句（Windows / macOS）';
       case 'lookup_block_capture_hint':
