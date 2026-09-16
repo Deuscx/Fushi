@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 84405 (4965 per locale)
+/// Strings: 85272 (5016 per locale)
 ///
-/// Built on 2026-09-16 at 10:03 UTC
+/// Built on 2026-09-16 at 10:04 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2660,8 +2660,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get game_window_missing => 'Not bound';
   String get games => 'Games';
   String get global_context_capture => 'Capture selection context';
-  String get global_context_capture_hint =>
-      'Read surrounding text from the foreground app to show the current sentence (Windows only)';
   String go_to_chapter({required Object n}) => 'Chapter ${n}';
   String get handlebar_audio => 'Audio';
   String get handlebar_book_cover => 'Book cover';
@@ -2918,8 +2916,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get login => 'Login';
   String get lookup_audio_volume => 'Lookup audio volume';
   String get lookup_block_capture => 'Block screen capture';
-  String get lookup_block_capture_hint =>
-      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
   String get low_memory_mode => 'Low memory mode';
   String get low_memory_mode_hint =>
       'Reduce cache and memory usage for low-end devices. Some changes take effect after restart.';
@@ -6762,6 +6758,18 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Drag buttons between the top and bottom bars, or remove them.';
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
+  String get global_context_capture_hint =>
+      'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+  String get lookup_block_capture_hint =>
+      'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   String get audiobook_export_clip_share_unavailable =>
@@ -6932,6 +6940,73 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get delete_statistics => 'Also delete statistics';
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  String get ai_feature_lapis_style => 'Lapis card style';
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  String get ai_feature_video_identify => 'Video identification';
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  String get ai_feature_video_search => 'Video search assist';
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  String get ai_assist_section => 'Ask AI';
+  String get ai_assist_generate => 'Generate';
+  String get ai_assist_working => 'Asking AI…';
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  String get video_scrape_ai_matched => 'Matched by AI';
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  String get video_search_ai_expand => 'More terms with AI';
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  String get video_search_ai_rank => 'Rank with AI';
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  String get video_search_ai_recommended => 'AI pick';
+  String get shortcut_action_video_screenshot_subtitled =>
+      'Screenshot (with subtitles)';
+  String get video_screenshot_subtitled => 'Screenshot with subtitles';
+  String get video_screenshot_copied => 'Screenshot copied to clipboard';
+  String get video_screenshot_clipboard_unsupported =>
+      'Copying images to the clipboard is not supported on this platform';
+  String get video_screenshot_directory_unset => 'No screenshot folder set yet';
+  String get video_setting_screenshot_destination => 'Screenshot destination';
+  String get video_setting_screenshot_destination_hint =>
+      'Where screenshots go: a save dialog, the clipboard, or straight into a folder';
+  String get video_screenshot_destination_ask => 'Ask every time';
+  String get video_screenshot_destination_clipboard => 'Copy to clipboard';
+  String get video_screenshot_destination_directory => 'Save to folder';
+  String get video_setting_screenshot_directory => 'Screenshot folder';
+  String get video_setting_screenshot_directory_hint =>
+      'Where screenshots land when the destination is Save to folder';
+  String get video_screenshot_directory_not_set => 'Not set';
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  String get settings_lookup_ime_language_unset => 'Not set';
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  String get anki_mined_forget_done => 'Mining record cleared';
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -11239,9 +11314,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get global_context_capture => 'التقاط سياق التحديد';
   @override
-  String get global_context_capture_hint =>
-      'قراءة النص المحيط من التطبيق الأمامي لعرض الجملة الحالية (Windows فقط)';
-  @override
   String go_to_chapter({required Object n}) => 'الفصل ${n}';
   @override
   String get handlebar_audio => 'صوت';
@@ -11693,9 +11765,6 @@ class _StringsAr extends _StringsEn {
   String get lookup_audio_volume => 'مستوى صوت البحث';
   @override
   String get lookup_block_capture => 'حظر التقاط الشاشة';
-  @override
-  String get lookup_block_capture_hint =>
-      'يستثني نوافذ البحث والحافظة المنبثقة من لقطات الشاشة وتسجيل الشاشة والبث المباشر (Windows). أوقف هذا للسماح بالتقاط النافذة المنبثقة.';
   @override
   String get low_memory_mode => 'وضع الذاكرة المنخفضة';
   @override
@@ -18370,6 +18439,24 @@ class _StringsAr extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'قراءة النص المحيط من التطبيق الأمامي لعرض الجملة الحالية (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'يستثني نوافذ البحث والحافظة المنبثقة من لقطات الشاشة وتسجيل الشاشة والبث المباشر (Windows / macOS). أوقف هذا للسماح بالتقاط النافذة المنبثقة.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -18654,6 +18741,121 @@ class _StringsAr extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled =>
+      'لقطة شاشة (مع الترجمة)';
+  @override
+  String get video_screenshot_subtitled => 'لقطة شاشة مع الترجمة';
+  @override
+  String get video_screenshot_copied => 'تم نسخ لقطة الشاشة إلى الحافظة';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'نسخ الصور إلى الحافظة غير مدعوم على هذه المنصة';
+  @override
+  String get video_screenshot_directory_unset =>
+      'لم يتم تعيين مجلد للقطات الشاشة بعد';
+  @override
+  String get video_setting_screenshot_destination => 'وجهة لقطات الشاشة';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'إلى أين تذهب لقطات الشاشة: نافذة حفظ أو الحافظة أو مباشرةً إلى مجلد';
+  @override
+  String get video_screenshot_destination_ask => 'السؤال في كل مرة';
+  @override
+  String get video_screenshot_destination_clipboard => 'نسخ إلى الحافظة';
+  @override
+  String get video_screenshot_destination_directory => 'الحفظ في مجلد';
+  @override
+  String get video_setting_screenshot_directory => 'مجلد لقطات الشاشة';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      'أين تُحفظ لقطات الشاشة عندما تكون الوجهة هي الحفظ في مجلد';
+  @override
+  String get video_screenshot_directory_not_set => 'غير مُعيّن';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -23055,9 +23257,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get global_context_capture => 'Auswahlkontext erfassen';
   @override
-  String get global_context_capture_hint =>
-      'Umgebenden Text der Vordergrund-App lesen, um den aktuellen Satz anzuzeigen (nur Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Kapitel ${n}';
   @override
   String get handlebar_audio => 'Audio';
@@ -23513,9 +23712,6 @@ class _StringsDe extends _StringsEn {
   String get lookup_audio_volume => 'Nachschlage-Audiolautstärke';
   @override
   String get lookup_block_capture => 'Bildschirmaufnahme blockieren';
-  @override
-  String get lookup_block_capture_hint =>
-      'Schließt die Nachschlage- und Zwischenablage-Popupfenster von Screenshots, Bildschirmaufnahmen und Livestreaming aus (Windows). Deaktiviere dies, um Screenshots, Aufnahmen und Streaming das Erfassen des Nachschlage-Popups zu ermöglichen.';
   @override
   String get low_memory_mode => 'Speichersparmodus';
   @override
@@ -30318,6 +30514,24 @@ class _StringsDe extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Umgebenden Text der Vordergrund-App lesen, um den aktuellen Satz anzuzeigen (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Schließt die Nachschlage- und Zwischenablage-Popupfenster von Screenshots, Bildschirmaufnahmen und Livestreaming aus (Windows / macOS). Deaktiviere dies, um Screenshots, Aufnahmen und Streaming das Erfassen des Nachschlage-Popups zu ermöglichen.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -30602,6 +30816,123 @@ class _StringsDe extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled =>
+      'Screenshot (mit Untertiteln)';
+  @override
+  String get video_screenshot_subtitled => 'Screenshot mit Untertiteln';
+  @override
+  String get video_screenshot_copied =>
+      'Screenshot in die Zwischenablage kopiert';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'Das Kopieren von Bildern in die Zwischenablage wird auf dieser Plattform nicht unterstützt';
+  @override
+  String get video_screenshot_directory_unset =>
+      'Noch kein Screenshot-Ordner festgelegt';
+  @override
+  String get video_setting_screenshot_destination => 'Screenshot-Ziel';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'Wohin Screenshots gehen: ein Speicherdialog, die Zwischenablage oder direkt in einen Ordner';
+  @override
+  String get video_screenshot_destination_ask => 'Jedes Mal fragen';
+  @override
+  String get video_screenshot_destination_clipboard =>
+      'In Zwischenablage kopieren';
+  @override
+  String get video_screenshot_destination_directory => 'In Ordner speichern';
+  @override
+  String get video_setting_screenshot_directory => 'Screenshot-Ordner';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      'Wohin Screenshots gespeichert werden, wenn als Ziel „In Ordner speichern“ gewählt ist';
+  @override
+  String get video_screenshot_directory_not_set => 'Nicht festgelegt';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -35024,9 +35355,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get global_context_capture => 'Capturar contexto de selección';
   @override
-  String get global_context_capture_hint =>
-      'Lee texto circundante de la app en primer plano para mostrar la oración actual (solo Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Capítulo ${n}';
   @override
   String get handlebar_audio => 'Audio';
@@ -35485,9 +35813,6 @@ class _StringsEs extends _StringsEn {
   String get lookup_audio_volume => 'Volumen del audio de consulta';
   @override
   String get lookup_block_capture => 'Bloquear captura de pantalla';
-  @override
-  String get lookup_block_capture_hint =>
-      'Excluye las ventanas emergentes de búsqueda y portapapeles de capturas de pantalla, grabación de pantalla y transmisión en vivo (Windows). Desactive esto para permitir que las capturas, grabación y transmisión capturen la ventana emergente de búsqueda.';
   @override
   String get low_memory_mode => 'Modo de poca memoria';
   @override
@@ -42320,6 +42645,24 @@ class _StringsEs extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Lee texto circundante de la app en primer plano para mostrar la oración actual (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Excluye las ventanas emergentes de búsqueda y portapapeles de capturas de pantalla, grabación de pantalla y transmisión en vivo (Windows / macOS). Desactive esto para permitir que las capturas, grabación y transmisión capturen la ventana emergente de búsqueda.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -42604,6 +42947,122 @@ class _StringsEs extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled =>
+      'Captura de pantalla (con subtítulos)';
+  @override
+  String get video_screenshot_subtitled => 'Captura de pantalla con subtítulos';
+  @override
+  String get video_screenshot_copied =>
+      'Captura de pantalla copiada al portapapeles';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'Copiar imágenes al portapapeles no es compatible en esta plataforma';
+  @override
+  String get video_screenshot_directory_unset =>
+      'Aún no se ha establecido una carpeta de capturas';
+  @override
+  String get video_setting_screenshot_destination => 'Destino de las capturas';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'Adónde van las capturas: un diálogo de guardado, el portapapeles o directamente a una carpeta';
+  @override
+  String get video_screenshot_destination_ask => 'Preguntar cada vez';
+  @override
+  String get video_screenshot_destination_clipboard => 'Copiar al portapapeles';
+  @override
+  String get video_screenshot_destination_directory => 'Guardar en una carpeta';
+  @override
+  String get video_setting_screenshot_directory => 'Carpeta de capturas';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      'Dónde se guardan las capturas cuando el destino es «Guardar en una carpeta»';
+  @override
+  String get video_screenshot_directory_not_set => 'No establecido';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -47034,9 +47493,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get global_context_capture => 'Capturer le contexte de sélection';
   @override
-  String get global_context_capture_hint =>
-      'Lire le texte environnant depuis l\'application au premier plan pour afficher la phrase actuelle (Windows uniquement)';
-  @override
   String go_to_chapter({required Object n}) => 'Chapitre ${n}';
   @override
   String get handlebar_audio => 'Audio';
@@ -47498,9 +47954,6 @@ class _StringsFr extends _StringsEn {
   String get lookup_audio_volume => 'Volume audio de la recherche';
   @override
   String get lookup_block_capture => 'Bloquer la capture d\'écran';
-  @override
-  String get lookup_block_capture_hint =>
-      'Exclut les fenêtres de recherche et de presse-papiers des captures d\'écran, enregistrements et diffusions en direct (Windows). Désactivez pour permettre la capture de la fenêtre de recherche.';
   @override
   String get low_memory_mode => 'Mode mémoire réduite';
   @override
@@ -54355,6 +54808,24 @@ class _StringsFr extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Lire le texte environnant depuis l\'application au premier plan pour afficher la phrase actuelle (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Exclut les fenêtres de recherche et de presse-papiers des captures d\'écran, enregistrements et diffusions en direct (Windows / macOS). Désactivez pour permettre la capture de la fenêtre de recherche.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -54639,6 +55110,126 @@ class _StringsFr extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled =>
+      'Capture d\'écran (avec sous-titres)';
+  @override
+  String get video_screenshot_subtitled => 'Capture d\'écran avec sous-titres';
+  @override
+  String get video_screenshot_copied =>
+      'Capture d\'écran copiée dans le presse-papiers';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'La copie d\'images dans le presse-papiers n\'est pas prise en charge sur cette plateforme';
+  @override
+  String get video_screenshot_directory_unset =>
+      'Aucun dossier de captures d\'écran défini pour l\'instant';
+  @override
+  String get video_setting_screenshot_destination =>
+      'Destination des captures d\'écran';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'Où vont les captures d\'écran : une boîte de dialogue d\'enregistrement, le presse-papiers ou directement un dossier';
+  @override
+  String get video_screenshot_destination_ask => 'Demander à chaque fois';
+  @override
+  String get video_screenshot_destination_clipboard =>
+      'Copier dans le presse-papiers';
+  @override
+  String get video_screenshot_destination_directory =>
+      'Enregistrer dans un dossier';
+  @override
+  String get video_setting_screenshot_directory =>
+      'Dossier des captures d\'écran';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      'Où sont enregistrées les captures d\'écran quand la destination est « Enregistrer dans un dossier »';
+  @override
+  String get video_screenshot_directory_not_set => 'Non défini';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -58991,9 +59582,6 @@ class _StringsId extends _StringsEn {
   @override
   String get global_context_capture => 'Tangkap konteks seleksi';
   @override
-  String get global_context_capture_hint =>
-      'Baca teks sekitar dari aplikasi yang aktif untuk menampilkan kalimat saat ini (khusus Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Bab ${n}';
   @override
   String get handlebar_audio => 'Audio';
@@ -59449,9 +60037,6 @@ class _StringsId extends _StringsEn {
   String get lookup_audio_volume => 'Volume audio pencarian kata';
   @override
   String get lookup_block_capture => 'Blokir tangkapan layar';
-  @override
-  String get lookup_block_capture_hint =>
-      'Kecualikan jendela popup pencarian dan clipboard dari tangkapan layar, perekaman layar, dan streaming langsung (Windows). Nonaktifkan ini agar tangkapan layar, perekaman, dan streaming bisa menangkap popup pencarian.';
   @override
   String get low_memory_mode => 'Mode Memori Rendah';
   @override
@@ -66194,6 +66779,24 @@ class _StringsId extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Baca teks sekitar dari aplikasi yang aktif untuk menampilkan kalimat saat ini (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Kecualikan jendela popup pencarian dan clipboard dari tangkapan layar, perekaman layar, dan streaming langsung (Windows / macOS). Nonaktifkan ini agar tangkapan layar, perekaman, dan streaming bisa menangkap popup pencarian.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -66478,6 +67081,121 @@ class _StringsId extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled =>
+      'Tangkapan Layar (dengan subtitle)';
+  @override
+  String get video_screenshot_subtitled => 'Tangkapan layar dengan subtitle';
+  @override
+  String get video_screenshot_copied => 'Tangkapan layar disalin ke papan klip';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'Menyalin gambar ke papan klip tidak didukung di platform ini';
+  @override
+  String get video_screenshot_directory_unset =>
+      'Folder tangkapan layar belum diatur';
+  @override
+  String get video_setting_screenshot_destination => 'Tujuan tangkapan layar';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'Ke mana tangkapan layar dikirim: dialog simpan, papan klip, atau langsung ke sebuah folder';
+  @override
+  String get video_screenshot_destination_ask => 'Tanya setiap kali';
+  @override
+  String get video_screenshot_destination_clipboard => 'Salin ke papan klip';
+  @override
+  String get video_screenshot_destination_directory => 'Simpan ke folder';
+  @override
+  String get video_setting_screenshot_directory => 'Folder tangkapan layar';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      'Tempat tangkapan layar disimpan saat tujuannya Simpan ke folder';
+  @override
+  String get video_screenshot_directory_not_set => 'Belum diatur';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -70863,9 +71581,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get global_context_capture => 'Cattura contesto selezione';
   @override
-  String get global_context_capture_hint =>
-      'Leggi il testo circostante dall\'app in primo piano per mostrare la frase corrente (solo Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Capitolo ${n}';
   @override
   String get handlebar_audio => 'Audio';
@@ -71324,9 +72039,6 @@ class _StringsIt extends _StringsEn {
   String get lookup_audio_volume => 'Volume audio della ricerca';
   @override
   String get lookup_block_capture => 'Blocca cattura schermo';
-  @override
-  String get lookup_block_capture_hint =>
-      'Esclude le finestre di ricerca e appunti popup da screenshot, registrazione schermo e streaming live (Windows). Disattiva per permettere a screenshot, registrazione e streaming di catturare il popup di ricerca.';
   @override
   String get low_memory_mode => 'Modalità memoria ridotta';
   @override
@@ -78124,6 +78836,24 @@ class _StringsIt extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Leggi il testo circostante dall\'app in primo piano per mostrare la frase corrente (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Esclude le finestre di ricerca e appunti popup da screenshot, registrazione schermo e streaming live (Windows / macOS). Disattiva per permettere a screenshot, registrazione e streaming di catturare il popup di ricerca.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -78408,6 +79138,122 @@ class _StringsIt extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled =>
+      'Screenshot (con sottotitoli)';
+  @override
+  String get video_screenshot_subtitled => 'Screenshot con sottotitoli';
+  @override
+  String get video_screenshot_copied => 'Screenshot copiato negli appunti';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'La copia di immagini negli appunti non è supportata su questa piattaforma';
+  @override
+  String get video_screenshot_directory_unset =>
+      'Nessuna cartella per gli screenshot impostata';
+  @override
+  String get video_setting_screenshot_destination =>
+      'Destinazione degli screenshot';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'Dove vanno gli screenshot: una finestra di salvataggio, gli appunti o direttamente una cartella';
+  @override
+  String get video_screenshot_destination_ask => 'Chiedi ogni volta';
+  @override
+  String get video_screenshot_destination_clipboard => 'Copia negli appunti';
+  @override
+  String get video_screenshot_destination_directory => 'Salva in una cartella';
+  @override
+  String get video_setting_screenshot_directory => 'Cartella degli screenshot';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      'Dove finiscono gli screenshot quando la destinazione è «Salva in una cartella»';
+  @override
+  String get video_screenshot_directory_not_set => 'Non impostata';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -82566,9 +83412,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get global_context_capture => '選択コンテキストをキャプチャ';
   @override
-  String get global_context_capture_hint =>
-      '前面アプリから周辺テキストを読み取り、現在の文を表示します（Windows のみ）';
-  @override
   String go_to_chapter({required Object n}) => '第 ${n} 章';
   @override
   String get handlebar_audio => '音声';
@@ -83002,9 +83845,6 @@ class _StringsJa extends _StringsEn {
   String get lookup_audio_volume => '辞書音声の音量';
   @override
   String get lookup_block_capture => '画面キャプチャをブロック';
-  @override
-  String get lookup_block_capture_hint =>
-      '検索ポップアップとクリップボードポップアップウィンドウをスクリーンショット、画面録画、ライブ配信から除外します（Windows）。オフにすると、スクリーンショットや録画・配信でポップアップがキャプチャされるようになります。';
   @override
   String get low_memory_mode => '省メモリモード';
   @override
@@ -89437,6 +90277,24 @@ class _StringsJa extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      '前面アプリから周辺テキストを読み取り、現在の文を表示します（Windows / macOS）';
+  @override
+  String get lookup_block_capture_hint =>
+      '検索ポップアップとクリップボードポップアップウィンドウをスクリーンショット、画面録画、ライブ配信から除外します（Windows / macOS）。オフにすると、スクリーンショットや録画・配信でポップアップがキャプチャされるようになります。';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -89721,6 +90579,119 @@ class _StringsJa extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled => 'スクリーンショット（字幕あり）';
+  @override
+  String get video_screenshot_subtitled => '字幕付きスクリーンショット';
+  @override
+  String get video_screenshot_copied => 'スクリーンショットをクリップボードにコピーしました';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'このプラットフォームでは画像をクリップボードにコピーできません';
+  @override
+  String get video_screenshot_directory_unset => 'スクリーンショットの保存フォルダがまだ設定されていません';
+  @override
+  String get video_setting_screenshot_destination => 'スクリーンショットの保存先';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'スクリーンショットを保存ダイアログ・クリップボード・指定フォルダのどこへ送るか';
+  @override
+  String get video_screenshot_destination_ask => '毎回確認';
+  @override
+  String get video_screenshot_destination_clipboard => 'クリップボードにコピー';
+  @override
+  String get video_screenshot_destination_directory => 'フォルダに保存';
+  @override
+  String get video_setting_screenshot_directory => 'スクリーンショットの保存フォルダ';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      '保存先が「フォルダに保存」のときにスクリーンショットが置かれる場所';
+  @override
+  String get video_screenshot_directory_not_set => '未設定';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -93871,9 +94842,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get global_context_capture => '선택 컨텍스트 캡처';
   @override
-  String get global_context_capture_hint =>
-      '포그라운드 앱에서 주변 텍스트를 읽어 현재 문장을 표시합니다 (Windows 전용)';
-  @override
   String go_to_chapter({required Object n}) => '챕터 ${n}';
   @override
   String get handlebar_audio => '오디오';
@@ -94309,9 +95277,6 @@ class _StringsKo extends _StringsEn {
   String get lookup_audio_volume => '단어 찾기 음량';
   @override
   String get lookup_block_capture => '화면 캡처 차단';
-  @override
-  String get lookup_block_capture_hint =>
-      '검색 및 클립보드 팝업 창을 스크린샷, 화면 녹화, 라이브 스트리밍에서 제외합니다 (Windows). 스크린샷, 녹화, 스트리밍에서 검색 팝업을 캡처하려면 이 옵션을 끄세요.';
   @override
   String get low_memory_mode => '저메모리 모드';
   @override
@@ -100760,6 +101725,24 @@ class _StringsKo extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      '포그라운드 앱에서 주변 텍스트를 읽어 현재 문장을 표시합니다 (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      '검색 및 클립보드 팝업 창을 스크린샷, 화면 녹화, 라이브 스트리밍에서 제외합니다 (Windows / macOS). 스크린샷, 녹화, 스트리밍에서 검색 팝업을 캡처하려면 이 옵션을 끄세요.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -101044,6 +102027,119 @@ class _StringsKo extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled => '스크린샷 (자막 포함)';
+  @override
+  String get video_screenshot_subtitled => '자막 포함 스크린샷';
+  @override
+  String get video_screenshot_copied => '스크린샷이 클립보드에 복사되었습니다';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      '이 플랫폼에서는 이미지를 클립보드로 복사할 수 없습니다';
+  @override
+  String get video_screenshot_directory_unset => '스크린샷 폴더가 아직 설정되지 않았습니다';
+  @override
+  String get video_setting_screenshot_destination => '스크린샷 저장 위치';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      '스크린샷을 저장 대화상자, 클립보드, 지정한 폴더 중 어디로 보낼지 정합니다';
+  @override
+  String get video_screenshot_destination_ask => '매번 묻기';
+  @override
+  String get video_screenshot_destination_clipboard => '클립보드에 복사';
+  @override
+  String get video_screenshot_destination_directory => '폴더에 저장';
+  @override
+  String get video_setting_screenshot_directory => '스크린샷 폴더';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      '저장 위치가 ‘폴더에 저장’일 때 스크린샷이 저장되는 곳';
+  @override
+  String get video_screenshot_directory_not_set => '설정 안 됨';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -105412,9 +106508,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get global_context_capture => 'Selectiecontext vastleggen';
   @override
-  String get global_context_capture_hint =>
-      'Lees omringende tekst uit de voorgrondapp om de huidige zin te tonen (alleen Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Hoofdstuk ${n}';
   @override
   String get handlebar_audio => 'Audio';
@@ -105870,9 +106963,6 @@ class _StringsNl extends _StringsEn {
   String get lookup_audio_volume => 'Volume opzoekaudio';
   @override
   String get lookup_block_capture => 'Schermopname blokkeren';
-  @override
-  String get lookup_block_capture_hint =>
-      'Sluit het opzoek- en klembordpopupvenster uit van schermafbeeldingen, schermopnames en livestreaming (Windows). Schakel dit uit om schermafbeeldingen, opnames en streaming het opzoekpopup te laten vastleggen.';
   @override
   String get low_memory_mode => 'Geheugenspaarmodus';
   @override
@@ -112648,6 +113738,24 @@ class _StringsNl extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Lees omringende tekst uit de voorgrondapp om de huidige zin te tonen (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Sluit het opzoek- en klembordpopupvenster uit van schermafbeeldingen, schermopnames en livestreaming (Windows / macOS). Schakel dit uit om schermafbeeldingen, opnames en streaming het opzoekpopup te laten vastleggen.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -112932,6 +114040,124 @@ class _StringsNl extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled =>
+      'Schermafbeelding (met ondertitels)';
+  @override
+  String get video_screenshot_subtitled => 'Schermafbeelding met ondertitels';
+  @override
+  String get video_screenshot_copied =>
+      'Schermafbeelding gekopieerd naar klembord';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'Afbeeldingen naar het klembord kopiëren wordt op dit platform niet ondersteund';
+  @override
+  String get video_screenshot_directory_unset =>
+      'Nog geen map voor schermafbeeldingen ingesteld';
+  @override
+  String get video_setting_screenshot_destination =>
+      'Bestemming van schermafbeeldingen';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'Waar schermafbeeldingen heen gaan: een opslagvenster, het klembord of direct naar een map';
+  @override
+  String get video_screenshot_destination_ask => 'Elke keer vragen';
+  @override
+  String get video_screenshot_destination_clipboard => 'Kopiëren naar klembord';
+  @override
+  String get video_screenshot_destination_directory => 'Opslaan in map';
+  @override
+  String get video_setting_screenshot_directory =>
+      'Map voor schermafbeeldingen';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      'Waar schermafbeeldingen terechtkomen wanneer de bestemming Opslaan in map is';
+  @override
+  String get video_screenshot_directory_not_set => 'Niet ingesteld';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -117326,9 +118552,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get global_context_capture => 'Capturar contexto da seleção';
   @override
-  String get global_context_capture_hint =>
-      'Lê o texto ao redor do app em primeiro plano para mostrar a frase atual (apenas Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Capítulo ${n}';
   @override
   String get handlebar_audio => 'Áudio';
@@ -117785,9 +119008,6 @@ class _StringsPtBr extends _StringsEn {
   String get lookup_audio_volume => 'Volume do áudio de consulta';
   @override
   String get lookup_block_capture => 'Bloquear captura de tela';
-  @override
-  String get lookup_block_capture_hint =>
-      'Exclui as janelas de consulta e área de transferência de capturas de tela, gravações e transmissões ao vivo (Windows). Desative para permitir que capturas e gravações capturem o popup de consulta.';
   @override
   String get low_memory_mode => 'Modo de pouca memória';
   @override
@@ -124589,6 +125809,24 @@ class _StringsPtBr extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Lê o texto ao redor do app em primeiro plano para mostrar a frase atual (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Exclui as janelas de consulta e área de transferência de capturas de tela, gravações e transmissões ao vivo (Windows / macOS). Desative para permitir que capturas e gravações capturem o popup de consulta.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -124873,6 +126111,124 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled =>
+      'Captura de tela (com legendas)';
+  @override
+  String get video_screenshot_subtitled => 'Captura de tela com legendas';
+  @override
+  String get video_screenshot_copied =>
+      'Captura de tela copiada para a área de transferência';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'Copiar imagens para a área de transferência não é compatível nesta plataforma';
+  @override
+  String get video_screenshot_directory_unset =>
+      'Nenhuma pasta de capturas de tela definida ainda';
+  @override
+  String get video_setting_screenshot_destination =>
+      'Destino das capturas de tela';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'Para onde vão as capturas de tela: uma janela de salvamento, a área de transferência ou direto para uma pasta';
+  @override
+  String get video_screenshot_destination_ask => 'Perguntar sempre';
+  @override
+  String get video_screenshot_destination_clipboard =>
+      'Copiar para área de transferência';
+  @override
+  String get video_screenshot_destination_directory => 'Salvar em uma pasta';
+  @override
+  String get video_setting_screenshot_directory => 'Pasta das capturas de tela';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      'Onde as capturas de tela são salvas quando o destino é Salvar em uma pasta';
+  @override
+  String get video_screenshot_directory_not_set => 'Não definida';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -129243,9 +130599,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get global_context_capture => 'Захват контекста выделения';
   @override
-  String get global_context_capture_hint =>
-      'Считывает окружающий текст из активного приложения для отображения текущего предложения (только Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Глава ${n}';
   @override
   String get handlebar_audio => 'Аудио';
@@ -129702,9 +131055,6 @@ class _StringsRu extends _StringsEn {
   String get lookup_audio_volume => 'Громкость произношения';
   @override
   String get lookup_block_capture => 'Блокировать захват экрана';
-  @override
-  String get lookup_block_capture_hint =>
-      'Исключает всплывающие окна поиска и буфера обмена из скриншотов, записи экрана и трансляций (Windows). Отключите, чтобы разрешить захват всплывающего окна поиска.';
   @override
   String get low_memory_mode => 'Режим экономии памяти';
   @override
@@ -136507,6 +137857,24 @@ class _StringsRu extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Считывает окружающий текст из активного приложения для отображения текущего предложения (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Исключает всплывающие окна поиска и буфера обмена из скриншотов, записи экрана и трансляций (Windows / macOS). Отключите, чтобы разрешить захват всплывающего окна поиска.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -136791,6 +138159,122 @@ class _StringsRu extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled =>
+      'Скриншот (с субтитрами)';
+  @override
+  String get video_screenshot_subtitled => 'Скриншот с субтитрами';
+  @override
+  String get video_screenshot_copied => 'Скриншот скопирован в буфер обмена';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'Копирование изображений в буфер обмена не поддерживается на этой платформе';
+  @override
+  String get video_screenshot_directory_unset =>
+      'Папка для скриншотов ещё не задана';
+  @override
+  String get video_setting_screenshot_destination => 'Куда сохранять скриншоты';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'Куда отправляются скриншоты: диалог сохранения, буфер обмена или сразу в папку';
+  @override
+  String get video_screenshot_destination_ask => 'Спрашивать каждый раз';
+  @override
+  String get video_screenshot_destination_clipboard =>
+      'Копировать в буфер обмена';
+  @override
+  String get video_screenshot_destination_directory => 'Сохранять в папку';
+  @override
+  String get video_setting_screenshot_directory => 'Папка для скриншотов';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      'Куда попадают скриншоты, когда выбрано «Сохранять в папку»';
+  @override
+  String get video_screenshot_directory_not_set => 'Не задана';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -141089,9 +142573,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get global_context_capture => 'จับบริบทการเลือก';
   @override
-  String get global_context_capture_hint =>
-      'อ่านข้อความรอบๆ จากแอปที่อยู่เบื้องหน้าเพื่อแสดงประโยคปัจจุบัน (Windows เท่านั้น)';
-  @override
   String go_to_chapter({required Object n}) => 'บทที่ ${n}';
   @override
   String get handlebar_audio => 'เสียง';
@@ -141541,9 +143022,6 @@ class _StringsTh extends _StringsEn {
   String get lookup_audio_volume => 'ระดับเสียงค้นคำ';
   @override
   String get lookup_block_capture => 'บล็อกการจับภาพหน้าจอ';
-  @override
-  String get lookup_block_capture_hint =>
-      'ไม่รวมหน้าต่างค้นหาและป๊อปอัปคลิปบอร์ดจากการจับภาพหน้าจอ การบันทึกหน้าจอ และการสตรีมสด (Windows) ปิดเพื่อให้การจับภาพหน้าจอ การบันทึก และการสตรีมจับป๊อปอัปค้นหาได้';
   @override
   String get low_memory_mode => 'โหมดประหยัดหน่วยความจำ';
   @override
@@ -148227,6 +149705,24 @@ class _StringsTh extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'อ่านข้อความรอบๆ จากแอปที่อยู่เบื้องหน้าเพื่อแสดงประโยคปัจจุบัน (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'ไม่รวมหน้าต่างค้นหาและป๊อปอัปคลิปบอร์ดจากการจับภาพหน้าจอ การบันทึกหน้าจอ และการสตรีมสด (Windows / macOS) ปิดเพื่อให้การจับภาพหน้าจอ การบันทึก และการสตรีมจับป๊อปอัปค้นหาได้';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -148511,6 +150007,121 @@ class _StringsTh extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled =>
+      'ภาพหน้าจอ (พร้อมคำบรรยาย)';
+  @override
+  String get video_screenshot_subtitled => 'ภาพหน้าจอพร้อมคำบรรยาย';
+  @override
+  String get video_screenshot_copied => 'คัดลอกภาพหน้าจอไปยังคลิปบอร์ดแล้ว';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'แพลตฟอร์มนี้ไม่รองรับการคัดลอกรูปภาพไปยังคลิปบอร์ด';
+  @override
+  String get video_screenshot_directory_unset =>
+      'ยังไม่ได้ตั้งโฟลเดอร์สำหรับภาพหน้าจอ';
+  @override
+  String get video_setting_screenshot_destination => 'ปลายทางของภาพหน้าจอ';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'ภาพหน้าจอจะไปที่ใด: กล่องบันทึกไฟล์ คลิปบอร์ด หรือเก็บลงโฟลเดอร์โดยตรง';
+  @override
+  String get video_screenshot_destination_ask => 'ถามทุกครั้ง';
+  @override
+  String get video_screenshot_destination_clipboard => 'คัดลอกไปยังคลิปบอร์ด';
+  @override
+  String get video_screenshot_destination_directory => 'บันทึกลงโฟลเดอร์';
+  @override
+  String get video_setting_screenshot_directory => 'โฟลเดอร์ภาพหน้าจอ';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      'ที่เก็บภาพหน้าจอเมื่อปลายทางคือบันทึกลงโฟลเดอร์';
+  @override
+  String get video_screenshot_directory_not_set => 'ยังไม่ได้ตั้ง';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -152867,9 +154478,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get global_context_capture => 'Seçim bağlamını yakala';
   @override
-  String get global_context_capture_hint =>
-      'Geçerli cümleyi göstermek için ön plandaki uygulamadan çevreleyen metni oku (yalnızca Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Bölüm ${n}';
   @override
   String get handlebar_audio => 'Ses';
@@ -153322,9 +154930,6 @@ class _StringsTr extends _StringsEn {
   String get lookup_audio_volume => 'Arama ses düzeyi';
   @override
   String get lookup_block_capture => 'Ekran yakalamayı engelle';
-  @override
-  String get lookup_block_capture_hint =>
-      'Arama ve pano açılır pencerelerini ekran görüntüsü, ekran kaydı ve canlı yayından hariç tutar (Windows). Arama açılır penceresinin ekran görüntüsü, kayıt ve yayın tarafından yakalanmasına izin vermek için bunu kapatın.';
   @override
   String get low_memory_mode => 'Düşük Bellek Modu';
   @override
@@ -160061,6 +161666,24 @@ class _StringsTr extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Geçerli cümleyi göstermek için ön plandaki uygulamadan çevreleyen metni oku (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Arama ve pano açılır pencerelerini ekran görüntüsü, ekran kaydı ve canlı yayından hariç tutar (Windows / macOS). Arama açılır penceresinin ekran görüntüsü, kayıt ve yayın tarafından yakalanmasına izin vermek için bunu kapatın.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -160345,6 +161968,121 @@ class _StringsTr extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled =>
+      'Ekran Görüntüsü (altyazılı)';
+  @override
+  String get video_screenshot_subtitled => 'Altyazılı ekran görüntüsü';
+  @override
+  String get video_screenshot_copied => 'Ekran görüntüsü panoya kopyalandı';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'Bu platformda görüntüleri panoya kopyalama desteklenmiyor';
+  @override
+  String get video_screenshot_directory_unset =>
+      'Henüz bir ekran görüntüsü klasörü ayarlanmadı';
+  @override
+  String get video_setting_screenshot_destination => 'Ekran görüntüsü hedefi';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'Ekran görüntülerinin nereye gideceği: kaydetme penceresi, pano ya da doğrudan bir klasör';
+  @override
+  String get video_screenshot_destination_ask => 'Her seferinde sor';
+  @override
+  String get video_screenshot_destination_clipboard => 'Panoya kopyala';
+  @override
+  String get video_screenshot_destination_directory => 'Klasöre kaydet';
+  @override
+  String get video_setting_screenshot_directory => 'Ekran görüntüsü klasörü';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      'Hedef Klasöre kaydet olduğunda ekran görüntülerinin kaydedileceği yer';
+  @override
+  String get video_screenshot_directory_not_set => 'Ayarlanmadı';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -164696,9 +166434,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get global_context_capture => 'Thu thập ngữ cảnh lựa chọn';
   @override
-  String get global_context_capture_hint =>
-      'Đọc văn bản xung quanh từ ứng dụng tiền cảnh để hiển thị câu hiện tại (chỉ Windows)';
-  @override
   String go_to_chapter({required Object n}) => 'Chương ${n}';
   @override
   String get handlebar_audio => 'Âm thanh';
@@ -165151,9 +166886,6 @@ class _StringsVi extends _StringsEn {
   String get lookup_audio_volume => 'Âm lượng tra từ';
   @override
   String get lookup_block_capture => 'Chặn chụp màn hình';
-  @override
-  String get lookup_block_capture_hint =>
-      'Loại trừ cửa sổ tra cứu và bộ nhớ tạm khỏi chụp màn hình, quay màn hình và phát trực tiếp (Windows). Tắt để cho phép chụp, quay và phát trực tiếp ghi lại cửa sổ tra cứu.';
   @override
   String get low_memory_mode => 'Chế độ tiết kiệm bộ nhớ';
   @override
@@ -171865,6 +173597,24 @@ class _StringsVi extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      'Đọc văn bản xung quanh từ ứng dụng tiền cảnh để hiển thị câu hiện tại (Windows / macOS)';
+  @override
+  String get lookup_block_capture_hint =>
+      'Loại trừ cửa sổ tra cứu và bộ nhớ tạm khỏi chụp màn hình, quay màn hình và phát trực tiếp (Windows / macOS). Tắt để cho phép chụp, quay và phát trực tiếp ghi lại cửa sổ tra cứu.';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -172149,6 +173899,124 @@ class _StringsVi extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled =>
+      'Chụp màn hình (kèm phụ đề)';
+  @override
+  String get video_screenshot_subtitled => 'Chụp màn hình kèm phụ đề';
+  @override
+  String get video_screenshot_copied =>
+      'Đã sao chép ảnh chụp màn hình vào bộ nhớ tạm';
+  @override
+  String get video_screenshot_clipboard_unsupported =>
+      'Nền tảng này không hỗ trợ sao chép hình ảnh vào bộ nhớ tạm';
+  @override
+  String get video_screenshot_directory_unset =>
+      'Chưa đặt thư mục lưu ảnh chụp màn hình';
+  @override
+  String get video_setting_screenshot_destination =>
+      'Nơi lưu ảnh chụp màn hình';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      'Ảnh chụp màn hình sẽ đi đâu: hộp thoại lưu, bộ nhớ tạm, hay thẳng vào một thư mục';
+  @override
+  String get video_screenshot_destination_ask => 'Hỏi mỗi lần';
+  @override
+  String get video_screenshot_destination_clipboard =>
+      'Sao chép vào bộ nhớ tạm';
+  @override
+  String get video_screenshot_destination_directory => 'Lưu vào thư mục';
+  @override
+  String get video_setting_screenshot_directory => 'Thư mục ảnh chụp màn hình';
+  @override
+  String get video_setting_screenshot_directory_hint =>
+      'Nơi ảnh chụp màn hình được lưu khi nơi lưu là Lưu vào thư mục';
+  @override
+  String get video_screenshot_directory_not_set => 'Chưa đặt';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 // Path: <root>
@@ -176149,9 +178017,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get global_context_capture => '抓取选中文本上下文';
   @override
-  String get global_context_capture_hint =>
-      '从前台应用读取选区周围文本，在查词弹窗显示当前句（仅 Windows）';
-  @override
   String go_to_chapter({required Object n}) => '第 ${n} 章';
   @override
   String get handlebar_audio => '音频';
@@ -176568,9 +178433,6 @@ class _StringsZhCn extends _StringsEn {
   String get lookup_audio_volume => '查词音量';
   @override
   String get lookup_block_capture => '防截屏 / 防录屏';
-  @override
-  String get lookup_block_capture_hint =>
-      '把查词悬浮窗从截图、录屏、直播串流中排除（Windows）。关闭后，截图、录屏和串流即可拍到查词悬浮窗。';
   @override
   String get low_memory_mode => '小内存模式';
   @override
@@ -182722,6 +184584,22 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get reader_control_reset_layout => '恢复默认阅读器按钮布局';
   @override
+  String get global_context_capture_hint =>
+      '从前台应用读取选区周围文本，在查词弹窗显示当前句（Windows / macOS）';
+  @override
+  String get lookup_block_capture_hint =>
+      '把查词悬浮窗从截图、录屏、直播串流中排除（Windows / macOS）。关闭后，截图、录屏和串流即可拍到查词悬浮窗。';
+  @override
+  String get lookup_accessibility_permission_request => '为应用外查词授权辅助功能';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS 需要辅助功能权限才能读取其他应用中选中的文字；未授权时快捷键只查当前剪贴板文本。';
+  @override
+  String get lookup_accessibility_permission_granted => '已授权辅助功能';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      '尚未授权辅助功能。请在「隐私与安全性 > 辅助功能」中启用 Fushi 后重试。';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       '片段已保存，但系统分享面板没有打开：${path}';
   @override
@@ -182970,6 +184848,105 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       '该视频的观看时长、字幕字数与查词/制卡计数将从统计中移除，并同步到其他设备';
+  @override
+  String get ai_feature_dict_style => '词典弹窗样式';
+  @override
+  String get ai_feature_dict_style_summary => '让 AI 按描述生成弹窗样式规则与 CSS';
+  @override
+  String get ai_feature_lapis_style => 'Lapis 卡片样式';
+  @override
+  String get ai_feature_lapis_style_summary => '让 AI 按描述生成 Lapis 卡片样式规则与 CSS';
+  @override
+  String get ai_feature_video_identify => '视频作品识别';
+  @override
+  String get ai_feature_video_identify_summary => '刮削出现多个候选时让 AI 在候选里选出对应作品';
+  @override
+  String get ai_feature_video_search => '视频搜索辅助';
+  @override
+  String get ai_feature_video_search_summary => '让 AI 补充搜索词并对字幕、资源结果做语义排序';
+  @override
+  String get ai_assist_section => '让 AI 帮忙';
+  @override
+  String get ai_assist_generate => '生成';
+  @override
+  String get ai_assist_working => '正在询问 AI…';
+  @override
+  String get ai_assist_no_provider => '请先在「设置 › AI」里为这个功能指定提供商';
+  @override
+  String get ai_assist_empty => 'AI 没有给出可用结果，换个说法再试试。';
+  @override
+  String ai_assist_failed({required Object reason}) => 'AI 请求失败：${reason}';
+  @override
+  String get dict_style_ai_hint => '描述想要的样子，例如：词头加粗改蓝色，释义字号调小';
+  @override
+  String get dict_style_ai_applied => 'AI 建议已填入草稿，看过预览再保存。';
+  @override
+  String get lapis_style_ai_hint => '描述卡片想要的样子，例如：例句放大、隐藏频率';
+  @override
+  String get lapis_style_ai_applied => 'AI 建议已填入编辑器，看过预览再应用。';
+  @override
+  String get video_scrape_ai_matched => 'AI 判定';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI 置信度 ${percent}%';
+  @override
+  String get video_search_ai_expand => 'AI 补充搜索词';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI 补充了 ${count} 个搜索词';
+  @override
+  String get video_search_ai_rank => 'AI 排序';
+  @override
+  String get video_search_ai_ranked => '结果已由 AI 重新排序';
+  @override
+  String get video_search_ai_recommended => 'AI 推荐';
+  @override
+  String get shortcut_action_video_screenshot_subtitled => '截图（含字幕）';
+  @override
+  String get video_screenshot_subtitled => '带字幕截图';
+  @override
+  String get video_screenshot_copied => '截图已复制到剪贴板';
+  @override
+  String get video_screenshot_clipboard_unsupported => '当前平台不支持复制图片到剪贴板';
+  @override
+  String get video_screenshot_directory_unset => '尚未设置截图保存目录';
+  @override
+  String get video_setting_screenshot_destination => '截图去向';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      '截图后是弹保存对话框、复制到剪贴板，还是直接存进指定目录';
+  @override
+  String get video_screenshot_destination_ask => '每次询问';
+  @override
+  String get video_screenshot_destination_clipboard => '复制到剪贴板';
+  @override
+  String get video_screenshot_destination_directory => '保存到目录';
+  @override
+  String get video_setting_screenshot_directory => '截图保存目录';
+  @override
+  String get video_setting_screenshot_directory_hint => '选择「保存到目录」时截图落在这里';
+  @override
+  String get video_screenshot_directory_not_set => '未设置';
+  @override
+  String get settings_lookup_ime_language_title => '查词输入法语言';
+  @override
+  String get settings_lookup_ime_language_description =>
+      '在查词输入框打字时键盘切到哪种语言。需要系统已安装对应输入法。不影响查词结果。';
+  @override
+  String get settings_lookup_ime_language_unset => '未设置';
+  @override
+  String get settings_lookup_ime_language_unavailable => '系统里还没有安装这个输入法。';
+  @override
+  String get anki_mined_unverified_title => '已标记为已制卡';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi 无法回读 AnkiMobile 的卡片库，已制卡标记来自本机记录，无法判断卡片是否还在 Anki 里。';
+  @override
+  String get anki_mined_action_forget => '我已在 Anki 里删了这张卡';
+  @override
+  String get anki_mined_forget_done => '已清除制卡记录';
+  @override
+  String get reader_gallery_cover => '封面';
 }
 
 // Path: <root>
@@ -186995,9 +188972,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get global_context_capture => '抓取選中文本上下文';
   @override
-  String get global_context_capture_hint =>
-      '從前台應用讀取選區周圍文本，在查詞彈窗顯示當前句（僅 Windows）';
-  @override
   String go_to_chapter({required Object n}) => '第 ${n} 章';
   @override
   String get handlebar_audio => '音訊';
@@ -187424,9 +189398,6 @@ class _StringsZhHk extends _StringsEn {
   String get lookup_audio_volume => '查詞音量';
   @override
   String get lookup_block_capture => '防截屏 / 防錄屏';
-  @override
-  String get lookup_block_capture_hint =>
-      '把查詞懸浮窗從截圖、錄屏、直播串流中排除（Windows）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
   @override
   String get low_memory_mode => '低記憶體模式';
   @override
@@ -193685,6 +195656,24 @@ class _StringsZhHk extends _StringsEn {
   String get reader_control_reset_layout =>
       'Restore default reader button layout';
   @override
+  String get global_context_capture_hint =>
+      '從前台應用讀取選區周圍文本，在查詞彈窗顯示當前句（Windows / macOS）';
+  @override
+  String get lookup_block_capture_hint =>
+      '把查詞懸浮窗從截圖、錄屏、直播串流中排除（Windows / macOS）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
+  @override
+  String get lookup_accessibility_permission_request =>
+      'Grant Accessibility permission for app-external lookup';
+  @override
+  String get lookup_accessibility_permission_hint =>
+      'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+  @override
+  String get lookup_accessibility_permission_granted =>
+      'Accessibility permission granted';
+  @override
+  String get lookup_accessibility_permission_missing =>
+      'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
+  @override
   String video_clip_export_share_unavailable({required Object path}) =>
       'Clip saved, but the share sheet didn\'t open: ${path}';
   @override
@@ -193969,6 +195958,117 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get delete_statistics_video_desc =>
       '該影片的觀看時長、字幕字數與查詞/製卡計數將從統計中移除，並同步到其他裝置';
+  @override
+  String get ai_feature_dict_style => 'Dictionary popup style';
+  @override
+  String get ai_feature_dict_style_summary =>
+      'Let AI generate popup style rules and CSS from a description';
+  @override
+  String get ai_feature_lapis_style => 'Lapis card style';
+  @override
+  String get ai_feature_lapis_style_summary =>
+      'Let AI generate Lapis card style rules and CSS from a description';
+  @override
+  String get ai_feature_video_identify => 'Video identification';
+  @override
+  String get ai_feature_video_identify_summary =>
+      'Let AI pick the matching work when scraping finds several candidates';
+  @override
+  String get ai_feature_video_search => 'Video search assist';
+  @override
+  String get ai_feature_video_search_summary =>
+      'Let AI suggest extra search terms and rank subtitle and torrent results';
+  @override
+  String get ai_assist_section => 'Ask AI';
+  @override
+  String get ai_assist_generate => 'Generate';
+  @override
+  String get ai_assist_working => 'Asking AI…';
+  @override
+  String get ai_assist_no_provider =>
+      'Choose an AI provider for this feature under Settings and AI first';
+  @override
+  String get ai_assist_empty =>
+      'AI did not return a usable result. Try describing it differently.';
+  @override
+  String ai_assist_failed({required Object reason}) =>
+      'AI request failed: ${reason}';
+  @override
+  String get dict_style_ai_hint =>
+      'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+  @override
+  String get dict_style_ai_applied =>
+      'AI suggestion loaded into the draft. Check the preview, then save.';
+  @override
+  String get lapis_style_ai_hint =>
+      'Describe how the card should look, e.g. larger sentence, hide frequency';
+  @override
+  String get lapis_style_ai_applied =>
+      'AI suggestion loaded into the editor. Check the preview, then apply.';
+  @override
+  String get video_scrape_ai_matched => 'Matched by AI';
+  @override
+  String video_scrape_ai_confidence({required Object percent}) =>
+      'AI confidence ${percent}%';
+  @override
+  String get video_search_ai_expand => 'More terms with AI';
+  @override
+  String video_search_ai_expanded({required Object count}) =>
+      'AI suggested ${count} extra search terms';
+  @override
+  String get video_search_ai_rank => 'Rank with AI';
+  @override
+  String get video_search_ai_ranked => 'Results reordered by AI';
+  @override
+  String get video_search_ai_recommended => 'AI pick';
+  @override
+  String get shortcut_action_video_screenshot_subtitled => '截圖（含字幕）';
+  @override
+  String get video_screenshot_subtitled => '帶字幕截圖';
+  @override
+  String get video_screenshot_copied => '截圖已複製到剪貼簿';
+  @override
+  String get video_screenshot_clipboard_unsupported => '目前平台不支援將圖片複製到剪貼簿';
+  @override
+  String get video_screenshot_directory_unset => '尚未設定截圖儲存資料夾';
+  @override
+  String get video_setting_screenshot_destination => '截圖去向';
+  @override
+  String get video_setting_screenshot_destination_hint =>
+      '截圖後是彈出儲存對話框、複製到剪貼簿，還是直接存進指定資料夾';
+  @override
+  String get video_screenshot_destination_ask => '每次詢問';
+  @override
+  String get video_screenshot_destination_clipboard => '複製到剪貼簿';
+  @override
+  String get video_screenshot_destination_directory => '儲存到資料夾';
+  @override
+  String get video_setting_screenshot_directory => '截圖儲存資料夾';
+  @override
+  String get video_setting_screenshot_directory_hint => '選擇「儲存到資料夾」時截圖會存在這裡';
+  @override
+  String get video_screenshot_directory_not_set => '未設定';
+  @override
+  String get settings_lookup_ime_language_title => 'Lookup input language';
+  @override
+  String get settings_lookup_ime_language_description =>
+      'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+  @override
+  String get settings_lookup_ime_language_unset => 'Not set';
+  @override
+  String get settings_lookup_ime_language_unavailable =>
+      'That input method is not installed on this system yet.';
+  @override
+  String get anki_mined_unverified_title => 'Card marked as mined';
+  @override
+  String get anki_mined_unverified_subtitle =>
+      'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+  @override
+  String get anki_mined_action_forget => 'I deleted it in Anki';
+  @override
+  String get anki_mined_forget_done => 'Mining record cleared';
+  @override
+  String get reader_gallery_cover => 'Cover';
 }
 
 /// Flat map(s) containing all translations.
@@ -197733,8 +199833,6 @@ extension on _StringsEn {
         return 'Games';
       case 'global_context_capture':
         return 'Capture selection context';
-      case 'global_context_capture_hint':
-        return 'Read surrounding text from the foreground app to show the current sentence (Windows only)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Chapter ${n}';
       case 'handlebar_audio':
@@ -198132,8 +200230,6 @@ extension on _StringsEn {
         return 'Lookup audio volume';
       case 'lookup_block_capture':
         return 'Block screen capture';
-      case 'lookup_block_capture_hint':
-        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
       case 'low_memory_mode':
         return 'Low memory mode';
       case 'low_memory_mode_hint':
@@ -203972,6 +206068,18 @@ extension on _StringsEn {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Read surrounding text from the foreground app to show the current sentence (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Excludes the lookup popup window from screenshots, screen recording, and live streaming (Windows / macOS). Turn this off to let screenshots, recording, and streaming capture the lookup popup.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -204204,6 +206312,101 @@ extension on _StringsEn {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'Screenshot (with subtitles)';
+      case 'video_screenshot_subtitled':
+        return 'Screenshot with subtitles';
+      case 'video_screenshot_copied':
+        return 'Screenshot copied to clipboard';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'Copying images to the clipboard is not supported on this platform';
+      case 'video_screenshot_directory_unset':
+        return 'No screenshot folder set yet';
+      case 'video_setting_screenshot_destination':
+        return 'Screenshot destination';
+      case 'video_setting_screenshot_destination_hint':
+        return 'Where screenshots go: a save dialog, the clipboard, or straight into a folder';
+      case 'video_screenshot_destination_ask':
+        return 'Ask every time';
+      case 'video_screenshot_destination_clipboard':
+        return 'Copy to clipboard';
+      case 'video_screenshot_destination_directory':
+        return 'Save to folder';
+      case 'video_setting_screenshot_directory':
+        return 'Screenshot folder';
+      case 'video_setting_screenshot_directory_hint':
+        return 'Where screenshots land when the destination is Save to folder';
+      case 'video_screenshot_directory_not_set':
+        return 'Not set';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -207966,8 +210169,6 @@ extension on _StringsAr {
         return 'ألعاب';
       case 'global_context_capture':
         return 'التقاط سياق التحديد';
-      case 'global_context_capture_hint':
-        return 'قراءة النص المحيط من التطبيق الأمامي لعرض الجملة الحالية (Windows فقط)';
       case 'go_to_chapter':
         return ({required Object n}) => 'الفصل ${n}';
       case 'handlebar_audio':
@@ -208364,8 +210565,6 @@ extension on _StringsAr {
         return 'مستوى صوت البحث';
       case 'lookup_block_capture':
         return 'حظر التقاط الشاشة';
-      case 'lookup_block_capture_hint':
-        return 'يستثني نوافذ البحث والحافظة المنبثقة من لقطات الشاشة وتسجيل الشاشة والبث المباشر (Windows). أوقف هذا للسماح بالتقاط النافذة المنبثقة.';
       case 'low_memory_mode':
         return 'وضع الذاكرة المنخفضة';
       case 'low_memory_mode_hint':
@@ -214202,6 +216401,18 @@ extension on _StringsAr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'قراءة النص المحيط من التطبيق الأمامي لعرض الجملة الحالية (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'يستثني نوافذ البحث والحافظة المنبثقة من لقطات الشاشة وتسجيل الشاشة والبث المباشر (Windows / macOS). أوقف هذا للسماح بالتقاط النافذة المنبثقة.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -214434,6 +216645,101 @@ extension on _StringsAr {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'لقطة شاشة (مع الترجمة)';
+      case 'video_screenshot_subtitled':
+        return 'لقطة شاشة مع الترجمة';
+      case 'video_screenshot_copied':
+        return 'تم نسخ لقطة الشاشة إلى الحافظة';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'نسخ الصور إلى الحافظة غير مدعوم على هذه المنصة';
+      case 'video_screenshot_directory_unset':
+        return 'لم يتم تعيين مجلد للقطات الشاشة بعد';
+      case 'video_setting_screenshot_destination':
+        return 'وجهة لقطات الشاشة';
+      case 'video_setting_screenshot_destination_hint':
+        return 'إلى أين تذهب لقطات الشاشة: نافذة حفظ أو الحافظة أو مباشرةً إلى مجلد';
+      case 'video_screenshot_destination_ask':
+        return 'السؤال في كل مرة';
+      case 'video_screenshot_destination_clipboard':
+        return 'نسخ إلى الحافظة';
+      case 'video_screenshot_destination_directory':
+        return 'الحفظ في مجلد';
+      case 'video_setting_screenshot_directory':
+        return 'مجلد لقطات الشاشة';
+      case 'video_setting_screenshot_directory_hint':
+        return 'أين تُحفظ لقطات الشاشة عندما تكون الوجهة هي الحفظ في مجلد';
+      case 'video_screenshot_directory_not_set':
+        return 'غير مُعيّن';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -218215,8 +220521,6 @@ extension on _StringsDe {
         return 'Spiele';
       case 'global_context_capture':
         return 'Auswahlkontext erfassen';
-      case 'global_context_capture_hint':
-        return 'Umgebenden Text der Vordergrund-App lesen, um den aktuellen Satz anzuzeigen (nur Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Kapitel ${n}';
       case 'handlebar_audio':
@@ -218617,8 +220921,6 @@ extension on _StringsDe {
         return 'Nachschlage-Audiolautstärke';
       case 'lookup_block_capture':
         return 'Bildschirmaufnahme blockieren';
-      case 'lookup_block_capture_hint':
-        return 'Schließt die Nachschlage- und Zwischenablage-Popupfenster von Screenshots, Bildschirmaufnahmen und Livestreaming aus (Windows). Deaktiviere dies, um Screenshots, Aufnahmen und Streaming das Erfassen des Nachschlage-Popups zu ermöglichen.';
       case 'low_memory_mode':
         return 'Speichersparmodus';
       case 'low_memory_mode_hint':
@@ -224477,6 +226779,18 @@ extension on _StringsDe {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Umgebenden Text der Vordergrund-App lesen, um den aktuellen Satz anzuzeigen (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Schließt die Nachschlage- und Zwischenablage-Popupfenster von Screenshots, Bildschirmaufnahmen und Livestreaming aus (Windows / macOS). Deaktiviere dies, um Screenshots, Aufnahmen und Streaming das Erfassen des Nachschlage-Popups zu ermöglichen.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -224709,6 +227023,101 @@ extension on _StringsDe {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'Screenshot (mit Untertiteln)';
+      case 'video_screenshot_subtitled':
+        return 'Screenshot mit Untertiteln';
+      case 'video_screenshot_copied':
+        return 'Screenshot in die Zwischenablage kopiert';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'Das Kopieren von Bildern in die Zwischenablage wird auf dieser Plattform nicht unterstützt';
+      case 'video_screenshot_directory_unset':
+        return 'Noch kein Screenshot-Ordner festgelegt';
+      case 'video_setting_screenshot_destination':
+        return 'Screenshot-Ziel';
+      case 'video_setting_screenshot_destination_hint':
+        return 'Wohin Screenshots gehen: ein Speicherdialog, die Zwischenablage oder direkt in einen Ordner';
+      case 'video_screenshot_destination_ask':
+        return 'Jedes Mal fragen';
+      case 'video_screenshot_destination_clipboard':
+        return 'In Zwischenablage kopieren';
+      case 'video_screenshot_destination_directory':
+        return 'In Ordner speichern';
+      case 'video_setting_screenshot_directory':
+        return 'Screenshot-Ordner';
+      case 'video_setting_screenshot_directory_hint':
+        return 'Wohin Screenshots gespeichert werden, wenn als Ziel „In Ordner speichern“ gewählt ist';
+      case 'video_screenshot_directory_not_set':
+        return 'Nicht festgelegt';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -228484,8 +230893,6 @@ extension on _StringsEs {
         return 'Juegos';
       case 'global_context_capture':
         return 'Capturar contexto de selección';
-      case 'global_context_capture_hint':
-        return 'Lee texto circundante de la app en primer plano para mostrar la oración actual (solo Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Capítulo ${n}';
       case 'handlebar_audio':
@@ -228885,8 +231292,6 @@ extension on _StringsEs {
         return 'Volumen del audio de consulta';
       case 'lookup_block_capture':
         return 'Bloquear captura de pantalla';
-      case 'lookup_block_capture_hint':
-        return 'Excluye las ventanas emergentes de búsqueda y portapapeles de capturas de pantalla, grabación de pantalla y transmisión en vivo (Windows). Desactive esto para permitir que las capturas, grabación y transmisión capturen la ventana emergente de búsqueda.';
       case 'low_memory_mode':
         return 'Modo de poca memoria';
       case 'low_memory_mode_hint':
@@ -234743,6 +237148,18 @@ extension on _StringsEs {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Lee texto circundante de la app en primer plano para mostrar la oración actual (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Excluye las ventanas emergentes de búsqueda y portapapeles de capturas de pantalla, grabación de pantalla y transmisión en vivo (Windows / macOS). Desactive esto para permitir que las capturas, grabación y transmisión capturen la ventana emergente de búsqueda.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -234975,6 +237392,101 @@ extension on _StringsEs {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'Captura de pantalla (con subtítulos)';
+      case 'video_screenshot_subtitled':
+        return 'Captura de pantalla con subtítulos';
+      case 'video_screenshot_copied':
+        return 'Captura de pantalla copiada al portapapeles';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'Copiar imágenes al portapapeles no es compatible en esta plataforma';
+      case 'video_screenshot_directory_unset':
+        return 'Aún no se ha establecido una carpeta de capturas';
+      case 'video_setting_screenshot_destination':
+        return 'Destino de las capturas';
+      case 'video_setting_screenshot_destination_hint':
+        return 'Adónde van las capturas: un diálogo de guardado, el portapapeles o directamente a una carpeta';
+      case 'video_screenshot_destination_ask':
+        return 'Preguntar cada vez';
+      case 'video_screenshot_destination_clipboard':
+        return 'Copiar al portapapeles';
+      case 'video_screenshot_destination_directory':
+        return 'Guardar en una carpeta';
+      case 'video_setting_screenshot_directory':
+        return 'Carpeta de capturas';
+      case 'video_setting_screenshot_directory_hint':
+        return 'Dónde se guardan las capturas cuando el destino es «Guardar en una carpeta»';
+      case 'video_screenshot_directory_not_set':
+        return 'No establecido';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -238756,8 +241268,6 @@ extension on _StringsFr {
         return 'Jeux';
       case 'global_context_capture':
         return 'Capturer le contexte de sélection';
-      case 'global_context_capture_hint':
-        return 'Lire le texte environnant depuis l\'application au premier plan pour afficher la phrase actuelle (Windows uniquement)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Chapitre ${n}';
       case 'handlebar_audio':
@@ -239158,8 +241668,6 @@ extension on _StringsFr {
         return 'Volume audio de la recherche';
       case 'lookup_block_capture':
         return 'Bloquer la capture d\'écran';
-      case 'lookup_block_capture_hint':
-        return 'Exclut les fenêtres de recherche et de presse-papiers des captures d\'écran, enregistrements et diffusions en direct (Windows). Désactivez pour permettre la capture de la fenêtre de recherche.';
       case 'low_memory_mode':
         return 'Mode mémoire réduite';
       case 'low_memory_mode_hint':
@@ -245018,6 +247526,18 @@ extension on _StringsFr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Lire le texte environnant depuis l\'application au premier plan pour afficher la phrase actuelle (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Exclut les fenêtres de recherche et de presse-papiers des captures d\'écran, enregistrements et diffusions en direct (Windows / macOS). Désactivez pour permettre la capture de la fenêtre de recherche.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -245250,6 +247770,101 @@ extension on _StringsFr {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'Capture d\'écran (avec sous-titres)';
+      case 'video_screenshot_subtitled':
+        return 'Capture d\'écran avec sous-titres';
+      case 'video_screenshot_copied':
+        return 'Capture d\'écran copiée dans le presse-papiers';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'La copie d\'images dans le presse-papiers n\'est pas prise en charge sur cette plateforme';
+      case 'video_screenshot_directory_unset':
+        return 'Aucun dossier de captures d\'écran défini pour l\'instant';
+      case 'video_setting_screenshot_destination':
+        return 'Destination des captures d\'écran';
+      case 'video_setting_screenshot_destination_hint':
+        return 'Où vont les captures d\'écran : une boîte de dialogue d\'enregistrement, le presse-papiers ou directement un dossier';
+      case 'video_screenshot_destination_ask':
+        return 'Demander à chaque fois';
+      case 'video_screenshot_destination_clipboard':
+        return 'Copier dans le presse-papiers';
+      case 'video_screenshot_destination_directory':
+        return 'Enregistrer dans un dossier';
+      case 'video_setting_screenshot_directory':
+        return 'Dossier des captures d\'écran';
+      case 'video_setting_screenshot_directory_hint':
+        return 'Où sont enregistrées les captures d\'écran quand la destination est « Enregistrer dans un dossier »';
+      case 'video_screenshot_directory_not_set':
+        return 'Non défini';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -249021,8 +251636,6 @@ extension on _StringsId {
         return 'Game';
       case 'global_context_capture':
         return 'Tangkap konteks seleksi';
-      case 'global_context_capture_hint':
-        return 'Baca teks sekitar dari aplikasi yang aktif untuk menampilkan kalimat saat ini (khusus Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Bab ${n}';
       case 'handlebar_audio':
@@ -249421,8 +252034,6 @@ extension on _StringsId {
         return 'Volume audio pencarian kata';
       case 'lookup_block_capture':
         return 'Blokir tangkapan layar';
-      case 'lookup_block_capture_hint':
-        return 'Kecualikan jendela popup pencarian dan clipboard dari tangkapan layar, perekaman layar, dan streaming langsung (Windows). Nonaktifkan ini agar tangkapan layar, perekaman, dan streaming bisa menangkap popup pencarian.';
       case 'low_memory_mode':
         return 'Mode Memori Rendah';
       case 'low_memory_mode_hint':
@@ -255264,6 +257875,18 @@ extension on _StringsId {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Baca teks sekitar dari aplikasi yang aktif untuk menampilkan kalimat saat ini (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Kecualikan jendela popup pencarian dan clipboard dari tangkapan layar, perekaman layar, dan streaming langsung (Windows / macOS). Nonaktifkan ini agar tangkapan layar, perekaman, dan streaming bisa menangkap popup pencarian.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -255496,6 +258119,101 @@ extension on _StringsId {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'Tangkapan Layar (dengan subtitle)';
+      case 'video_screenshot_subtitled':
+        return 'Tangkapan layar dengan subtitle';
+      case 'video_screenshot_copied':
+        return 'Tangkapan layar disalin ke papan klip';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'Menyalin gambar ke papan klip tidak didukung di platform ini';
+      case 'video_screenshot_directory_unset':
+        return 'Folder tangkapan layar belum diatur';
+      case 'video_setting_screenshot_destination':
+        return 'Tujuan tangkapan layar';
+      case 'video_setting_screenshot_destination_hint':
+        return 'Ke mana tangkapan layar dikirim: dialog simpan, papan klip, atau langsung ke sebuah folder';
+      case 'video_screenshot_destination_ask':
+        return 'Tanya setiap kali';
+      case 'video_screenshot_destination_clipboard':
+        return 'Salin ke papan klip';
+      case 'video_screenshot_destination_directory':
+        return 'Simpan ke folder';
+      case 'video_setting_screenshot_directory':
+        return 'Folder tangkapan layar';
+      case 'video_setting_screenshot_directory_hint':
+        return 'Tempat tangkapan layar disimpan saat tujuannya Simpan ke folder';
+      case 'video_screenshot_directory_not_set':
+        return 'Belum diatur';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -259271,8 +261989,6 @@ extension on _StringsIt {
         return 'Giochi';
       case 'global_context_capture':
         return 'Cattura contesto selezione';
-      case 'global_context_capture_hint':
-        return 'Leggi il testo circostante dall\'app in primo piano per mostrare la frase corrente (solo Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Capitolo ${n}';
       case 'handlebar_audio':
@@ -259672,8 +262388,6 @@ extension on _StringsIt {
         return 'Volume audio della ricerca';
       case 'lookup_block_capture':
         return 'Blocca cattura schermo';
-      case 'lookup_block_capture_hint':
-        return 'Esclude le finestre di ricerca e appunti popup da screenshot, registrazione schermo e streaming live (Windows). Disattiva per permettere a screenshot, registrazione e streaming di catturare il popup di ricerca.';
       case 'low_memory_mode':
         return 'Modalità memoria ridotta';
       case 'low_memory_mode_hint':
@@ -265532,6 +268246,18 @@ extension on _StringsIt {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Leggi il testo circostante dall\'app in primo piano per mostrare la frase corrente (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Esclude le finestre di ricerca e appunti popup da screenshot, registrazione schermo e streaming live (Windows / macOS). Disattiva per permettere a screenshot, registrazione e streaming di catturare il popup di ricerca.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -265764,6 +268490,101 @@ extension on _StringsIt {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'Screenshot (con sottotitoli)';
+      case 'video_screenshot_subtitled':
+        return 'Screenshot con sottotitoli';
+      case 'video_screenshot_copied':
+        return 'Screenshot copiato negli appunti';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'La copia di immagini negli appunti non è supportata su questa piattaforma';
+      case 'video_screenshot_directory_unset':
+        return 'Nessuna cartella per gli screenshot impostata';
+      case 'video_setting_screenshot_destination':
+        return 'Destinazione degli screenshot';
+      case 'video_setting_screenshot_destination_hint':
+        return 'Dove vanno gli screenshot: una finestra di salvataggio, gli appunti o direttamente una cartella';
+      case 'video_screenshot_destination_ask':
+        return 'Chiedi ogni volta';
+      case 'video_screenshot_destination_clipboard':
+        return 'Copia negli appunti';
+      case 'video_screenshot_destination_directory':
+        return 'Salva in una cartella';
+      case 'video_setting_screenshot_directory':
+        return 'Cartella degli screenshot';
+      case 'video_setting_screenshot_directory_hint':
+        return 'Dove finiscono gli screenshot quando la destinazione è «Salva in una cartella»';
+      case 'video_screenshot_directory_not_set':
+        return 'Non impostata';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -269515,8 +272336,6 @@ extension on _StringsJa {
         return 'ゲーム';
       case 'global_context_capture':
         return '選択コンテキストをキャプチャ';
-      case 'global_context_capture_hint':
-        return '前面アプリから周辺テキストを読み取り、現在の文を表示します（Windows のみ）';
       case 'go_to_chapter':
         return ({required Object n}) => '第 ${n} 章';
       case 'handlebar_audio':
@@ -269910,8 +272729,6 @@ extension on _StringsJa {
         return '辞書音声の音量';
       case 'lookup_block_capture':
         return '画面キャプチャをブロック';
-      case 'lookup_block_capture_hint':
-        return '検索ポップアップとクリップボードポップアップウィンドウをスクリーンショット、画面録画、ライブ配信から除外します（Windows）。オフにすると、スクリーンショットや録画・配信でポップアップがキャプチャされるようになります。';
       case 'low_memory_mode':
         return '省メモリモード';
       case 'low_memory_mode_hint':
@@ -275727,6 +278544,18 @@ extension on _StringsJa {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return '前面アプリから周辺テキストを読み取り、現在の文を表示します（Windows / macOS）';
+      case 'lookup_block_capture_hint':
+        return '検索ポップアップとクリップボードポップアップウィンドウをスクリーンショット、画面録画、ライブ配信から除外します（Windows / macOS）。オフにすると、スクリーンショットや録画・配信でポップアップがキャプチャされるようになります。';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -275959,6 +278788,101 @@ extension on _StringsJa {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'スクリーンショット（字幕あり）';
+      case 'video_screenshot_subtitled':
+        return '字幕付きスクリーンショット';
+      case 'video_screenshot_copied':
+        return 'スクリーンショットをクリップボードにコピーしました';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'このプラットフォームでは画像をクリップボードにコピーできません';
+      case 'video_screenshot_directory_unset':
+        return 'スクリーンショットの保存フォルダがまだ設定されていません';
+      case 'video_setting_screenshot_destination':
+        return 'スクリーンショットの保存先';
+      case 'video_setting_screenshot_destination_hint':
+        return 'スクリーンショットを保存ダイアログ・クリップボード・指定フォルダのどこへ送るか';
+      case 'video_screenshot_destination_ask':
+        return '毎回確認';
+      case 'video_screenshot_destination_clipboard':
+        return 'クリップボードにコピー';
+      case 'video_screenshot_destination_directory':
+        return 'フォルダに保存';
+      case 'video_setting_screenshot_directory':
+        return 'スクリーンショットの保存フォルダ';
+      case 'video_setting_screenshot_directory_hint':
+        return '保存先が「フォルダに保存」のときにスクリーンショットが置かれる場所';
+      case 'video_screenshot_directory_not_set':
+        return '未設定';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -279710,8 +282634,6 @@ extension on _StringsKo {
         return '게임';
       case 'global_context_capture':
         return '선택 컨텍스트 캡처';
-      case 'global_context_capture_hint':
-        return '포그라운드 앱에서 주변 텍스트를 읽어 현재 문장을 표시합니다 (Windows 전용)';
       case 'go_to_chapter':
         return ({required Object n}) => '챕터 ${n}';
       case 'handlebar_audio':
@@ -280106,8 +283028,6 @@ extension on _StringsKo {
         return '단어 찾기 음량';
       case 'lookup_block_capture':
         return '화면 캡처 차단';
-      case 'lookup_block_capture_hint':
-        return '검색 및 클립보드 팝업 창을 스크린샷, 화면 녹화, 라이브 스트리밍에서 제외합니다 (Windows). 스크린샷, 녹화, 스트리밍에서 검색 팝업을 캡처하려면 이 옵션을 끄세요.';
       case 'low_memory_mode':
         return '저메모리 모드';
       case 'low_memory_mode_hint':
@@ -285926,6 +288846,18 @@ extension on _StringsKo {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return '포그라운드 앱에서 주변 텍스트를 읽어 현재 문장을 표시합니다 (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return '검색 및 클립보드 팝업 창을 스크린샷, 화면 녹화, 라이브 스트리밍에서 제외합니다 (Windows / macOS). 스크린샷, 녹화, 스트리밍에서 검색 팝업을 캡처하려면 이 옵션을 끄세요.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -286158,6 +289090,101 @@ extension on _StringsKo {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return '스크린샷 (자막 포함)';
+      case 'video_screenshot_subtitled':
+        return '자막 포함 스크린샷';
+      case 'video_screenshot_copied':
+        return '스크린샷이 클립보드에 복사되었습니다';
+      case 'video_screenshot_clipboard_unsupported':
+        return '이 플랫폼에서는 이미지를 클립보드로 복사할 수 없습니다';
+      case 'video_screenshot_directory_unset':
+        return '스크린샷 폴더가 아직 설정되지 않았습니다';
+      case 'video_setting_screenshot_destination':
+        return '스크린샷 저장 위치';
+      case 'video_setting_screenshot_destination_hint':
+        return '스크린샷을 저장 대화상자, 클립보드, 지정한 폴더 중 어디로 보낼지 정합니다';
+      case 'video_screenshot_destination_ask':
+        return '매번 묻기';
+      case 'video_screenshot_destination_clipboard':
+        return '클립보드에 복사';
+      case 'video_screenshot_destination_directory':
+        return '폴더에 저장';
+      case 'video_setting_screenshot_directory':
+        return '스크린샷 폴더';
+      case 'video_setting_screenshot_directory_hint':
+        return '저장 위치가 ‘폴더에 저장’일 때 스크린샷이 저장되는 곳';
+      case 'video_screenshot_directory_not_set':
+        return '설정 안 됨';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -289931,8 +292958,6 @@ extension on _StringsNl {
         return 'Spellen';
       case 'global_context_capture':
         return 'Selectiecontext vastleggen';
-      case 'global_context_capture_hint':
-        return 'Lees omringende tekst uit de voorgrondapp om de huidige zin te tonen (alleen Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Hoofdstuk ${n}';
       case 'handlebar_audio':
@@ -290332,8 +293357,6 @@ extension on _StringsNl {
         return 'Volume opzoekaudio';
       case 'lookup_block_capture':
         return 'Schermopname blokkeren';
-      case 'lookup_block_capture_hint':
-        return 'Sluit het opzoek- en klembordpopupvenster uit van schermafbeeldingen, schermopnames en livestreaming (Windows). Schakel dit uit om schermafbeeldingen, opnames en streaming het opzoekpopup te laten vastleggen.';
       case 'low_memory_mode':
         return 'Geheugenspaarmodus';
       case 'low_memory_mode_hint':
@@ -296187,6 +299210,18 @@ extension on _StringsNl {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Lees omringende tekst uit de voorgrondapp om de huidige zin te tonen (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Sluit het opzoek- en klembordpopupvenster uit van schermafbeeldingen, schermopnames en livestreaming (Windows / macOS). Schakel dit uit om schermafbeeldingen, opnames en streaming het opzoekpopup te laten vastleggen.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -296419,6 +299454,101 @@ extension on _StringsNl {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'Schermafbeelding (met ondertitels)';
+      case 'video_screenshot_subtitled':
+        return 'Schermafbeelding met ondertitels';
+      case 'video_screenshot_copied':
+        return 'Schermafbeelding gekopieerd naar klembord';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'Afbeeldingen naar het klembord kopiëren wordt op dit platform niet ondersteund';
+      case 'video_screenshot_directory_unset':
+        return 'Nog geen map voor schermafbeeldingen ingesteld';
+      case 'video_setting_screenshot_destination':
+        return 'Bestemming van schermafbeeldingen';
+      case 'video_setting_screenshot_destination_hint':
+        return 'Waar schermafbeeldingen heen gaan: een opslagvenster, het klembord of direct naar een map';
+      case 'video_screenshot_destination_ask':
+        return 'Elke keer vragen';
+      case 'video_screenshot_destination_clipboard':
+        return 'Kopiëren naar klembord';
+      case 'video_screenshot_destination_directory':
+        return 'Opslaan in map';
+      case 'video_setting_screenshot_directory':
+        return 'Map voor schermafbeeldingen';
+      case 'video_setting_screenshot_directory_hint':
+        return 'Waar schermafbeeldingen terechtkomen wanneer de bestemming Opslaan in map is';
+      case 'video_screenshot_directory_not_set':
+        return 'Niet ingesteld';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -300192,8 +303322,6 @@ extension on _StringsPtBr {
         return 'Jogos';
       case 'global_context_capture':
         return 'Capturar contexto da seleção';
-      case 'global_context_capture_hint':
-        return 'Lê o texto ao redor do app em primeiro plano para mostrar a frase atual (apenas Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Capítulo ${n}';
       case 'handlebar_audio':
@@ -300593,8 +303721,6 @@ extension on _StringsPtBr {
         return 'Volume do áudio de consulta';
       case 'lookup_block_capture':
         return 'Bloquear captura de tela';
-      case 'lookup_block_capture_hint':
-        return 'Exclui as janelas de consulta e área de transferência de capturas de tela, gravações e transmissões ao vivo (Windows). Desative para permitir que capturas e gravações capturem o popup de consulta.';
       case 'low_memory_mode':
         return 'Modo de pouca memória';
       case 'low_memory_mode_hint':
@@ -306443,6 +309569,18 @@ extension on _StringsPtBr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Lê o texto ao redor do app em primeiro plano para mostrar a frase atual (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Exclui as janelas de consulta e área de transferência de capturas de tela, gravações e transmissões ao vivo (Windows / macOS). Desative para permitir que capturas e gravações capturem o popup de consulta.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -306675,6 +309813,101 @@ extension on _StringsPtBr {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'Captura de tela (com legendas)';
+      case 'video_screenshot_subtitled':
+        return 'Captura de tela com legendas';
+      case 'video_screenshot_copied':
+        return 'Captura de tela copiada para a área de transferência';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'Copiar imagens para a área de transferência não é compatível nesta plataforma';
+      case 'video_screenshot_directory_unset':
+        return 'Nenhuma pasta de capturas de tela definida ainda';
+      case 'video_setting_screenshot_destination':
+        return 'Destino das capturas de tela';
+      case 'video_setting_screenshot_destination_hint':
+        return 'Para onde vão as capturas de tela: uma janela de salvamento, a área de transferência ou direto para uma pasta';
+      case 'video_screenshot_destination_ask':
+        return 'Perguntar sempre';
+      case 'video_screenshot_destination_clipboard':
+        return 'Copiar para área de transferência';
+      case 'video_screenshot_destination_directory':
+        return 'Salvar em uma pasta';
+      case 'video_setting_screenshot_directory':
+        return 'Pasta das capturas de tela';
+      case 'video_setting_screenshot_directory_hint':
+        return 'Onde as capturas de tela são salvas quando o destino é Salvar em uma pasta';
+      case 'video_screenshot_directory_not_set':
+        return 'Não definida';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -310455,8 +313688,6 @@ extension on _StringsRu {
         return 'Игры';
       case 'global_context_capture':
         return 'Захват контекста выделения';
-      case 'global_context_capture_hint':
-        return 'Считывает окружающий текст из активного приложения для отображения текущего предложения (только Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Глава ${n}';
       case 'handlebar_audio':
@@ -310856,8 +314087,6 @@ extension on _StringsRu {
         return 'Громкость произношения';
       case 'lookup_block_capture':
         return 'Блокировать захват экрана';
-      case 'lookup_block_capture_hint':
-        return 'Исключает всплывающие окна поиска и буфера обмена из скриншотов, записи экрана и трансляций (Windows). Отключите, чтобы разрешить захват всплывающего окна поиска.';
       case 'low_memory_mode':
         return 'Режим экономии памяти';
       case 'low_memory_mode_hint':
@@ -316706,6 +319935,18 @@ extension on _StringsRu {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Считывает окружающий текст из активного приложения для отображения текущего предложения (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Исключает всплывающие окна поиска и буфера обмена из скриншотов, записи экрана и трансляций (Windows / macOS). Отключите, чтобы разрешить захват всплывающего окна поиска.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -316938,6 +320179,101 @@ extension on _StringsRu {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'Скриншот (с субтитрами)';
+      case 'video_screenshot_subtitled':
+        return 'Скриншот с субтитрами';
+      case 'video_screenshot_copied':
+        return 'Скриншот скопирован в буфер обмена';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'Копирование изображений в буфер обмена не поддерживается на этой платформе';
+      case 'video_screenshot_directory_unset':
+        return 'Папка для скриншотов ещё не задана';
+      case 'video_setting_screenshot_destination':
+        return 'Куда сохранять скриншоты';
+      case 'video_setting_screenshot_destination_hint':
+        return 'Куда отправляются скриншоты: диалог сохранения, буфер обмена или сразу в папку';
+      case 'video_screenshot_destination_ask':
+        return 'Спрашивать каждый раз';
+      case 'video_screenshot_destination_clipboard':
+        return 'Копировать в буфер обмена';
+      case 'video_screenshot_destination_directory':
+        return 'Сохранять в папку';
+      case 'video_setting_screenshot_directory':
+        return 'Папка для скриншотов';
+      case 'video_setting_screenshot_directory_hint':
+        return 'Куда попадают скриншоты, когда выбрано «Сохранять в папку»';
+      case 'video_screenshot_directory_not_set':
+        return 'Не задана';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -320703,8 +324039,6 @@ extension on _StringsTh {
         return 'เกม';
       case 'global_context_capture':
         return 'จับบริบทการเลือก';
-      case 'global_context_capture_hint':
-        return 'อ่านข้อความรอบๆ จากแอปที่อยู่เบื้องหน้าเพื่อแสดงประโยคปัจจุบัน (Windows เท่านั้น)';
       case 'go_to_chapter':
         return ({required Object n}) => 'บทที่ ${n}';
       case 'handlebar_audio':
@@ -321102,8 +324436,6 @@ extension on _StringsTh {
         return 'ระดับเสียงค้นคำ';
       case 'lookup_block_capture':
         return 'บล็อกการจับภาพหน้าจอ';
-      case 'lookup_block_capture_hint':
-        return 'ไม่รวมหน้าต่างค้นหาและป๊อปอัปคลิปบอร์ดจากการจับภาพหน้าจอ การบันทึกหน้าจอ และการสตรีมสด (Windows) ปิดเพื่อให้การจับภาพหน้าจอ การบันทึก และการสตรีมจับป๊อปอัปค้นหาได้';
       case 'low_memory_mode':
         return 'โหมดประหยัดหน่วยความจำ';
       case 'low_memory_mode_hint':
@@ -326941,6 +330273,18 @@ extension on _StringsTh {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'อ่านข้อความรอบๆ จากแอปที่อยู่เบื้องหน้าเพื่อแสดงประโยคปัจจุบัน (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'ไม่รวมหน้าต่างค้นหาและป๊อปอัปคลิปบอร์ดจากการจับภาพหน้าจอ การบันทึกหน้าจอ และการสตรีมสด (Windows / macOS) ปิดเพื่อให้การจับภาพหน้าจอ การบันทึก และการสตรีมจับป๊อปอัปค้นหาได้';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -327173,6 +330517,101 @@ extension on _StringsTh {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'ภาพหน้าจอ (พร้อมคำบรรยาย)';
+      case 'video_screenshot_subtitled':
+        return 'ภาพหน้าจอพร้อมคำบรรยาย';
+      case 'video_screenshot_copied':
+        return 'คัดลอกภาพหน้าจอไปยังคลิปบอร์ดแล้ว';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'แพลตฟอร์มนี้ไม่รองรับการคัดลอกรูปภาพไปยังคลิปบอร์ด';
+      case 'video_screenshot_directory_unset':
+        return 'ยังไม่ได้ตั้งโฟลเดอร์สำหรับภาพหน้าจอ';
+      case 'video_setting_screenshot_destination':
+        return 'ปลายทางของภาพหน้าจอ';
+      case 'video_setting_screenshot_destination_hint':
+        return 'ภาพหน้าจอจะไปที่ใด: กล่องบันทึกไฟล์ คลิปบอร์ด หรือเก็บลงโฟลเดอร์โดยตรง';
+      case 'video_screenshot_destination_ask':
+        return 'ถามทุกครั้ง';
+      case 'video_screenshot_destination_clipboard':
+        return 'คัดลอกไปยังคลิปบอร์ด';
+      case 'video_screenshot_destination_directory':
+        return 'บันทึกลงโฟลเดอร์';
+      case 'video_setting_screenshot_directory':
+        return 'โฟลเดอร์ภาพหน้าจอ';
+      case 'video_setting_screenshot_directory_hint':
+        return 'ที่เก็บภาพหน้าจอเมื่อปลายทางคือบันทึกลงโฟลเดอร์';
+      case 'video_screenshot_directory_not_set':
+        return 'ยังไม่ได้ตั้ง';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -330946,8 +334385,6 @@ extension on _StringsTr {
         return 'Oyunlar';
       case 'global_context_capture':
         return 'Seçim bağlamını yakala';
-      case 'global_context_capture_hint':
-        return 'Geçerli cümleyi göstermek için ön plandaki uygulamadan çevreleyen metni oku (yalnızca Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Bölüm ${n}';
       case 'handlebar_audio':
@@ -331345,8 +334782,6 @@ extension on _StringsTr {
         return 'Arama ses düzeyi';
       case 'lookup_block_capture':
         return 'Ekran yakalamayı engelle';
-      case 'lookup_block_capture_hint':
-        return 'Arama ve pano açılır pencerelerini ekran görüntüsü, ekran kaydı ve canlı yayından hariç tutar (Windows). Arama açılır penceresinin ekran görüntüsü, kayıt ve yayın tarafından yakalanmasına izin vermek için bunu kapatın.';
       case 'low_memory_mode':
         return 'Düşük Bellek Modu';
       case 'low_memory_mode_hint':
@@ -337191,6 +340626,18 @@ extension on _StringsTr {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Geçerli cümleyi göstermek için ön plandaki uygulamadan çevreleyen metni oku (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Arama ve pano açılır pencerelerini ekran görüntüsü, ekran kaydı ve canlı yayından hariç tutar (Windows / macOS). Arama açılır penceresinin ekran görüntüsü, kayıt ve yayın tarafından yakalanmasına izin vermek için bunu kapatın.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -337423,6 +340870,101 @@ extension on _StringsTr {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'Ekran Görüntüsü (altyazılı)';
+      case 'video_screenshot_subtitled':
+        return 'Altyazılı ekran görüntüsü';
+      case 'video_screenshot_copied':
+        return 'Ekran görüntüsü panoya kopyalandı';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'Bu platformda görüntüleri panoya kopyalama desteklenmiyor';
+      case 'video_screenshot_directory_unset':
+        return 'Henüz bir ekran görüntüsü klasörü ayarlanmadı';
+      case 'video_setting_screenshot_destination':
+        return 'Ekran görüntüsü hedefi';
+      case 'video_setting_screenshot_destination_hint':
+        return 'Ekran görüntülerinin nereye gideceği: kaydetme penceresi, pano ya da doğrudan bir klasör';
+      case 'video_screenshot_destination_ask':
+        return 'Her seferinde sor';
+      case 'video_screenshot_destination_clipboard':
+        return 'Panoya kopyala';
+      case 'video_screenshot_destination_directory':
+        return 'Klasöre kaydet';
+      case 'video_setting_screenshot_directory':
+        return 'Ekran görüntüsü klasörü';
+      case 'video_setting_screenshot_directory_hint':
+        return 'Hedef Klasöre kaydet olduğunda ekran görüntülerinin kaydedileceği yer';
+      case 'video_screenshot_directory_not_set':
+        return 'Ayarlanmadı';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -341193,8 +344735,6 @@ extension on _StringsVi {
         return 'Trò chơi';
       case 'global_context_capture':
         return 'Thu thập ngữ cảnh lựa chọn';
-      case 'global_context_capture_hint':
-        return 'Đọc văn bản xung quanh từ ứng dụng tiền cảnh để hiển thị câu hiện tại (chỉ Windows)';
       case 'go_to_chapter':
         return ({required Object n}) => 'Chương ${n}';
       case 'handlebar_audio':
@@ -341592,8 +345132,6 @@ extension on _StringsVi {
         return 'Âm lượng tra từ';
       case 'lookup_block_capture':
         return 'Chặn chụp màn hình';
-      case 'lookup_block_capture_hint':
-        return 'Loại trừ cửa sổ tra cứu và bộ nhớ tạm khỏi chụp màn hình, quay màn hình và phát trực tiếp (Windows). Tắt để cho phép chụp, quay và phát trực tiếp ghi lại cửa sổ tra cứu.';
       case 'low_memory_mode':
         return 'Chế độ tiết kiệm bộ nhớ';
       case 'low_memory_mode_hint':
@@ -347435,6 +350973,18 @@ extension on _StringsVi {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return 'Đọc văn bản xung quanh từ ứng dụng tiền cảnh để hiển thị câu hiện tại (Windows / macOS)';
+      case 'lookup_block_capture_hint':
+        return 'Loại trừ cửa sổ tra cứu và bộ nhớ tạm khỏi chụp màn hình, quay màn hình và phát trực tiếp (Windows / macOS). Tắt để cho phép chụp, quay và phát trực tiếp ghi lại cửa sổ tra cứu.';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -347667,6 +351217,101 @@ extension on _StringsVi {
         return 'Also delete statistics';
       case 'delete_statistics_video_desc':
         return 'Watch time, subtitle characters and lookup/mining counts for this video are removed from statistics on every device';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return 'Chụp màn hình (kèm phụ đề)';
+      case 'video_screenshot_subtitled':
+        return 'Chụp màn hình kèm phụ đề';
+      case 'video_screenshot_copied':
+        return 'Đã sao chép ảnh chụp màn hình vào bộ nhớ tạm';
+      case 'video_screenshot_clipboard_unsupported':
+        return 'Nền tảng này không hỗ trợ sao chép hình ảnh vào bộ nhớ tạm';
+      case 'video_screenshot_directory_unset':
+        return 'Chưa đặt thư mục lưu ảnh chụp màn hình';
+      case 'video_setting_screenshot_destination':
+        return 'Nơi lưu ảnh chụp màn hình';
+      case 'video_setting_screenshot_destination_hint':
+        return 'Ảnh chụp màn hình sẽ đi đâu: hộp thoại lưu, bộ nhớ tạm, hay thẳng vào một thư mục';
+      case 'video_screenshot_destination_ask':
+        return 'Hỏi mỗi lần';
+      case 'video_screenshot_destination_clipboard':
+        return 'Sao chép vào bộ nhớ tạm';
+      case 'video_screenshot_destination_directory':
+        return 'Lưu vào thư mục';
+      case 'video_setting_screenshot_directory':
+        return 'Thư mục ảnh chụp màn hình';
+      case 'video_setting_screenshot_directory_hint':
+        return 'Nơi ảnh chụp màn hình được lưu khi nơi lưu là Lưu vào thư mục';
+      case 'video_screenshot_directory_not_set':
+        return 'Chưa đặt';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
@@ -351403,8 +355048,6 @@ extension on _StringsZhCn {
         return '游戏';
       case 'global_context_capture':
         return '抓取选中文本上下文';
-      case 'global_context_capture_hint':
-        return '从前台应用读取选区周围文本，在查词弹窗显示当前句（仅 Windows）';
       case 'go_to_chapter':
         return ({required Object n}) => '第 ${n} 章';
       case 'handlebar_audio':
@@ -351797,8 +355440,6 @@ extension on _StringsZhCn {
         return '查词音量';
       case 'lookup_block_capture':
         return '防截屏 / 防录屏';
-      case 'lookup_block_capture_hint':
-        return '把查词悬浮窗从截图、录屏、直播串流中排除（Windows）。关闭后，截图、录屏和串流即可拍到查词悬浮窗。';
       case 'low_memory_mode':
         return '小内存模式';
       case 'low_memory_mode_hint':
@@ -357588,6 +361229,18 @@ extension on _StringsZhCn {
         return '把按钮拖到顶栏或底栏的任意位置，或移出。';
       case 'reader_control_reset_layout':
         return '恢复默认阅读器按钮布局';
+      case 'global_context_capture_hint':
+        return '从前台应用读取选区周围文本，在查词弹窗显示当前句（Windows / macOS）';
+      case 'lookup_block_capture_hint':
+        return '把查词悬浮窗从截图、录屏、直播串流中排除（Windows / macOS）。关闭后，截图、录屏和串流即可拍到查词悬浮窗。';
+      case 'lookup_accessibility_permission_request':
+        return '为应用外查词授权辅助功能';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS 需要辅助功能权限才能读取其他应用中选中的文字；未授权时快捷键只查当前剪贴板文本。';
+      case 'lookup_accessibility_permission_granted':
+        return '已授权辅助功能';
+      case 'lookup_accessibility_permission_missing':
+        return '尚未授权辅助功能。请在「隐私与安全性 > 辅助功能」中启用 Fushi 后重试。';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) => '片段已保存，但系统分享面板没有打开：${path}';
       case 'audiobook_export_clip_share_unavailable':
@@ -357818,6 +361471,100 @@ extension on _StringsZhCn {
         return '同时删除统计数据';
       case 'delete_statistics_video_desc':
         return '该视频的观看时长、字幕字数与查词/制卡计数将从统计中移除，并同步到其他设备';
+      case 'ai_feature_dict_style':
+        return '词典弹窗样式';
+      case 'ai_feature_dict_style_summary':
+        return '让 AI 按描述生成弹窗样式规则与 CSS';
+      case 'ai_feature_lapis_style':
+        return 'Lapis 卡片样式';
+      case 'ai_feature_lapis_style_summary':
+        return '让 AI 按描述生成 Lapis 卡片样式规则与 CSS';
+      case 'ai_feature_video_identify':
+        return '视频作品识别';
+      case 'ai_feature_video_identify_summary':
+        return '刮削出现多个候选时让 AI 在候选里选出对应作品';
+      case 'ai_feature_video_search':
+        return '视频搜索辅助';
+      case 'ai_feature_video_search_summary':
+        return '让 AI 补充搜索词并对字幕、资源结果做语义排序';
+      case 'ai_assist_section':
+        return '让 AI 帮忙';
+      case 'ai_assist_generate':
+        return '生成';
+      case 'ai_assist_working':
+        return '正在询问 AI…';
+      case 'ai_assist_no_provider':
+        return '请先在「设置 › AI」里为这个功能指定提供商';
+      case 'ai_assist_empty':
+        return 'AI 没有给出可用结果，换个说法再试试。';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI 请求失败：${reason}';
+      case 'dict_style_ai_hint':
+        return '描述想要的样子，例如：词头加粗改蓝色，释义字号调小';
+      case 'dict_style_ai_applied':
+        return 'AI 建议已填入草稿，看过预览再保存。';
+      case 'lapis_style_ai_hint':
+        return '描述卡片想要的样子，例如：例句放大、隐藏频率';
+      case 'lapis_style_ai_applied':
+        return 'AI 建议已填入编辑器，看过预览再应用。';
+      case 'video_scrape_ai_matched':
+        return 'AI 判定';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI 置信度 ${percent}%';
+      case 'video_search_ai_expand':
+        return 'AI 补充搜索词';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) => 'AI 补充了 ${count} 个搜索词';
+      case 'video_search_ai_rank':
+        return 'AI 排序';
+      case 'video_search_ai_ranked':
+        return '结果已由 AI 重新排序';
+      case 'video_search_ai_recommended':
+        return 'AI 推荐';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return '截图（含字幕）';
+      case 'video_screenshot_subtitled':
+        return '带字幕截图';
+      case 'video_screenshot_copied':
+        return '截图已复制到剪贴板';
+      case 'video_screenshot_clipboard_unsupported':
+        return '当前平台不支持复制图片到剪贴板';
+      case 'video_screenshot_directory_unset':
+        return '尚未设置截图保存目录';
+      case 'video_setting_screenshot_destination':
+        return '截图去向';
+      case 'video_setting_screenshot_destination_hint':
+        return '截图后是弹保存对话框、复制到剪贴板，还是直接存进指定目录';
+      case 'video_screenshot_destination_ask':
+        return '每次询问';
+      case 'video_screenshot_destination_clipboard':
+        return '复制到剪贴板';
+      case 'video_screenshot_destination_directory':
+        return '保存到目录';
+      case 'video_setting_screenshot_directory':
+        return '截图保存目录';
+      case 'video_setting_screenshot_directory_hint':
+        return '选择「保存到目录」时截图落在这里';
+      case 'video_screenshot_directory_not_set':
+        return '未设置';
+      case 'settings_lookup_ime_language_title':
+        return '查词输入法语言';
+      case 'settings_lookup_ime_language_description':
+        return '在查词输入框打字时键盘切到哪种语言。需要系统已安装对应输入法。不影响查词结果。';
+      case 'settings_lookup_ime_language_unset':
+        return '未设置';
+      case 'settings_lookup_ime_language_unavailable':
+        return '系统里还没有安装这个输入法。';
+      case 'anki_mined_unverified_title':
+        return '已标记为已制卡';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi 无法回读 AnkiMobile 的卡片库，已制卡标记来自本机记录，无法判断卡片是否还在 Anki 里。';
+      case 'anki_mined_action_forget':
+        return '我已在 Anki 里删了这张卡';
+      case 'anki_mined_forget_done':
+        return '已清除制卡记录';
+      case 'reader_gallery_cover':
+        return '封面';
       default:
         return null;
     }
@@ -361559,8 +365306,6 @@ extension on _StringsZhHk {
         return '遊戲';
       case 'global_context_capture':
         return '抓取選中文本上下文';
-      case 'global_context_capture_hint':
-        return '從前台應用讀取選區周圍文本，在查詞彈窗顯示當前句（僅 Windows）';
       case 'go_to_chapter':
         return ({required Object n}) => '第 ${n} 章';
       case 'handlebar_audio':
@@ -361954,8 +365699,6 @@ extension on _StringsZhHk {
         return '查詞音量';
       case 'lookup_block_capture':
         return '防截屏 / 防錄屏';
-      case 'lookup_block_capture_hint':
-        return '把查詞懸浮窗從截圖、錄屏、直播串流中排除（Windows）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
       case 'low_memory_mode':
         return '低記憶體模式';
       case 'low_memory_mode_hint':
@@ -367759,6 +371502,18 @@ extension on _StringsZhHk {
         return 'Drag buttons between the top and bottom bars, or remove them.';
       case 'reader_control_reset_layout':
         return 'Restore default reader button layout';
+      case 'global_context_capture_hint':
+        return '從前台應用讀取選區周圍文本，在查詞彈窗顯示當前句（Windows / macOS）';
+      case 'lookup_block_capture_hint':
+        return '把查詞懸浮窗從截圖、錄屏、直播串流中排除（Windows / macOS）。關閉後，截圖、錄屏和串流即可拍到查詞懸浮窗。';
+      case 'lookup_accessibility_permission_request':
+        return 'Grant Accessibility permission for app-external lookup';
+      case 'lookup_accessibility_permission_hint':
+        return 'macOS needs Accessibility access to read the text selected in other apps. Without it the shortcut looks up the current clipboard text.';
+      case 'lookup_accessibility_permission_granted':
+        return 'Accessibility permission granted';
+      case 'lookup_accessibility_permission_missing':
+        return 'Accessibility permission not granted yet. Enable Fushi under Privacy & Security > Accessibility, then try again.';
       case 'video_clip_export_share_unavailable':
         return ({required Object path}) =>
             'Clip saved, but the share sheet didn\'t open: ${path}';
@@ -367991,6 +371746,101 @@ extension on _StringsZhHk {
         return '同時刪除統計數據';
       case 'delete_statistics_video_desc':
         return '該影片的觀看時長、字幕字數與查詞/製卡計數將從統計中移除，並同步到其他裝置';
+      case 'ai_feature_dict_style':
+        return 'Dictionary popup style';
+      case 'ai_feature_dict_style_summary':
+        return 'Let AI generate popup style rules and CSS from a description';
+      case 'ai_feature_lapis_style':
+        return 'Lapis card style';
+      case 'ai_feature_lapis_style_summary':
+        return 'Let AI generate Lapis card style rules and CSS from a description';
+      case 'ai_feature_video_identify':
+        return 'Video identification';
+      case 'ai_feature_video_identify_summary':
+        return 'Let AI pick the matching work when scraping finds several candidates';
+      case 'ai_feature_video_search':
+        return 'Video search assist';
+      case 'ai_feature_video_search_summary':
+        return 'Let AI suggest extra search terms and rank subtitle and torrent results';
+      case 'ai_assist_section':
+        return 'Ask AI';
+      case 'ai_assist_generate':
+        return 'Generate';
+      case 'ai_assist_working':
+        return 'Asking AI…';
+      case 'ai_assist_no_provider':
+        return 'Choose an AI provider for this feature under Settings and AI first';
+      case 'ai_assist_empty':
+        return 'AI did not return a usable result. Try describing it differently.';
+      case 'ai_assist_failed':
+        return ({required Object reason}) => 'AI request failed: ${reason}';
+      case 'dict_style_ai_hint':
+        return 'Describe the look you want, e.g. bold blue headwords, smaller glossary text';
+      case 'dict_style_ai_applied':
+        return 'AI suggestion loaded into the draft. Check the preview, then save.';
+      case 'lapis_style_ai_hint':
+        return 'Describe how the card should look, e.g. larger sentence, hide frequency';
+      case 'lapis_style_ai_applied':
+        return 'AI suggestion loaded into the editor. Check the preview, then apply.';
+      case 'video_scrape_ai_matched':
+        return 'Matched by AI';
+      case 'video_scrape_ai_confidence':
+        return ({required Object percent}) => 'AI confidence ${percent}%';
+      case 'video_search_ai_expand':
+        return 'More terms with AI';
+      case 'video_search_ai_expanded':
+        return ({required Object count}) =>
+            'AI suggested ${count} extra search terms';
+      case 'video_search_ai_rank':
+        return 'Rank with AI';
+      case 'video_search_ai_ranked':
+        return 'Results reordered by AI';
+      case 'video_search_ai_recommended':
+        return 'AI pick';
+      case 'shortcut_action_video_screenshot_subtitled':
+        return '截圖（含字幕）';
+      case 'video_screenshot_subtitled':
+        return '帶字幕截圖';
+      case 'video_screenshot_copied':
+        return '截圖已複製到剪貼簿';
+      case 'video_screenshot_clipboard_unsupported':
+        return '目前平台不支援將圖片複製到剪貼簿';
+      case 'video_screenshot_directory_unset':
+        return '尚未設定截圖儲存資料夾';
+      case 'video_setting_screenshot_destination':
+        return '截圖去向';
+      case 'video_setting_screenshot_destination_hint':
+        return '截圖後是彈出儲存對話框、複製到剪貼簿，還是直接存進指定資料夾';
+      case 'video_screenshot_destination_ask':
+        return '每次詢問';
+      case 'video_screenshot_destination_clipboard':
+        return '複製到剪貼簿';
+      case 'video_screenshot_destination_directory':
+        return '儲存到資料夾';
+      case 'video_setting_screenshot_directory':
+        return '截圖儲存資料夾';
+      case 'video_setting_screenshot_directory_hint':
+        return '選擇「儲存到資料夾」時截圖會存在這裡';
+      case 'video_screenshot_directory_not_set':
+        return '未設定';
+      case 'settings_lookup_ime_language_title':
+        return 'Lookup input language';
+      case 'settings_lookup_ime_language_description':
+        return 'Which language the keyboard switches to when you type in a lookup box. The input method must already be installed on the system. Does not affect search results.';
+      case 'settings_lookup_ime_language_unset':
+        return 'Not set';
+      case 'settings_lookup_ime_language_unavailable':
+        return 'That input method is not installed on this system yet.';
+      case 'anki_mined_unverified_title':
+        return 'Card marked as mined';
+      case 'anki_mined_unverified_subtitle':
+        return 'Fushi cannot read your AnkiMobile collection, so the mined mark comes from this device\'s own record — it cannot tell whether the card is still in Anki.';
+      case 'anki_mined_action_forget':
+        return 'I deleted it in Anki';
+      case 'anki_mined_forget_done':
+        return 'Mining record cleared';
+      case 'reader_gallery_cover':
+        return 'Cover';
       default:
         return null;
     }
